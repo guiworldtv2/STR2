@@ -138,3 +138,56 @@ mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
 ff-mpeg2: software decode with ffmpeg
 
 
+
+
+
+
+#EXTINF:0,|BR| GLOBO MINAS SD
+http://red.ipfox.org:8080/1234/12345678/17415
+#EXTINF:0,|BR| GLOBO MANAUS HD
+http://red.ipfox.org:8080/1234/12345678/17416
+#EXTINF:0,|BR| GLOBO GOIANIA SD
+http://red.ipfox.org:8080/1234/12345678/17472
+#EXTINF:0,|BR| GLOBO RJ SD
+http://red.ipfox.org:8080/1234/12345678/17473
+#EXTINF:0,|BR| GLOBO RJ HD
+http://red.ipfox.org:8080/1234/12345678/17474
+#EXTINF:0,|BR| GLOBO SP SD
+http://red.ipfox.org:8080/1234/12345678/17475
+#EXTINF:0,|BR| GLOBO SP HD
+http://red.ipfox.org:8080/1234/12345678/17476
+#EXTINF:0,|BR| GLOBO BRASILIA HD
+http://red.ipfox.org:8080/1234/12345678/17496
+
+
+
+
+
+
+
+
+
+#EXTINF:0 group-title="NEWS WORLD",CBN Rio (720p)
+#EXTVLCOPT:network-caching=1000
+https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
+#EXTINF:0 group-title="NEWS WORLD",CBN São Paulo (720p)
+#EXTVLCOPT:network-caching=1000
+
+
+
+#EXTINF:-1 tvg-logo="" group-title="TV ABERTA",NDTV FLORIANÓPOLIS
+https://caikron.com.br:19360/floripa/floripa.m3u8
+#EXTINF:0,|PT| TV RECORD
+http://red.ipfox.org:8080/1234/12345678/30847
+
+#EXTINF:0,|BR| RECORD HD
+http://red.ipfox.org:8080/1234/12345678/17477
+#EXTINF:0,|BR| RECORD TV SD
+http://red.ipfox.org:8080/1234/12345678/17478
+#EXTINF:0,|BR| RECORD HD
+http://red.ipfox.org:8080/1234/12345678/17488
+
+
+
+
+

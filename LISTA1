@@ -188,6 +188,8 @@ http://red.ipfox.org:8080/1234/12345678/17478
 http://red.ipfox.org:8080/1234/12345678/17488
 
 
+#EXTINF:-1 tvg-logo="https://lirp.cdn-website.com/4ef31d30/import/clib/radioexecutiva_com_br/dms3rep/multi/opt/radio-executiva-logo-light-500x253-1920w.png", EXECUTIVA FM
+https://live.ojc.com.br/c2f4/myStream.m3u8
 
-
-
+#EXTINF:-1 tvg-logo="", GAUCHA FM
+https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8

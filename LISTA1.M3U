@@ -7,135 +7,113 @@
 
 #EXTINF:-1,EPTV Campinas
 http://200.4.97.162:8000/play/a00b/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg 
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 
 #EXTINF:-1,EPTV Ribeirão Preto
 http://200.4.97.162:8000/play/a00a/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 
 #EXTINF:-1,EPTV São Carlos
 http://200.4.97.162:8000/play/a00c/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,Globo Brasilia
 http://200.4.97.162:8000/play/a01w/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,Globo Minas
 http://200.4.97.162:8000/play/a00f/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,Globo Nordeste<br>
 http://200.4.97.162:8000/play/a018/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,Globo RJ
 http://200.4.97.162:8000/play/a00e/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,Globo SP HD
 http://200.4.97.162:8000/play/a01t/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,Inter TV Cabugi
 http://200.4.97.162:8000/play/a01b/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 
 #EXTINF:-1,RBS TV Porto Alegre
 http://200.4.97.162:8000/play/a01u/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 
 #EXTINF:-1,RPC TV Curitiba
 http://200.4.97.162:8000/play/a012/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 
 #EXTINF:-1,RPC TV 2
 http://45.226.83.14/live/RPCHD/playlist.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,Rede Amazônica Manaus
 http://200.4.97.162:8000/play/a01a/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,TV Anhanguera Goiânia
 http://200.4.97.162:8000/play/a00i/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,TV Bahia
 http://200.4.97.162:8000/play/a017/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+
 
 
 #EXTINF:-1,TV Liberal Belém
 http://200.4.97.162:8000/play/a019/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,TV Tem Bauru
 http://200.4.97.162:8000/play/a00s/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 #EXTINF:-1,TV Tem Sorocaba
 http://200.4.97.162:8000/play/a00h/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 
 #EXTINF:-1,TV Tribuna Santos
 http://200.4.97.162:8000/play/a01v/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 
 #EXTINF:-1,TV Verdes Mares Fortaleza
 http://200.4.97.162:8000/play/a016/index.m3u8
-omx-mpeg2 : hardware decode with omxplayer
-mmal-mpeg2: hardware decode with dvdplayer and mmal acceleration
-ff-mpeg2: software decode with ffmpeg
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 
 
 

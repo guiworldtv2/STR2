@@ -255,6 +255,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca672f515a62078d2
 
 #EXTINF:0, tvg-logo="https://cbsnews2.cbsistatic.com/hub/i/r/2019/04/01/03214531-586b-4683-813e-a3252999e063/thumbnail/1280x720/e359894b45362a16a256ad90e5a1aec2/et-live-logo-1920x1080.jpg" group-title="Entertainment",ET Live
 https://etlive-mediapackage-fastly.cbsaavideo.com/dvr/manifest.m3u8?iu=/8264/vaw-can/desktop/cbslocal
+#EXTINF:0, tvg-logo="https://cbsnews2.cbsistatic.com/hub/i/r/2019/04/01/03214531-586b-4683-813e-a3252999e063/thumbnail/1280x720/e359894b45362a16a256ad90e5a1aec2/et-live-logo-1920x1080.jpg" group-title="Entertainment",ET Live FULL HD
+https://dai.google.com/linear/hls/pa/event/xrVrJYTmTfitfXBQfeZByQ/stream/9177e8f0-c1d9-4dcd-a532-dc45b678e927:SCL/master.m3u8
 
 #EXTINF:0, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_of_Family_Feud.png" group-title="Entertainment",Family Feud
 https://dai2.xumo.com/xumocdn/p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebWindows/amagi_hls_data_xumo1212A-redboxfamilyfeud/CDN/1280x720_5000000/index.m3u8
@@ -268,3 +270,11 @@ http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 
 #EXTINF:0,Net TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
+
+
+
+#EXTINF:0,BAND REDE HD
+https://www.dailymotion.com/cdn/live/video/x83vbd6.m3u8?sec=_ZNuW_ep-qIulXBfwiImRt0DmlchbBDO6j19PcUzYFfuQ5OvKIbWY_2_i3dDdLbfY_CalNgpqZkTTz2dE7OLeQ&dmTs=625696&dmV1st=30C54B1330F65DE50113962A17D3C36D
+
+#EXTINF:0,BAND REDE HD 2
+https://stream-04.nyc.dailymotion.com/sec(9adq8njh6Ix1Bfv2jmbm4zQ5004MJv6ywFcMmjs-WmI)/dm/3/x83vbd6/s/live-4.m3u8#cell=lnyc

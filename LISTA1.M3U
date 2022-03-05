@@ -232,3 +232,26 @@ https://5a1c76baf08c0.streamlock.net/riovermelhocam01/rvcam01.stream/playlist.m3
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://5a1c76baf08c0.streamlock.net/araguaiacam01/acam01.stream/playlist.m3u8
+
+
+#EXTINF:-1  tvg-logo="https://wwwimage-tve.cbsstatic.com/base/files/asset/10/00/97/42/db666dd4867a4b03_cbs-social.jpg", CBS SPORTS
+https://dai.google.com/linear/hls/pa/event/9Lq0ERvoSR-z9AwvFS-xYA/stream/93f24945-c1c3-491c-b732-dc834059e20e:SCL/master.m3u8
+	
+
+#EXTINF:-1 group-title="NEWS WORLD" tvg-logo="https://wwwimage-tve.cbsstatic.com/base/files/asset/10/00/97/42/db666dd4867a4b03_cbs-social.jpg", CBS N 2
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/03b93169-5557-4e30-b872-437078edaa3e:SCL/master.m3u8
+
+
+#EXTINF:-1 group-title="NEWS WORLD" tvg-logo="https://wwwimage-tve.cbsstatic.com/base/files/asset/10/00/97/42/db666dd4867a4b03_cbs-social.jpg", CBS N 3
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/03b93169-5557-4e30-b872-437078edaa3e:SCL/variant/62dcd224696a08303fa5a2fb09cf52e7/bandwidth/2727419.m3u8
+
+
+#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="006", TV Gazeta HD
+http://api.new.livestream.com:80/accounts/5381476/events/8947634/live.m3u8
+
+#EXTINF:0, roup-title="MTV WORLD" tvg-logo="https://tvseriesfinale.com/wp-content/uploads/2016/04/MTV-TV-shows-canceled-or-renewed.jpg" group-title="General",MTV
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca672f515a62078d2ec0ad2/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=Chrome&sid=0c9d9262-bcd4-4b33-a78f-afea1ee4a67e&deviceId=781d4c79-fb21-4162-97a4-9f543683f22a&deviceVersion=74.0.3729.131&appVersion=2.5.1-f9a6096b469cfe5e4f1cc92cc697e8500e57891c&deviceDNT=0&userId=&advertisingId=&deviceLat=38.8177&deviceLon=-77.1527&app_name=&appName=&appStoreUrl=&architecture=&serverSideAds=true
+
+
+
+

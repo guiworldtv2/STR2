@@ -171,3 +171,64 @@ https://live.ojc.com.br/c2f4/myStream.m3u8
 
 #EXTINF:-1 tvg-logo="https://gauchazh.clicrbs.com.br/static/images/share.jpg?w=1200&h=630&a=c&version=1575255600", GAUCHA FM
 https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
+
+
+
+
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO" tvg-logo="", GOIÂNIA - AV. Rio Verde
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://hunq9fz8yk.zoeweb.tv/avrioverdeapgyn/avrioverdeapgyn.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO", GOIÂNIA - Morro do Mendanha
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/chunklist_w182959856.m3u8
+
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/75dee449f483e657c475da936a62703d.webp", GOIÂNIA AV. Jamel Cecílio
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://5a7d54e35f9d2.streamlock.net/flamboyant/flamboyant.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO", Av. T-63 (topo do Aquarius Center)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://hunq9fz8yk.zoeweb.tv/aquariuscenter2/aquariuscenter2.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO", Av. T-4 c/ Av. T-63, Setor Bueno
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://hunq9fz8yk.zoeweb.tv/avt4/avt4.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/cf09f445d056f04c21c273017bc093fb.webp", GOIÂNIA - AVENIDA 85
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO", GOIÂNIA - AV. 85 RUA 30
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://hunq9fz8yk.zoeweb.tv/av_85_rua/av-85-rua.stream/playlist.m3u8
+
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO", GOIÂNIA - Praça Civica
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://hunq9fz8yk.zoeweb.tv/pracacivicapalacio/pracacivicapalacio.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO", GOIÂNIA - Avenida Castelo Branco
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://5a7d54e35f9d2.streamlock.net/avt7/avt7.stream/chunklist_w1549205327.m3u8
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO", ARUANÃ - RIO VERMELHO - PRAIA DO CAVALO
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://5a1c76baf08c0.streamlock.net/riovermelhocam01/rvcam01.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="CAMERAS AO VIVO", ARUANÃ - Porto, Setor Central
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://5a1c76baf08c0.streamlock.net/araguaiacam01/acam01.stream/playlist.m3u8

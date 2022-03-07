@@ -234,9 +234,9 @@ https://5a1c76baf08c0.streamlock.net/riovermelhocam01/rvcam01.stream/playlist.m3
 https://5a1c76baf08c0.streamlock.net/araguaiacam01/acam01.stream/playlist.m3u8
 
 
-#EXTINF:-1  tvg-logo="https://wwwimage-tve.cbsstatic.com/base/files/asset/10/00/97/42/db666dd4867a4b03_cbs-social.jpg", CBS SPORTS
-https://dai.google.com/linear/hls/pa/event/9Lq0ERvoSR-z9AwvFS-xYA/stream/93f24945-c1c3-491c-b732-dc834059e20e:SCL/master.m3u8
-	
+
+
+
 
 #EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="038", TV Gazeta HD
 http://api.new.livestream.com:80/accounts/5381476/events/8947634/live.m3u8

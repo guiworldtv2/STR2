@@ -238,7 +238,7 @@ https://5a1c76baf08c0.streamlock.net/araguaiacam01/acam01.stream/playlist.m3u8
 https://dai.google.com/linear/hls/pa/event/9Lq0ERvoSR-z9AwvFS-xYA/stream/93f24945-c1c3-491c-b732-dc834059e20e:SCL/master.m3u8
 	
 
-#EXTINF:-1 group-title="CANAIS ABERTOS" channel-number=32, TV Gazeta HD
+#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="038", TV Gazeta HD
 http://api.new.livestream.com:80/accounts/5381476/events/8947634/live.m3u8
 
 #EXTINF:0, roup-title="MTV WORLD" tvg-logo="https://tvseriesfinale.com/wp-content/uploads/2016/04/MTV-TV-shows-canceled-or-renewed.jpg" group-title="General",MTV PLUTO TV

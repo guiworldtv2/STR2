@@ -264,10 +264,8 @@ https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
 
 
 
-#EXTINF:0,BAND REDE HD
-https://www.dailymotion.com/cdn/live/video/x83vbd6.m3u8?sec=_ZNuW_ep-qIulXBfwiImRt0DmlchbBDO6j19PcUzYFfuQ5OvKIbWY_2_i3dDdLbfY_CalNgpqZkTTz2dE7OLeQ&dmTs=625696&dmV1st=30C54B1330F65DE50113962A17D3C36D
 
-#EXTINF:0,BAND REDE HD 2
+#EXTINF:0,BAND REDE FULLHD 
 https://stream-04.nyc.dailymotion.com/sec(9adq8njh6Ix1Bfv2jmbm4zQ5004MJv6ywFcMmjs-WmI)/dm/3/x83vbd6/s/live-4.m3u8#cell=lnyc
 
 

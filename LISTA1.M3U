@@ -5,413 +5,174 @@
 #EXTM3U x-tvg-url="http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml"
 #EXTM3U x-tvg-url="http://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/hagah.com.br.channels.xml"
 
-http://200.4.97.162:8000/play/a00b/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTM3U
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",BBB HD 1
+http://200.4.96.59:8004/play/a0f9/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",BBB HD 2
+http://200.4.96.59:8004/play/a0fa/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",BBB Mosaico HD
+http://200.4.96.59:8004/play/a0fb/index.m3u8
 
-
-#EXTINF:-1,EPTV Ribeirão Preto
-http://200.4.97.162:8000/play/a00a/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-
-#EXTINF:-1,EPTV São Carlos
-http://200.4.97.162:8000/play/a00c/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,Globo Brasilia
-http://200.4.97.162:8000/play/a01w/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,Globo Minas
-http://200.4.97.162:8000/play/a00f/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,Globo Nordeste<br>
-http://200.4.97.162:8000/play/a018/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,Globo RJ
-http://200.4.97.162:8000/play/a00e/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,Globo SP HD
-http://200.4.97.162:8000/play/a01t/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,Inter TV Cabugi
-http://200.4.97.162:8000/play/a01b/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-
-#EXTINF:-1,RBS TV Porto Alegre
-http://200.4.97.162:8000/play/a01u/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-
-#EXTINF:-1,RPC TV Curitiba
-http://200.4.97.162:8000/play/a012/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-
-#EXTINF:-1,RPC TV 2
-http://45.226.83.14/live/RPCHD/playlist.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,Rede Amazônica Manaus
-http://200.4.97.162:8000/play/a01a/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,TV Anhanguera Goiânia
-http://200.4.97.162:8000/play/a00i/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,TV Bahia
-http://200.4.97.162:8000/play/a017/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-
-
-
-#EXTINF:-1,TV Liberal Belém
-http://200.4.97.162:8000/play/a019/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,TV Tem Bauru
-http://200.4.97.162:8000/play/a00s/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-#EXTINF:-1,TV Tem Sorocaba
-http://200.4.97.162:8000/play/a00h/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-
-#EXTINF:-1,TV Tribuna Santos
-http://200.4.97.162:8000/play/a01v/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-
-#EXTINF:-1,TV Verdes Mares Fortaleza
-http://200.4.97.162:8000/play/a016/index.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:0 group-title="NEWS WORLD",CBN SP (720p)
-#EXTVLCOPT:network-caching=1000
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",CBN SP (720p)
 https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
-#EXTINF:0 group-title="NEWS WORLD",CBN Rio (720p)
-#EXTVLCOPT:network-caching=1000
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",CBN Rio (720p)
 https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
-#EXTINF:0 group-title="NEWS WORLD",CBN São Paulo (720p)
-#EXTVLCOPT:network-caching=1000
-
-
-
-#EXTINF:-1 tvg-logo="" group-title="TV ABERTA",NDTV FLORIANÓPOLIS E RECORDNEWS
-https://caikron.com.br:19360/floripa/floripa.m3u8
-#EXTINF:0,|PT| TV RECORD
-http://red.ipfox.org:8080/1234/12345678/30847
-
-
-
-
-#EXTINF:-1 tvg-logo="https://lirp.cdn-website.com/4ef31d30/import/clib/radioexecutiva_com_br/dms3rep/multi/opt/radio-executiva-logo-light-500x253-1920w.png", EXECUTIVA FM
-https://live.ojc.com.br/c2f4/myStream.m3u8
-
-#EXTINF:-1 tvg-logo="https://gauchazh.clicrbs.com.br/static/images/share.jpg?w=1200&h=630&a=c&version=1575255600", GAUCHA FM
-https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
-
-
-
-
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO" tvg-logo="", GOIÂNIA - AV. Rio Verde
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://hunq9fz8yk.zoeweb.tv/avrioverdeapgyn/avrioverdeapgyn.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO", GOIÂNIA - Morro do Mendanha
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/chunklist_w182959856.m3u8
-
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/75dee449f483e657c475da936a62703d.webp", GOIÂNIA AV. Jamel Cecílio
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://5a7d54e35f9d2.streamlock.net/flamboyant/flamboyant.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO", Av. T-63 (topo do Aquarius Center)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://hunq9fz8yk.zoeweb.tv/aquariuscenter2/aquariuscenter2.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO", Av. T-4 c/ Av. T-63, Setor Bueno
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://hunq9fz8yk.zoeweb.tv/avt4/avt4.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/cf09f445d056f04c21c273017bc093fb.webp", GOIÂNIA - AVENIDA 85
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO", GOIÂNIA - AV. 85 RUA 30
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://hunq9fz8yk.zoeweb.tv/av_85_rua/av-85-rua.stream/playlist.m3u8
-
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO", GOIÂNIA - Praça Civica
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://hunq9fz8yk.zoeweb.tv/pracacivicapalacio/pracacivicapalacio.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO", GOIÂNIA - Avenida Castelo Branco
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://5a7d54e35f9d2.streamlock.net/avt7/avt7.stream/chunklist_w1549205327.m3u8
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO", ARUANÃ - RIO VERMELHO - PRAIA DO CAVALO
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://5a1c76baf08c0.streamlock.net/riovermelhocam01/rvcam01.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="CAMERAS AO VIVO", ARUANÃ - Porto, Setor Central
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://5a1c76baf08c0.streamlock.net/araguaiacam01/acam01.stream/playlist.m3u8
-
-
-
-
-
-
-#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="038", TV Gazeta HD
-http://api.new.livestream.com:80/accounts/5381476/events/8947634/live.m3u8
-
-#EXTINF:0, roup-title="MTV WORLD" tvg-logo="https://tvseriesfinale.com/wp-content/uploads/2016/04/MTV-TV-shows-canceled-or-renewed.jpg" group-title="General",MTV PLUTO TV
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca672f515a62078d2ec0ad2/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=Chrome&sid=0c9d9262-bcd4-4b33-a78f-afea1ee4a67e&deviceId=781d4c79-fb21-4162-97a4-9f543683f22a&deviceVersion=74.0.3729.131&appVersion=2.5.1-f9a6096b469cfe5e4f1cc92cc697e8500e57891c&deviceDNT=0&userId=&advertisingId=&deviceLat=38.8177&deviceLon=-77.1527&app_name=&appName=&appStoreUrl=&architecture=&serverSideAds=true
-
-
-#EXTINF:0, tvg-logo="https://cbsnews2.cbsistatic.com/hub/i/r/2019/04/01/03214531-586b-4683-813e-a3252999e063/thumbnail/1280x720/e359894b45362a16a256ad90e5a1aec2/et-live-logo-1920x1080.jpg" group-title="Entertainment",ET Live
-https://etlive-mediapackage-fastly.cbsaavideo.com/dvr/manifest.m3u8?iu=/8264/vaw-can/desktop/cbslocal
-
-
-#EXTINF:0, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_of_Family_Feud.png" group-title="Entertainment",Family Feud
-https://dai2.xumo.com/xumocdn/p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebWindows/amagi_hls_data_xumo1212A-redboxfamilyfeud/CDN/1280x720_5000000/index.m3u8
-
-#EXTINF:0, tvg-logo="https://images.pluto.tv/channels/5dae0b4841a7d0000938ddbd/featuredImage.jpg" group-title="Legal",Court TV
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dae0b4841a7d0000938ddbd/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=Chrome&sid=0c9d9262-bcd4-4b33-a78f-afea1ee4a67e&deviceId=781d4c79-fb21-4162-97a4-9f543683f22a&deviceVersion=74.0.3729.131&appVersion=2.5.1-f9a6096b469cfe5e4f1cc92cc697e8500e57891c&deviceDNT=0&userId=&advertisingId=&deviceLat=38.8177&deviceLon=-77.1527&app_name=&appName=&appStoreUrl=&architecture=&serverSideAds=true
-
-#EXTINF:0, tvg-logo="http://shopboxingday.ca/wp-content/uploads/2012/12/the-shopping-channel-boxing-day.png" group-title="HOME SHOPPING",The Shopping Channel Canada
-http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
-
-
-#EXTINF:0,Net TV
-https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
-
-
-
-
-#EXTINF:0,BAND REDE FULLHD 
-https://stream-04.nyc.dailymotion.com/sec(9adq8njh6Ix1Bfv2jmbm4zQ5004MJv6ywFcMmjs-WmI)/dm/3/x83vbd6/s/live-4.m3u8#cell=lnyc
-
-
-
-#EXTINF:-1 tvg-logo="https://listaiptv.gratis/logos/imagens/redetvtocantins.png" group-title="REDETV", REDETV! TOCANTINS
-https://59f1cbe63db89.streamlock.net:1443/redetvro/_definst_/redetvro/playlist.m3u8
-
-
-#EXTINF:-1 tvg-id="SBT" tvg-logo="http://i.imgur.com/7SlZF9B.png" group-title="TV Aberta",SBT PI HD
-http://stmv1.transmissaodigital.com:1935/cidadeverdenovo/cidadeverdenovo/playlist.m3u8 
-#EXTINF:-1 tvg-id="SBT" tvg-logo="http://i.imgur.com/7SlZF9B.png" group-title="TV Aberta",SBT AM HD
-https://livefocamundo.com:8081/tvguajaraonline2/playlist.m3u8 
-#EXTINF:-1 tvg-id="SBT" tvg-logo="http://i.imgur.com/7SlZF9B.png" group-title="TV Aberta",SBT PE SD
-http://evpp.mm.uol.com.br:1935/ne10/ne10.smil/chunklist_w416898237_b176000_sleng.m3u8
-#EXTINF:-1 tvg-id="SBT" tvg-logo="http://i.imgur.com/7SlZF9B.png" group-title="TV Aberta",SBT PE HD
-http://evpp.mm.uol.com.br:1935/ne10/ne10.smil/chunklist_w416898237_b216000_sleng.m3u8
-#EXTINF:-1 tvg-id="SBT" tvg-logo="http://i.imgur.com/7SlZF9B.png" group-title="TV Aberta",SBT PE Interior HD
-http://evpp.mm.uol.com.br:1935/ne10/ne10-tvjornal-caruaru-video-web.sdp/playlist.m3u8 
-#EXTINF:-1 tvg-id="BAND" tvg-logo="http://i.imgur.com/x70tdT3.png" group-title="TV Aberta",Band SP HD
-http://evpp.mm.uol.com.br:1935/geob_band/app/playlist.m3u8 
-#EXTINF:-1 tvg-id="BAND" tvg-logo="http://i.imgur.com/x70tdT3.png" group-title="TV Aberta",Band PA HD
-https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8 
-
-
-
-
-#EXTINF:-1,NDTV HD
-http://179.125.119.154:8000/play/a01j/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",EPTV Campinas
+http://200.4.97.162:8000/play/a00b/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",EPTV Ribeirão Preto
+http://200.4.97.162:8000/play/a00a/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",EPTV São Carlos
+http://200.4.97.162:8000/play/a00c/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo Brasilia
+http://200.4.97.162:8000/play/a01w/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo Minas
+http://200.4.97.162:8000/play/a00f/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo Nordeste<br>
+http://200.4.97.162:8000/play/a018/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo RJ
+http://200.4.97.162:8000/play/a00e/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo SP HD
+http://200.4.97.162:8000/play/a01t/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Inter TV Cabugi
+http://200.4.97.162:8000/play/a01b/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",RBS TV Porto Alegre
+http://200.4.97.162:8000/play/a01u/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",RPC TV Curitiba
+http://200.4.97.162:8000/play/a012/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",RPC TV 2
+http://45.226.83.14/live/RPCHD/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Rede Amazônica Manaus
+http://200.4.97.162:8000/play/a01a/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Anhanguera Goiânia
+http://200.4.97.162:8000/play/a00i/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Bahia
+http://200.4.97.162:8000/play/a017/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Liberal Belém
+http://200.4.97.162:8000/play/a019/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Tem Bauru
+http://200.4.97.162:8000/play/a00s/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Tem Sorocaba
+http://200.4.97.162:8000/play/a00h/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Tribuna Santos
+http://200.4.97.162:8000/play/a01v/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Verdes Mares Fortaleza
+http://200.4.97.162:8000/play/a016/index.m3u8
 #EXTINF:-1,NSCTV HD
 http://179.125.119.154:8000/play/a015/index.m3u8
 #EXTINF:-1,SCC SBT HD
 http://179.125.119.154:8000/play/a017/index.m3u8
 #EXTINF:-1,TVBV HD
 http://179.125.119.154:8000/play/a01h/index.m3u8
+#EXTINF:-1,NDTV HD
+http://179.125.119.154:8000/play/a01j/index.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",NDTV FLORIANÓPOLIS E RECORDNEWS
+https://caikron.com.br:19360/floripa/floripa.m3u8
 
-#EXTINF:-1 group-title="CNN'S",CNN Chile
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - AV. Rio Verde
+https://hunq9fz8yk.zoeweb.tv/avrioverdeapgyn/avrioverdeapgyn.stream/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - Morro do Mendanha
+https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/chunklist_w182959856.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA AV. Jamel Cecílio
+https://5a7d54e35f9d2.streamlock.net/flamboyant/flamboyant.stream/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Av. T-63 (topo do Aquarius Center)
+https://hunq9fz8yk.zoeweb.tv/aquariuscenter2/aquariuscenter2.stream/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Av. T-4 c/ Av. T-63 -  Setor Bueno
+https://hunq9fz8yk.zoeweb.tv/avt4/avt4.stream/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - AVENIDA 85
+https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - AV. 85 RUA 30
+https://hunq9fz8yk.zoeweb.tv/av_85_rua/av-85-rua.stream/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - Praça Civica
+https://hunq9fz8yk.zoeweb.tv/pracacivicapalacio/pracacivicapalacio.stream/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - Avenida Castelo Branco
+https://5a7d54e35f9d2.streamlock.net/avt7/avt7.stream/chunklist_w1549205327.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",ARUANÃ - RIO VERMELHO - PRAIA DO CAVALO
+https://5a1c76baf08c0.streamlock.net/riovermelhocam01/rvcam01.stream/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Setor Central
+https://5a1c76baf08c0.streamlock.net/araguaiacam01/acam01.stream/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",EXECUTIVA FM
+https://live.ojc.com.br/c2f4/myStream.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GAUCHA FM
+https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
+
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Gazeta HD
+http://api.new.livestream.com:80/accounts/5381476/events/8947634/live.m3u8
+#EXTINF:-1  group-title="MTV WORLD" tvg-logo="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAdVBMVEUAAAD+/v6mpqZKSkqCgoLX19f6+vqIiIhMTEyurq739/fh4eExMTHs7OzFxcW8vLyWlpZ6eno/Pz8TExNycnLPz8+Pj49nZ2eysrItLS0bGxvp6elXV1dFRUWenp6BgYEUFBQmJiY4ODhtbW1hYWFTU1PAwMB+VopKAAAEpUlEQVR4nO2c63aqMBBGk6qIUURb67VqbbXv/4gnt4GA2OIRy7Lz7T9FYdKVvQK5DQoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAQzKKOz8S6+teKqN/jrXR69+t090YyBqkWtZkeh48qRMsheiPR79fszvwVKu+S22rl8xLLWReK1bL6ko1b6d6zVJPlhzoS3tSDZ6D0H69UCtLyuGxrSo2R01Zcqfb1lD/Hb9R5LRmpJcl5eM3rrqy5ESI98QcDN3Da1E3MJP11HJVb6e2LNMwnC3zBBPH2nEsZcm9ECtlDhZCxBFkfc9MiK2yf57VFWE8ZZkmdVJZA4Os7zlpUUIckquCuMqSZpy13lwXw1aW0vOW4XUhfGVJte1dGcFY1n8AWZAFWd/zi7IGbdf1Zn5Plnr8BcDGZU0+PubFAb6XtW27qrfTsKzkw5ZaGLY6WZ8tV7QJmpWV+Fvt7UzWrt1qNkOjsl4PvtTnsqxxq5VsigZlJbPqUoXoJ39jM6wRWXYl8CnfWixu+wix/wObFYYGZE1Gh9EsDfZ9xsXzf2eT9XZZ5W6uW15xbqVed+FmWcNiefH5Ak47FbsHzco6pBVXtFW15mlU1qRqbb7XWt0a51ZZKh8vfLpxe1Jadc6e/OznhukqL8p+sYzX79vX4IolnT4xX3UYnsKiTC/YdYf5U15lw4aEtaxoXyxKy3r1h7Psogmd3bFe/FuWi1JZwxIHetJv6OSW80ppr3NWVGS3rB20BdQPvuAqa5jnTMZZbxcFo/mvUsMyK1osZW3SfF7c0R1f7I+joCFNig1rnfCUlUyDxGXrhB5eUfAcc0/4pPBf+MmKgqX0Fzeeoi5QBbedy3WjrnCkeMoKljyPvsuj+YweXEX0AHMJXNQG95KnrK/zSJJl2hk9pGxCZXZTct1kVb61rPL8EJKVBsd2fye7Y7nK8k1rGqwv0DPLvKyhPvyHXrgewVaWfJ0dp4W0I5K1Mx8o2T0NxhGMZZ3b80XZcQTdh7tw0Q+yMqiDdH2ef1BtezRP/ISsClmLaiVjZrJUdXqy/5pGEyf7KSn/B275WZGoSiRNVm4En/qitu7rRfEfTPnJomWEgN7BKyRZPsGhlNYwZijLDQwCzM3nZNFyMWWDvIflvyiOskrvF9oUIieLpsv+Niy+Vzhjl1NqZYm3YNTuFv+cLBojdPy5TVh+ylHWp57HHLIdwVjfX12SRcujJzobvhuccJQ1l+Z9X9f9bdZ6Ip2MSRatm2bpfsFWhlnX4ierb1/OFEvppjf6lvwiWbSsfAwuD4tnKcvWdm47P//JyaK7Ln9rOt/OGLKVZbtAM/fbLgcD0wc6WbQqk++s0tTadZBMZZU34J0sSvgIxhbkbwdZGUVZ+zzAD+pfFGRlFGV1gwgnxnWekGW5eBtKqcYpJR5BlqUo69LvYkCWpSircyEasizFocP6z8uq9WNj0r80UU7Jcgl+2VTwYrD78ajHz/yr8zN2nY6eROvr4nIK7bMJjrNEkeqiYhd8Hg0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCD8A8DqDcDtTKU4wAAAABJRU5ErkJggg==",MTV PLUTO TV
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca672f515a62078d2ec0ad2/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=Chrome&sid=0c9d9262-bcd4-4b33-a78f-afea1ee4a67e&deviceId=781d4c79-fb21-4162-97a4-9f543683f22a&deviceVersion=74.0.3729.131&appVersion=2.5.1-f9a6096b469cfe5e4f1cc92cc697e8500e57891c&deviceDNT=0&userId=&advertisingId=&deviceLat=38.8177&deviceLon=-77.1527&app_name=&appName=&appStoreUrl=&architecture=&serverSideAds=true
+#EXTINF:-1  group-title="Entertainment" tvg-logo="https://cbsnews2.cbsistatic.com/hub/i/r/2019/04/01/03214531-586b-4683-813e-a3252999e063/thumbnail/1280x720/e359894b45362a16a256ad90e5a1aec2/et-live-logo-1920x1080.jpg",tvg-logo="https://cbsnews2.cbsistatic.com/hub/i/r/2019/04/01/03214531-586b-4683-813e-a3252999e063/thumbnail/1280x720/e359894b45362a16a256ad90e5a1aec2/et-live-logo-1920x1080.jpg" group-title="Entertainment" - ET Live
+https://etlive-mediapackage-fastly.cbsaavideo.com/dvr/manifest.m3u8?iu=/8264/vaw-can/desktop/cbslocal
+#EXTINF:-1  group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_of_Family_Feud.png",tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_of_Family_Feud.png" group-title="Entertainment" - Family Feud
+https://dai2.xumo.com/xumocdn/p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebWindows/amagi_hls_data_xumo1212A-redboxfamilyfeud/CDN/1280x720_5000000/index.m3u8
+#EXTINF:-1  group-title="Legal" tvg-logo="https://images.pluto.tv/channels/5dae0b4841a7d0000938ddbd/featuredImage.jpg",tvg-logo="https://images.pluto.tv/channels/5dae0b4841a7d0000938ddbd/featuredImage.jpg" group-title="Legal" - Court TV
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dae0b4841a7d0000938ddbd/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=Chrome&sid=0c9d9262-bcd4-4b33-a78f-afea1ee4a67e&deviceId=781d4c79-fb21-4162-97a4-9f543683f22a&deviceVersion=74.0.3729.131&appVersion=2.5.1-f9a6096b469cfe5e4f1cc92cc697e8500e57891c&deviceDNT=0&userId=&advertisingId=&deviceLat=38.8177&deviceLon=-77.1527&app_name=&appName=&appStoreUrl=&architecture=&serverSideAds=true
+#EXTINF:-1  group-title="HOME SHOPPING" tvg-logo="http://shopboxingday.ca/wp-content/uploads/2012/12/the-shopping-channel-boxing-day.png",tvg-logo="http://shopboxingday.ca/wp-content/uploads/2012/12/the-shopping-channel-boxing-day.png" group-title="HOME SHOPPING" - The Shopping Channel Canada
+http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Net TV
+https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",BAND REDE FULLHD
+https://stream-04.nyc.dailymotion.com/sec(9adq8njh6Ix1Bfv2jmbm4zQ5004MJv6ywFcMmjs-WmI)/dm/3/x83vbd6/s/live-4.m3u8#cell=lnyc
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",REDETV! TOCANTINS
+https://59f1cbe63db89.streamlock.net:1443/redetvro/_definst_/redetvro/playlist.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",SBT PE SD
+http://evpp.mm.uol.com.br:1935/ne10/ne10.smil/chunklist_w416898237_b176000_sleng.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",SBT PE HD
+http://evpp.mm.uol.com.br:1935/ne10/ne10.smil/chunklist_w416898237_b216000_sleng.m3u8
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",SBT PE Interior HD
+http://evpp.mm.uol.com.br:1935/ne10/ne10-tvjornal-caruaru-video-web.sdp/playlist.m3u8%20
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Band PA HD
+https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8%20
+#EXTINF:-1  group-title="CNN's" tvg-logo="N/A",CNN Chile
 http://45.189.108.58:10000/play/a01g/index.m3u8
-#EXTINF:-1 group-title="CNN'S",CNN Espanol
+#EXTINF:-1  group-title="CNN's" tvg-logo="N/A",CNN Espanol
 http://45.189.108.58:10000/play/a02t/index.m3u8
-
-#EXTINF:-1 group-title="MTV WORLD",MTV DE
-http://62.28.71.186:45678/http/192.168.150.151:7151/mtv_de 
-
-#EXTINF:-1,Telemundo internacional
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Telemundo internacional
 http://45.189.108.58:10000/play/a00q/index.m3u8
-
-#EXTINF:-1,Canal del Congreso
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Canal del Congreso
 http://190.61.102.67:3000/play/a0bd/index.m3u8
-
-#EXTINF:-1,Claro Cinema
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Claro Cinema
 http://190.61.102.67:3000/play/a0fx/index.m3u8
-#EXTINF:-1,Claro Musica
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Claro Musica
 http://190.61.102.67:3000/play/a0cl/index.m3u8
-#EXTINF:-1,Claro Sports HD
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Claro Sports HD
 http://190.61.102.67:3000/play/a0e3/index.m3u8
-
-#EXTINF:-1 group-title="CNN's",CNN Internacional
-http://189.129.3.223:8000/play/a05r/index.m3u8
-#EXTINF:-1 group-title="CNN's",CNN International Latin America
+#EXTINF:-1  group-title="CNN's" tvg-logo="N/A",CNN International Latin America
 http://189.129.3.223:8000/play/a032/index.m3u8
-#EXTINF:-1 group-title="CNN's",CNN en Español
+#EXTINF:-1  group-title="CNN's" tvg-logo="N/A",CNN en Español
 http://189.129.3.223:8000/play/a03o/index.m3u8
-
-#EXTINF:-1,Azteca 7
+#EXTINF:-1  group-title="MÉXICO" tvg-logo="N/A",Azteca 7
 http://189.129.3.223:8000/play/a039/index.m3u8
-#EXTINF:-1,Azteca Uno
+#EXTINF:-1  group-title="MÉXICO" tvg-logo="N/A",Azteca Uno
 http://189.129.3.223:8000/play/a004/index.m3u8
-
-
-#EXTINF:-1,MTV Hits Europe
+#EXTINF:-1  group-title="MTV WORLD" tvg-logo="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAdVBMVEUAAAD+/v6mpqZKSkqCgoLX19f6+vqIiIhMTEyurq739/fh4eExMTHs7OzFxcW8vLyWlpZ6eno/Pz8TExNycnLPz8+Pj49nZ2eysrItLS0bGxvp6elXV1dFRUWenp6BgYEUFBQmJiY4ODhtbW1hYWFTU1PAwMB+VopKAAAEpUlEQVR4nO2c63aqMBBGk6qIUURb67VqbbXv/4gnt4GA2OIRy7Lz7T9FYdKVvQK5DQoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAQzKKOz8S6+teKqN/jrXR69+t090YyBqkWtZkeh48qRMsheiPR79fszvwVKu+S22rl8xLLWReK1bL6ko1b6d6zVJPlhzoS3tSDZ6D0H69UCtLyuGxrSo2R01Zcqfb1lD/Hb9R5LRmpJcl5eM3rrqy5ESI98QcDN3Da1E3MJP11HJVb6e2LNMwnC3zBBPH2nEsZcm9ECtlDhZCxBFkfc9MiK2yf57VFWE8ZZkmdVJZA4Os7zlpUUIckquCuMqSZpy13lwXw1aW0vOW4XUhfGVJte1dGcFY1n8AWZAFWd/zi7IGbdf1Zn5Plnr8BcDGZU0+PubFAb6XtW27qrfTsKzkw5ZaGLY6WZ8tV7QJmpWV+Fvt7UzWrt1qNkOjsl4PvtTnsqxxq5VsigZlJbPqUoXoJ39jM6wRWXYl8CnfWixu+wix/wObFYYGZE1Gh9EsDfZ9xsXzf2eT9XZZ5W6uW15xbqVed+FmWcNiefH5Ak47FbsHzco6pBVXtFW15mlU1qRqbb7XWt0a51ZZKh8vfLpxe1Jadc6e/OznhukqL8p+sYzX79vX4IolnT4xX3UYnsKiTC/YdYf5U15lw4aEtaxoXyxKy3r1h7Psogmd3bFe/FuWi1JZwxIHetJv6OSW80ppr3NWVGS3rB20BdQPvuAqa5jnTMZZbxcFo/mvUsMyK1osZW3SfF7c0R1f7I+joCFNig1rnfCUlUyDxGXrhB5eUfAcc0/4pPBf+MmKgqX0Fzeeoi5QBbedy3WjrnCkeMoKljyPvsuj+YweXEX0AHMJXNQG95KnrK/zSJJl2hk9pGxCZXZTct1kVb61rPL8EJKVBsd2fye7Y7nK8k1rGqwv0DPLvKyhPvyHXrgewVaWfJ0dp4W0I5K1Mx8o2T0NxhGMZZ3b80XZcQTdh7tw0Q+yMqiDdH2ef1BtezRP/ISsClmLaiVjZrJUdXqy/5pGEyf7KSn/B275WZGoSiRNVm4En/qitu7rRfEfTPnJomWEgN7BKyRZPsGhlNYwZijLDQwCzM3nZNFyMWWDvIflvyiOskrvF9oUIieLpsv+Niy+Vzhjl1NqZYm3YNTuFv+cLBojdPy5TVh+ylHWp57HHLIdwVjfX12SRcujJzobvhuccJQ1l+Z9X9f9bdZ6Ip2MSRatm2bpfsFWhlnX4ierb1/OFEvppjf6lvwiWbSsfAwuD4tnKcvWdm47P//JyaK7Ln9rOt/OGLKVZbtAM/fbLgcD0wc6WbQqk++s0tTadZBMZZU34J0sSvgIxhbkbwdZGUVZ+zzAD+pfFGRlFGV1gwgnxnWekGW5eBtKqcYpJR5BlqUo69LvYkCWpSircyEasizFocP6z8uq9WNj0r80UU7Jcgl+2VTwYrD78ajHz/yr8zN2nY6eROvr4nIK7bMJjrNEkeqiYhd8Hg0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCD8A8DqDcDtTKU4wAAAABJRU5ErkJggg==",MTV Hits Europe
 http://189.129.3.223:8000/play/a02t/index.m3u8
-#EXTINF:-1,MTV Latino
-http://189.129.3.223:8000/play/a03v/index.m3u8
-
-
-#EXTINF:-1,Las Estrellas México
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Las Estrellas México
 http://189.129.3.223:8000/play/a037/index.m3u8
-
-#EXTINF:-1,UNIVISION
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",UNIVISION
 http://96.242.237.206:8000/play/a07t/index.m3u8
-
-
-#EXTINF:-1,CARACOL HD 2
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",CARACOL HD 2
 http://45.70.169.135:8000/play/a02f
-#EXTINF:-1,CARACOL TV HD
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",CARACOL TV HD
 http://45.70.169.135:8000/play/a030
-
-#EXTINF:-1,ENLACE
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",ENLACE
 http://45.70.169.135:8000/play/a03o
-
-
-#EXTINF:-1,MERIDIONAL BAND HD
-http://191.37.223.131:8000/play/a00k/index.m3u8
-#EXTINF:-1,REDE AMAZONICA RO HD
-http://191.37.223.131:8000/play/a00g/index.m3u8
-#EXTINF:-1,REDE TV RO JI-PARAN.
-http://191.37.223.131:8000/play/a00f/index.m3u8
-#EXTINF:-1,SIC TV JI-PARANA HD
-http://191.37.223.131:8000/play/a00h/index.m3u8
-#EXTINF:-1,TV ALLAMANDA HD
-http://191.37.223.131:8000/play/a00d/index.m3u8
-#EXTINF:-1,TV GAZETA RO HD
-http://191.37.223.131:8000/play/a00e/index.m3u8
-
-
-#EXTINF:-1,Telemundo
+#EXTINF:-1  group-title="ESTADOS UNIDOS" tvg-logo="N/A",Telemundo
 http://190.92.95.37:8000/play/a0fp/index.m3u8
-#EXTINF:-1,Telemundo HD
+#EXTINF:-1  group-title="ESTADOS UNIDOS" tvg-logo="N/A",Telemundo HD
 http://190.92.95.37:8000/play/a0gj/index.m3u8
-
-
-#EXTINF:-1 group title="MTV WORLD",MTV Live HD
-http://37.19.203.217:8085/udp/239.10.10.16:5000 
-
-
-#EXTINF:-1,CBS Reality
-http://37.19.203.217:8085/udp/239.10.10.41:5000 
-
-
-#EXTINF:-1,Band News HD
-http://200.4.96.59:8002/play/a0fa/index.m3u8
-#EXTINF:-1,Band Sports HD
-http://200.4.96.59:8002/play/a0f9/index.m3u8
-#EXTINF:-1,Boomerang HD
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Boomerang HD
 http://200.4.96.59:8002/play/a0dw/index.m3u8
-#EXTINF:-1,CONMEBOL TV 3
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",CONMEBOL TV 3
 http://200.4.96.59:8002/play/a0ea/index.m3u8
-#EXTINF:-1,CONMEBOL TV 4
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",CONMEBOL TV 4
 http://200.4.96.59:8002/play/a0eb/index.m3u8
-#EXTINF:-1,Campeonato Carioca 1
-http://200.4.96.59:8002/play/a0fi/index.m3u8
-#EXTINF:-1,Campeonato Carioca 2
-http://200.4.96.59:8002/play/a0fj/index.m3u8
 
-
-#EXTINF:-1,Globo HD
-http://200.4.96.59:8002/play/a0fk/index.m3u8
-
-#EXTINF:-1,BBB HD 1
-http://200.4.96.59:8004/play/a0f9/index.m3u8
-#EXTINF:-1,BBB HD 2
-http://200.4.96.59:8004/play/a0fa/index.m3u8
-#EXTINF:-1,BBB Mosaico HD
-http://200.4.96.59:8004/play/a0fb/index.m3u8
-
-
-#EXTINF:-1,NHK
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A",NHK
 http://200.4.96.59:8004/play/a0et/index.m3u8
-#EXTINF:-1,NordesteFC 1
-http://200.4.96.59:8004/play/a0fq/index.m3u8
-#EXTINF:-1,NordesteFC 1
-http://200.4.96.59:8004/play/a0fm/index.m3u8
-#EXTINF:-1,NordesteFC 2
-http://200.4.96.59:8004/play/a0fr/index.m3u8
-#EXTINF:-1,NordesteFC 2
-http://200.4.96.59:8004/play/a0fn/index.m3u8
-#EXTINF:-1,Polishop TV
+#EXTINF:-1  group-title="HOME SHOPPING" tvg-logo="N/A",Polishop TV
 http://200.4.96.59:8004/play/a0eg/index.m3u8
-#EXTINF:-1,RAI
+#EXTINF:-1  group-title="ITÁLIA" tvg-logo="N/A",RAI
 http://200.4.96.59:8004/play/a0eh/index.m3u8
 
-
-#EXTINF:-1,SIC Internacional
-http://200.4.96.59:8004/play/a0f4/index.m3u8
-
-#EXTINF:-1 title-group="MTV WORLD", MTV HITS
-http://187.200.251.57:8000/play/a0b4/index.m3u8
-#EXTINF:-1 title-group="MTV WORLD",MTV RUSSIA HD
+#EXTINF:-1  group-title="MTV WORLD" tvg-logo="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAdVBMVEUAAAD+/v6mpqZKSkqCgoLX19f6+vqIiIhMTEyurq739/fh4eExMTHs7OzFxcW8vLyWlpZ6eno/Pz8TExNycnLPz8+Pj49nZ2eysrItLS0bGxvp6elXV1dFRUWenp6BgYEUFBQmJiY4ODhtbW1hYWFTU1PAwMB+VopKAAAEpUlEQVR4nO2c63aqMBBGk6qIUURb67VqbbXv/4gnt4GA2OIRy7Lz7T9FYdKVvQK5DQoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAQzKKOz8S6+teKqN/jrXR69+t090YyBqkWtZkeh48qRMsheiPR79fszvwVKu+S22rl8xLLWReK1bL6ko1b6d6zVJPlhzoS3tSDZ6D0H69UCtLyuGxrSo2R01Zcqfb1lD/Hb9R5LRmpJcl5eM3rrqy5ESI98QcDN3Da1E3MJP11HJVb6e2LNMwnC3zBBPH2nEsZcm9ECtlDhZCxBFkfc9MiK2yf57VFWE8ZZkmdVJZA4Os7zlpUUIckquCuMqSZpy13lwXw1aW0vOW4XUhfGVJte1dGcFY1n8AWZAFWd/zi7IGbdf1Zn5Plnr8BcDGZU0+PubFAb6XtW27qrfTsKzkw5ZaGLY6WZ8tV7QJmpWV+Fvt7UzWrt1qNkOjsl4PvtTnsqxxq5VsigZlJbPqUoXoJ39jM6wRWXYl8CnfWixu+wix/wObFYYGZE1Gh9EsDfZ9xsXzf2eT9XZZ5W6uW15xbqVed+FmWcNiefH5Ak47FbsHzco6pBVXtFW15mlU1qRqbb7XWt0a51ZZKh8vfLpxe1Jadc6e/OznhukqL8p+sYzX79vX4IolnT4xX3UYnsKiTC/YdYf5U15lw4aEtaxoXyxKy3r1h7Psogmd3bFe/FuWi1JZwxIHetJv6OSW80ppr3NWVGS3rB20BdQPvuAqa5jnTMZZbxcFo/mvUsMyK1osZW3SfF7c0R1f7I+joCFNig1rnfCUlUyDxGXrhB5eUfAcc0/4pPBf+MmKgqX0Fzeeoi5QBbedy3WjrnCkeMoKljyPvsuj+YweXEX0AHMJXNQG95KnrK/zSJJl2hk9pGxCZXZTct1kVb61rPL8EJKVBsd2fye7Y7nK8k1rGqwv0DPLvKyhPvyHXrgewVaWfJ0dp4W0I5K1Mx8o2T0NxhGMZZ3b80XZcQTdh7tw0Q+yMqiDdH2ef1BtezRP/ISsClmLaiVjZrJUdXqy/5pGEyf7KSn/B275WZGoSiRNVm4En/qitu7rRfEfTPnJomWEgN7BKyRZPsGhlNYwZijLDQwCzM3nZNFyMWWDvIflvyiOskrvF9oUIieLpsv+Niy+Vzhjl1NqZYm3YNTuFv+cLBojdPy5TVh+ylHWp57HHLIdwVjfX12SRcujJzobvhuccJQ1l+Z9X9f9bdZ6Ip2MSRatm2bpfsFWhlnX4ierb1/OFEvppjf6lvwiWbSsfAwuD4tnKcvWdm47P//JyaK7Ln9rOt/OGLKVZbtAM/fbLgcD0wc6WbQqk++s0tTadZBMZZU34J0sSvgIxhbkbwdZGUVZ+zzAD+pfFGRlFGV1gwgnxnWekGW5eBtKqcYpJR5BlqUo69LvYkCWpSircyEasizFocP6z8uq9WNj0r80UU7Jcgl+2VTwYrD78ajHz/yr8zN2nY6eROvr4nIK7bMJjrNEkeqiYhd8Hg0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCD8A8DqDcDtTKU4wAAAABJRU5ErkJggg==",MTV RUSSIA HD
 http://92.242.14.114:4022/udp/225.0.56.16:1234
+

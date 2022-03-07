@@ -40,26 +40,26 @@ http://45.226.83.14/live/RPCHD/720p.m3u8?ROGERIOTORRES
 
 #######
 
-#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="006", TV Metrópole News (Goiânia-GO)
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="6", TV Metrópole News (Goiânia-GO)
 http://in.uaimacks.net.br:1935/macks/macks.sdp/playlist.m3u8
 
-#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="007" , RecordTV GO HD³
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="7" , RecordTV GO HD³
 http://playplusgoya-lh.akamaihd.net/i/pp_gna@377833/index_720_av-p.m3u8
 
 
 #EXTINF:0 group-title="Education" tvg-id="" tvg-name="" tvg-logo="" url-tvg="" shift="-3" tvg-language="Portuguese" audio-track="por" shift="-3" aspect-ratio="16:9" subtitles="por" tvg-country="BR" size="Medium" background="#000000", TV Brasil Central
 http://wz3.dnip.com.br/tvbrasil/tvbrasil.sdp/playlist.m3u8
 
-#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="008", TV UFG¹ (Goiás)
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="14", TV UFG¹ (Goiás)
 http://wowza.softhost.com.br:1935/ufg/smil:tvufgweb/chunklist_w884631395_b1544100_sleng.m3u8
 
 
 
 
-#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="009", PUC TV (Goiás)
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="24", PUC TV (Goiás)
 http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 
-#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="010", PUC TV Goiás (326p) [Not 24/7]
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="24", PUC TV Goiás (326p) [Not 24/7]
 http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 
 ########### REALITY SHOW'S LIVE###########
@@ -115,7 +115,7 @@ http://200.4.97.162:8000/play/a012/index.m3u8
 http://45.226.83.14/live/RPCHD/playlist.m3u8
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",Rede Amazônica Manaus
 http://200.4.97.162:8000/play/a01a/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Anhanguera Goiânia
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A" tvg-chno="2",TV Anhanguera Goiânia
 http://200.4.97.162:8000/play/a00i/index.m3u8
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Bahia
 http://200.4.97.162:8000/play/a017/index.m3u8
@@ -167,7 +167,7 @@ https://live.ojc.com.br/c2f4/myStream.m3u8
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",GAUCHA FM
 https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
 
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Gazeta HD
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A" tvg-chno="32",TV Gazeta HD
 http://api.new.livestream.com:80/accounts/5381476/events/8947634/live.m3u8
 
 #EXTINF:-1  group-title="Entertainment" tvg-logo="https://cbsnews2.cbsistatic.com/hub/i/r/2019/04/01/03214531-586b-4683-813e-a3252999e063/thumbnail/1280x720/e359894b45362a16a256ad90e5a1aec2/et-live-logo-1920x1080.jpg",tvg-logo="https://cbsnews2.cbsistatic.com/hub/i/r/2019/04/01/03214531-586b-4683-813e-a3252999e063/thumbnail/1280x720/e359894b45362a16a256ad90e5a1aec2/et-live-logo-1920x1080.jpg" group-title="Entertainment" , ET Live
@@ -285,7 +285,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6130d6f3f
 #EXTVLCOPT:network-caching=1000
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96d351652631e36d4331f/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5cf96d351652631e36d4331f&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=965&terminate=false&userId=
 
-#EXTINF:-1 group-title="MTV WORLD" tvg-id="" tvg-logo="" ,MTV ARGENTINA
+#EXTINF:-1 group-title="MTV WORLD" tvg-id="" tvg-logo="" tvg-chno="134",MTV ARGENTINA
 https://edge2-ccast-sl.cvattv.com.ar/live/c6eds/MTV_HD/SA_SAGEMCOM/MTV_HD.m3u8
 #EXTINF:-1 group-title="MTV WORLD",MTV Classic HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/290680
@@ -293,15 +293,15 @@ http://iptvmedia.live:8080/FM10008/ee54fb4b/290680
 http://iptvmedia.live:8080/FM10008/ee54fb4b/4735
 #EXTINF:-1 group-title="MTV WORLD",MTV Classic HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/30906
-#EXTINF:-1 group-title="MTV WORLD",MTV Live FHD
+#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV Live FHD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/280870
-#EXTINF:-1 group-title="MTV WORLD",MTV Live FHD
+#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV Live FHD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/21860
-#EXTINF:-1 group-title="MTV WORLD",MTV Live HD
+#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV Live HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/15452
-#EXTINF:-1 group-title="MTV WORLD",MTV LIVE HD
+#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV LIVE HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/282303
-#EXTINF:-1 group-title="MTV WORLD",MTV Live HD
+#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV Live HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/198940
 #EXTINF:-1 group-title="MTV WORLD",MTV Base HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/4733
@@ -316,9 +316,9 @@ http://iptvmedia.live:8080/FM10008/ee54fb4b/15073
 #EXTINF:-1 group-title="MTV WORLD",MTV U HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/57018
 
-#EXTINF:-1 tvg-id="MTVLive(English).mx" tvg-name="MTV Live HD" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtvl.png" group-title="MTV WORLD",MTV Live HD
+#EXTINF:-1 tvg-id="MTVLive(English).mx" tvg-name="MTV Live HD" tvg-chno="134" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtvl.png" group-title="MTV WORLD",MTV Live HD
 http://blackaddon.com/play/totalp1-228.php?c=211&p=3&k=black&f=.m3u8
-#EXTINF:-1 tvg-id="MTV.mx" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtv.png" group-title="MTV WORLD",MTV
+#EXTINF:-1 tvg-id="MTV.mx" tvg-name="MTV" tvg-chno="134" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtv.png" group-title="MTV WORLD",MTV
 http://blackaddon.com/play/totalp1-228.php?c=212&p=3&k=black&f=.m3u8
 
 

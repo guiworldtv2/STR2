@@ -186,8 +186,6 @@ https://59f1cbe63db89.streamlock.net:1443/redetvro/_definst_/redetvro/playlist.m
 http://evpp.mm.uol.com.br:1935/ne10/ne10.smil/chunklist_w416898237_b176000_sleng.m3u8
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",SBT PE HD
 http://evpp.mm.uol.com.br:1935/ne10/ne10.smil/chunklist_w416898237_b216000_sleng.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",SBT PE Interior HD
-http://evpp.mm.uol.com.br:1935/ne10/ne10-tvjornal-caruaru-video-web.sdp/playlist.m3u8%20
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",Band PA HD
 https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8%20
 #EXTINF:-1  group-title="CNN's" tvg-logo="N/A",CNN Chile
@@ -322,5 +320,4 @@ http://blackaddon.com/play/totalp1-228.php?c=211&p=3&k=black&f=.m3u8
 http://blackaddon.com/play/totalp1-228.php?c=212&p=3&k=black&f=.m3u8
 
 
-#EXTINF:-1 group-title="MTV WORLD", MTV Live
-http://clubtv.link/m03/lista1.php?c=3106
+

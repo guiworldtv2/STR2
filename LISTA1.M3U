@@ -344,3 +344,93 @@ http://189.129.3.223:8000/play/a03v/index.m3u8
 
 #EXTINF:-1,Las Estrellas México
 http://189.129.3.223:8000/play/a037/index.m3u8
+
+#EXTINF:-1,UNIVISION
+http://96.242.237.206:8000/play/a07t/index.m3u8
+
+
+#EXTINF:-1,CARACOL HD 2
+http://45.70.169.135:8000/play/a02f
+#EXTINF:-1,CARACOL TV HD
+http://45.70.169.135:8000/play/a030
+
+#EXTINF:-1,ENLACE
+http://45.70.169.135:8000/play/a03o
+
+
+#EXTINF:-1,MERIDIONAL BAND HD
+http://191.37.223.131:8000/play/a00k/index.m3u8
+#EXTINF:-1,REDE AMAZONICA RO HD
+http://191.37.223.131:8000/play/a00g/index.m3u8
+#EXTINF:-1,REDE TV RO JI-PARAN.
+http://191.37.223.131:8000/play/a00f/index.m3u8
+#EXTINF:-1,SIC TV JI-PARANA HD
+http://191.37.223.131:8000/play/a00h/index.m3u8
+#EXTINF:-1,TV ALLAMANDA HD
+http://191.37.223.131:8000/play/a00d/index.m3u8
+#EXTINF:-1,TV GAZETA RO HD
+http://191.37.223.131:8000/play/a00e/index.m3u8
+
+
+#EXTINF:-1,Telemundo
+http://190.92.95.37:8000/play/a0fp/index.m3u8
+#EXTINF:-1,Telemundo HD
+http://190.92.95.37:8000/play/a0gj/index.m3u8
+
+
+#EXTINF:-1 group title="MTV WORLD",MTV Live HD
+http://37.19.203.217:8085/udp/239.10.10.16:5000 
+
+
+#EXTINF:-1,CBS Reality
+http://37.19.203.217:8085/udp/239.10.10.41:5000 
+
+
+#EXTINF:-1,Band News HD
+http://200.4.96.59:8002/play/a0fa/index.m3u8
+#EXTINF:-1,Band Sports HD
+http://200.4.96.59:8002/play/a0f9/index.m3u8
+#EXTINF:-1,Boomerang HD
+http://200.4.96.59:8002/play/a0dw/index.m3u8
+#EXTINF:-1,CONMEBOL TV 3
+http://200.4.96.59:8002/play/a0ea/index.m3u8
+#EXTINF:-1,CONMEBOL TV 4
+http://200.4.96.59:8002/play/a0eb/index.m3u8
+#EXTINF:-1,Campeonato Carioca 1
+http://200.4.96.59:8002/play/a0fi/index.m3u8
+#EXTINF:-1,Campeonato Carioca 2
+http://200.4.96.59:8002/play/a0fj/index.m3u8
+
+
+#EXTINF:-1,Globo HD
+http://200.4.96.59:8002/play/a0fk/index.m3u8
+
+#EXTINF:-1,BBB HD 1
+http://200.4.96.59:8004/play/a0f9/index.m3u8
+#EXTINF:-1,BBB HD 2
+http://200.4.96.59:8004/play/a0fa/index.m3u8
+#EXTINF:-1,BBB Mosaico HD
+http://200.4.96.59:8004/play/a0fb/index.m3u8
+
+
+#EXTINF:-1,NHK
+http://200.4.96.59:8004/play/a0et/index.m3u8
+#EXTINF:-1,NordesteFC 1
+http://200.4.96.59:8004/play/a0fq/index.m3u8
+#EXTINF:-1,NordesteFC 1
+http://200.4.96.59:8004/play/a0fm/index.m3u8
+#EXTINF:-1,NordesteFC 2
+http://200.4.96.59:8004/play/a0fr/index.m3u8
+#EXTINF:-1,NordesteFC 2
+http://200.4.96.59:8004/play/a0fn/index.m3u8
+#EXTINF:-1,Polishop TV
+http://200.4.96.59:8004/play/a0eg/index.m3u8
+#EXTINF:-1,RAI
+http://200.4.96.59:8004/play/a0eh/index.m3u8
+
+
+#EXTINF:-1,SIC Internacional
+http://200.4.96.59:8004/play/a0f4/index.m3u8
+
+#EXTINF:-1 title-group="MTV WORLD", MTV HITS
+http://187.200.251.57:8000/play/a0b4/index.m3u8

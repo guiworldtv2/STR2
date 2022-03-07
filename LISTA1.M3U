@@ -6,12 +6,83 @@
 #EXTM3U x-tvg-url="http://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/hagah.com.br.channels.xml"
 
 #EXTM3U
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",BBB HD 1
+
+####GLOBO#####
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/P1mYnQb.png", GLOBO RJ HD
+http://50.7.34.155:2200/BR/Globo_HD_SP-br/index.m3u8?token=fwBlCndpe3MTCXplN3VjewVheXNnCXphewETcnctenVhfnNlfHJofQ==?md5=nullR
+
+
+#EXTINF:-1,Globo RJ (720p)
+http://50.7.34.155:2200/BR/Globo_HD_RJ-br/tracks-v1a1/mono.m3u8?token=fwBlCndpe3MTCXplN3VjewVheXNnCXphewETcnctenVhfnNlfHJofQ==?md5=null
+
+
+#EXTINF:-1 group-title="GLOBO'S",Globo MG HD (720p)
+http://168.205.87.198:8555/live/1499/123456/70.m3u8
+#EXTINF:-1 group-title="GLOBO'S",Globo RPC HD (720p)
+http://45.226.83.14/live/RPCHD/720p.m3u8
+#EXTINF:-1 group-title="GLOBO'S",Globo SP FHD (1080p)
+http://50.7.34.155:2200/BR/Globo_HD_SP-br/tracks-v1a1/mono.m3u8?token=fwBlCndpe3MTCXplN3VjewVheXNnCXphewETcnctenVhfnNlfHJofQ==?md5=null
+#EXTINF:-1 group-title="GLOBO'S",Globo RJ HD (720p)
+http://50.7.34.155:2200/BR/Globo_HD_RJ-br/tracks-v1a1/mono.m3u8?token=fwBlCndpe3MTCXplN3VjewVheXNnCXphewETcnctenVhfnNlfHJofQ==?md5=null
+
+#EXTINF:-1 group-title="CANAIS ABERTOS",Globo² (PR)
+plugin: //plugin.video.f4mTester/? streamtype = HLSRETRY; name = DWIGHT FARROKH LISTAS GRATIS; & amp; buffer = 60000; url = http: //45.224.115.214: 80 / live / damaris / 123456 / 14.m3u8
+
+#EXTINF:-1 group-title="CANAIS ABERTOS",Globo (PR)
+plugin: //plugin.video.f4mTester/? streamtype = HLSRETRY; name = DWIGHT FARROKH LISTAS GRATIS; & amp; buffer = 60000; url = http: //45.224.115.214: 80 / live / damaris / 123456 / 112.m3u8
+
+
+#EXTINF:-1  group-title="GLOBO'S" group-title="CANAIS ABERTOS" tvg-logo="https://digitalapi.sky.com.br/logos/channels/303.png" tvg-chno="005", Globo HD (PR)
+http://45.226.83.14/live/RPCHD/720p.m3u8?ROGERIOTORRES   
+
+#######
+
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="006", TV Metrópole News (Goiânia-GO)
+http://in.uaimacks.net.br:1935/macks/macks.sdp/playlist.m3u8
+
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="007" , RecordTV GO HD³
+http://playplusgoya-lh.akamaihd.net/i/pp_gna@377833/index_720_av-p.m3u8
+
+
+#EXTINF:0 group-title="Education" tvg-id="" tvg-name="" tvg-logo="" url-tvg="" shift="-3" tvg-language="Portuguese" audio-track="por" shift="-3" aspect-ratio="16:9" subtitles="por" tvg-country="BR" size="Medium" background="#000000", TV Brasil Central
+http://wz3.dnip.com.br/tvbrasil/tvbrasil.sdp/playlist.m3u8
+
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="008", TV UFG¹ (Goiás)
+http://wowza.softhost.com.br:1935/ufg/smil:tvufgweb/chunklist_w1120468120_b694100_sleng.m3u8
+
+
+
+
+
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="009", PUC TV (Goiás)
+http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
+
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="010", PUC TV Goiás (326p) [Not 24/7]
+http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
+
+*********** REALITY SHOW'S LIVE***********
+#EXTINF:-1 tvg-logo=https://album.mediaset.es/cimg/256023/2021/07/12/logotipo_secretsto_6ef0.png?h=63" group-title="REALITY SHOW'S LIVE", SECRET STORY
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+HTTPS://PREMIUM0506-i.akamaihd.net/hls/live/827156/premium05/01.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61d221a40cf21a10a417121e/" group-title="REALITY SHOW'S LIVE", BIG BROTHER PORTUGAL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
+
+#EXTINF:-1  group-title="REALITY SHOW'S LIVE" tvg-logo="N/A",BBB HD 1
 http://200.4.96.59:8004/play/a0f9/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",BBB HD 2
+
+#EXTINF:-1  group-title="REALITY SHOW'S LIVE" tvg-logo="N/A",BBB HD 2
 http://200.4.96.59:8004/play/a0fa/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",BBB Mosaico HD
+
+#EXTINF:-1  group-title="REALITY SHOW'S LIVE" tvg-logo="N/A",BBB Mosaico HD
 http://200.4.96.59:8004/play/a0fb/index.m3u8
+
+
+
 
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",CBN SP (720p)
 https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8

@@ -260,13 +260,13 @@ http://rtmp.one.by:1200
 http://rtmp.one.by:1200
 #EXTINF:-1 tvg-id="6130d6f3f3f7bb0007dbd092" tvg-logo="https://images.pluto.tv/channels/6130d6f3f3f7bb0007dbd092/colorLogoPNG.png" group-title="Pluto_TV_ES",Música: MTV En Vivo
 https://stitcher.pluto.tv/stitch/hls/channel/6130d6f3f3f7bb0007dbd092/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=50e1f78d-846f-11ec-8c9a-0242ac110003
-#EXTINF:-1 tvg-id="" group-title="MTV WORLD" tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/MTV%20Portugal.png",🎶 ●| MTV Hits
+#EXTINF:-1 tvg-id="" group-title="MTV WORLD" tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/MTV%20Portugal.png",  MTV Hits
 http://190.171.101.36:80/MTV/tracks-v3a1/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="MTV WORLD" tvg-logo="https://images.pluto.tv/channels/6130d6f3f3f7bb0007dbd092/colorLogoPNG.png",🎶 ●| MTV en Vivo [Pluto]
+#EXTINF:-1 tvg-id="" group-title="MTV WORLD" tvg-logo="https://images.pluto.tv/channels/6130d6f3f3f7bb0007dbd092/colorLogoPNG.png",  MTV en Vivo [Pluto]
 https://bit.ly/mtvlive_inspiration_m3u8
 
 
-#EXTINF:-1 tvg-id="" group-title="MTV WORLD"  tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/mtvclassic.png",🎶 ●|  MTV Classic
+#EXTINF:-1 tvg-id="" group-title="MTV WORLD"  tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/mtvclassic.png",   MTV Classic
 http://supportstreams.net:80/558585765/n4ySrfoH20/357
 
 #EXTINF:0 group-title="PLUTO's",Pluto TV MTV (720p)

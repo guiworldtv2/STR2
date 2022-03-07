@@ -89,83 +89,7 @@ http://200.4.96.59:8004/play/a0fb/index.m3u8
 https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",CBN Rio (720p)
 https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",EPTV Campinas
-http://200.4.97.162:8000/play/a00b/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",EPTV Ribeirão Preto
-http://200.4.97.162:8000/play/a00a/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",EPTV São Carlos
-http://200.4.97.162:8000/play/a00c/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo Brasilia
-http://200.4.97.162:8000/play/a01w/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo Minas
-http://200.4.97.162:8000/play/a00f/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo Nordeste<br>
-http://200.4.97.162:8000/play/a018/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo RJ
-http://200.4.97.162:8000/play/a00e/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Globo SP HD
-http://200.4.97.162:8000/play/a01t/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Inter TV Cabugi
-http://200.4.97.162:8000/play/a01b/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",RBS TV Porto Alegre
-http://200.4.97.162:8000/play/a01u/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",RPC TV Curitiba
-http://200.4.97.162:8000/play/a012/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",RPC TV 2
-http://45.226.83.14/live/RPCHD/playlist.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Rede Amazônica Manaus
-http://200.4.97.162:8000/play/a01a/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A" tvg-chno="2",TV Anhanguera Goiânia
-http://200.4.97.162:8000/play/a00i/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Bahia
-http://200.4.97.162:8000/play/a017/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Liberal Belém
-http://200.4.97.162:8000/play/a019/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Tem Bauru
-http://200.4.97.162:8000/play/a00s/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Tem Sorocaba
-http://200.4.97.162:8000/play/a00h/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Tribuna Santos
-http://200.4.97.162:8000/play/a01v/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",TV Verdes Mares Fortaleza
-http://200.4.97.162:8000/play/a016/index.m3u8
-#EXTINF:-1,NSCTV HD
-http://179.125.119.154:8000/play/a015/index.m3u8
-#EXTINF:-1,SCC SBT HD
-http://179.125.119.154:8000/play/a017/index.m3u8
-#EXTINF:-1,TVBV HD
-http://179.125.119.154:8000/play/a01h/index.m3u8
-#EXTINF:-1,NDTV HD
-http://179.125.119.154:8000/play/a01j/index.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",NDTV FLORIANÓPOLIS E RECORDNEWS
-https://caikron.com.br:19360/floripa/floripa.m3u8
 
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - AV. Rio Verde
-https://hunq9fz8yk.zoeweb.tv/avrioverdeapgyn/avrioverdeapgyn.stream/playlist.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - Morro do Mendanha
-https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/chunklist_w182959856.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA AV. Jamel Cecílio
-https://5a7d54e35f9d2.streamlock.net/flamboyant/flamboyant.stream/playlist.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Av. T-63 (topo do Aquarius Center)
-https://hunq9fz8yk.zoeweb.tv/aquariuscenter2/aquariuscenter2.stream/playlist.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Av. T-4 c/ Av. T-63 -  Setor Bueno
-https://hunq9fz8yk.zoeweb.tv/avt4/avt4.stream/playlist.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - AVENIDA 85
-https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - AV. 85 RUA 30
-https://hunq9fz8yk.zoeweb.tv/av_85_rua/av-85-rua.stream/playlist.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - Praça Civica
-https://hunq9fz8yk.zoeweb.tv/pracacivicapalacio/pracacivicapalacio.stream/playlist.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GOIÂNIA - Avenida Castelo Branco
-https://5a7d54e35f9d2.streamlock.net/avt7/avt7.stream/chunklist_w1549205327.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",ARUANÃ - RIO VERMELHO - PRAIA DO CAVALO
-https://5a1c76baf08c0.streamlock.net/riovermelhocam01/rvcam01.stream/playlist.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",Setor Central
-https://5a1c76baf08c0.streamlock.net/araguaiacam01/acam01.stream/playlist.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",EXECUTIVA FM
-https://live.ojc.com.br/c2f4/myStream.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GAUCHA FM
-https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
 
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A" tvg-chno="32",TV Gazeta HD
 http://api.new.livestream.com:80/accounts/5381476/events/8947634/live.m3u8
@@ -182,7 +106,7 @@ http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",BAND REDE FULLHD
 https://stream-04.nyc.dailymotion.com/sec(9adq8njh6Ix1Bfv2jmbm4zQ5004MJv6ywFcMmjs-WmI)/dm/3/x83vbd6/s/live-4.m3u8#cell=lnyc
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",REDETV! TOCANTINS
+#EXTINF:-1  group-title="N/A" tvg-logo="N/A" tvg-chno="49",REDETV! TOCANTINS
 https://59f1cbe63db89.streamlock.net:1443/redetvro/_definst_/redetvro/playlist.m3u8
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",SBT PE SD
 http://evpp.mm.uol.com.br:1935/ne10/ne10.smil/chunklist_w416898237_b176000_sleng.m3u8
@@ -284,7 +208,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6130d6f3f
 #EXTVLCOPT:network-caching=1000
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96d351652631e36d4331f/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5cf96d351652631e36d4331f&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=965&terminate=false&userId=
 
-#EXTINF:-1 group-title="MTV WORLD" tvg-id="" tvg-logo="" tvg-chno="134",MTV ARGENTINA
+#EXTINF:-1 group-title="MTV WORLD" tvg-id="" tvg-logo="" ,MTV ARGENTINA
 https://edge2-ccast-sl.cvattv.com.ar/live/c6eds/MTV_HD/SA_SAGEMCOM/MTV_HD.m3u8
 #EXTINF:-1 group-title="MTV WORLD",MTV Classic HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/290680
@@ -292,15 +216,15 @@ http://iptvmedia.live:8080/FM10008/ee54fb4b/290680
 http://iptvmedia.live:8080/FM10008/ee54fb4b/4735
 #EXTINF:-1 group-title="MTV WORLD",MTV Classic HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/30906
-#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV Live FHD
+#EXTINF:-1 group-title="MTV WORLD" ,MTV Live FHD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/280870
-#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV Live FHD
+#EXTINF:-1 group-title="MTV WORLD" ,MTV Live FHD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/21860
-#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV Live HD
+#EXTINF:-1 group-title="MTV WORLD" ,MTV Live HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/15452
-#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV LIVE HD
+#EXTINF:-1 group-title="MTV WORLD" ,MTV LIVE HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/282303
-#EXTINF:-1 group-title="MTV WORLD" tvg-chno="134",MTV Live HD
+#EXTINF:-1 group-title="MTV WORLD" ,MTV Live HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/198940
 #EXTINF:-1 group-title="MTV WORLD",MTV Base HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/4733
@@ -315,10 +239,549 @@ http://iptvmedia.live:8080/FM10008/ee54fb4b/15073
 #EXTINF:-1 group-title="MTV WORLD",MTV U HD
 http://iptvmedia.live:8080/FM10008/ee54fb4b/57018
 
-#EXTINF:-1 tvg-id="MTVLive(English).mx" tvg-name="MTV Live HD" tvg-chno="134" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtvl.png" group-title="MTV WORLD",MTV Live HD
+#EXTINF:-1 tvg-id="MTVLive(English).mx" tvg-name="MTV Live HD"  tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtvl.png" group-title="MTV WORLD",MTV Live HD
 http://blackaddon.com/play/totalp1-228.php?c=211&p=3&k=black&f=.m3u8
-#EXTINF:-1 tvg-id="MTV.mx" tvg-name="MTV" tvg-chno="134" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtv.png" group-title="MTV WORLD",MTV
+#EXTINF:-1 tvg-id="MTV.mx" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtv.png" group-title="MTV WORLD",MTV
 http://blackaddon.com/play/totalp1-228.php?c=212&p=3&k=black&f=.m3u8
 
 
-
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="32",TV CAPITAL
+https://stmv1.srvif.com/rbc/rbc/playlist.m3u8
+#EXTINF:-1  group-title="CANAIS ABERTOS",RBA AFILIADA BAND
+https://streaming.gruporba.com.br/rba.m3u8
+#EXTINF:-1  group-title="CANAIS ABERTOS",TV JANGADEIRO AFILIADA SBT
+https://5a1c76baf08c0.streamlock.net/tvsd2/smil:tvsd2_20042020.smil/playlist.m3u8
+#EXTINF:-1  group-title="Home Shopping",1001 NOITES
+https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/chunklist_b1155072.m3u8
+#EXTINF:-1  group-title="CANAIS ABERTOS",NOVO TEMPO
+https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/chunklist.m3u8
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="38",TV GAZETA SP
+https://playback2.akamaized.net/streams/5381476_8947634_lsiunzoytb0lbvk4vd1_1/master.m3u8?dw=14400&hdnts=exp=1646255367~acl=/streams/5381476_8947634_lsiunzoytb0lbvk4vd1_1/master.m3u8*~hmac=3ac41f9118460626c28e2338d35ac4498509e8d59201502453c7028a3e2da2f2
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="9",TV SERRA DOURADA
+https://5a1c76baf08c0.streamlock.net/tvsd2/smil:tvsd2_20042020.smil/playlist.m3u8
+#EXTINF:-1  group-title="N/A",TV WA
+https://cdn.jmvstream.com/w/LVW-9892/ngrp:LVW9892_PCIeyMXAKy_all/playlist.m3u8
+#EXTINF:-1  group-title="N/A",TV ARAPUAN - REDETV
+https://5b7f3c45ab7c2.streamlock.net/tvarapuan/tvarapuan/playlist.m3u8
+#EXTINF:-1  group-title="N/A",CNN PORTUGAL
+https://video-auth2.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yLzIwMjIgOToxMToyIFBNJmhhc2hfdmFsdWU9STBRT0lRTjN5K1kwVVEzUlpWQVZiQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTZiZDgxZmRiLTgzZTItNDYyMi1iZWZkLWVmMDM4YTgyODY2OA==
+#EXTINF:-1  group-title="N/A",TV TROPICAL
+https://59f1cbe63db89.streamlock.net:1443/raniere/_definst_/raniere/chunklist_w248890029.m3u8
+#EXTINF:-1  group-title="N/A",login?code=5835eb83-38b0-4552-8023-753e4e06e61e&state=eyJzdGF0ZSI6ImNzcmZfb2lwbGF5IiwidGFyZ2V0X3VyaSI6Ii9wbGF5L2xpdmUvMjAzODYifQ%3D%3D
+https://oiplay.tv/oiplay/login?code=5835eb83-38b0-4552-8023-753e4e06e61e&state=eyJzdGF0ZSI6ImNzcmZfb2lwbGF5IiwidGFyZ2V0X3VyaSI6Ii9wbGF5L2xpdmUvMjAzODYifQ%253D%253D
+#EXTINF:-1  group-title="N/A",login?code=5835eb83-38b0-4552-8023-753e4e06e61e
+https://oiplay.tv/oiplay/login?code=5835eb83-38b0-4552-8023-753e4e06e61e
+#EXTINF:-1  group-title="N/A",30043e572a6b682b3356bbdc34732dc2.m3u8?streamType=live26
+https://e46.voyeur-house.tv/realm26/stream/30043e572a6b682b3356bbdc34732dc2.m3u8?streamType=live26
+#EXTINF:-1  group-title="N/A",index.m3u8?start=LIVE&end=END&device=ios&vxttoken=cGF0aFVSST0lMmZzaGxzJTJmTElWRSUyNFNQQUNFSEIlMmYqJmV4cGlyeT0xNjIyOTAyMzY5Jng6aXA9MTAuMjAzLjI0LjE5OCxhNTg3ZjkwZmM5Mzg4ODI3MDE2YWRhODE5YTg1YzU0ZTBlMzE5ZDk1Nzk5Y2YzOWY0YjMwODg4NGJlNTM3MzA1
+https://vspp.online.go.oi.com.br/shls/LIVE$SPACEHB/index.m3u8?start=LIVE&end=END&device=ios&vxttoken=cGF0aFVSST0lMmZzaGxzJTJmTElWRSUyNFNQQUNFSEIlMmYqJmV4cGlyeT0xNjIyOTAyMzY5Jng6aXA9MTAuMjAzLjI0LjE5OCxhNTg3ZjkwZmM5Mzg4ODI3MDE2YWRhODE5YTg1YzU0ZTBlMzE5ZDk1Nzk5Y2YzOWY0YjMwODg4NGJlNTM3MzA1
+#EXTINF:-1  group-title="N/A",login?code=5835eb83-38b0-4552-8023-753e4e06e61e&state=eyJzdGF0ZSI6ImNzcmZfb2lwbGF5IiwidGFyZ2V0X3VyaSI6Ii9wbGF5L2xpdmUvMjAzODYifQ%3D%3D
+https://oiplay.tv/oiplay/login?code=5835eb83-38b0-4552-8023-753e4e06e61e&state=eyJzdGF0ZSI6ImNzcmZfb2lwbGF5IiwidGFyZ2V0X3VyaSI6Ii9wbGF5L2xpdmUvMjAzODYifQ%253D%253D
+#EXTINF:-1  group-title="N/A",index.m3u8
+https://newedge.eu-central-1.edge.mycdn.live:443/live/vintequatrohrs2/vintequatrohrs2_2000/index.m3u8
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="13",TV Cultura
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12959
+#EXTINF:-1  group-title="CANAIS ABERTOS",TV Senado
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12961
+#EXTINF:-1  group-title="GLOBO'S",Globo RJ | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12963
+#EXTINF:-1  group-title="GLOBO'S",Globo RJ | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12964
+#EXTINF:-1  group-title="GLOBO'S",Tv Rio Sul RJ | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12965
+#EXTINF:-1  group-title="GLOBO'S",Globo SP | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12967
+#EXTINF:-1  group-title="GLOBO'S",Globo SP | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/15044
+#EXTINF:-1  group-title="GLOBO'S",Globo Minas | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12969
+#EXTINF:-1  group-title="GLOBO'S",Globo Minas | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12970
+#EXTINF:-1  group-title="GLOBO'S",Globo Nordeste
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12971
+#EXTINF:-1  group-title="GLOBO'S",Globo Brasilia
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12972
+#EXTINF:-1  group-title="GLOBO'S",Globo Brasilia | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12973
+#EXTINF:-1  group-title="GLOBO'S",Globo Brasilia | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12974
+#EXTINF:-1  group-title="GLOBO'S",Globo Bahia
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12975
+#EXTINF:-1  group-title="GLOBO'S",Globo Subae BH | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12977
+#EXTINF:-1  group-title="GLOBO'S",Globo Campinas
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12978
+#EXTINF:-1  group-title="GLOBO'S",Globo Campinas | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12979
+#EXTINF:-1  group-title="GLOBO'S",Globo Campinas | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12980
+#EXTINF:-1  group-title="GLOBO'S",Globo Bauru
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12981
+#EXTINF:-1  group-title="GLOBO'S",Globo SJRP
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12982
+#EXTINF:-1  group-title="GLOBO'S",Globo Porto Alegre
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12983
+#EXTINF:-1  group-title="GLOBO'S",Globo Santos
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12985
+#EXTINF:-1  group-title="GLOBO'S",Globo Ribeir�o Preto | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/15045
+#EXTINF:-1  group-title="GLOBO'S",Globo Belem | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12992
+#EXTINF:-1  group-title="GLOBO'S",Globo Curitiba | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12994
+#EXTINF:-1  group-title="GLOBO'S",Globo CE | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12996
+#EXTINF:-1  group-title="GLOBO'S",Globo Sergipe | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13002
+#EXTINF:-1  group-title="GLOBO'S",Globo Manaus | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13004
+#EXTINF:-1  group-title="GLOBO'S",Globo MA | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13005
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13006
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13007
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13008
+#EXTINF:-1  group-title="GLOBO'S",Globo BH | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13009
+#EXTINF:-1  group-title="CANAIS ABERTOS",Rede TV | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13014
+#EXTINF:-1  group-title="CANAIS ABERTOS",Band RJ | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13016
+#EXTINF:-1  group-title="CANAIS ABERTOS",Band | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13018
+#EXTINF:-1  group-title="CANAIS ABERTOS",Band Campinas | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13019
+#EXTINF:-1  group-title="CANAIS ABERTOS",Band Paran� | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13024
+#EXTINF:-1  group-title="CANAIS ABERTOS",Band Goiania | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13025
+#EXTINF:-1  group-title="CANAIS ABERTOS",SBT SP
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13027
+#EXTINF:-1  group-title="CANAIS ABERTOS",SBT RJ | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13030
+#EXTINF:-1  group-title="CANAIS ABERTOS",SBT RS | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13031
+#EXTINF:-1  group-title="CANAIS ABERTOS",SBT Sergipe | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13032
+#EXTINF:-1  group-title="CANAIS ABERTOS",SBT PR | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13034
+#EXTINF:-1  group-title="CANAIS ABERTOS",SBT MG | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13035
+#EXTINF:-1  group-title="CANAIS ABERTOS",SBT Goiania | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13036
+#EXTINF:-1  group-title="CANAIS ABERTOS",SBT Goiania | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13037
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record SP
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13038
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record SP | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13039
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record SP | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13040
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record RJ | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13041
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record BSB | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13043
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record RS | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13047
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record SJRP | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13048
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record Sergipe | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13049
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record Belem | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13050
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record Santos | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13051
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record Minas | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13052
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record Goiania | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13054
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record BH | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13055
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record Campinas | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13062
+#EXTINF:-1  group-title="CANAIS ABERTOS",Record SC | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13063
+#EXTINF:-1  group-title="N/A",Rede Brasil
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13065
+#EXTINF:-1  group-title="N/A",Food Network | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13070
+#EXTINF:-1  group-title="N/A",TLC
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13071
+#EXTINF:-1  group-title="N/A",Fox Life
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13074
+#EXTINF:-1  group-title="N/A",FOX Life | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13075
+#EXTINF:-1  group-title="N/A",E! | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13077
+#EXTINF:-1  group-title="N/A" tvg-chno="41",GNT | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13080
+#EXTINF:-1  group-title="N/A" tvg-chno="41",GNT | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13081
+#EXTINF:-1  group-title="N/A",Home & Health Discovery | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13083
+#EXTINF:-1  group-title="N/A",OFF
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13085
+#EXTINF:-1  group-title="N/A",OFF | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13086
+#EXTINF:-1  group-title="N/A",OFF | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13087
+#EXTINF:-1  group-title="N/A",BIS | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13090
+#EXTINF:-1  group-title="N/A",+Globosat | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13092
+#EXTINF:-1  group-title="N/A",+Globosat | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13093
+#EXTINF:-1  group-title="N/A",Viva
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13094
+#EXTINF:-1  group-title="N/A",SporTV
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13096
+#EXTINF:-1  group-title="N/A",SporTV | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13097
+#EXTINF:-1  group-title="N/A",SporTV | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13098
+#EXTINF:-1  group-title="N/A",SporTV 2
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13099
+#EXTINF:-1  group-title="N/A",SporTV 2 | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13100
+#EXTINF:-1  group-title="N/A",SporTV 2 | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13101
+#EXTINF:-1  group-title="N/A",SporTV 3
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13102
+#EXTINF:-1  group-title="N/A",SporTV 3 | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13103
+#EXTINF:-1  group-title="N/A",SporTV 3 | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13104
+#EXTINF:-1  group-title="N/A" tvg-chno="40",Globo News
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13105
+#EXTINF:-1  group-title="N/A" tvg-chno="40",Globo News | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13106
+#EXTINF:-1  group-title="N/A" tvg-chno="40",Globo News | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13107
+#EXTINF:-1  group-title="N/A" tvg-chno="42",Multishow | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13110
+#EXTINF:-1  group-title="N/A",Universal Channel TV
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13111
+#EXTINF:-1  group-title="N/A",Universal TV | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13112
+#EXTINF:-1  group-title="N/A",Universal TV | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13113
+#EXTINF:-1  group-title="N/A",Canal Sony
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13117
+#EXTINF:-1  group-title="N/A",Canal Sony | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13118
+#EXTINF:-1  group-title="N/A",Canal Sony | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13119
+#EXTINF:-1  group-title="N/A",FOX
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13120
+#EXTINF:-1  group-title="N/A",FOX | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13121
+#EXTINF:-1  group-title="N/A",FOX | HD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13122
+#EXTINF:-1  group-title="N/A",TNT | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13134
+#EXTINF:-1  group-title="N/A",TNT | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13135
+#EXTINF:-1  group-title="N/A",TNT Series | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13138
+#EXTINF:-1  group-title="N/A",AXN
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13139
+#EXTINF:-1  group-title="N/A",AXN | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13140
+#EXTINF:-1  group-title="N/A",Megapix  | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13145
+#EXTINF:-1  group-title="N/A",Megapix | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13146
+#EXTINF:-1  group-title="N/A",CineMax
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13147
+#EXTINF:-1  group-title="N/A",Telecine Action | HD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13152
+#EXTINF:-1  group-title="N/A",Telecine Action | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13153
+#EXTINF:-1  group-title="N/A",Telecine Cult | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13156
+#EXTINF:-1  group-title="N/A",Telecine Cult | HD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13157
+#EXTINF:-1  group-title="N/A",Telecine Cult | FHD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13158
+#EXTINF:-1  group-title="N/A",Telecine Fun
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13160
+#EXTINF:-1  group-title="N/A",Telecine Fun | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13161
+#EXTINF:-1  group-title="N/A",Telecine Fun | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13163
+#EXTINF:-1  group-title="N/A",Telecine Pipoca | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13166
+#EXTINF:-1  group-title="N/A",Telecine Pipoca | HD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13167
+#EXTINF:-1  group-title="N/A",Telecine Pipoca | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13168
+#EXTINF:-1  group-title="N/A",Telecine Pipoca | FHD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13169
+#EXTINF:-1  group-title="N/A",Telecine Premium
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13170
+#EXTINF:-1  group-title="N/A",Telecine Premium | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13171
+#EXTINF:-1  group-title="N/A",Telecine Premium | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13173
+#EXTINF:-1  group-title="N/A",Telecine Touch
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13175
+#EXTINF:-1  group-title="N/A",Telecine Touch | HD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13177
+#EXTINF:-1  group-title="N/A",Telecine Touch | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13178
+#EXTINF:-1  group-title="N/A",Telecine Touch | FHD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13179
+#EXTINF:-1  group-title="N/A",Canal Brasil | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13181
+#EXTINF:-1  group-title="N/A",HBO | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13183
+#EXTINF:-1  group-title="N/A",HBO | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13185
+#EXTINF:-1  group-title="N/A",HBO | FHD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13186
+#EXTINF:-1  group-title="N/A",HBO 2
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13187
+#EXTINF:-1  group-title="N/A",HBO 2 | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13188
+#EXTINF:-1  group-title="N/A",HBO 2 | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13189
+#EXTINF:-1  group-title="N/A",HBO Familly | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13192
+#EXTINF:-1  group-title="N/A",HBO MUNDI
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13193
+#EXTINF:-1  group-title="N/A",HBO MUNDI | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13194
+#EXTINF:-1  group-title="N/A",HBO Mundi | HD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13195
+#EXTINF:-1  group-title="N/A",HBO Plus | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13199
+#EXTINF:-1  group-title="N/A",HBO Plus | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13201
+#EXTINF:-1  group-title="N/A",HBO Signature | HD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13205
+#EXTINF:-1  group-title="N/A",HBO Signature | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13206
+#EXTINF:-1  group-title="N/A",HBO Signature | FHD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13207
+#EXTINF:-1  group-title="N/A",HBO XTREME
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13208
+#EXTINF:-1  group-title="N/A",HBO XTREME | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13209
+#EXTINF:-1  group-title="N/A",HBO Xtream | HD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13210
+#EXTINF:-1  group-title="N/A",HBO XTREME | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13211
+#EXTINF:-1  group-title="N/A",HBO Xtream | FHD - LEG
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13212
+#EXTINF:-1  group-title="N/A",HBO POP | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13214
+#EXTINF:-1  group-title="N/A",HBO POP | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13216
+#EXTINF:-1  group-title="N/A",Space | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13221
+#EXTINF:-1  group-title="N/A",FX | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13224
+#EXTINF:-1  group-title="N/A",AMC | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13226
+#EXTINF:-1  group-title="N/A",AMC | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13227
+#EXTINF:-1  group-title="N/A",Paramount | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13229
+#EXTINF:-1  group-title="N/A",Paramount | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13230
+#EXTINF:-1  group-title="N/A",Film & Arts
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13231
+#EXTINF:-1  group-title="N/A",Studio Universal | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13234
+#EXTINF:-1  group-title="N/A",SYFY | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13236
+#EXTINF:-1  group-title="N/A",SYFY | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13237
+#EXTINF:-1  group-title="N/A",Comedy Central | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13239
+#EXTINF:-1  group-title="N/A",Comedy Central | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13240
+#EXTINF:-1  group-title="N/A",TBS
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13241
+#EXTINF:-1  group-title="N/A",TBS | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13242
+#EXTINF:-1  group-title="N/A",TBS | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13243
+#EXTINF:-1  group-title="N/A",Curta!
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13245
+#EXTINF:-1  group-title="N/A",A&E | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13247
+#EXTINF:-1  group-title="N/A",A&E | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13248
+#EXTINF:-1  group-title="N/A",Fish TV
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13251
+#EXTINF:-1  group-title="N/A",Fish TV | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13252
+#EXTINF:-1  group-title="N/A",Animal Planet
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13253
+#EXTINF:-1  group-title="N/A",Discovery Channel
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13256
+#EXTINF:-1  group-title="N/A",Discovery Channel | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13257
+#EXTINF:-1  group-title="N/A",Discovery Channel | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13258
+#EXTINF:-1  group-title="N/A",NatGeo | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13261
+#EXTINF:-1  group-title="N/A",NatGeo Wild | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13263
+#EXTINF:-1  group-title="N/A",History | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13266
+#EXTINF:-1  group-title="N/A",H2
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13268
+#EXTINF:-1  group-title="N/A",H2 | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13270
+#EXTINF:-1  group-title="N/A",Discovery Theater | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13273
+#EXTINF:-1  group-title="N/A",Discovery Theater | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13274
+#EXTINF:-1  group-title="N/A",HGTV | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13275
+#EXTINF:-1  group-title="N/A",HGTV | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13276
+#EXTINF:-1  group-title="N/A",Discovery Science | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13278
+#EXTINF:-1  group-title="N/A",Discovery Turbo | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13280
+#EXTINF:-1  group-title="N/A",Discovery Turbo | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13281
+#EXTINF:-1  group-title="N/A",Investigation Discovery | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13283
+#EXTINF:-1  group-title="N/A",Investigation Discovery | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13284
+#EXTINF:-1  group-title="N/A",Lifetime
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13285
+#EXTINF:-1  group-title="N/A",Lifetime | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13287
+#EXTINF:-1  group-title="MTV WORLD" tvg-chno="134",MTV | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13290
+#EXTINF:-1  group-title="N/A",VH1 | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13293
+#EXTINF:-1  group-title="N/A",VH1 | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13294
+#EXTINF:-1  group-title="N/A",Cartoon Network | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13298
+#EXTINF:-1  group-title="N/A",Disney Channel | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13301
+#EXTINF:-1  group-title="N/A",Disney Junior | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13304
+#EXTINF:-1  group-title="N/A",Disney Junior | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13305
+#EXTINF:-1  group-title="N/A",NatGeo Kids
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13307
+#EXTINF:-1  group-title="N/A",NatGeo Kids | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13308
+#EXTINF:-1  group-title="N/A",NatGeoKids | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13309
+#EXTINF:-1  group-title="N/A",Nickelodeon
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13310
+#EXTINF:-1  group-title="N/A",Nickelodeon | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13311
+#EXTINF:-1  group-title="N/A",Nickelodeon | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13312
+#EXTINF:-1  group-title="N/A",Nick Jr | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13314
+#EXTINF:-1  group-title="N/A",Discovery Kids
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13316
+#EXTINF:-1  group-title="N/A",Discovery Kids | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13317
+#EXTINF:-1  group-title="N/A",Discovery Kids | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13318
+#EXTINF:-1  group-title="N/A",Gloob | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13320
+#EXTINF:-1  group-title="N/A",Boomerang | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13323
+#EXTINF:-1  group-title="N/A",Playkids
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13324
+#EXTINF:-1  group-title="N/A",Tooncast
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13325
+#EXTINF:-1  group-title="N/A",TV Ra Tim Bum
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13327
+#EXTINF:-1  group-title="N/A",TV Diario | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13331
+#EXTINF:-1  group-title="N/A",CNN Brasil
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13527
+#EXTINF:-1  group-title="N/A",CNN Brasil | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13528
+#EXTINF:-1  group-title="N/A",CNN Brasil | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13529
+#EXTINF:-1  group-title="N/A",Novo Tempo
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13336
+#EXTINF:-1  group-title="N/A",Terra Viva
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13338
+#EXTINF:-1  group-title="N/A",Woohoo
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13345
+#EXTINF:-1  group-title="N/A",Woohoo | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13346
+#EXTINF:-1  group-title="N/A",Fox Sports
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13347
+#EXTINF:-1  group-title="N/A",Fox Sports | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13348
+#EXTINF:-1  group-title="N/A",Fox Sports | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13349
+#EXTINF:-1  group-title="N/A",Fox Sports 2
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13350
+#EXTINF:-1  group-title="N/A",Fox Sports 2 | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13351
+#EXTINF:-1  group-title="N/A",Fox Sports 2 | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13352
+#EXTINF:-1  group-title="N/A",ESPN
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13353
+#EXTINF:-1  group-title="N/A",ESPN | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13354
+#EXTINF:-1  group-title="N/A",ESPN | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13355
+#EXTINF:-1  group-title="N/A",ESPN 2
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13356
+#EXTINF:-1  group-title="N/A",ESPN 2 | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13357
+#EXTINF:-1  group-title="N/A",ESPN 2 | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13358
+#EXTINF:-1  group-title="N/A",ESPN Brasil
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13359
+#EXTINF:-1  group-title="N/A",ESPN Brasil | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13360
+#EXTINF:-1  group-title="N/A",ESPN Brasil | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13361
+#EXTINF:-1  group-title="N/A",ESPN Extra | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13362
+#EXTINF:-1  group-title="N/A",ESPN Extra | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13363
+#EXTINF:-1  group-title="N/A",Band Sports
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13364
+#EXTINF:-1  group-title="N/A",Band Sports | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13365
+#EXTINF:-1  group-title="N/A",Band Sports | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13366
+#EXTINF:-1  group-title="N/A",Combate
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13367
+#EXTINF:-1  group-title="N/A",Combate | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13368
+#EXTINF:-1  group-title="N/A",Combate | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13369
+#EXTINF:-1  group-title="N/A",Premiere Clubes | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13371
+#EXTINF:-1  group-title="N/A",Premiere Clubes | FHD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13372
+#EXTINF:-1  group-title="N/A",RAI Internacional | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/17247
+#EXTINF:-1  group-title="N/A",+18 Playboy TV
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13410
+#EXTINF:-1  group-title="N/A",+18 PlayBoy 2 | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13411
+#EXTINF:-1  group-title="N/A",+18 SEXTREME
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13413
+#EXTINF:-1  group-title="N/A",+18 Sexy Hot
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13414
+#EXTINF:-1  group-title="N/A",+18 Brazzers Europe
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13416
+#EXTINF:-1  group-title="N/A",+18 CENTOXCENTO
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13418
+#EXTINF:-1  group-title="N/A",+18 Dorcel TV
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13419

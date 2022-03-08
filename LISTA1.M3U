@@ -279,18 +279,7 @@ https://5b7f3c45ab7c2.streamlock.net/tvarapuan/tvarapuan/playlist.m3u8
 https://video-auth2.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yLzIwMjIgOToxMToyIFBNJmhhc2hfdmFsdWU9STBRT0lRTjN5K1kwVVEzUlpWQVZiQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTZiZDgxZmRiLTgzZTItNDYyMi1iZWZkLWVmMDM4YTgyODY2OA==
 #EXTINF:-1  group-title="N/A",TV TROPICAL
 https://59f1cbe63db89.streamlock.net:1443/raniere/_definst_/raniere/chunklist_w248890029.m3u8
-#EXTINF:-1  group-title="N/A",login?code=5835eb83-38b0-4552-8023-753e4e06e61e&state=eyJzdGF0ZSI6ImNzcmZfb2lwbGF5IiwidGFyZ2V0X3VyaSI6Ii9wbGF5L2xpdmUvMjAzODYifQ%3D%3D
-https://oiplay.tv/oiplay/login?code=5835eb83-38b0-4552-8023-753e4e06e61e&state=eyJzdGF0ZSI6ImNzcmZfb2lwbGF5IiwidGFyZ2V0X3VyaSI6Ii9wbGF5L2xpdmUvMjAzODYifQ%253D%253D
-#EXTINF:-1  group-title="N/A",login?code=5835eb83-38b0-4552-8023-753e4e06e61e
-https://oiplay.tv/oiplay/login?code=5835eb83-38b0-4552-8023-753e4e06e61e
-#EXTINF:-1  group-title="N/A",30043e572a6b682b3356bbdc34732dc2.m3u8?streamType=live26
-https://e46.voyeur-house.tv/realm26/stream/30043e572a6b682b3356bbdc34732dc2.m3u8?streamType=live26
-#EXTINF:-1  group-title="N/A",index.m3u8?start=LIVE&end=END&device=ios&vxttoken=cGF0aFVSST0lMmZzaGxzJTJmTElWRSUyNFNQQUNFSEIlMmYqJmV4cGlyeT0xNjIyOTAyMzY5Jng6aXA9MTAuMjAzLjI0LjE5OCxhNTg3ZjkwZmM5Mzg4ODI3MDE2YWRhODE5YTg1YzU0ZTBlMzE5ZDk1Nzk5Y2YzOWY0YjMwODg4NGJlNTM3MzA1
-https://vspp.online.go.oi.com.br/shls/LIVE$SPACEHB/index.m3u8?start=LIVE&end=END&device=ios&vxttoken=cGF0aFVSST0lMmZzaGxzJTJmTElWRSUyNFNQQUNFSEIlMmYqJmV4cGlyeT0xNjIyOTAyMzY5Jng6aXA9MTAuMjAzLjI0LjE5OCxhNTg3ZjkwZmM5Mzg4ODI3MDE2YWRhODE5YTg1YzU0ZTBlMzE5ZDk1Nzk5Y2YzOWY0YjMwODg4NGJlNTM3MzA1
-#EXTINF:-1  group-title="N/A",login?code=5835eb83-38b0-4552-8023-753e4e06e61e&state=eyJzdGF0ZSI6ImNzcmZfb2lwbGF5IiwidGFyZ2V0X3VyaSI6Ii9wbGF5L2xpdmUvMjAzODYifQ%3D%3D
-https://oiplay.tv/oiplay/login?code=5835eb83-38b0-4552-8023-753e4e06e61e&state=eyJzdGF0ZSI6ImNzcmZfb2lwbGF5IiwidGFyZ2V0X3VyaSI6Ii9wbGF5L2xpdmUvMjAzODYifQ%253D%253D
-#EXTINF:-1  group-title="N/A",index.m3u8
-https://newedge.eu-central-1.edge.mycdn.live:443/live/vintequatrohrs2/vintequatrohrs2_2000/index.m3u8
+
 #EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="13",TV Cultura
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12959
 #EXTINF:-1  group-title="CANAIS ABERTOS",TV Senado

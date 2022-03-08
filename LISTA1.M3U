@@ -337,12 +337,12 @@ http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13002
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13004
 #EXTINF:-1  group-title="GLOBO'S",Globo MA | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13005
-#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania
-http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13006
-#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania | HD
-http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13007
 #EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania | FHD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13008
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania | HD
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13007
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania
+http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13006
 #EXTINF:-1  group-title="GLOBO'S",Globo BH | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13009
 #EXTINF:-1  group-title="CANAIS ABERTOS",Rede TV | HD
@@ -355,7 +355,7 @@ http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13018
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13019
 #EXTINF:-1  group-title="CANAIS ABERTOS",Band Paran� | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13024
-#EXTINF:-1  group-title="CANAIS ABERTOS",Band Goiania | HD
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="11",Band Goiania | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13025
 #EXTINF:-1  group-title="CANAIS ABERTOS",SBT SP
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13027
@@ -369,9 +369,9 @@ http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13032
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13034
 #EXTINF:-1  group-title="CANAIS ABERTOS",SBT MG | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13035
-#EXTINF:-1  group-title="CANAIS ABERTOS",SBT Goiania | HD
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="9",SBT Goiania | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13036
-#EXTINF:-1  group-title="CANAIS ABERTOS",SBT Goiania | FHD
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="9",SBT Goiania | FHD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13037
 #EXTINF:-1  group-title="CANAIS ABERTOS",Record SP
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13038
@@ -707,9 +707,9 @@ http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13327
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13331
 #EXTINF:-1  group-title="N/A",CNN Brasil
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13527
-#EXTINF:-1  group-title="N/A",CNN Brasil | HD
+#EXTINF:-1  group-title="N/A" tvg-chno="577",CNN Brasil | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13528
-#EXTINF:-1  group-title="N/A",CNN Brasil | FHD
+#EXTINF:-1  group-title="N/A" tvg-chno="577", CNN Brasil | FHD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13529
 #EXTINF:-1  group-title="N/A",Novo Tempo
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13336

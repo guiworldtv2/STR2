@@ -174,7 +174,7 @@ http://200.4.96.59:8004/play/a0eg/index.m3u8
 
 ###MTV####
 
-#EXTINF:-1  group-title="MTV WORLD" tvg-id="" tvg-logo="https://images.squarespace-cdn.com/content/v1/59aed9c5197aea6f25a193bd/1631540460793-80BK9AXEB1NA2AEWJWYI/MTVCoverImage.png" tvg-chno="134" ,MTV BRASIL
+#EXTINF:-1  group-title="MTV WORLD" tvg-id="" tvg-logo="https://images.squarespace-cdn.com/content/v1/59aed9c5197aea6f25a193bd/1631540460793-80BK9AXEB1NA2AEWJWYI/MTVCoverImage.png" tvg-chno="134" ,MTV
 http://200.146.229.129:8001/play/a00y
 #EXTINF:-1 group-title="MTV WORLD" tvg-logo="https://images.squarespace-cdn.com/content/v1/59aed9c5197aea6f25a193bd/1631540460793-80BK9AXEB1NA2AEWJWYI/MTVCoverImage.png",MTV's 00
 http://200.146.229.129:8001/play/a00z
@@ -338,11 +338,11 @@ http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13002
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13004
 #EXTINF:-1  group-title="GLOBO'S",Globo MA | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13005
-#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania | FHD
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Anhanguera
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13008
-#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania | HD
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Anhanguera
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13007
-#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Goiania
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="2",Globo Anhanguera
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13006
 #EXTINF:-1  group-title="GLOBO'S",Globo BH | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13009
@@ -352,11 +352,11 @@ http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13014
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13016
 #EXTINF:-1  group-title="CANAIS ABERTOS",Band | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13018
-#EXTINF:-1  group-title="CANAIS ABERTOS",Band Campinas | HD
+#EXTINF:-1  group-title="CANAIS ABERTOS",Band Campinas HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13019
 #EXTINF:-1  group-title="CANAIS ABERTOS",Band Paran� | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13024
-#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="11",Band Goiania | HD
+#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="11",Band TV Goiânia HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13025
 #EXTINF:-1  group-title="CANAIS ABERTOS",SBT SP
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13027

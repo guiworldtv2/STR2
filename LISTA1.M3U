@@ -261,8 +261,7 @@ http://iptvmedia.live:8080/FM10008/ee54fb4b/57018
 
 #EXTINF:-1 tvg-id="MTVLive(English).mx" tvg-name="MTV Live HD"  tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtvl.png" group-title="MTV WORLD",MTV Live HD
 http://blackaddon.com/play/totalp1-228.php?c=211&p=3&k=black&f=.m3u8
-#EXTINF:-1 tvg-id="MTV.mx" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/mtv.png" group-title="MTV WORLD",MTV
-http://blackaddon.com/play/totalp1-228.php?c=212&p=3&k=black&f=.m3u8
+
 
 
 #EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="32",TV CAPITAL

@@ -301,9 +301,9 @@ http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12963
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12964
 #EXTINF:-1  group-title="GLOBO'S",Tv Rio Sul RJ | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12965
-#EXTINF:-1  group-title="GLOBO'S",Globo SP | HD
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="5",Globo SP | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12967
-#EXTINF:-1  group-title="GLOBO'S",Globo SP | FHD
+#EXTINF:-1  group-title="GLOBO'S" tvg-chno="5",Globo SP | FHD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/15044
 #EXTINF:-1  group-title="GLOBO'S",Globo Minas | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/12969

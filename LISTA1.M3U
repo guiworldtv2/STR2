@@ -72,23 +72,23 @@ http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 
 ########### REALITY SHOW'S LIVE###########
-#EXTINF:-1 tvg-logo=https://album.mediaset.es/cimg/256023/2021/07/12/logotipo_secretsto_6ef0.png?h=63" group-title="REALITY SHOW'S LIVE", SECRET STORY
+#EXTINF:-1 tvg-logo=https://album.mediaset.es/cimg/256023/2021/07/12/logotipo_secretsto_6ef0.png?h=63" group-title="Reality Show'S Live", SECRET STORY
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 HTTPS://PREMIUM0506-i.akamaihd.net/hls/live/827156/premium05/01.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61d221a40cf21a10a417121e/" group-title="REALITY SHOW'S LIVE", BIG BROTHER PORTUGAL
+#EXTINF:-1 tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61d221a40cf21a10a417121e/" group-title="Reality Show'S Live", BIG BROTHER PORTUGAL
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
 
-#EXTINF:-1  group-title="REALITY SHOW'S LIVE" tvg-logo="N/A",BBB HD 1
+#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",BBB HD 1
 http://200.4.96.59:8004/play/a0f9/index.m3u8
 
-#EXTINF:-1  group-title="REALITY SHOW'S LIVE" tvg-logo="N/A",BBB HD 2
+#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",BBB HD 2
 http://200.4.96.59:8004/play/a0fa/index.m3u8
 
-#EXTINF:-1  group-title="REALITY SHOW'S LIVE" tvg-logo="N/A",BBB Mosaico HD
+#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",BBB Mosaico HD
 http://200.4.96.59:8004/play/a0fb/index.m3u8
 
 
@@ -161,9 +161,9 @@ http://45.70.169.135:8000/play/a02f
 http://45.70.169.135:8000/play/a030
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",ENLACE
 http://45.70.169.135:8000/play/a03o
-#EXTINF:-1  group-title="ESTADOS UNIDOS" tvg-logo="N/A",Telemundo
+#EXTINF:-1  group-title="ESTADOS UNIDOS" tvg-logo="N/A",Telemundo Internacional
 http://190.92.95.37:8000/play/a0fp/index.m3u8
-#EXTINF:-1  group-title="ESTADOS UNIDOS" tvg-logo="N/A",Telemundo HD
+#EXTINF:-1  group-title="ESTADOS UNIDOS" tvg-logo="N/A",Telemundo Internacional HD
 http://190.92.95.37:8000/play/a0gj/index.m3u8
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",Boomerang HD
 http://200.4.96.59:8002/play/a0dw/index.m3u8

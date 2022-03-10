@@ -4,7 +4,7 @@
 
 =head1 NAME
 
-tv_grab_pt_meo - Grab TV listings for Portugal.
+tv_grab_br_sky - Grab TV listings for Brasil .
 
 =head1 SYNOPSIS
 
@@ -20,7 +20,7 @@ tv_grab_pt_meo --list-channels [--config-file FILE]
 
 =head1 DESCRIPTION
 
-Output TV listings for several channels available in Portugal.
+Output TV listings for several channels available in Brasil.
 
 First run B<tv_grab_pt_meo --configure> to choose, which channels you want
 to download. Then running B<tv_grab_pt_meo> with no arguments will output

@@ -113,6 +113,9 @@ https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b1)/mani
 #EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",MEDIASET EXTRA
 https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(kq)/manifest.mpd
 
+#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",CANAL 5
+https://live3t.msf.cdn.mediaset.net/content/dash_d0_cls_vos/live/channel(c5)/manifest.mpd?hdnts=st=1646945592~exp=1646960022~acl=/content/dash_d0_cls_vos/live/channel(c5)*~hmac=7cc6eea496c2a2a0b36fcf060ec88c80136f89b98394b17f9a3aebfe01d9474d
+
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",CBN SP (720p)
 https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",CBN Rio (720p)

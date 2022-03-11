@@ -81,6 +81,9 @@ http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 HTTPS://PREMIUM0506-i.akamaihd.net/hls/live/827156/premium05/01.m3u8
 
+https://live.mitele.es/hls/live/2032400/reality/bitrate_4.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61d221a40cf21a10a417121e/" group-title="Reality Show'S Live", BIG BROTHER PORTUGAL
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls

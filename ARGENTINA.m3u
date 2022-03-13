@@ -7,6 +7,8 @@
 #                                  >> https://github.com/guiworldtv       #
 ###########################################################################
 
+#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",CNN VENEZUELA
+https://www.youtube.com/channel/UC_lEiu6917IJz03TnntWUaQ/live
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",MTV LATINOAMERICA
 https://edge2-ccast-sl.cvattv.com.ar/live/c6eds/MTV_HD/SA_SAGEMCOM/MTV_HD.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",El Trece

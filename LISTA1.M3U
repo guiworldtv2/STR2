@@ -291,6 +291,13 @@ http://190.171.101.36:80/MTV/tracks-v3a1/mono.m3u8
 #EXTINF:-1 tvg-id="" group-title="MTV WORLD" tvg-logo="https://images.pluto.tv/channels/6130d6f3f3f7bb0007dbd092/colorLogoPNG.png",  MTV en Vivo [Pluto]
 https://bit.ly/mtvlive_inspiration_m3u8
 
+#EXTINF:-1 tvg-id="" group-title="MTV WORLD" ,MTV
+http://95.169.214.110:8000/play/a010
+#EXTINF:-1 tvg-id="" group-title="MTV WORLD", MTV 90'S
+http://95.169.214.110:8000/play/a00h
+
+#EXTINF:-1 tvg-id="" group-title="MTV WORLD", MTV ESPAÑA
+http://88.19.180.206:8000/play/a00i
 
 #EXTINF:-1 tvg-id="" group-title="MTV WORLD"  tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/mtvclassic.png",   MTV Classic
 http://supportstreams.net:80/558585765/n4ySrfoH20/357

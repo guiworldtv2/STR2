@@ -59,30 +59,7 @@ def grab(url):
     print(f"{link[start : end]}")
 
 print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml"')
-print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml"')
-print(banner)
-#s = requests.Session()
-with open('../youtube_channel_info.txt', errors="ignore") as f:
-    for line in f:
-        line = line.strip()
-        if not line or line.startswith('~~'):
-            continue
-        if not line.startswith('https:'):
-            line = line.split('|')
-            ch_name = line[0].strip()
-            grp_title = line[1].strip().title()
-            tvg_logo = line[2].strip()
-            tvg_id = line[3].strip()
-            print(f'\n#EXTINF:-1 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
-        else:
-            grab(line)
-            
-if 'temp.txt' in os.listdir():
-    os.system('rm temp.txt')
-    os.system('rm watch*')
-    
-    
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Telefe Rosario (720p) [Not 24/7]
+print('#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Telefe Rosario (720p) [Not 24/7]
 http://telefewhitehls-lh.akamaihd.net/i/whitelist_hls@302302/master.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Telefe Santa F  (720p) [Not 24/7]
 https://tlfcapitalhls-lh.akamaihd.net/i/canal13santafe_1@751190/master.m3u8?hdnea=st=1645561118~exp=1645737518~acl=/i/canal13santafe_1@751190/*~hmac=5c257cbcbcb2730ac5fedbdd6ee12ad256104b441711d394397744f94a404ad2
@@ -520,4 +497,25 @@ https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Aire de Santa Fe TV
 https://sc1.stweb.tv/airedigital/live/chunklist_w1407250980.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",DEPORTV
-https://5fb24b460df87.streamlock.net/live-cont.ar/deportv/chunklist.m3u8
+https://5fb24b460df87.streamlock.net/live-cont.ar/deportv/chunklist.m3u8')
+print(banner)
+#s = requests.Session()
+with open('../youtube_channel_info.txt', errors="ignore") as f:
+    for line in f:
+        line = line.strip()
+        if not line or line.startswith('~~'):
+            continue
+        if not line.startswith('https:'):
+            line = line.split('|')
+            ch_name = line[0].strip()
+            grp_title = line[1].strip().title()
+            tvg_logo = line[2].strip()
+            tvg_id = line[3].strip()
+            print(f'\n#EXTINF:-1 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
+        else:
+            grab(line)
+            
+if 'temp.txt' in os.listdir():
+    os.system('rm temp.txt')
+    os.system('rm watch*')
+   

@@ -82,6 +82,8 @@ if 'temp.txt' in os.listdir():
     os.system('rm watch*')
     
     
+#! /usr/bin/python3
+
 banner = r'''
 
 

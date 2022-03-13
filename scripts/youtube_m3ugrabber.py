@@ -86,7 +86,6 @@ banner = r'''
 
 
 https://gist.githubusercontent.com/guiworldtv/b5db2465556dc55b66e13650bd5f5d37/raw/
-
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Telefe Rosario (720p) [Not 24/7]
 http://telefewhitehls-lh.akamaihd.net/i/whitelist_hls@302302/master.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Telefe Santa F  (720p) [Not 24/7]
@@ -95,13 +94,6 @@ https://tlfcapitalhls-lh.akamaihd.net/i/canal13santafe_1@751190/master.m3u8?hdne
 https://tlfcapitalhls-lh.akamaihd.net/i/mdqdistri02_1@829747/master.m3u8?hdnea=st=1645560795~exp=1645737195~acl=/i/mdqdistri02_1@829747/*~hmac=95846b50cc71a3e1a7ca5f4eeec6f4837bf26e61c71ec58e542546b4a2b63a3e
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Telefe Tucuman (720p) [Not 24/7]
 https://tlfcapitalhls-lh.akamaihd.net/i/canal8tucuman_1@787002/master.m3u8?hdnea=st=1645561206~exp=1645737606~acl=/i/canal8tucuman_1@787002/*~hmac=0c32d04d2d681e86b55f0dc4afc66b9a7ea33784ebaf36fe1a1e2078b191f94c
-
-
-
-
-
-
-
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal 26  (San Justo-Arg.)
 http://200.115.193.177/live/26hd-720/.m3u8?CompartilhandoIPTV
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal 26  (San Justo-Arg.)

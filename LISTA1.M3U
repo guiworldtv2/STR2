@@ -8,7 +8,9 @@
 #EXTM3U x-tvg-url="http://m3u4u.com/epg/jq2zy9pzprh3jkjnxr58"
 #EXTM3U x-tvg-url="http://epg.liveiptv.net/epg.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml"
-
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/redeglobo.globo.com.channels.xml"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml"
 ####GLOBO#####
 
 
@@ -294,7 +296,7 @@ http://190.171.101.36:80/MTV/tracks-v3a1/mono.m3u8
 #EXTINF:-1 tvg-id="" group-title="MTV WORLD" tvg-logo="https://images.pluto.tv/channels/6130d6f3f3f7bb0007dbd092/colorLogoPNG.png",  MTV en Vivo [Pluto]
 https://bit.ly/mtvlive_inspiration_m3u8
 
-#EXTINF:-1 tvg-id="" group-title="MTV WORLD" ,MTV
+#EXTINF:-1 tvg-id="LCH469" group-title="MTV WORLD" ,MTV
 http://95.169.214.110:8000/play/a010
 #EXTINF:-1 tvg-id="" group-title="MTV WORLD", MTV 90'S
 http://95.169.214.110:8000/play/a00h
@@ -760,7 +762,7 @@ http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13284
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13285
 #EXTINF:-1  group-title="N/A",Lifetime | FHD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13287
-#EXTINF:-1  group-title="MTV WORLD" tvg-chno="134",MTV BRASIL| FHD
+#EXTINF:-1  tvg-id="LCH469" group-title="MTV WORLD" tvg-chno="134",MTV BRASIL| FHD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13290
 #EXTINF:-1  group-title="N/A",VH1 | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13293
@@ -788,7 +790,7 @@ http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13311
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13312
 #EXTINF:-1  group-title="N/A",Nick Jr | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13314
-#EXTINF:-1  group-title="N/A",Discovery Kids
+#EXTINF:-1  group-title="N/A",Discovery Kcs
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13316
 #EXTINF:-1  group-title="N/A",Discovery Kids | HD
 http://painel.tvdigitalsbl.net:80/vagner1/vagner1/13317

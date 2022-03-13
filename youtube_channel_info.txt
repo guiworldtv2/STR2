@@ -1,6 +1,9 @@
 ~~ DO NOT EDIT THE FIRST 2 LINES
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
+ALGUMA CAMERA | ARGENTINA | https://yt3.ggpht.com/gCklb7Bo3XDM4aS_a1-Ta91LsGZtkGlb1IMQwLri3ureUeABTKqXYr-LZGET-Or4J_U4TI_uRq4=s48-c-k-c0x00ffffff-no-rj | 
+https://www.earthcam.com/usa/washington/seattle/?cam=seattleskyline
+
 
 Televisión Pública | ARGENTINA | https://yt3.ggpht.com/gCklb7Bo3XDM4aS_a1-Ta91LsGZtkGlb1IMQwLri3ureUeABTKqXYr-LZGET-Or4J_U4TI_uRq4=s48-c-k-c0x00ffffff-no-rj | 
 https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg/live

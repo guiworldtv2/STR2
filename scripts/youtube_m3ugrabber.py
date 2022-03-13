@@ -82,12 +82,6 @@ if 'temp.txt' in os.listdir():
     os.system('rm watch*')
     
     
-#! /usr/bin/python3
-
-banner = r'''
-
-
-https://gist.githubusercontent.com/guiworldtv/b5db2465556dc55b66e13650bd5f5d37/raw/
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Telefe Rosario (720p) [Not 24/7]
 http://telefewhitehls-lh.akamaihd.net/i/whitelist_hls@302302/master.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Telefe Santa F  (720p) [Not 24/7]
@@ -525,7 +519,5 @@ https://00475e6934d74fe48a80427567a45918.mediatailor.us-east-1.amazonaws.com/v1/
 https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Aire de Santa Fe TV
 https://sc1.stweb.tv/airedigital/live/chunklist_w1407250980.m3u8
-
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",DEPORTV
 https://5fb24b460df87.streamlock.net/live-cont.ar/deportv/chunklist.m3u8
-'''

@@ -302,6 +302,8 @@ http://95.169.214.110:8000/play/a00h
 #EXTINF:-1 tvg-id="" group-title="MTV WORLD", MTV ESPAÑA
 http://88.19.180.206:8000/play/a00i
 
+#EXTINF:-1 tvg-id="" group-title="MTV WORLD", MTV SIM HD
+http://45.189.117.35:9595/play/a0gl
 #EXTINF:-1 tvg-id="" group-title="MTV WORLD"  tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/mtvclassic.png",   MTV Classic
 http://supportstreams.net:80/558585765/n4ySrfoH20/357
 

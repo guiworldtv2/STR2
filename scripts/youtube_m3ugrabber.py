@@ -80,3 +80,10 @@ with open('../youtube_channel_info.txt', errors="ignore") as f:
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
     os.system('rm watch*')
+    
+    
+banner = r'''
+
+
+https://gist.githubusercontent.com/guiworldtv/b5db2465556dc55b66e13650bd5f5d37/raw/
+'''

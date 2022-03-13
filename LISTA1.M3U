@@ -267,6 +267,9 @@ http://200.146.229.129:8001/play/a00y
 #EXTINF:-1 group-title="MTV WORLD" tvg-logo="https://images.squarespace-cdn.com/content/v1/59aed9c5197aea6f25a193bd/1631540460793-80BK9AXEB1NA2AEWJWYI/MTVCoverImage.png",MTV's 00
 http://200.146.229.129:8001/play/a00z
 
+#EXTINF:-1 group-title="MTV WORLD" tvg-logo="https://images.squarespace-cdn.com/content/v1/59aed9c5197aea6f25a193bd/1631540460793-80BK9AXEB1NA2AEWJWYI/MTVCoverImage.png",MTV 00s HD
+http://45.189.117.35:9595/play/a0gm
+
 #EXTINF:-1 group-title="MTV WORLD" ,MTV HITS HD
 http://200.6.227.230:8000/play/a04d/index.m3u8
 

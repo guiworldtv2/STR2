@@ -11,40 +11,158 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/redeglobo.globo.com.channels.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml"
+
+
 ####GLOBO#####
 
 
 
 
 
-#EXTINF:-1 group-title="GLOBO'S" tvg-chno="5", Globo SP HD
-http://50.7.34.155:2200/BR/Globo_HD_SP-br/tracks-v1a1/mono.m3u8?token=fwBlCndpe3MTCXplN3VjewVheXNnCXphewETcnctenVhfnNlfHJofQ==?md5=null
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/P1mYnQb.png", Globo RJ
-http://50.7.34.155:2200/BR/Globo_HD_SP-br/index.m3u8?token=fwBlCndpe3MTCXplN3VjewVheXNnCXphewETcnctenVhfnNlfHJofQ==?md5=nullR
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/09a93ea9-7848-49e5-9738-314e7b4e5724" parent-code="" group-title="Globo's", Globo Bahia
+http://api.magiaiptv.com/live/800376/236548/m1_G8b2xaTYqU1IEKt1If_720p
 
 
-#EXTINF:-1,Globo RJ (720p)
-http://50.7.34.155:2200/BR/Globo_HD_RJ-br/tracks-v1a1/mono.m3u8?token=fwBlCndpe3MTCXplN3VjewVheXNnCXphewETcnctenVhfnNlfHJofQ==?md5=null
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/53f075b3-939c-4579-a28b-aad8bab382bc" parent-code="" group-title="Globo's", GLOBO NATAL HD
+http://api.magiaiptv.com/live/800376/236548/m1_GsLsaBgOaNfAsTdGL_720p
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO PR HD
+http://api.magiaiptv.com/live/800376/236548/p2_EJgdlPLZH89MVH1B
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO RECIFE
+http://api.magiaiptv.com/live/800376/236548/m3_DlRn7901d45Sc3mhwNEFAXpH_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO SP HD
+http://api.magiaiptv.com/live/800376/236548/m2_bz2lc7s8PV3avHAgjnFxpM0w_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/4de80f87-ed2e-4e49-b8e6-563c7e3a0bcc" parent-code="" group-title="Globo's", GLOBO SP HD+
+http://api.magiaiptv.com/live/800376/236548/m2_bz2lc7s8PV3avHAgjnFxpM0w_720p_2M
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO SP UHD
+http://api.magiaiptv.com/live/800376/236548/m2_bz2lc7s8PV3avHAgjnFxpM0w_4M
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO RJ HD
+http://api.magiaiptv.com/live/800376/236548/m2_kzeKgKsjyTCBUMl4_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO RJ HD+
+http://api.magiaiptv.com/live/800376/236548/m2_kzeKgKsjyTCBUMl4_720p_2M
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/f91c83fa-a2ab-11e9-be59-003048de22c4" parent-code="" group-title="Globo's", GLOBO RJ UHD
+http://api.magiaiptv.com/live/800376/236548/m2_kzeKgKsjyTCBUMl4_1080p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/d03e9d38-ac4e-44ab-b4ec-7a8c585e352d" parent-code="" group-title="Globo's", TV Anhanguera
+http://api.magiaiptv.com/live/800376/236548/m1_IMRzEvvkDihenNyPG_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO MINAS HD
+http://api.magiaiptv.com/live/800376/236548/m1_QHE98mt5NTgql3Lvozaj2FiG_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/d8c334a7-44c2-492e-b306-2267f08e5837" parent-code="" group-title="Globo's", GLOBO MINAS HD+
+http://api.magiaiptv.com/live/800376/236548/m2_SH5nRm6xPFBDAHxEv8_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/ad79c1e1-21ef-4d30-8b45-331c38037221" parent-code="" group-title="Globo's", GLOBO MINAS UHD
+http://api.magiaiptv.com/live/800376/236548/m2_SH5nRm6xPFBDAHxEv8_1080p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO Brasilia
+http://api.magiaiptv.com/live/800376/236548/m3_TdLfRGtPojhFlAgJbHSCXQ9x_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO Nordeste
+http://api.magiaiptv.com/live/800376/236548/p1_dXr7MDxd0aqy
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO RS HD
+http://api.magiaiptv.com/live/800376/236548/p1_moxeZCA4slSsPDI
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/1fba0b4f-b5ae-47a2-9a89-cbf66ba44f9e" parent-code="" group-title="Globo's", Globo Sorocaba
+http://api.magiaiptv.com/live/800376/236548/m2_W80mrx0Olfggd0ainlJ_720p
 
 
-#EXTINF:-1 group-title="GLOBO'S",Globo MG HD (720p)
-http://168.205.87.198:8555/live/1499/123456/70.m3u8
-#EXTINF:-1 group-title="GLOBO'S",Globo RPC HD (720p)
-http://45.226.83.14/live/RPCHD/720p.m3u8
 
-#EXTINF:-1 group-title="GLOBO'S",Globo RJ
-http://50.7.34.155:2200/BR/Globo_HD_RJ-br/tracks-v1a1/mono.m3u8?token=fwBlCndpe3MTCXplN3VjewVheXNnCXphewETcnctenVhfnNlfHJofQ==?md5=null
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/a63482bc-b6e7-4a84-800a-4b81e0f5d8b7" parent-code="" group-title="Globo's", EPTV Campinas
+http://api.magiaiptv.com/live/800376/236548/m1_FHv07WYXkqS7SXLh6C_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://image.hdawiyr1g.xyz/gateway/files/45c726fd-188f-4f1b-bf8c-398932e3a467" parent-code="" group-title="Globo's", EPTV Central
+http://api.magiaiptv.com/live/800376/236548/m1_bf3be5b051bd77dc_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://image.hdawiyr1g.xyz/gateway/files/b84ee46c-6645-4c0f-b0a2-79f7051b20e7" parent-code="" group-title="Globo's", EPTV Ribeirao
+http://api.magiaiptv.com/live/800376/236548/m1_d85bd5410dee0e4a_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/4b4de84f-f649-45c2-ad6c-147f9ca6dac1" parent-code="" group-title="Globo's", EPTV Sul de Minas
+http://api.magiaiptv.com/live/800376/236548/m2_grEPhm077A5QLBzZ_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/20afc796-592d-4e0f-ace4-b9942dd3bc3d" parent-code="" group-title="Globo's", TV Diario HD
+http://api.magiaiptv.com/live/800376/236548/m1_vIq6sgf18Jpe7Bl5bENcWiDL_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/20afc796-592d-4e0f-ace4-b9942dd3bc3d" parent-code="" group-title="Globo's", TV Diario HD+
+http://api.magiaiptv.com/live/800376/236548/m1_vIq6sgf18Jpe7Bl5bENcWiDL_720p
 
-#EXTINF:-1 group-title="CANAIS ABERTOS", RPC Curitiba
-plugin: //plugin.video.f4mTester/? streamtype = HLSRETRY; name = DWIGHT FARROKH LISTAS GRATIS; & amp; buffer = 60000; url = http: //45.224.115.214: 80 / live / damaris / 123456 / 14.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/75daa088-9d30-11e9-850f-003048de22c4" parent-code="" group-title="Globo's", RBS HD
+http://api.magiaiptv.com/live/800376/236548/m2_1Tg7sxFdaIlIxFHG_720p
 
-#EXTINF:-1 group-title="CANAIS ABERTOS", RPC Curitiba
-plugin: //plugin.video.f4mTester/? streamtype = HLSRETRY; name = DWIGHT FARROKH LISTAS GRATIS; & amp; buffer = 60000; url = http: //45.224.115.214: 80 / live / damaris / 123456 / 112.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/3f3d8cdf-1f59-44da-b1fe-3d3d029a88ab" parent-code="" group-title="Globo's", Rede Amazônica Porto Velho
+http://api.magiaiptv.com/live/800376/236548/m2_GJgzxvCEgIq5N5Rr3_720p
 
 
-#EXTINF:-1  group-title="GLOBO'S" group-title="CANAIS ABERTOS" tvg-logo="https://digitalapi.sky.com.br/logos/channels/303.png" tvg-chno="005", Globo HD (PR)
-http://45.226.83.14/live/RPCHD/720p.m3u8?ROGERIOTORRES   
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/56e2dded-7b7b-4bf3-9231-b971587de09c" parent-code="" group-title="Globo's", RPC Curitiba HD
+http://api.magiaiptv.com/live/800376/236548/m1_4hIEyg1YQAp0WHvfUTweu3D_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/56e2dded-7b7b-4bf3-9231-b971587de09c" parent-code="" group-title="Globo's", RPC Curitiba HD+
+http://api.magiaiptv.com/live/800376/236548/m1_4hIEyg1YQAp0WHvfUTweu3D_720p_2M
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/58a8a000-5da8-446e-bd99-a7a8f0859151" parent-code="" group-title="Globo's", RPC Curitiba UHD
+http://api.magiaiptv.com/live/800376/236548/m2_TMC39efmVofOJLFvvWZG_1080p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/3b5b6528-2bac-4abd-8374-3dd92e5c840c" parent-code="" group-title="Globo's", RPC Foz do Iguaçu
+http://api.magiaiptv.com/live/800376/236548/m2_7r6ZBFsx9PGTPQ_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/23dd6d1a-eb9b-4472-a034-d8be63838d0b" parent-code="" group-title="Globo's", TV Liberal Belem
+http://api.magiaiptv.com/live/800376/236548/m1_xuviFZiyeiOjNoJbyUDUe_720p
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/ad61a008-8d92-45a7-9713-043340d7d3ab" parent-code="" group-title="Globo's", TV Mirante sao Luis
+http://api.magiaiptv.com/live/800376/236548/m2_3wId4GqfctJEEkfeal_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://image.hdawiyr1g.xyz/gateway/files/a98458c6-873c-4151-8bcd-db84f16c223b" parent-code="" group-title="Globo's", TV Gazeta Vitoria
+http://api.magiaiptv.com/live/800376/236548/m2_CJgLgifafdaefasdrgTV_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/d505c328-91d6-4ff5-b4d8-2c408c14a333" parent-code="" group-title="Globo's", TV Morena
+http://api.magiaiptv.com/live/800376/236548/m3_x3cAq6sf4uIWAcZ_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/cffe9eb8-1e22-47c5-9cd5-246fa1c5368d" parent-code="" group-title="Globo's", TV TEM BAURU
+http://api.magiaiptv.com/live/800376/236548/m2_TVATRIABUANASAANTOS_720p
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/8071f3f2-e234-4ff3-8a26-a73f379549da" parent-code="" group-title="Globo's", TV Verdes Mares
+http://api.magiaiptv.com/live/800376/236548/m3_ZEoELp6Y39uWEGV_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/cb031ca0-ac1e-4fb1-a5a4-e7bf7105e0a1" parent-code="" group-title="Globo's", TV Verdes Mares Cariri
+http://api.magiaiptv.com/live/800376/236548/m1_1LCqzMeczwF5Q_720p
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/a63482bc-b6e7-4a84-800a-4b81e0f5d8b7" parent-code="" group-title="Globo's", EPTV Campinas
+http://api.magiaiptv.com/live/800376/236548/m1_FHv07WYXkqS7SXLh6C_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/4b4de84f-f649-45c2-ad6c-147f9ca6dac1" parent-code="" group-title="Globo's", EPTV Sul de Minas
+http://api.magiaiptv.com/live/800376/236548/m2_grEPhm077A5QLBzZ_720p
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/09a93ea9-7848-49e5-9738-314e7b4e5724" parent-code="" group-title="Globo's", Globo Bahia
+http://api.magiaiptv.com/live/800376/236548/m1_G8b2xaTYqU1IEKt1If_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO Brasilia
+http://api.magiaiptv.com/live/800376/236548/m3_TdLfRGtPojhFlAgJbHSCXQ9x_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO MINAS HD
+http://api.magiaiptv.com/live/800376/236548/m1_QHE98mt5NTgql3Lvozaj2FiG_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/d8c334a7-44c2-492e-b306-2267f08e5837" parent-code="" group-title="Globo's", GLOBO MINAS HD+
+http://api.magiaiptv.com/live/800376/236548/m2_SH5nRm6xPFBDAHxEv8_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO Nordeste
+http://api.magiaiptv.com/live/800376/236548/p1_dXr7MDxd0aqy
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO PR HD
+http://api.magiaiptv.com/live/800376/236548/p2_EJgdlPLZH89MVH1B
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO RECIFE
+http://api.magiaiptv.com/live/800376/236548/m3_DlRn7901d45Sc3mhwNEFAXpH_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO RJ HD
+http://api.magiaiptv.com/live/800376/236548/m2_kzeKgKsjyTCBUMl4_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO RJ HD+
+http://api.magiaiptv.com/live/800376/236548/m2_kzeKgKsjyTCBUMl4_720p_2M
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO RS HD
+http://api.magiaiptv.com/live/800376/236548/p1_moxeZCA4slSsPDI
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/1fba0b4f-b5ae-47a2-9a89-cbf66ba44f9e" parent-code="" group-title="Globo's", Globo Sorocaba
+http://api.magiaiptv.com/live/800376/236548/m2_W80mrx0Olfggd0ainlJ_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/06167493-f7bd-4dea-98c2-e3dba9a36132" parent-code="" group-title="Globo's", GLOBO SP HD
+http://api.magiaiptv.com/live/800376/236548/m2_bz2lc7s8PV3avHAgjnFxpM0w_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/4de80f87-ed2e-4e49-b8e6-563c7e3a0bcc" parent-code="" group-title="Globo's", GLOBO SP HD+
+http://api.magiaiptv.com/live/800376/236548/m2_bz2lc7s8PV3avHAgjnFxpM0w_720p_2M
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://image.hdawiyr1g.xyz/gateway/files/fc01471b-ef2e-4a44-870b-a0906102814d" parent-code="" group-title="Globo's", NSC TV
+http://api.magiaiptv.com/live/800376/236548/m1_yfdgUeQ1UcONnAqtl_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/75daa088-9d30-11e9-850f-003048de22c4" parent-code="" group-title="Globo's", RBS HD
+http://api.magiaiptv.com/live/800376/236548/m2_1Tg7sxFdaIlIxFHG_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/3f3d8cdf-1f59-44da-b1fe-3d3d029a88ab" parent-code="" group-title="Globo's", Rede Amazônica Porto Velho
+http://api.magiaiptv.com/live/800376/236548/m2_GJgzxvCEgIq5N5Rr3_720p
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/d03e9d38-ac4e-44ab-b4ec-7a8c585e352d" parent-code="" group-title="Globo's", TV Anhanguera
+http://api.magiaiptv.com/live/800376/236548/m1_IMRzEvvkDihenNyPG_720p
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/3c92bde3-78a9-4bd4-a76a-681d9f8d22ae" parent-code="" group-title="Globo's", TV Centro América
+http://api.magiaiptv.com/live/800376/236548/m2_pnpu0tfmgDaOgFZ_720p
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/20afc796-592d-4e0f-ace4-b9942dd3bc3d" parent-code="" group-title="Globo's", TV Diario HD
+http://api.magiaiptv.com/live/800376/236548/m1_vIq6sgf18Jpe7Bl5bENcWiDL_720p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/20afc796-592d-4e0f-ace4-b9942dd3bc3d" parent-code="" group-title="Globo's", TV Diario HD+
+http://api.magiaiptv.com/live/800376/236548/m1_vIq6sgf18Jpe7Bl5bENcWiDL_720p
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/d505c328-91d6-4ff5-b4d8-2c408c14a333" parent-code="" group-title="Globo's", TV Morena
+http://api.magiaiptv.com/live/800376/236548/m3_x3cAq6sf4uIWAcZ_720p
 
 #######
 
@@ -55,7 +173,7 @@ http://in.uaimacks.net.br:1935/macks/macks.sdp/playlist.m3u8
 http://playplusgoya-lh.akamaihd.net/i/pp_gna@377833/index_720_av-p.m3u8
 
 #EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="6" , RecordTV SP HD
-https://spo4.akamaized.net/hls/live/2029736/spo4/index.m3u8?hdnts=exp=1646755355~acl=/*~hmac=23dd4aa2fcd37ebb10c0a8927f9b303d4d8adb98f0a050d04da86788b4a3da70
+http://api.magiaiptv.com/live/800376/236548/m3_6zJcLYxLJH3bOq_720p
 
 #EXTINF:-1  group-title="CANAIS ABERTOS", RecordTV SP CAMPINAS HD
 http://200.146.229.129:8001/play/a005

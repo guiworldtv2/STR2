@@ -1,15 +1,6 @@
 ~~ DO NOT EDIT THE FIRST 2 LINES
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
-VIDEO GRAVADO YOUTUBE | ARGENTINA | https://yt3.ggpht.com/gCklb7Bo3XDM4aS_a1-Ta91LsGZtkGlb1IMQwLri3ureUeABTKqXYr-LZGET-Or4J_U4TI_uRq4=s48-c-k-c0x00ffffff-no-rj | 
-https://www.youtube.com/watch?v=zOiT2aDarhE
-
-GLOBO AO VIVO | ARGENTINA | https://yt3.ggpht.com/gCklb7Bo3XDM4aS_a1-Ta91LsGZtkGlb1IMQwLri3ureUeABTKqXYr-LZGET-Or4J_U4TI_uRq4=s48-c-k-c0x00ffffff-no-rj | 
-https://globoplay.globo.com/tv-globo/ao-vivo/6120663/
-
-GLOBO AO VIVO LINK | ARGENTINA | https://yt3.ggpht.com/gCklb7Bo3XDM4aS_a1-Ta91LsGZtkGlb1IMQwLri3ureUeABTKqXYr-LZGET-Or4J_U4TI_uRq4=s48-c-k-c0x00ffffff-no-rj | 
-https://live-as-10-16.video.globo.com/d/s/hls-globo-go01/hls-globo-go01_2359/playlist.m3u8
-
 Televisión Pública | ARGENTINA | https://yt3.ggpht.com/gCklb7Bo3XDM4aS_a1-Ta91LsGZtkGlb1IMQwLri3ureUeABTKqXYr-LZGET-Or4J_U4TI_uRq4=s48-c-k-c0x00ffffff-no-rj | 
 https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg/live
 
@@ -26,9 +17,6 @@ https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA/live
 TELEFE SALTA | ARGENTINA | https://yt3.ggpht.com/ytc/AKedOLTQ0CHvwUkhFXB2UyejrJl0KVeBjhtrORfIweTQXg=s88-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/channel/UCy-r-BQ5BQRU6rzGS73-WBQ/live
 
-América TV | ARGENTINA | https://yt3.ggpht.com/ytc/AKedOLR145rKfGpilHm6vnQistpV7jPIdRvO53vQgryV=s88-c-k-c0x00ffffff-no-rj |
-https://www.youtube.com/c/americaenvivo/LIVE
-
 IP Noticias AR | ARGENTINA | https://yt3.ggpht.com/ytc/AKedOLQaYsAXWJNpiduF7CfZckAt76XcPWwTeM4qkKiI=s48-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA/Live
 
@@ -43,7 +31,7 @@ https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ/live
 
 
 Canal 7 Mendoza AR | ARGENTINA | https://yt3.ggpht.com/kg5vrdz7shjKha3N3I7ed5MhzGv3_LwVfNj1vtZfW9OFSGDArcvMD0wmtYhq9yLkkVuRCcuK6g=s48-c-k-c0x00ffffff-no-rj |
-https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/Live
+https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live
 
 El Siete TV (AFILIADA AMERICA) | ARGENTINA | https://yt3.ggpht.com/kg5vrdz7shjKha3N3I7ed5MhzGv3_LwVfNj1vtZfW9OFSGDArcvMD0wmtYhq9yLkkVuRCcuK6g=s88-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live
@@ -54,9 +42,6 @@ https://www.youtube.com/channel/UC5UKMEIoqvNDMSDz2_6Sn9g/live
 EL SEIS BARILOCHE | ARGENTINA | https://yt3.ggpht.com/88bIoKxC85lXsgiRMnqbkc8UB6ScJHjx0NvqFYxudJ_Cu3_ID2XDyl_426-kKZ1NfpsfpUIGPg=s88-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/channel/UCMy706Rhe2swaTmljCgiYVg/live
 
-EL DOCE | ARGENTINA | https://yt3.ggpht.com/ytc/AKedOLSUFI-aAzN3zAsFwS79WwJeAgmd7A4POK52QDcZ3g=s48-c-k-c0x00ffffff-no-rj |
-https://www.youtube.com/channel/UCMHxagKUH7t07eTs8lNfblg/live
-
 SENADO ARGENTINA | ARGENTINA |   https://yt3.ggpht.com/ytc/AKedOLSnZ-EKL9UQCi8CSKVDUDbbcwC7BXuZJb_vF4_lbA=s176-c-k-c0x00ffffff-no-rj-mo |
 https://www.youtube.com/c/SenadoTVArgentina/LIVE
 
@@ -64,7 +49,7 @@ DIPUTADOS TELEVISIÓN | ARGENTINA |   https://yt3.ggpht.com/ytc/AKedOLQ44nSQS0oV
 https://www.youtube.com/channel/UC1h8_HKc5wScqeRw1HV6a6w/LIVE
 
 Cámara de Diputados de la Provincia de San Luis | ARGENTINA |  https://yt3.ggpht.com/ytc/AKedOLTojwq6lCK6vh3nOTJ6-DLKAKLyj0Pak0i4jpiK=s48-c-k-c0x00ffffff-no-rj |
-https://www.youtube.com/channel/UCm2Wryf2GiBXWEjUHUJhEqw/LIVE
+https://www.youtube.com/channel/UC1h8_HKc5wScqeRw1HV6a6w/live
 
 ARGENTINA LIVE SISE | ARGENTINA | https://yt3.ggpht.com/ytc/AKedOLRDFVq2CLFeGtnZhTNeRrfrnnY4Z_1AZlk2pwPn=s48-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/channel/UCftan3cVkKKfxXpRN9JUX7A/live

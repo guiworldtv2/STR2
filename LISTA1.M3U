@@ -379,6 +379,10 @@ http://200.4.96.59:8004/play/a0eg/index.m3u8
 
 
 ###MTV####
+
+#EXTINF:-1 group-title="MTV WORLD",MTV Espana HD
+http://iptvmedia.live:8080/FM10008/ee54fb4b/5308
+
 #EXTINF:-1  group-title="MTV WORLD", MTV USA
 http://190.61.99.191:8000/play/d003/index.m3u8
 
@@ -1037,3 +1041,6 @@ https://tvazteca-live-cdn-mdstrm-com.akamaized.net/live-stream/60b56be1000ea5083
 
 #EXTINF:-1,FORO TV
 https://channel02-notusa.akamaized.net/hls/live/2023914-b/event01/index.m3u8
+
+#EXTINF:-1 group-title="NEWS WORLD",Fox News Channel HD
+http://iptvmedia.live:8080/FM10008/ee54fb4b/2181

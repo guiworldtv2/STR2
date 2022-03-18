@@ -1059,3 +1059,13 @@ http://iptvmedia.live:8080/FM10008/ee54fb4b/282868
 http://iptvmedia.live:8080/FM10008/ee54fb4b/4730
 #EXTINF:-1,VH1 FHD USA
 http://iptvmedia.live:8080/FM10008/ee54fb4b/2370
+
+
+#EXTINF:1 ,NBC News Now Event 1 (720p)  (English)
+https://nbcnews-lh.akamaihd.net/i/nbc_live11@183427/master.m3u8
+#EXTINF:1 ,NBC News Now Event 2 (720p)  (English)
+https://nbcnews-lh.akamaihd.net/i/nbc_live12@187393/master.m3u8
+#EXTINF:1 ,NBC News Now Event 3 (720p)  (English)
+https://nbcnews-lh.akamaihd.net/i/nbc_live13@187394/master.m3u8
+#EXTINF:1 ,NBC News Now Event 4 (720p)  (English)
+https://nbcnews-lh.akamaihd.net/i/nbc_live14@187395/master.m3u8

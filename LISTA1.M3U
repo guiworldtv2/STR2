@@ -1100,33 +1100,13 @@ https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master.m3u8
 
 
 
-cbs
-
-
-univision
-
-
-telemundo
-
-
-nbc golf
-
-
-meu
-espn3
-https://content-ause1-ur-dtci1.uplynk.com/event/a3d4766a394f4ef8a9e66d780efe5a46/g.m3u8?oid=d09b16c953aa40c98dd8c513526aca5a&ad=espn_live_en&ad.vast3=1&ad.vid=6319106d-4f1e-4106-a6b6-aac2b3152379&ad.tfcd=0&ad.pp=espn-core-ssai&ad.vip=37.120.157.37&ad.ppid=&ad.description_url=null&ss_req=1&ad.ssss=vdms&ad.hl=en&ad.npa=0&ad.msid=null&ad.an=espnapp&ad.same_scor=1&ad.pod=enabled&ad.mridx=enabled&ad.backfill=1&ad.skip_vpaid=1&ad.cust_params=chan=espn3%26authp=null%26nlsnAppID=null%26nlsnDevGrp=devgrp%2CUNWN%26vdm=live%26devOS=null%26devType=null%26plt=browser%26swid=%26unid=null%26isDnt=0%26isAutoplay=0%26isMute=0%26vps=null%26stp=vdms%26hip=8e41ff25ed1f983be42e6f37a05b467a6efb9c4dd433130318ff5aa2fcd45309%26lang=en%26ip=37.120.157.37&eid=a115767347&ct=e&tc=1&exp=1647635457&rn=358529081&linearv=4&ptid=ESPN3_Events_VDMS&euid=ESPN3_VDMS&windowDur=32&targetDur=5&ad.adUnit=/espn3/dish-sling/allplatforms&sig=4a3bb1418d6297b9fe1e779e1e6886d0be5a775ab2bb542ddc79chttps://content-ause1-ur-dtci1.uplynk.com/event/a3d4766a394f4ef8a9e66d780efe5a46/g.m3u8?oid=d09b16c953aa40c98dd8c513526aca5a&ad=espn_live_en&ad.vast3=1&ad.vid=6319106d-4f1e-4106-a6b6-aac2b3152379&ad.tfcd=0&ad.pp=espn-core-ssai&ad.vip=37.120.157.37&ad.ppid=&ad.description_url=null&ss_req=1&ad.ssss=vdms&ad.hl=en&ad.npa=0&ad.msid=null&ad.an=espnapp&ad.same_scor=1&ad.pod=enabled&ad.mridx=enabled&ad.backfill=1&ad.skip_vpaid=1&ad.cust_params=chan=espn3%26authp=null%26nlsnAppID=null%26nlsnDevGrp=devgrp%2CUNWN%26vdm=live%26devOS=null%26devType=null%26plt=browser%26swid=%26unid=null%26isDnt=0%26isAutoplay=0%26isMute=0%26vps=null%26stp=vdms%26hip=8e41ff25ed1f983be42e6f37a05b467a6efb9c4dd433130318ff5aa2fcd45309%26lang=en%26ip=37.120.157.37&eid=a115767347&ct=e&tc=1&exp=1647635457&rn=358529081&linearv=4&ptid=ESPN3_Events_VDMS&euid=ESPN3_VDMS&windowDur=32&targetDur=5&ad.adUnit=/espn3/dish-sling/allplatforms&sig=4a3bb1418d6297b9fe1e779e1e6886d0be5a775ab2bb542ddc79c30b2cc00578&pbs=afd4040d123f44229d01ede5b3d01516
-
-
 
 #EXTINF:-1 group-title="NEWS WORLD", FOX NEWS TURQUIA
 https://foxtv-live-ad.ercdn.net/foxtv/foxtv_720p.m3u8?e=1647687964&st=IWMqG6xcoJkEV4QbdSkE1Q
 #EXTINF:-1 group-title="NEWS WORLD", FOX NEWS TURQUIA 2
 https://foxtv-live-ad.ercdn.net/foxtv/playlist.m3u8?st=x3eymnuEaE8lN6jmrgml6Q&e=1647644764
-
-
-
-
-
+#EXTINF:-1 group-title="NEWS WORLD",FOX NEWS USA
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 
 
 

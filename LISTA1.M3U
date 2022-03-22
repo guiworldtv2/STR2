@@ -72,8 +72,7 @@ http://api.magiaiptv.com/live/800376/236548/m1_d85bd5410dee0e4a_720p
 http://api.magiaiptv.com/live/800376/236548/m2_grEPhm077A5QLBzZ_720p
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/20afc796-592d-4e0f-ace4-b9942dd3bc3d" parent-code="" group-title="Globo's", TV Diario HD
 http://api.magiaiptv.com/live/800376/236548/m1_vIq6sgf18Jpe7Bl5bENcWiDL_720p
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/20afc796-592d-4e0f-ace4-b9942dd3bc3d" parent-code="" group-title="Globo's", TV Diario HD+
-http://api.magiaiptv.com/live/800376/236548/m1_vIq6sgf18Jpe7Bl5bENcWiDL_720p
+
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/75daa088-9d30-11e9-850f-003048de22c4" parent-code="" group-title="Globo's", RBS HD
 http://api.magiaiptv.com/live/800376/236548/m2_1Tg7sxFdaIlIxFHG_720p
@@ -190,8 +189,7 @@ http://wowza.softhost.com.br:1935/ufg/smil:tvufgweb/chunklist_w884631395_b154410
 #EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="24", PUC TV (Goiás)
 http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 
-#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="24", PUC TV Goiás (326p) [Not 24/7]
-http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
+
 
 ########### REALITY SHOW'S LIVE###########
 #EXTINF:-1 tvg-logo=https://album.mediaset.es/cimg/256023/2021/07/12/logotipo_secretsto_6ef0.png?h=63" group-title="Reality Show'S Live", SECRET STORY

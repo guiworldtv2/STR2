@@ -168,11 +168,6 @@ http://api.magiaiptv.com/live/800376/236548/m3_x3cAq6sf4uIWAcZ_720p
 #EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="4" , RecordTV GO HD³
 http://playplusgoya-lh.akamaihd.net/i/pp_gna@377833/index_720_av-p.m3u8
 
-#EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="6" , RecordTV SP HD
-http://api.magiaiptv.com/live/800376/236548/m3_6zJcLYxLJH3bOq_720p
-
-#EXTINF:-1  group-title="CANAIS ABERTOS", RecordTV SP CAMPINAS HD
-http://200.146.229.129:8001/play/a005
 
 
 

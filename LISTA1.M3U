@@ -28,31 +28,7 @@ https://maestro-prd-nh.eduplay.rnp.br/route/channel10/index.m3u8?s=aHR0cHM6Ly9tZ
 
 
 
-#EXTINF:-1 tvg-logo="",BRASILIA
-https://streaming2.climaaovivo.com.br/brasilia1.df/index.m3u8?autoplay=true&token=d0282f22ba306ce4a566e85ac29de9e7dd19fafa-72ec2ff7eb7259a9ca9e00aaa4567033-1651470069-1651468269&remote=no_check_ip
-#EXTINF:-1 tvg-logo="",GOIANIA
-https://streaming2.climaaovivo.com.br/goiania1.go/index.m3u8?autoplay=true&token=1fb28a50c5fad8013b19b146bd115a3818e13620-9c2d1e5890fb2e09ca1c26a80e9fb635-1651469634-1651467834&remote=no_check_ip
-#EXTINF:-1 tvg-logo="",GUARUJÁ
-https://streaming2.climaaovivo.com.br/guaruja2.sp/tracks-v1/mono.m3u8?token=4a810db0dc7a03f576a451a910e78167ebd9d61b-9df1a8de78d8f3b5d9fba10b417e53f5-1651470521-1651468721
 
-#EXTINF:-1 tvg-logo="",ALGUM SP
-https://streaming2.climaaovivo.com.br/saopaulo3.sp/tracks-v1/mono.m3u8?token=c30ae03f36362de478e4cfb4df363fe226ff4f88-a3f1cd755fd5c5a223526db7c73c8517-1651470408-1651468608
-
-#EXTINF:-1 tvg-logo="",SP2
-https://streaming2.climaaovivo.com.br/saopaulo2.sp/tracks-v1/mono.m3u8?token=8ee40b42cf7f11db009b68d5767e0fa33ec0365d-4f867530e09e13482a3da478279c2686-1651470662-1651468862
-
-#EXTINF:-1 tvg-logo="",sp3
-https://streaming2.climaaovivo.com.br/saopaulo6.sp/tracks-v1/mono.m3u8?token=c20a12c7900ba539c555a1f54829e799c7137822-0a800d9ceecaa95c27cf736248e8fa52-1651470783-1651468983
-
-#EXTINF:-1 tvg-logo="",sp4
-https://streaming2.climaaovivo.com.br/saopaulo5.sp/tracks-v1/mono.m3u8?token=703fc0797638fdc2926805720e07dc954d0618c7-a2a6899c7a42f1aeac301c2e63d09de8-1651470787-1651468987
-
-
-#EXTINF:-1 tvg-logo="",sp5
-https://streaming2.climaaovivo.com.br/saopaulo7.sp/tracks-v1/mono.m3u8?token=40a397494208fde47c0e4f4f85fcac022bb9b57b-480c096cf6e47a2eebb8cc5098d111d5-1651470889-1651469089
-
-#EXTINF:-1 tvg-logo="",ubatuba
-https://streaming2.climaaovivo.com.br/ubatuba1.sp/tracks-v1/mono.m3u8?token=5c0cfbf667ac51b0791e38360d74e9c7cf589a85-5677e40ced064d161236b144da2d7de8-1651470793-1651468993
 
 
 

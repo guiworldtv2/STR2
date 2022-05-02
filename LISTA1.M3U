@@ -14,31 +14,9 @@
 #EXTM3U x-tvg-url="https://github.com/Sphinxroot/share01/raw/master/epg_ripper_BR1.xml.gz"
 
 
-###ALBANIA###
 
-#EXTINF:-1,TOP CHANNEL
-http://mains.services:2086/live/stanleyg/6916329/93185.m3u8
-
-####LOLLAPALOOZA#####
-
-#EXTINF:-1,MULTISHOW
-https://live-tvg-df-03.video.globo.com/h/04116483226344396391045164823623410472086311EelOxUEZr3Wl2AMd9VpNA/k/html5/a/F/u/BR~5a39963a-fa9b-4eb1-8612-de4c3358f6c7/nu/msw24ha/playlist.m3u8
-
-
-
-#EXTINF:-1,BIS
-https://live-tvg-df-04.video.globo.com/d/s/hls-bis24ha/playlist.m3u8?h=0401648322680131137389616482362801270945544SUBboaWUlM6uHcpJtq1_SQ&k=html5&a=F&u=5a39963a-fa9b-4eb1-8612-de4c3358f6c7
-
-
-#EXTINF:-1,SINAL 1
-	
-https://live-tvg-df-02.video.globo.com/d/nl/s/hls-gplaybr/playlist.m3u8?h=0411648322735137029814516482363353551852556tIR19IhTyhGSjZzJW9BjLg&k=html5&a=F&u=BR~5a39963a-fa9b-4eb1-8612-de4c3358f6c7
-
-
-#EXTINF:-1,SINAL 2
-	
-https://live-tvg-df-01.video.globo.com/d/nl/s/hls-gplay2br/playlist.m3u8?h=0411648322776849212731816482363762462369948j5QkyYdn9MYoXxwXAzmeEg&k=html5&a=F&u=BR~5a39963a-fa9b-4eb1-8612-de4c3358f6c7
-
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEiWS8tSnh3vPBUiKlc6oKlMizcFWoupiC_gdZts5NxZOhoa245uT_bF7NEvXixNzUbhIivVcqygqFkg53527xFqEEMacppDKIupHDXLgLC8ZkjNf1bsOktBefByAo2_67lqjvGGAEGvr62k2GV5hjJ-qL_Q3X-naMY16HBfnYhmF_78m4EMUDulavACzg=w359-h359",CMN GOIANIA
+https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8
 
 
 

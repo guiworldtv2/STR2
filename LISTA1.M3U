@@ -206,15 +206,12 @@ http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 
 
 ########### REALITY SHOW'S LIVE###########
-#EXTINF:-1 tvg-logo="https://pp-vod-img.akamaized.net/res/live/0faa441a-1547-4422-980d-49e38e3c2c07.jpg" group-title="Reality Show'S Live", POWER COUPLE BR
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://amd01eng.akamaized.net/hls/live/2008102/powercouple6/master.m3u8?hdnts=exp=1651546925~acl=/*~hmac=42b5a2e024b9fa8f7197c03d059671537f2d97e59f87f10c420e0b48c82d3fa2
 
-#EXTINF:-1 tvg-logo="https://pp-vod-img.akamaized.net/res/live/0faa441a-1547-4422-980d-49e38e3c2c07.jpg" group-title="Reality Show'S Live", POWER COUPLE BR BACKUP
+
+#EXTINF:-1 tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61d221a40cf21a10a417121e/" group-title="Reality Show'S Live", BIG BROTHER PORTUGAL
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://amd01eng.akamaized.net/hls/live/2008102-b/powercouple6/master.m3u8?hdnts=exp=1651546925~acl=/*~hmac=42b5a2e024b9fa8f7197c03d059671537f2d97e59f87f10c420e0b48c82d3fa2
+https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
 
 #EXTINF:-1 tvg-logo=https://album.mediaset.es/cimg/256023/2021/07/12/logotipo_secretsto_6ef0.png?h=63" group-title="Reality Show'S Live", SECRET STORY
 #KODIPROP:inputstream=inputstream.adaptive
@@ -225,10 +222,7 @@ HTTPS://PREMIUM0506-i.akamaihd.net/hls/live/827156/premium05/01.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61d221a40cf21a10a417121e/" group-title="Reality Show'S Live", BIG BROTHER PORTUGAL
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
+
 
 
 

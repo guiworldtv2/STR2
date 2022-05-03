@@ -206,12 +206,23 @@ http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 
 
 ########### REALITY SHOW'S LIVE###########
+#EXTINF:-1 tvg-logo="https://pp-vod-img.akamaized.net/res/live/0faa441a-1547-4422-980d-49e38e3c2c07.jpg" group-title="Reality Show'S Live", POWER COUPLE BR
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://amd01eng.akamaized.net/hls/live/2008102/powercouple6/master.m3u8?hdnts=exp=1651546925~acl=/*~hmac=42b5a2e024b9fa8f7197c03d059671537f2d97e59f87f10c420e0b48c82d3fa2
+
+#EXTINF:-1 tvg-logo="https://pp-vod-img.akamaized.net/res/live/0faa441a-1547-4422-980d-49e38e3c2c07.jpg" group-title="Reality Show'S Live", POWER COUPLE BR BACKUP
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://amd01eng.akamaized.net/hls/live/2008102-b/powercouple6/master.m3u8?hdnts=exp=1651546925~acl=/*~hmac=42b5a2e024b9fa8f7197c03d059671537f2d97e59f87f10c420e0b48c82d3fa2
+
 #EXTINF:-1 tvg-logo=https://album.mediaset.es/cimg/256023/2021/07/12/logotipo_secretsto_6ef0.png?h=63" group-title="Reality Show'S Live", SECRET STORY
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 HTTPS://PREMIUM0506-i.akamaihd.net/hls/live/827156/premium05/01.m3u8
 
-https://live.mitele.es/hls/live/2032400/reality/bitrate_4.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61d221a40cf21a10a417121e/" group-title="Reality Show'S Live", BIG BROTHER PORTUGAL
@@ -219,87 +230,10 @@ https://live.mitele.es/hls/live/2032400/reality/bitrate_4.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
 
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",BBB HD 1
-http://200.4.96.59:8004/play/a0f9/index.m3u8
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",BBB HD 2
-http://200.4.96.59:8004/play/a0fa/index.m3u8
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",BBB Mosaico HD
-http://200.4.96.59:8004/play/a0fb/index.m3u8
 
 
 
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",GF VIP CAM1
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b7)/manifest.mpd
 
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",GF VIP CAM2
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b7)/manifest.mpd
-
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",GF VIP CAM3
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b9)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",GF VIP PARTY
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b1)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",MEDIASET EXTRA
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(kq)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",CANAL 5
-https://live3t.msf.cdn.mediaset.net/content/dash_d0_cls_vos/live/channel(c5)/manifest.mpd?hdnts=st=1646945592~exp=1646960022~acl=/content/dash_d0_cls_vos/live/channel(c5)*~hmac=7cc6eea496c2a2a0b36fcf060ec88c80136f89b98394b17f9a3aebfe01d9474d
-
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",CANAL 1
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(i1)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",CANAL 4
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(r4)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",CANAL 20
-https://live3.msf.cdn.mediaset.net/content/dash_d1_gwv_vos/live/channel(lb)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",CANAL iris
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(ki)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",CANAL 27
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(ts)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A",la 5
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(ka)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", CINE 34
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b6)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", FOCUS
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(fu)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", TOP CRIME
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(lt)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", ITALIA2
-https://live3t.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(i2)/manifest.mpd?hdnts=st=1646952781~exp=1646967211~acl=/content/dash_d0_clr_vos/live/channel(i2)*~hmac=aa6e5e4ff03114166567e2a42e7eae15cdb88e2eab5e07b0dc4ff0aac8375ad6
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", TGCOM24
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(kf)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", BOING
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(kb)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", CARTOONITO
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(la)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", Lo zoo di 105
-https://live3t.msr.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(ec)/manifest.mpd?hdnts=st=1646952356~exp=1646966786~acl=/content/dash_d0_clr_vos/live/channel(ec)*~hmac=0abd27e04c2fda2c192c667bca709c324c64bef79b7df2075df9ffd2390c45db
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", R101 STORIES
-https://live3.msr.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(er)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", VIRGIN RADIO
-https://live3.msr.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(ew)/manifest.mpd
-
-#EXTINF:-1  group-title="Reality Show'S Live" tvg-logo="N/A", RADIO MONTECARLO
-https://live3.msr.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(bb)/manifest.mpd
 
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",CBN SP (720p)
 https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8

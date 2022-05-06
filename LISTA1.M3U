@@ -213,6 +213,12 @@ http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61d221a40cf21a10a417121e/" group-title="Reality Show'S Live", BIG BROTHER PORTUGAL BACKUP
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/chunks.m3u8
+
+
 #EXTINF:-1 tvg-logo=https://album.mediaset.es/cimg/256023/2021/07/12/logotipo_secretsto_6ef0.png?h=63" group-title="Reality Show'S Live", SECRET STORY
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -229,10 +235,25 @@ HTTPS://PREMIUM0506-i.akamaihd.net/hls/live/827156/premium05/01.m3u8
 
 
 
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",CBN SP (720p)
+#EXTINF:-1  radio="true" group-title="N/A" tvg-logo="N/A",CBN SP (720p)
 https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",CBN Rio (720p)
+#EXTINF:-1  radio="true" group-title="N/A" tvg-logo="N/A",CBN Rio (720p)
 https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
+
+#EXTINF:-1 radio="true" group-title="" tvg-logo="",Rádio Universitária UFG
+https://streaming.ufg.br:8443/radiouniversitaria
+
+#EXTINF:-1 radio="true" group-title="" tvg-logo="",Rádio CBN GOIANIA
+https://live.ojc.com.br/e9cd_3/myStream.m3u8
+
+#EXTINF:-1 radio="true" group-title="" tvg-logo="",Rádio Rádio Araguaia GO
+http://stm1.pousadavirtual.com.br:7060/stream?type=.flv
+
+#EXTINF:-1 radio="true" group-title="" tvg-logo="",Rádio Araguaia FM ARAGUAINA
+https://live.ojc.com.br/e9cd_8/myStream.m3u8
+
+
+
 
 
 

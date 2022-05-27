@@ -243,14 +243,12 @@ https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
 #EXTINF:-1 radio="true" group-title="" tvg-logo="",Rádio Universitária UFG
 https://streaming.ufg.br:8443/radiouniversitaria
 
-#EXTINF:-1 radio="true" group-title="" tvg-logo="",Rádio CBN GOIANIA
-https://live.ojc.com.br/e9cd_3/myStream.m3u8
-
 #EXTINF:-1 radio="true" group-title="" tvg-logo="",Rádio Rádio Araguaia GO
 http://stm1.pousadavirtual.com.br:7060/stream?type=.flv
 
-#EXTINF:-1 radio="true" group-title="" tvg-logo="",Rádio Araguaia FM ARAGUAINA
-https://live.ojc.com.br/e9cd_8/myStream.m3u8
+
+
+
 
 
 
@@ -290,6 +288,11 @@ http://45.226.83.14/live/RPCHD/720p.m3u8
 https://59f1cbe63db89.streamlock.net:1443/redetvro/redetvro/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A" tvg-chno="8",TV Cidade de Petrópolis (1080p) [Não 24/7]
 https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
+
+#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A" tvg-chno="8",TV Cidade de Petrópolis (1080p) [Não 24/7] backup
+https://video01.kshost.com.br:4443/inside2133/inside2133/chunklist_w835041566.m3u8
+
+
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",TV Interlagos (480p) [Não 24/7]
 http://tv.tvalphanet.com.br:1935/tvinterlagos/tvinterlagos/playlist.m3u8
 

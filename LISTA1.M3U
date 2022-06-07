@@ -340,5 +340,18 @@ https://eu-nl-012.worldcast.tv/dancetelevisioneight/2/dancetelevisioneight.m3u8
 https://eu-nl-012.worldcast.tv/dancetelevisioneight/2/dancetelevisioneight.m3u8
 
 
-
+#EXTINF:-1,052 24 HORAS
+http://45.181.121.57:8111/play/052
+#EXTINF:-1,054 CNN Chile
+http://45.181.121.57:8111/play/054
+#EXTINF:-1,062 La Red HD
+http://45.181.121.57:8111/play/062
+#EXTINF:-1,064 TVN HD
+http://45.181.121.57:8111/play/064
+#EXTINF:-1,065 Mega
+http://45.181.121.57:8111/play/065
+#EXTINF:-1,066 CHV HD
+http://45.181.121.57:8111/play/066
+#EXTINF:-1,067 Canal 13
+http://45.181.121.57:8111/play/067
 

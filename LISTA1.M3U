@@ -15,7 +15,20 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEiWS8tSnh3vPBUiKlc6oKlMizcFWoupiC_gdZts5NxZOhoa245uT_bF7NEvXixNzUbhIivVcqygqFkg53527xFqEEMacppDKIupHDXLgLC8ZkjNf1bsOktBefByAo2_67lqjvGGAEGvr62k2GV5hjJ-qL_Q3X-naMY16HBfnYhmF_78m4EMUDulavACzg=w359-h359",CMN GOIANIA
+#EXTINF:-1,tv2 Noruega
+
+https://ws31-hls-live.akamaized.net/out/u/1416253.mpd
+
+
+#EXTINF:-1 radio="true",espaço aéreo argentino - audio
+https://radio.radarbox.com/EXTVHF000043
+
+#EXTINF:-1 radio="true", espaço aéreo brasilia - audio
+https://radio.radarbox.com/EXTVHF000003
+#EXTINF:-1 radio="true",radio vinha 
+https://streaming.vinhafm.com.br/stream
+
+#EXTINF:-1, tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEiWS8tSnh3vPBUiKlc6oKlMizcFWoupiC_gdZts5NxZOhoa245uT_bF7NEvXixNzUbhIivVcqygqFkg53527xFqEEMacppDKIupHDXLgLC8ZkjNf1bsOktBefByAo2_67lqjvGGAEGvr62k2GV5hjJ-qL_Q3X-naMY16HBfnYhmF_78m4EMUDulavACzg=w359-h359",CMN GOIANIA
 https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8
 
 

@@ -30,12 +30,19 @@ https://rpn1.bozztv.com/36bay2/gusa-tvswsn/index.m3u8
 
 
 #EXTINF:-1 radio="true",espaço aéreo argentino - audio
-https://radio.radarbox.com/EXTVHF000043
+https://radio.radarbox.com/EXTVHF000725
 
 #EXTINF:-1 radio="true", espaço aéreo brasilia - audio
 https://radio.radarbox.com/EXTVHF000003
+#EXTINF:-1 radio="true", espaço aéreo portugal - lajes - audio
+https://radio.radarbox.com/EXTVHF000548
+#EXTINF:-1 radio="true", espaço aéreo Mexico - Tlaxcalancingo
+https://radio.radarbox.com/EXTVHF000623
+
 #EXTINF:-1 radio="true",radio vinha 
 https://streaming.vinhafm.com.br/stream
+
+
 
 #EXTINF:-1, tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEiWS8tSnh3vPBUiKlc6oKlMizcFWoupiC_gdZts5NxZOhoa245uT_bF7NEvXixNzUbhIivVcqygqFkg53527xFqEEMacppDKIupHDXLgLC8ZkjNf1bsOktBefByAo2_67lqjvGGAEGvr62k2GV5hjJ-qL_Q3X-naMY16HBfnYhmF_78m4EMUDulavACzg=w359-h359",CMN GOIANIA
 https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8

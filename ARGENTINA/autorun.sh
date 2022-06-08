@@ -6,6 +6,6 @@ python -m pip install requests
 
 cd $(dirname $0)/scripts/
 
-python youtube_m3ugrabber.py > ../ARGENTINA.m3u
+python youtube_m3ugrabber.py > ../ARGENTINA/ARGENTINA.m3u
 
 echo m3u grabbed

@@ -50,17 +50,8 @@ https://g1.vxral-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/a24-10005
 #EXTINF:-1 group-title="NOTICIAS", TODO NOTICIAS       
 https://www.youtube.com/watch?v=wHn1_QVoXGM
 
-#EXTINF:-1 group-title="NOTICIAS", C5N  25.2
-https://www.youtube.com/watch?v=3nBq86rurVg
-
-#EXTINF:-1 group-title="NOTICIAS", LN+  25.3
-https://www.youtube.com/watch?v=5ql5hNZQzKc
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="AMBA", AMERICA HD  36.1
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
-
-#EXTINF:-1 group-title="AMBA", TV PUBLICA 23.2
-https://www.youtube.com/watch?v=tVsZ9y4TcvA 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/Canal9.jpg" group-title="AMBA", CANAL 9  35.1 
 https://ar-elnueve-elnueve-live.ned.media/live.m3u8?iut=eyJwYXJhbXMiOnsiZXhwIjoxNjI5NDY0OTI5LCJzZXNzaW9uIjoiMTgxLjQ0LjEyOS43MSIsIndoaXRlbGlzdCI6WyIxODEuNDQuMTI5LjcxIl19LCJzaWduYXR1cmUiOiJjNzQ2NTZjMjM0MjI5MmYwMDBhMzExZjNlYWIzMzBlNzVmYjJmNzY1In0=
@@ -177,8 +168,7 @@ https://dcunilive262-lh.akamaihd.net/i/dclive_1@424583/index_150_av-b.m3u8?sd=10
 #EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VISANTAM.png" group-title="AMBA", SANTA MARIA
 http://www.trimi.com.ar/santa_maria/streaming/mystreamSantaMariaHSMed.m3u8
 
-#EXTINF:-1 group-title="NOTICIAS", DTV DIPUTADOS TELEVISION
-https://www.youtube.com/watch?v=l9wYsGwd_ZI
+
 
 #EXTINF:-1 tvg-logo="http://www.tectv.gob.ar/resources/img/logo.png" group-title="AMBA", TEC TV  22.5
 https://g3.mc-hor.transport.edge-access.net/a09/ngrp:gcba_video3-100042_all/gcba_video3-100042_720p.m3u8
@@ -223,10 +213,8 @@ http://goldiptv.online:8080/mevlut/mevlut123/27168
 http://goldiptv.online:8080/mevlut/mevlut123/27167
 #EXTINF:-1, El Rural HD*
 http://goldiptv.online:8080/mevlut/mevlut123/27166
-#EXTINF:-1, El trece FHD*
-http://goldiptv.online:8080/mevlut/mevlut123/27165
-#EXTINF:-1, El trece HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27164
+
+
 #EXTINF:-1, Fox Sports 1
 http://goldiptv.online:8080/mevlut/mevlut123/27162
 #EXTINF:-1, Fox Sports 2

@@ -125,8 +125,7 @@ https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/Canal9.jpg" group-title="AMBA", CANAL 9  35.1 
 https://ar-elnueve-elnueve-live.ned.media/live.m3u8?iut=eyJwYXJhbXMiOnsiZXhwIjoxNjI5NDY0OTI5LCJzZXNzaW9uIjoiMTgxLjQ0LjEyOS43MSIsIndoaXRlbGlzdCI6WyIxODEuNDQuMTI5LjcxIl19LCJzaWduYXR1cmUiOiJjNzQ2NTZjMjM0MjI5MmYwMDBhMzExZjNlYWIzMzBlNzVmYjJmNzY1In0=
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/800px-Telefe_%28nuevo_logo%29.png" group-title="AMBA", TELEFE  34.1
-https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
+
 
 #EXTINF:-1 tvg-logo="http://images.pluto.tv/channels/5f523aa5523ae000074745ec/colorLogoPNG.png" group-title="NOTICIAS", TELEFÉ NOTICIAS
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f523aa5523ae000074745ec/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff334c2-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=dffc36b9-57c6-4973-9903-2f83d465ac40&userId=&serverSideAds=true
@@ -141,12 +140,6 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5df265697ec3510009d
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Net_TV_logo.png/120px-Net_TV_logo.png" group-title="AMBA", NET TV  27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1088570060887810048/IAlLnIgQ.jpg" group-title="AMBA", CANAL DE LA CIUDAD
-https://g2.proy-slo.transport.edge-access.net/a08/ngrp:gcba_video4-100042_all/gcba_video4-100042_540p.m3u8               
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Logo_del_canal_Encuentro.svg/150px-Logo_del_canal_Encuentro.svg.png" group-title="AMBA", CANAL ENCUENTRO 22.1
-https://5fb24b460df87.streamlock.net/live-cont.ar/encuentro/playlist.m3u8  
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Paka-paka.svg/245px-Paka-paka.svg.png" group-title="AMBA", PAKA PAKA  22.2
 https://5fb24b460df87.streamlock.net/live-cont.ar/pakapaka/playlist.m3u8

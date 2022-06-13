@@ -13,8 +13,8 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml"
 #EXTM3U x-tvg-url="https://github.com/Sphinxroot/share01/raw/maUFGster/epg_ripper_BR1.xml.gz"
 
-
-
+#EXTINF:-1,TV ANHANGUERA
+https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/TV%20Anhanguera%20GO
 #EXTINF:-1,Chile: Chilevision
 http://goldiptv.online:8080/mevlut/mevlut123/27111
 #EXTINF:-1,Chile: Chilevision HD

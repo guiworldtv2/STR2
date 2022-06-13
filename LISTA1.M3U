@@ -17,32 +17,7 @@
 https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/TV%20Anhanguera%20GO
 #EXTINF:-1,Chile: Chilevision
 http://goldiptv.online:8080/mevlut/mevlut123/27111
-#EXTINF:-1,Chile: Chilevision HD
-http://goldiptv.online:8080/mevlut/mevlut123/27110
-#EXTINF:-1,Chile: CNN HD
-http://goldiptv.online:8080/mevlut/mevlut123/27109
-#EXTINF:-1,052 24 HORAS
-http://45.181.121.57:8111/play/052
-#EXTINF:-1,054 CNN Chile
-http://45.181.121.57:8111/play/054
-#EXTINF:-1,062 La Red HD
-http://45.181.121.57:8111/play/062
-#EXTINF:-1,064 TVN HD
-http://45.181.121.57:8111/play/064
-#EXTINF:-1,065 Mega
-http://45.181.121.57:8111/play/065
-#EXTINF:-1,066 CHV HD
-http://45.181.121.57:8111/play/066
-#EXTINF:-1,067 Canal 13
-http://45.181.121.57:8111/play/067
-#EXTINF:-1,Chile: 13C HD
-http://goldiptv.online:8080/mevlut/mevlut123/27120
-#EXTINF:-1,Chile: 13i HD
-http://goldiptv.online:8080/mevlut/mevlut123/27119
-#EXTINF:-1,Chile: 24 Horas
-http://goldiptv.online:8080/mevlut/mevlut123/27118
-#EXTINF:-1,Chile: Canal 13 HD
-http://goldiptv.online:8080/mevlut/mevlut123/27117
+
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.postimg.cc/QMCF3tjR/IPTV-GRATIS.jpg",TV 2 Sporten
 https://ws31-hls-live.akamaized.net/out/u/1416253.m3u8

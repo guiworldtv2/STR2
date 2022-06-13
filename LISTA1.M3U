@@ -21,22 +21,22 @@ https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_2_
 https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1,CNN AMERICANA 3
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-CNN INTERNACIONAL
+#EXTINF:-1,CNN INTERNACIONAL
 https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 
-CNN SERVIÇO
+#EXTINF:-1,CNN SERVIÇO
 https://newsource-live.warnermediacdn.com/hls/live/2005450/intl01/master.m3u8
-CNN SERVIÇO 2
+#EXTINF:-1,CNN SERVIÇO 2
 https://newsource-live.warnermediacdn.com/hls/live/2005451/intl02/master.m3u8
-CNN SERVIÇO 3
+#EXTINF:-1,CNN SERVIÇO 3
 https://newsource-live.warnermediacdn.com/hls/live/2005452/intl03/master.m3u8
-CNN SERVIÇO 4
+#EXTINF:-1,CNN SERVIÇO 4
 https://newsource-live.warnermediacdn.com/hls/live/2005453/intl04/master.m3u8
 
 
 
 
-HLN
+#EXTINF:-1,HLN
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 
 
@@ -62,7 +62,7 @@ https://rtvelivestreamv3.akamaized.net/ocasional06_main.m3u8
 #EXTINF:-1,CNN SERVIÇO
 https://cnngo1.akamaized.net/hls/live/2014595/PROD-cnnlive5/master.m3u8
 
-CBS NEWS SERVIÇO
+#EXTINF:-1,CBS NEWS SERVIÇO
 https://cbsn-2.cbsnstream.cbsnews.com/out/v1/a6a897e8f4f74cfc896223dfd822482f/master.m3u8
 
 #EXTINF:-1,TV ANHANGUERA

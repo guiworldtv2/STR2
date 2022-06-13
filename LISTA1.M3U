@@ -13,11 +13,58 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml"
 #EXTM3U x-tvg-url="https://github.com/Sphinxroot/share01/raw/maUFGster/epg_ripper_BR1.xml.gz"
 
+#EXTINF:-1,CNN AMERICANA
+https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_2_1964000.m3u8
+
+
+#EXTINF:-1,CNN AMERICANA 2
+https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1,CNN AMERICANA 3
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+CNN INTERNACIONAL
+https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
+
+CNN SERVIÇO
+https://newsource-live.warnermediacdn.com/hls/live/2005450/intl01/master.m3u8
+CNN SERVIÇO 2
+https://newsource-live.warnermediacdn.com/hls/live/2005451/intl02/master.m3u8
+CNN SERVIÇO 3
+https://newsource-live.warnermediacdn.com/hls/live/2005452/intl03/master.m3u8
+CNN SERVIÇO 4
+https://newsource-live.warnermediacdn.com/hls/live/2005453/intl04/master.m3u8
+
+
+HLN
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1,RTVE SERVIÇO 1
+https://rtvelivestreamv3.akamaized.net/ocasional01_main.m3u8
+
+#EXTINF:-1,RTVE SERVIÇO 2
+https://rtvelivestreamv3.akamaized.net/ocasional02_main.m3u8
+
+#EXTINF:-1,RTVE SERVIÇO 3
+https://rtvelivestreamv3.akamaized.net/ocasional03_main.m3u8
+
+#EXTINF:-1,RTVE SERVIÇO 4
+https://rtvelivestreamv3.akamaized.net/ocasional04_main.m3u8
+
+#EXTINF:-1,RTVE SERVIÇO 5
+https://rtvelivestreamv3.akamaized.net/ocasional05_main.m3u8
+
+#EXTINF:-1,RTVE SERVIÇO 6
+https://rtvelivestreamv3.akamaized.net/ocasional06_main.m3u8
+
+#EXTINF:-1,CNN SERVIÇO
+https://cnngo1.akamaized.net/hls/live/2014595/PROD-cnnlive5/master.m3u8
+
+CBS NEWS SERVIÇO
+https://cbsn-2.cbsnstream.cbsnews.com/out/v1/a6a897e8f4f74cfc896223dfd822482f/master.m3u8
+
 #EXTINF:-1,TV ANHANGUERA
 https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/TV%20Anhanguera%20GO
-#EXTINF:-1,Chile: Chilevision
-http://goldiptv.online:8080/mevlut/mevlut123/27111
-
+#EXTINF:-1,IRAN TV INTERNACIONAL
+https://live.playstop.me/1816184091/index.m3u8
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.postimg.cc/QMCF3tjR/IPTV-GRATIS.jpg",TV 2 Sporten
 https://ws31-hls-live.akamaized.net/out/u/1416253.m3u8

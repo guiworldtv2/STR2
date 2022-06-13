@@ -16,24 +16,7 @@ https://live-01-02-eltrece.vodgc.net/eltrecetv/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",El Trece 3
-#EXT-X-VERSION:5
-#EXT-X-MEDIA:TYPE=AUDIO,URI="http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-mp4a_145200_eng=20004.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
-#EXT-X-MEDIA:TYPE=AUDIO,URI="http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-mp4a_145200_spa=20003.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="es",NAME="Spanish",DEFAULT=YES,AUTOSELECT=YES,CHANNELS="2"
-#EXT-X-STREAM-INF:BANDWIDTH=604358,AVERAGE-BANDWIDTH=549418,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=416x240,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_379968=10016.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=837558,AVERAGE-BANDWIDTH=761418,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_579968=10015.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1210678,AVERAGE-BANDWIDTH=1100618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_899968=10014.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1910278,AVERAGE-BANDWIDTH=1736618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1024x576,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_1499968=10012.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=3076278,AVERAGE-BANDWIDTH=2796618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_2499968=10007.m3u8
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-iframe-avc1_379968=10016.m3u8",BANDWIDTH=55380,AVERAGE-BANDWIDTH=50345,CODECS="avc1.4d401e",RESOLUTION=416x240
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-iframe-avc1_579968=10015.m3u8",BANDWIDTH=84530,AVERAGE-BANDWIDTH=76845,CODECS="avc1.4d401e",RESOLUTION=640x360
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-iframe-avc1_899968=10014.m3u8",BANDWIDTH=131170,AVERAGE-BANDWIDTH=119245,CODECS="avc1.4d401f",RESOLUTION=854x480
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-iframe-avc1_1499968=10012.m3u8",BANDWIDTH=218620,AVERAGE-BANDWIDTH=198745,CODECS="avc1.4d401f",RESOLUTION=1024x576
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-iframe-avc1_2499968=10007.m3u8",BANDWIDTH=364370,AVERAGE-BANDWIDTH=331245,CODECS="avc1.4d401f",RESOLUTION=1280x720
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ArtearHD.m3u8
 
 
 
@@ -48,24 +31,7 @@ http://45.238.54.70:8000/play/a01b
 
 
 #EXTINF:-1,Encuentro
-#EXT-X-VERSION:5
-#EXT-X-MEDIA:TYPE=AUDIO,URI="http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-mp4a_144800_eng=20001.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
-#EXT-X-MEDIA:TYPE=AUDIO,URI="http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-mp4a_144800_spa=20000.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="es",NAME="Spanish",DEFAULT=YES,AUTOSELECT=YES,CHANNELS="2"
-#EXT-X-STREAM-INF:BANDWIDTH=778851,AVERAGE-BANDWIDTH=708048,CODECS="avc1.4d4015,mp4a.40.2",RESOLUTION=424x240,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-avc1_530000=10000.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1373511,AVERAGE-BANDWIDTH=1248648,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-avc1_1040000=10001.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1886551,AVERAGE-BANDWIDTH=1715047,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-avc1_1480000=10002.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=2609471,AVERAGE-BANDWIDTH=2372248,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1024x576,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-avc1_2100000=10003.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=3658871,AVERAGE-BANDWIDTH=3326247,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-avc1_3000000=10004.m3u8
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-iframe-avc1_530000=10000.m3u8",BANDWIDTH=77247,AVERAGE-BANDWIDTH=70225,CODECS="avc1.4d4015",RESOLUTION=424x240
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-iframe-avc1_1040000=10001.m3u8",BANDWIDTH=151579,AVERAGE-BANDWIDTH=137800,CODECS="avc1.4d401e",RESOLUTION=640x360
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-iframe-avc1_1480000=10002.m3u8",BANDWIDTH=215709,AVERAGE-BANDWIDTH=196099,CODECS="avc1.4d401f",RESOLUTION=854x480
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-iframe-avc1_2100000=10003.m3u8",BANDWIDTH=306074,AVERAGE-BANDWIDTH=278250,CODECS="avc1.4d401f",RESOLUTION=1024x576
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c6eds/Encuentro/SA_SAGEMCOM/Encuentro-iframe-avc1_3000000=10004.m3u8",BANDWIDTH=437249,AVERAGE-BANDWIDTH=397499,CODECS="avc1.4d401f",RESOLUTION=1280x720
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Encuentro.m3u8
 
 
 #EXTINF:-1, tvg-id="Telefe" group-title="Argentina" tvg-name="Telefe" tvg-logo="http://www.lanoticiawebciudad.com.ar/wp-content/uploads/2016/11/telefe-logo.jpg",Telefe
@@ -75,24 +41,7 @@ http://live.budtvlight.com:25461/live/JW2WBKKNRE3UH43KN2N322899665975$5234/MENR3
 
 
 #EXTINF:-1,TELEFE 3
-#EXT-X-VERSION:5
-#EXT-X-MEDIA:TYPE=AUDIO,URI="http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-mp4a_145200_eng=20004.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
-#EXT-X-MEDIA:TYPE=AUDIO,URI="http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-mp4a_145200_spa=20002.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="es",NAME="Spanish",DEFAULT=YES,AUTOSELECT=YES,CHANNELS="2"
-#EXT-X-STREAM-INF:BANDWIDTH=604358,AVERAGE-BANDWIDTH=549418,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=416x240,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-avc1_379968=10004.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=837558,AVERAGE-BANDWIDTH=761418,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-avc1_579968=10005.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1210678,AVERAGE-BANDWIDTH=1100618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-avc1_899968=10002.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1910278,AVERAGE-BANDWIDTH=1736618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1024x576,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-avc1_1499968=10003.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=3076278,AVERAGE-BANDWIDTH=2796618,CODECS="avc1.64001f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-avc1_2499968=10000.m3u8
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-iframe-avc1_379968=10004.m3u8",BANDWIDTH=55380,AVERAGE-BANDWIDTH=50345,CODECS="avc1.4d401e",RESOLUTION=416x240
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-iframe-avc1_579968=10005.m3u8",BANDWIDTH=84530,AVERAGE-BANDWIDTH=76845,CODECS="avc1.4d401e",RESOLUTION=640x360
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-iframe-avc1_899968=10002.m3u8",BANDWIDTH=131170,AVERAGE-BANDWIDTH=119245,CODECS="avc1.4d401f",RESOLUTION=854x480
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-iframe-avc1_1499968=10003.m3u8",BANDWIDTH=218620,AVERAGE-BANDWIDTH=198745,CODECS="avc1.4d401f",RESOLUTION=1024x576
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge5-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD-iframe-avc1_2499968=10000.m3u8",BANDWIDTH=364370,AVERAGE-BANDWIDTH=331245,CODECS="avc1.64001f",RESOLUTION=1280x720
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TelefeHD.m3u8
 
 
 #EXTINF:-1,Telefe Internacional
@@ -104,9 +53,11 @@ https://edge2-ccast-sl.cvattv.com.ar/live/c3eds/AmericaTV/SA_SAGEMCOM/AmericaTV.
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",IP - Información Periodística
 https://octubre-live.cdn.vustreams.com/live/ip/live.isml/live-audio_1=128000-video=2800000.m3u8
 
+#EXTINF:-1,el siete
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Canal7.m3u8
 
 #EXTINF:-1,el nueve
-https://2a1773fcc0c94a639b422d1cf7ba14b7.mediatailor.us-east-1.amazonaws.com/v1/manifest/4c8323052bc3dbd9aa2eba0b638d8495561e8377/JW-Octubre-Channel09/3f9672d3-0d13-4145-9293-a051b89e7da2/5.m3u8
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Canal9.m3u8
 
 #EXTINF:-1,encuentro
 https://5fb24b460df87.streamlock.net/live-cont.ar/encuentro/playlist.m3u8

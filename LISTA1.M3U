@@ -67,8 +67,7 @@ https://cbsn-2.cbsnstream.cbsnews.com/out/v1/a6a897e8f4f74cfc896223dfd822482f/ma
 
 #EXTINF:-1,TV ANHANGUERA
 https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/TV%20Anhanguera%20GO
-#EXTINF:-1,IRAN TV INTERNACIONAL
-https://live.playstop.me/1816184091/index.m3u8
+
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.postimg.cc/QMCF3tjR/IPTV-GRATIS.jpg",TV 2 Sporten
 https://ws31-hls-live.akamaized.net/out/u/1416253.m3u8
@@ -266,13 +265,54 @@ http://api.magiaiptv.com/live/800376/236548/m1_vIq6sgf18Jpe7Bl5bENcWiDL_720p
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img2g.hdawiyr1g.xyz/gateway/files/d505c328-91d6-4ff5-b4d8-2c408c14a333" parent-code="" group-title="Globo's", TV Morena
 http://api.magiaiptv.com/live/800376/236548/m3_x3cAq6sf4uIWAcZ_720p
 
+
+#EXTINF:-1 tvg-id="TVGloboRiodeJaneiro.br" tvg-name="Globo Rio"  tvg-logo="https://upload.wikimedia.org/wikipedia/pt/9/9e/Logotipo_da_TV_Globo.png"group-title="Abertos",Globo RJ
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/38425
+
+#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br" tvg-name="Globo São Paulo"  tvg-logo="https://upload.wikimedia.org/wikipedia/pt/9/9e/Logotipo_da_TV_Globo.png"group-title="Canais Globo",Globo SP
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/68050
+
+#EXTINF:-1 tvg-id="GloboBrasilia.br" tvg-name="Globo Brasília"  tvg-logo="https://upload.wikimedia.org/wikipedia/pt/9/9e/Logotipo_da_TV_Globo.png"group-title="Canais Globo",Globo DF
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/64592
+
+#EXTINF:-1 tvg-id="TVglobominas.br" tvg-name="Globo Minas"  tvg-logo="https://upload.wikimedia.org/wikipedia/pt/9/9e/Logotipo_da_TV_Globo.png"group-title="Canais Globo",Globo BH
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/41515
+
+#EXTINF:-1 tvg-id="GloboNordeste.br" tvg-name="Globo Nordeste"  tvg-logo="https://upload.wikimedia.org/wikipedia/pt/9/9e/Logotipo_da_TV_Globo.png"group-title="Canais Globo",Globo PE
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/42984
+
+#EXTINF:-1 tvg-id="TVBahia.br" tvg-name="Globo Bahia"  tvg-logo="https://1.bp.blogspot.com/-_evWs630mqY/XM-HwnoZ_yI/AAAAAAAAHUo/F3g2L7ZlrxsRzgHLSzFLSKGb54j0LTAXQCLcBGAs/s1600/tv%2Bbahia.png"group-title="Canais Globo",Globo BA
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/72890
+
+#EXTINF:-1 tvg-id="TVVerdesMares.br" tvg-name="Globo Ceará"  tvg-logo="https://cdn.mitvstatic.com/channels/br_tv-verdes-mares-1_m.png"group-title="Canais Globo",Globo CE
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/61976
+
+#EXTINF:-1 tvg-id="TVMiranteSaoLuis.br" tvg-name="Globo Maranhão"  tvg-logo="https://cdn.mitvstatic.com/channels/br_tv-mirante-s-o-luis_m.png"group-title="Canais Globo",Globo MA
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/42988
+
+#EXTINF:-1 tvg-id="TVAnhanguera.br" tvg-name="Globo Goiás"  tvg-logo="https://cdn.mitvstatic.com/channels/br_tv-anhanguera-palmas_m.png"group-title="Canais Globo",Globo GO
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/42986
+
+#EXTINF:-1 tvg-id="RPCCuritiba.br" tvg-name="Globo Paraná"  tvg-logo="https://cdn.mitvstatic.com/channels/br_rpc-curitiba_m.png"group-title="Canais Globo",Globo PR
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/38381
+
+#EXTINF:-1 tvg-id="NSCTVFlorianopolis.br" tvg-name="Globo Santa Catarina"  tvg-logo="https://cdn.mitvstatic.com/channels/br_nsc-tv-florianopolis-hd_m.png"group-title="Canais Globo",Globo SC
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/42969
+
+#EXTINF:-1 tvg-id="RBSTVPortoAlegre.br" tvg-name="Globo Rio Grande do Sul"  tvg-logo="https://cdn.mitvstatic.com/channels/br_rbs-tv-porto-alegre-hd_m.png"group-title="Canais Globo",Globo RS
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/51215
+
+#EXTINF:-1 tvg-id="RedeAmazonicaManaus.br" tvg-name="Globo Manaus"  tvg-logo="https://cdn.mitvstatic.com/channels/br_rede-amazonica-rio-branco-hd_m.png"group-title="Canais Globo",Globo AM fuso-1
+http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/64649
+
 #######
 
 #EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="4" , RecordTV GO HD³
 http://playplusgoya-lh.akamaihd.net/i/pp_gna@377833/index_720_av-p.m3u8
 
 
-
+#EXTINF:-1 tvg-chno="01" tvg-id="BandRede.br" tvg-name="Band" tvg-logo="https://imgur.com/Ll0dvQY.png" tvg-shift="0" group-title="TV", BAND Web
+http://evpp.mm.uol.com.br:1935/geob_band/app/chunklist_w210441685.m3u8
 
 
 #EXTINF:0 group-title="Education" tvg-id="" tvg-name="" tvg-logo="" url-tvg="" shift="-3" tvg-language="Portuguese" audio-track="por" shift="-3" aspect-ratio="16:9" subtitles="por" tvg-country="BR" size="Medium" background="#000000", TV Brasil Central
@@ -445,4 +485,7 @@ https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
 
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="N/A",ALJAZEERA INGLES
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="N/A",IRAN TV INTERNACIONAL
+https://live.playstop.me/1816184091/index.m3u8
 

@@ -52,7 +52,7 @@ https://edge2-ccast-sl.cvattv.com.ar/live/c3eds/AmericaTV/SA_SAGEMCOM/AmericaTV.
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",IP - Información Periodística
 https://octubre-live.cdn.vustreams.com/live/ip/live.isml/live-audio_1=128000-video=2800000.m3u8
 
-#EXTINF:-1,el siete
+#EXTINF:-1,el siete (tv publica)
 https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Canal7.m3u8
 
 #EXTINF:-1,el nueve

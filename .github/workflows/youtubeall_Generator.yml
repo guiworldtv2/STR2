@@ -40,8 +40,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x autorun.sh
-          ./GERADOR DO YOUTUBE/autorun.sh
+          chmod +x autorun youtube all.sh
+          ./autorun youtube all.sh
         
       - name: git add
         run: |

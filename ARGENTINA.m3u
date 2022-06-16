@@ -1,8 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5IDrtNB.png" group-title="",★★★★★★★★★★World Shop & Craft★★★★★★★★★★
-0.0.0.0
-
 # https://www.1-2-3.tv/tv-auktion/ 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HiDnZ9q.png" group-title="",123tv TV-Auktion - Germany (SLT)
 plugin://plugin.video.streamlink-tester/?action=play&url=https://edge0199-99ictmedia.flex-cdn.net/aabbaa/llabr/DASH/123tv/manifest.mpd

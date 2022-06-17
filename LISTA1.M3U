@@ -540,7 +540,7 @@ https://edge0199-99ictmedia.flex-cdn.net/aabbaa/llabr/DASH/123tv/manifest.mpd
 #EXTINF:-1 tvg-logo="https://i.imgur.com/BCYeHTC.png" group-title="HOME SHOPPING",Donna Shopping - Italy
 https://media.streambrothers.com:1936/8038/8038/playlist.m3u8
 
-# https://www.etmall.com.tw/
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PzYbtHX.png" group-title="HOME SHOPPING",ET  Mall CH34 - Taiwan
 https://broadcast-ettoday.cdn.hinet.net/ettoday-broadcast/smil:etmall4.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PzYbtHX.png" group-title="HOME SHOPPING",ET  Mall CH 46 - Taiwan
@@ -551,8 +551,7 @@ https://broadcast-ettoday.cdn.hinet.net/ettoday-broadcast/smil:etmall3.smil/play
 https://broadcast-ettoday.cdn.hinet.net/ettoday-broadcast/smil:etmall2.smil/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/2KzCShW.png" group-title="HOME SHOPPING",Expo Channel - Australia
-https://tvsn-i.akamaihd.net/hls/live/261837/expo/expo.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Yu2KX5N.png" group-title="HOME SHOPPING",Gemporia (Gem TV) - UK
@@ -569,17 +568,14 @@ http://stream1.ai-net.net:1935/gtv1/_definst_/smil:gtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/iOXiKiT.gif" group-title="HOME SHOPPING",GM24 - Italy
 https://streaming.softwarecreation.it/GM24/GM24/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8AM9fC8.jpg" group-title="HOME SHOPPING",GSTV - Japan
-https://gemstv.wide-stream.net/gemstv01/smil:gemstv01.smil/chunklist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Nue3Xr2.png" group-title="HOME SHOPPING",Gongyoung Shopping - South Korea
 https://etv.publichs.com/live5.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/V23vChS.jpg" group-title="HOME SHOPPING",GS SHOP - South Korea
-https://livem.gsshop.com/gsshop_hd/_definst_/gsshop_hd.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QKmNoK0.png" group-title="HOME SHOPPING",GS MY SHOP - South Korea
-https://livem.gsshop.com/gsmyshop_hd/_definst_/gsmyshop_hd.stream/playlist.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ajxi6Ci.png" group-title="HOME SHOPPING",GS SHOP - Vietnam
 https://5bf6ea205fe60.streamlock.net/dn/_definst_/htvmuasam.stream/playlist.m3u8
@@ -592,15 +588,12 @@ https://uplynkcontent.sinclairstoryline.com/channel/26c7a77fd6ed453da6846a16ad06
 
 #EXTINF:-1 tvg-logo="https://cdn.tvpassport.com/image/station/240x135/homeshop.png" group-title="HOME SHOPPING",HSN
 https://html5-lh.akamaihd.net/i/html5_01@182967/master.m3u8
-#EXTINF:-1 tvg-logo="https://sc.dish.com/shared/images/station-logos/hsn.png" group-title="HOME SHOPPING",HSN
-https://v-pi.mybtv.net/event/41.1/640x480?start_time=2019-12-20T23%3A45%3A00.000Z&end_time=2028&env=prd&uid=29375
+
 #EXTINF:-1 tvg-logo="https://cdn.tvpassport.com/image/station/240x135/homeshop.png" group-title="HOME SHOPPING",HSN
 https://hsn.samsung.wurl.com/manifest/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://sc.dish.com/shared/images/station-logos/hsn2.png" group-title="HOME SHOPPING",HSN2
-https://hsn2html5-lh.akamaihd.net/i/hsn2html5_01@13178/master.m3u8
-#EXTINF:-1 tvg-logo="https://sc.dish.com/shared/images/station-logos/hsn2.png" group-title="HOME SHOPPING",HSN 2
-https://v-pi.mybtv.net/event/41.2/640x480?start_time=2019-12-20T23%3A45%3A00.000Z&end_time=2028&env=prd&uid=29375
+
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nyMKyMr.jpg" group-title="HOME SHOPPING",Hyundai Hmall - South Korea 1
 https://livejj.hyundaihmall.com:8443/live/ngrp:hmall.stream_pc/playlist.m3u8
@@ -623,8 +616,7 @@ https://live4-uvelirochka.cdnvideo.ru/uvelir10/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/gFnsnth.jpg" group-title="HOME SHOPPING",Leomax 24 - Russia
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gWRmEY2.jpg" group-title="HOME SHOPPING",Leomax+ - Russia
-https://tvshops.bonus-tv.ru/cdn/discount/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xX7hFEC.jpg" group-title="HOME SHOPPING",Lotteimall - South Korea
 https://mohlslive.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8
@@ -632,8 +624,7 @@ https://mohlslive.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/h6dtCjP.png" group-title="HOME SHOPPING",Luxury - Russia
 http://nano.teleservice.su:8080/hls/luxury.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Drxu8Du.png" group-title="HOME SHOPPING",Mediashop TV - Liechtenstein
-https://cdn1-europe.smartcast.tv/mediashop/mediashop1/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5d8iCqu.jpg" group-title="HOME SHOPPING",NS Home Shopping - South Korea
 http://livestream.nsmall.com:1935/IPHONE/test.m3u8
@@ -667,14 +658,7 @@ http://live.qvcuk.simplestreamcdn.com/live/qvcuk_style_clean/bitrate1.isml/live.
 
 #EXTINF:-1 tvg-logo="https://s3-us-west-2.amazonaws.com/klowdtvstorage/herring/images/channels/qvcLive/logo_small.png" group-title="HOME SHOPPING",QVC Live - USA
 http://n1.klowdtv.net/live2/qvclive_720p/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png" group-title="HOME SHOPPING",QVC - USA
-https://lsqvc1uscln-lh.akamaihd.net/i/lsqvc1uscln_01@809410/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png" group-title="HOME SHOPPING",QVC 2 - USA
-https://lsqvc2us-lh.akamaihd.net/i/lsqvc2us_01@809440/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png" group-title="HOME SHOPPING",QVC 3 - USA
-https://lsqvc3us-lh.akamaihd.net/i/lsqvc3us_01@809459/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qtirIFA.png" group-title="HOME SHOPPING",QVC Beauty - USA
-https://lsqvc4us-lh.akamaihd.net/i/lsqvc4us_01@802711/master.m3u8
+
 
 
 
@@ -696,11 +680,9 @@ https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(xumo)/index.m3
 #EXTINF:-1 tvg-logo="https://od.lk/s/MF8yMjM5NTI2OTZf/TV25_360x360.png" group-title="HOME SHOPPING",Shop LC (KCKS-LD10) - USA (STK)
 https://cdn.igocast.com/channel10_hls/channel10_master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/RUQASCU.png" group-title="HOME SHOPPING",Shop TV - Philippines
-https://d3cbe0gidjd4k2.cloudfront.net/channel_1/channel1/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/EvjVEWI.jpg" group-title="HOME SHOPPING",Shopping 4U - USA
-https://broadcast.mytvtogo.net/shopping4u/shopping4u/playlist.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/S0IK0mB.jpg" group-title="HOME SHOPPING",Shopping 21TV - Israel
@@ -801,11 +783,10 @@ https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.malimarcdn.com/vanphenhHDF.jpg" group-title="HOME SHOPPING",VANPHENH TV - Laos
 https://livefta.malimarcdn.com/ftaedge00/vanphenhtv.sdp/playlist.m3u8
 
-#EXTINF:-1 group-title="HOME SHOPPING",telfar https://www.telfar.tv/
+#EXTINF:-1 group-title="HOME SHOPPING",telfar 
 https://install.telfarcontrol.com/speed/broadcast/12/file-4692k.m3u8
 
-#EXTINF:-1 group-title="HOME SHOPPING",open shop https://openshop.com.au/watchnow
-https://medialive.openshop.com.au/asn-live_1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/h6dtCjP.png" group-title="HOME SHOPPING",Japanet Channel DX - Japan
 https://live.chdrstatic.com/cbn/primary/index.m3u8
@@ -813,19 +794,5 @@ https://live.chdrstatic.com/cbn/primary/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HCzlTR0.png" group-title="HOME SHOPPING",Juwelo - Germany
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8?latency=low
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HCzlTR0.png" group-title="HOME SHOPPING",Juwelo - Germany
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/26410621649_2110_18324video_360.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HCzlTR0.png" group-title="HOME SHOPPING",Juwelo - Germany
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/26410621649_2110_18326video_480.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HCzlTR0.png" group-title="HOME SHOPPING",Juwelo - Germany
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/26410621649_2110_18330video_720.m3u8
 
-#EXTINF:-1 group-title="HOME SHOPPING",citirus
-https://citrusstv.akamaized.net/hls/live/687285/CTV/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/yntuT5o.png" group-title="HOME SHOPPING",Mango TV - Poland
-https://stream.mango.pl:4443/mango/_definst_/live/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://mytvtogo.net/wp-content/uploads/2018/01/Network_PCSN-1.jpg" group-title="HOME SHOPPING",Planet Cannabis Shopping Network ( BAD LINK )
-https://broadcast.mytvtogo.net/shopping4u/shopping4u/playlist.m3u8
 

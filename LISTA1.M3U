@@ -43,8 +43,8 @@ https://newsource-live.warnermediacdn.com/hls/live/2005453/intl04/master.m3u8
 #EXTINF:-1,HLN
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 
-
-
+#EXTINF:-1,REUTERS SERVIÇO 1
+https://churro-cdn.prod.reuters.tv/rest/v2/live/playlist/story/521011/chunk/chunklist_b2454000.m3u8
 #EXTINF:-1,RTVE SERVIÇO 1
 https://rtvelivestreamv3.akamaized.net/ocasional01_main.m3u8
 

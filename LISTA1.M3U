@@ -45,14 +45,15 @@ https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.
 
 #EXTINF:-1,REUTERS SERVIÇO 1
 https://churro-cdn.prod.reuters.tv/rest/v2/live/playlist/story/521011/chunk/chunklist_b2454000.m3u8
+#EXTINF:-1,REUTERS SERVIÇO 2
+https://churro-cdn.prod.reuters.tv/rest/v2/live/playlist/story/521655/chunk/chunklist_b2454000.m3u8
 #EXTINF:-1,RTVE SERVIÇO 1
 https://rtvelivestreamv3.akamaized.net/ocasional01_main.m3u8
 
 #EXTINF:-1,RTVE SERVIÇO 2
 https://rtvelivestreamv3.akamaized.net/ocasional02_main.m3u8
 
-#EXTINF:-1,RTVE SERVIÇO 3
-https://rtvelivestreamv3.akamaized.net/ocasional03_main.m3u8
+
 
 #EXTINF:-1,RTVE SERVIÇO 4
 https://rtvelivestreamv3.akamaized.net/ocasional04_main.m3u8
@@ -158,8 +159,8 @@ https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8
 EXTINF:-1,CAM RANDOM 2
 https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/chunklist_w228762653.m3u8
 
-
-
+EXTINF:-1,TELEMUNDO NOTICIAS
+https://tlmdhd-lh.akamaihd.net/i/tlmd1_1@79627/index_4500_av-p.m3u8?sd=10&rebase=on
 
 
 

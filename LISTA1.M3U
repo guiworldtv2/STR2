@@ -144,7 +144,19 @@ https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8
 https://maestro-prd-nh.eduplay.rnp.br/route/channel20376/index.m3u8?s=aHR0cHM6Ly9tZWRpYS1wcmQtbmguZWR1cGxheS5ybnAuYnIvbWVkaWEvY2hhbm5lbDIwMzc2L2luZGV4Lm0zdTg_eD0xJm09bE1zM2dwNmg0bTl6a2FTb3FCREc5UQ&x=1&p=0&m=KKQpoaZ5kJk7ngAnf69PhQ
 
 #EXTINF:-1 tvg-logo="",CANAL SAÚDE
+https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="",CANAL SAÚDE backup
 https://maestro-prd-nh.eduplay.rnp.br/route/channel10/index.m3u8?s=aHR0cHM6Ly9tZWRpYS1wcmQtbmguZWR1cGxheS5ybnAuYnIvbWVkaWEvY2hhbm5lbDEwL2luZGV4Lm0zdTg_eD0xJm09X3pIVkJJcmhUbHQ2MmF4cjJYV0t5UQ&x=1&p=0&m=fh7LHTCCBRm_yr3UWdUyuw
+
+EXTINF:-1 tvg-logo="/Logotipo_da_Rede_Familia.png" group-title="Canais abertos", Rede Família
+https://5a1c76baf08c0.streamlock.net/familia/smil:familia.smil/chunklist_b1628000.m3u8
+
+EXTINF:-1,CAM RANDOM 1
+https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8
+
+EXTINF:-1,CAM RANDOM 2
+https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/chunklist_w228762653.m3u8
 
 
 

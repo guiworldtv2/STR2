@@ -14,7 +14,8 @@
 #EXTM3U x-tvg-url="https://github.com/Sphinxroot/share01/raw/maUFGster/epg_ripper_BR1.xml.gz"
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0BEchWQ.png" group-title="",TESTE TWITCH AO VIVO
-plugin://plugin.video.sendtokodi/?https://www.twitch.tv/alanzoka
+plugin://plugin.video.sendtokodi/?https://www.twitch.tv/LiveNOWfox
+
 
 
 #EXTINF:-1,CNN AMERICANA

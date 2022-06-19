@@ -13,20 +13,7 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml"
 #EXTM3U x-tvg-url="https://github.com/Sphinxroot/share01/raw/maUFGster/epg_ripper_BR1.xml.gz"
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0BEchWQ.png" group-title="",TESTE TWITCH AO VIVO
-plugin://plugin.video.sendtokodi/?https://www.twitch.tv/LiveNOWfox
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0BEchWQ.png" group-title="",TESTE TWITCH GRAVADO
-plugin://plugin.video.sendtokodi/?https://www.twitch.tv/videos/1507822505
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0BEchWQ.png" group-title="",TESTE TVI CNN VIVO
-plugin://plugin.video.sendtokodi/?https://tviplayer.iol.pt/direto/CNN
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0BEchWQ.png" group-title="",TESTE YOUTUBE GRAVADO
-plugin://plugin.video.sendtokodi/?https://www.youtube.com/watch?v=b74-GXalgv4
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0BEchWQ.png" group-title="",TESTE YOUTUBE LIVE
-plugin://plugin.video.sendtokodi/?https://www.youtube.com/c/TeleantioquiaNoticiasTA
 
 #EXTINF:-1,CNN AMERICANA
 https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_2_1964000.m3u8

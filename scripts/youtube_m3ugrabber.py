@@ -180,7 +180,7 @@ https://live-edge01.telecentro.net.ar/live/smil:tlx.smil/playlist.m3u8
 https://cdn2.zencast.tv:30443/orbe/orbe21smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://dz92jh1unkapm.cloudfront.net/accounts/5cf95117cb97cae8e2c36676/logo.png" group-title="Argentina", UNIFE TV  25.1
-https://dcunilive262-lh.akamaihd.net/i/dclive_1@424583/index_150_av-b.m3u8?sd=10&rebase=on
+https://dacastmmd.mmdlive.lldns.net/dacastmmd/98adedd6dec04a2d8663899b927f9383/chunklist_b4628000.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VISANTAM.png" group-title="Argentina", SANTA MARIA
 http://www.trimi.com.ar/santa_maria/streaming/mystreamSantaMariaHSMed.m3u8

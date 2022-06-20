@@ -21,8 +21,7 @@ https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ArtearHD.m3u8
 
 
 
-#EXTINF:-1,C5N
-http://45.238.54.70:8000/play/a01e
+
 
 
 

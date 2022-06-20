@@ -7,6 +7,70 @@ banner = r'''
 #                                  >> https://github.com/guiworldtv       #
 ###########################################################################
 
+#EXTINF:-1 group-title="Argentina tvg-logo=",AMC ARGENTINA
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/AMC.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",BOOMERANG
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Boomerang.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",CARTOON NETWORK
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/CartoonNetwork.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",DISCOVERY HD
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DiscoveryHD.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",HOME AND HEALTH HD
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DiscoveryHomeHealthHD.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",DISCOVERY TURBO
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DiscoveryTurbo.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",DISCOVERY SCIENCE
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Discovery_Science.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",DISNEY CHANNEL HD
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DisneyChannelHD.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",DISNEY JR
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DisneyJr.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN URUGUAY
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN_UY.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN URUGUAY 2
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN2_UY.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN URUGUAY 3
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN3_Uy-Py.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN PREMIUM
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN_Premiun_HD.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",ENTERTAINMENT TV
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/E_Entertainment_Television.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",EUROCHANNEL
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Eurochannel.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",FOX HD
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/FOXHD.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",HBO PLUS
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/HBO_Plus.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",HBO SIGNATURE
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/HBO_Signature.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",HISTORY HD
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/HistoryHD.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",HISTORY 2
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/History_2.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",HOME AND GARDEN
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Home_and_Garden.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",NATIONAL GEOGRAPHIC HD
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/NatGeoHD.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",NICK JR
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Nick_Jr.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",NICKELODEON
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Nickelodeon.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",PLAYBOY
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Playboy.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",SONY HD
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/SonyHD.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",SPACE
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Space.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",STUDIO UNIVERSAL
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Studio_Universal.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",TNT SERIES
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TNTSeries.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",THEATHER HD
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Theater_HD.m3u8
+#EXTINF:-1 group-title="Argentina tvg-logo=",TRU TV
+https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TruTV.m3u8
+
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="https://www.portalpopcyber.com/wp-content/uploads/2021/10/mtv-logo-952x630.png",MTV LATINOAMERICA
 https://edge2-ccast-sl.cvattv.com.ar/live/c6eds/MTV_HD/SA_SAGEMCOM/MTV_HD.m3u8
 #EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece

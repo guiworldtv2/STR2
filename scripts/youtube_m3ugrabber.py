@@ -333,14 +333,3 @@ if 'temp.txt' in os.listdir():
     os.system('rm watch*')
     
     
-banner = r'''
-
-
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="https://www.portalpopcyber.com/wp-content/uploads/2021/10/mtv-logo-952x630.png",MTV LATINOAMERICA
-https://edge2-ccast-sl.cvattv.com.ar/live/c6eds/MTV_HD/SA_SAGEMCOM/MTV_HD.m3u8
-
-
-
-
-
-'''

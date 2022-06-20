@@ -106,10 +106,7 @@ https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TelefeHD.m3u8
 https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TelefeHD-edge9.m3u8
 
 
-#EXTINF:-1 group-title="Argentina",Telefe Internacional
-http://45.238.54.70:8000/play/a00b
-#EXTINF: -1 tvg-id="Telefe" tvg-name="Telefe" group-title="Argentina" tvg-logo="https://i.imgur.com/HvCzSJQ.png", TeleFe Rosario | HD | Argentina
-https://m3u-editor.com/serve/televitolibre/497955335.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",América TV
 https://edge2-ccast-sl.cvattv.com.ar/live/c3eds/AmericaTV/SA_SAGEMCOM/AmericaTV.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",IP - Información Periodística

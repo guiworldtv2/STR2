@@ -194,6 +194,7 @@ https://g3.mc-hor.transport.edge-access.net/a09/ngrp:gcba_video3-100042_all/gcba
 
 
 
+
 #EXTINF:-1, CANAL 26 
 http://200.115.193.177/live/26hd-720/.m3u8
 #EXTINF:-1, A24 FHD*

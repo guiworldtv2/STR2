@@ -2,4 +2,4 @@
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
 BFMTV | | |
-https://www.dailymotion.com/video/xgz4t1
+https://www.dailymotion.com/video/x4liqgz

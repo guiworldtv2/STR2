@@ -40,8 +40,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x ARGENTINA.sh
-          ./ARGENTINA.sh
+          chmod +x CHILE.sh
+          ./CHILE.sh
         
       - name: git add
         run: |

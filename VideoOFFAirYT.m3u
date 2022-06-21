@@ -1,9 +1,3 @@
 
-#EXTINF:-1 group-title="Brasil", VIDEO FORA DO AR
-https://www.youtube.com/watch?v=1oh9IEwBbFY
-
 #EXTINF:-1 group-title="Taiwan", TESTE LINK LIVE
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1655813950/ei/3mKxYtO6GsPhigSB5YaYBg/ip/40.84.231.198/id/OxMAupCG1SI.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/4ocVC2Qqe_HnmVcEaLkjEhebJm-1dhU/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhANVRsSDhXYiRoCZWJtiJZ-Ve8VyytLhvbMKT3Y8Yad0tAiAY29PohT4UdZAEupKE60BhON4Vfkhdn3R3FJGBqcJv1g%3D%3D/file/index.m3u8
-
-#EXTINF:-1 group-title="Taiwan", TESTE LINK PLAYLIST
-https://www.youtube.com/watch?v=1oh9IEwBbFY
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1655817221/ei/pW-xYt3oIMm9kwaGzYK4Aw/ip/20.118.132.42/id/AZDKnSo2AlY.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/4ocVC0aY5AXP_tyKpeaQpOfSgw6aq0w/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAMiAODcP817vbZ0i7MJzk7EWjeH2fa8j7TumSkKQgkorAiEA4sENe3ejJqw5gvJBH2pvSLNQZvw15MQh_RXkRihTE9k%3D/file/index.m3u8

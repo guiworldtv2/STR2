@@ -350,13 +350,13 @@ def grab(url):
         if '.m3u8' not in response:
             if windows:
                 print('	
-https://cdn77-vid.xvideos-cdn.com/Wr7H1xKSao58Sp-1ZCX8gQ==,1655801533/videos_new/hls/56/55/85/565585fdb733141939ab3d4e8026ad34/hls.m3u8')
+https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAirYT.m3u')
                 return
             os.system(f'wget {url} -O temp.txt')
             response = ''.join(open('temp.txt').readlines())
             if '.m3u8' not in response:
                 print('	
-https://cdn77-vid.xvideos-cdn.com/Wr7H1xKSao58Sp-1ZCX8gQ==,1655801533/videos_new/hls/56/55/85/565585fdb733141939ab3d4e8026ad34/hls.m3u8')
+https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAirYT.m3u')
                 return
     end = response.find('.m3u8') + 5
     tuner = 100

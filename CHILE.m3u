@@ -9,25 +9,62 @@
 #                                  >> https://github.com/guiworldtv       #
 ###########################################################################
 
-#EXTINF:-1 group-title="Argentina tvg-logo=",AMC ARGENTINA
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/AMC.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",BOOMERANG
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Boomerang.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",CARTOON NETWORK
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/CartoonNetwork.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISCOVERY HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DiscoveryHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",HOME AND HEALTH HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DiscoveryHomeHealthHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISCOVERY TURBO
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DiscoveryTurbo.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISCOVERY SCIENCE
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Discovery_Science.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISNEY CHANNEL HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DisneyChannelHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISNEY JR
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DisneyJr.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN URUGUAY
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN_UY.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN URUGUAY 2
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN2_UY.m3u8
+#EXTINF:-1,TVN
+https://marine2.miplay.cl/tvn/mono.m3u8
+#EXTINF:-1,CHV
+https://marine2.miplay.cl/chilevision/index.m3u8
+#EXTINF:-1,Chile: Chilevision
+http://goldiptv.online:8080/mevlut/mevlut123/27111
+#EXTINF:-1,Chile: Chilevision HD
+http://goldiptv.online:8080/mevlut/mevlut123/27110
+#EXTINF:-1,Chile: CNN HD
+http://goldiptv.online:8080/mevlut/mevlut123/27109
+#EXTINF:-1,052 24 HORAS
+http://45.181.121.57:8111/play/052
+#EXTINF:-1,054 CNN Chile
+http://45.181.121.57:8111/play/054
+#EXTINF:-1,062 La Red HD
+http://45.181.121.57:8111/play/062
+#EXTINF:-1,064 TVN HD
+http://45.181.121.57:8111/play/064
+#EXTINF:-1,065 Mega
+http://45.181.121.57:8111/play/065
+#EXTINF:-1,065 Mega SD
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+#EXTINF:-1,066 CHV HD
+http://45.181.121.57:8111/play/066
+#EXTINF:-1,067 Canal 13
+http://45.181.121.57:8111/play/067
+#EXTINF:-1,Chile: 13C HD
+http://goldiptv.online:8080/mevlut/mevlut123/27120
+#EXTINF:-1,Chile: 13i HD
+http://goldiptv.online:8080/mevlut/mevlut123/27119
+#EXTINF:-1,Chile: 24 Horas
+http://goldiptv.online:8080/mevlut/mevlut123/27118
+#EXTINF:-1,Chile: Canal 13 HD
+http://goldiptv.online:8080/mevlut/mevlut123/27117
+#EXTINF:-1,CHVNOTICIAS_PLUTOTV
+https://siloh-latam-aka.plutotv.net/lilo/production/Chilevision/master.m3u8
+
+
+
+#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRYcis81WAh0QolovYToT0vSzgN7sIzkaru5-pOog=s88-c-k-c0x00ffffff-no-rj" tvg-id="", TVN
+https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+
+#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/clEeO22ukG6jvOlhK3EDIszMjjcNfZ5xJY4fVEUrN3bki3RYs8RiATTjqPXGVTCP0XFN7W046A=s88-c-k-c0x00ffffff-no-rj" tvg-id="", CHV Noticias
+https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+
+#EXTINF:-1 group-title="Chile" tvg-logo="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAGF-l790QCWpgPDcehyjzfhDKe2MqcuwGJc6HbUR4Q%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1" tvg-id="", Meganoticias
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1655809975/ei/V1OxYu3TCcyrhwaZ3pto/ip/137.117.91.204/id/TtzVcZqtnMM.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/4ocVC3jA1cXpQvXoOlKwfGrZUV_YffI/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgPsdrxYBAjNTZuq4rldgCak9jFTFveZ9ZoAE-W7ksYhcCIDS-VRwpe-xB-MA6Uyb4zVp4eBf32VkF3DvTWCpgMhKi/file/index.m3u8
+
+#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLR7bqk5Na_4EadU3tKgOi5b9jRifERvtJ6EiSY9vQ=s48-c-k-c0x00ffffff-no-rj" tvg-id="", T13 EN
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1655809975/ei/V1OxYq3kI4rh8wSp9q-oCA/ip/137.117.91.204/id/Ove87nZ_1D4.1/source/yt_live_broadcast/requiressl/yes/tx/24190961/txs/24190960%2C24190961/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/4ocVC2-DnQxFKYawjm0qCHZaqKWwICU/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgSnFOLbBRvAHudn9JEbPxY6z4JNrkFj9ZV4XbVoaypg0CIHaHWBMryv--PEo80PBE6Sh36KenHnGfb4auZ1MULwl2/file/index.m3u8
+
+#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLR7bqk5Na_4EadU3tKgOi5b9jRifERvtJ6EiSY9vQ=s48-c-k-c0x00ffffff-no-rj" tvg-id="", T13 EN
+https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+
+#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLSUe9jIzIfdb0yoCPlzMWThMyTg7uBO2GS_H7mF6wo=s48-c-k-c0x00ffffff-no-rj" tvg-id="", 24horas.cl
+https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+
+#EXTINF:-1 group-title="Política" tvg-logo="https://yt3.ggpht.com/rzWmoueYLYs4hpK1mwVFnyafADTztytGuZFiPJEVd1lyCZKFyYebzLPV1P9BB4xB6rEIiEKSug=s48-c-k-c0x00ffffff-no-rj" tvg-id="", TV SENADO CHILE
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1655809978/ei/WVOxYqfmCYSEgwPX-bewCw/ip/137.117.91.204/id/-SpwjCpAyRE.6/source/yt_live_broadcast/requiressl/yes/tx/24176215/txs/24176215%2C24176221/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/4ocVC3P3EjEz8wdqNZeZT7Alaz7347I/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgNxQt5oMVnwqJa1SBhcWYBPqBQo85JPtXMzC2s2Qo-MgCIG_twgcw1uPQmCVTfG3-NuLxKtmALFaIKVBPPeaFGYgU/file/index.m3u8

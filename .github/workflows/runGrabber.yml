@@ -24,5 +24,5 @@ jobs:
           git config --global user.name "fbk"
           chmod +x exec_grabber.sh && ./exec_grabber.sh
           git add -A
-          git commit -m "./youtubeLink.txt is updated."
+          git commit -m "./YouTubeLinkUnico/youtubeLink.txt is updated."
           git push

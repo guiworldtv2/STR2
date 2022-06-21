@@ -374,7 +374,7 @@ print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-G
 print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"')
 print(banner)
 #s = requests.Session()
-with open('../youtube_channel_info.txt', errors="ignore") as f:
+with open('../ARGENTINA.txt', errors="ignore") as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith('~~'):

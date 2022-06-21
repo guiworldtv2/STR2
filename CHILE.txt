@@ -1,3 +1,7 @@
+~~ DO NOT EDIT THE FIRST 2 LINES
+~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
+
+
 TVN | CHILE | https://yt3.ggpht.com/ytc/AKedOLRYcis81WAh0QolovYToT0vSzgN7sIzkaru5-pOog=s88-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ/live
 

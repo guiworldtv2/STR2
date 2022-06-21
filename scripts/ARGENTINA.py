@@ -349,12 +349,14 @@ def grab(url):
         #response = requests.get(url).text
         if '.m3u8' not in response:
             if windows:
-                print('https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8')
+                print('	
+https://cdn77-vid.xvideos-cdn.com/Wr7H1xKSao58Sp-1ZCX8gQ==,1655801533/videos_new/hls/56/55/85/565585fdb733141939ab3d4e8026ad34/hls.m3u8')
                 return
             os.system(f'wget {url} -O temp.txt')
             response = ''.join(open('temp.txt').readlines())
             if '.m3u8' not in response:
-                print('https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8')
+                print('	
+https://cdn77-vid.xvideos-cdn.com/Wr7H1xKSao58Sp-1ZCX8gQ==,1655801533/videos_new/hls/56/55/85/565585fdb733141939ab3d4e8026ad34/hls.m3u8')
                 return
     end = response.find('.m3u8') + 5
     tuner = 100

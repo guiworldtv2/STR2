@@ -34,7 +34,7 @@ def grab(url):
 
 
 s = requests.Session()
-with open('./youtube_channel_info.txt') as f:
+with open('./GLOBO.txt') as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith('~~'):

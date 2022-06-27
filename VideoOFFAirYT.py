@@ -5,7 +5,7 @@ import os
 def grab(url):
     response = requests.get(url, timeout = 15).text
     if '.m3u8' not in response:
-        print("plugin://plugin.video.youtube/play/?video_id=B23-qZbRnE4")
+        print("https://www.igm.mat.br/igm/igm1/HD-antigo/igmmat/ovidio-antigo/2007-2/fotos/bahia/100_0567.mov")
         return
     end = response.find('.m3u8') + 5
     tuner = 100

@@ -14,6 +14,11 @@
 #EXTM3U x-tvg-url="https://github.com/Sphinxroot/share01/raw/maUFGster/epg_ripper_BR1.xml.gz"
 
 
+#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Salão 1
+https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8
+
+#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Salão 1 - 2
+https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/chunklist_w1292786929.m3u8
 
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Vídeo Gravado Youtube
 plugin://plugin.video.youtube/play/?video_id=nHO38JeCjVc

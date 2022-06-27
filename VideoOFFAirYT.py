@@ -5,7 +5,7 @@ import os
 def grab(url):
     response = requests.get(url, timeout = 15).text
     if '.m3u8' not in response:
-        print("https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8")
+        print("plugin://plugin.video.youtube/play/?video_id=B23-qZbRnE4")
         return
     end = response.find('.m3u8') + 5
     tuner = 100

@@ -202,8 +202,7 @@ https://g4.mc-slo.transport.edge-access.net/a09/ngrp:magazine_live01-100083_all/
 #EXTINF:-1 tvg-logo="http://www.canalkzo.com/images/lg_kzo.svg" group-title="Argentina", KZO
 http://g2.vxral-slo.transport.edge-access.net/nx-beta/nx.hor.livetx.01/5eaa642772b3a25e2c28699e_540p/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/87/DeporTV_%282020_Logo_oficial%29.png" group-title="Argentina", DEPORT TV 24.1
-https://5fb24b460df87.streamlock.net/live-cont.ar/deportv/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TYC_SPORTS.jpg/800px-TYC_SPORTS.jpg" group-title="Argentina", TyC SPORT 
 https://d3055hobuue3je.cloudfront.net/out/v1/b841c366cbe540e6a106c3ba83e5c8d6/index.m3u8
@@ -212,21 +211,8 @@ https://d3055hobuue3je.cloudfront.net/out/v1/b841c366cbe540e6a106c3ba83e5c8d6/in
 https://srv2.zcast.com.br/ciudadm/ciudadm/playlist.m3u8
 
 
-
 #EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-2gN4wEv_qPI/XjtKDwMuIQI/AAAAAAAAvrY/VTtJwZALBykDRnM8ia0Xbqi0FbREvdrZACK8BGAsYHg/s0/2020-02-05.png" group-title="Argentina", GARAGE TV
 http://186.0.233.76:1935/Garage/smil:garage.smil/chunklist_w2049053275_b1296000_sleng.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s303640/images/logog.png?t=151602" group-title="NOTICIAS", FRANCE 24 ESPAÑOL - 24.3
-http://f24hls-i.akamaihd.net/hls/live/520845/F24_ES_HI_HLS/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.telesurtv.net/export/sites/telesur/arte/log-iso-telesur.png_253617125.png" group-title="NOTICIAS", TELESUR  25.4
-https://d2ajt1gpdtnw25.cloudfront.net/mbliveMain/480p/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/1200px-Russia-today-logo.svg.png" group-title="NOTICIAS", RT  25.5
-https://rt-esp-gd.secure2.footprint.net/1102.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Euronews._2016_alternative_logo.png/600px-Euronews._2016_alternative_logo.png" group-title="NOTICIAS", EURONEWS
-https://euronews-euronews-spanish-2.plex.wurl.com/manifest/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/150px-Deutsche_Welle_symbol_2012.svg.png" group-title="NOTICIAS", DW ESPAÑOL
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8
@@ -258,80 +244,7 @@ https://g3.mc-hor.transport.edge-access.net/a09/ngrp:gcba_video3-100042_all/gcba
 
 #EXTINF:-1, CANAL 26 
 http://200.115.193.177/live/26hd-720/.m3u8
-#EXTINF:-1, A24 FHD*
-http://goldiptv.online:8080/mevlut/mevlut123/27183
-#EXTINF:-1, A24 HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27182
-#EXTINF:-1, America TV FHD*
-http://goldiptv.online:8080/mevlut/mevlut123/27180
-#EXTINF:-1, America TV HD
-http://goldiptv.online:8080/mevlut/mevlut123/27179
-#EXTINF:-1, C5N HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27178
-#EXTINF:-1, Canal 26 Noticias HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27177
-#EXTINF:-1, Canal 4 Esquel
-http://goldiptv.online:8080/mevlut/mevlut123/27176
-#EXTINF:-1, Canal 9 Salta
-http://goldiptv.online:8080/mevlut/mevlut123/27175
-#EXTINF:-1, CINE.AR HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27174
-#EXTINF:-1, CN23 HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27173
-#EXTINF:-1, Cronica Television HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27172
-#EXTINF:-1, DeporTV FHD*
-http://goldiptv.online:8080/mevlut/mevlut123/27171
-#EXTINF:-1, DeporTV HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27170
-#EXTINF:-1, El Garage TV HD
-http://goldiptv.online:8080/mevlut/mevlut123/27169
-#EXTINF:-1, El Nueve FHD*
-http://goldiptv.online:8080/mevlut/mevlut123/27168
-#EXTINF:-1, El Nueve HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27167
-#EXTINF:-1, El Rural HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27166
 
-
-#EXTINF:-1, Fox Sports 1
-http://goldiptv.online:8080/mevlut/mevlut123/27162
-#EXTINF:-1, Fox Sports 2
-http://goldiptv.online:8080/mevlut/mevlut123/27161
-#EXTINF:-1, Fox Sports Premium FHD
-http://goldiptv.online:8080/mevlut/mevlut123/27160
-#EXTINF:-1, Fox Sports Premium HD
-http://goldiptv.online:8080/mevlut/mevlut123/27159
-#EXTINF:-1, LN Mas HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27158
-#EXTINF:-1, Net TV FHD
-http://goldiptv.online:8080/mevlut/mevlut123/27157
-#EXTINF:-1, Net TV HD
-http://goldiptv.online:8080/mevlut/mevlut123/27156
-#EXTINF:-1, Telefe FHD*
-http://goldiptv.online:8080/mevlut/mevlut123/27152
-#EXTINF:-1, Telefe HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27151
-#EXTINF:-1, Telemax
-http://goldiptv.online:8080/mevlut/mevlut123/27150
-#EXTINF:-1, Television Publica FHD*
-http://goldiptv.online:8080/mevlut/mevlut123/27149
-#EXTINF:-1, Television Publica HD*
-http://goldiptv.online:8080/mevlut/mevlut123/27148
-#EXTINF:-1, TN Buenos Aires
-http://goldiptv.online:8080/mevlut/mevlut123/27147
-#EXTINF:-1, TNT Sports HD
-http://goldiptv.online:8080/mevlut/mevlut123/27146
-#EXTINF:-1, TR Telered
-http://goldiptv.online:8080/mevlut/mevlut123/27145
-#EXTINF:-1, Trece Max HD
-http://goldiptv.online:8080/mevlut/mevlut123/27144
-#EXTINF:-1, TyC Sports FHD
-http://goldiptv.online:8080/mevlut/mevlut123/27143
-#EXTINF:-1, TyC Sports HD
-http://goldiptv.online:8080/mevlut/mevlut123/27142
-#EXTINF:-1, TyC Sports Internacional
-http://goldiptv.online:8080/mevlut/mevlut123/27141
 
 '''
 

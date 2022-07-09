@@ -82,6 +82,13 @@ https://live-01-02-eltrece.vodgc.net/eltrecetv/tracks-v1a1/mono.m3u8
 #EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece 3
 https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ArtearHD.m3u8
 
+#EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece 3
+http://jumangis.com:2082/Sv503iptv22/QR7E5sm3J2/95534
+
+
+#EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png", EL TRECE INTERNACIONAL
+http://jumangis.com:2082/Sv503iptv22/QR7E5sm3J2/95506
+
 
 
 
@@ -95,7 +102,7 @@ https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ArtearHD.m3u8
 https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Encuentro.m3u8
 
 
-#EXTINF:-1, tvg-id="Telefe" group-title="Argentina" tvg-name="Telefe" tvg-logo="http://www.lanoticiawebciudad.com.ar/wp-content/uploads/2016/11/telefe-logo.jpg",Telefe
+#EXTINF:-1, tvg-id="Telefe" group-title="Argentina" tvg-name="Telefe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Telefe_Logo.svg/1280px-Telefe_Logo.svg.png",Telefe
 https://edge2-ccast-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD.m3u8
 
 
@@ -104,7 +111,8 @@ https://edge2-ccast-sl.cvattv.com.ar/live/c3eds/TelefeHD/SA_SAGEMCOM/TelefeHD.m3
 https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TelefeHD.m3u8
 #EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Telefe_Logo.svg/1280px-Telefe_Logo.svg.png",TELEFE 3
 https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TelefeHD-edge9.m3u8
-
+#EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Telefe_Logo.svg/1280px-Telefe_Logo.svg.png",TELEFE 4
+http://jumangis.com:2082/Sv503iptv22/QR7E5sm3J2/95508
 
 
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",América TV

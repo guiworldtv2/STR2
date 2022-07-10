@@ -29,8 +29,7 @@ with open('./VideoOFFAirYT.txt', encoding='utf-8') as f:
             ch_name = line[0].strip()
             grp_title = line[1].strip().title()
             print(f'\n#EXTM3U')
-            print(f'\n#EXT-X-VERSION:5')
-            print(f'\n#EXTINF:-1 group-title="{grp_title}", {ch_name}')
+            print(f'\n#EXT-X-VERSION:5')            
         else:
             grab(line)
             

@@ -45,7 +45,7 @@ def trlinksolver( url ):
         return source    
     
 def ecanlisolver( url ): 
-    #url = "https://www.ecanlitvizle.net/show-tv-izle/"
+    #url = "https://tviplayer.iol.pt/direto/TVI_REALITY/"
     out = subprocess.getoutput("streamlink --stream-url "+url+" best")
     return out 
 def write2file( names_n , channels_n  ):
@@ -55,7 +55,7 @@ def write2file( names_n , channels_n  ):
                 #myfile.write("h"+test19+" \n")
                 myfile.write(channels_n[i])
 def ecanliget(url):
-    #url = "https://www.canlitv.plus/?sayfa=2"
+    #url = "https://tviplayer.iol.pt/direto/TVI_REALITY"
     name=[]
     
     headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0', 'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'Connection':'keep-alive',}
@@ -93,8 +93,8 @@ ii = 1
                               
 
 shutil.move('temp.txt', 'live.m3u8')
-#print("Turkish Channels from ecanlitvizle.net")                    
-#ecanliget("https://www.ecanlitvizle.net")
+#print("Turkish Channels from https://tviplayer.iol.pt/direto/TVI_REALITY")                    
+#ecanliget("https://tviplayer.iol.pt/direto/TVI_REALITY")
 print("\n\n\n")
 print("############################################")
 print("\n")

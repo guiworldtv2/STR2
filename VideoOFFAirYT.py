@@ -91,33 +91,6 @@ def ecanliget(url):
 jj = 0 
 ii = 1         
                               
-try:
-        print("LIG TV Channels from livinstream.org")
-        for ii in range(1, 10):
-            request = requests.get(linksolver("http://www.livinstream.org/live/?channel="+str(ii)))
-            if request.status_code == 200:
-                print("LIG TV "+str(ii))
-                progress(ii+jj,9+38)
-                with open("temp.txt", "a") as myfile:
-                    myfile.write("#EXTINF:0,LIG TV "+str(ii)+"\n")
-                    myfile.write(linksolver("http://www.livinstream.org/live/?channel="+str(ii))+"\n")
-            #else:
-                #print(' Web site does not exist')
-except:
-    print('FEHLER livinstream.org')
-
-try:
-    print("1.list")
-    (names_n1 , channels_n1) = ecanliget("https://www.canlitv.plus/?sayfa=1")
-    write2file(names_n1,channels_n1)
-    shutil.move('temp.txt', 'live.m3u8')
-    print("2.list")
-    (names_n2 , channels_n2) = ecanliget("https://www.canlitv.plus/?sayfa=2")
-    names_n1.extend(names_n2)
-    channels_n1.extend(channels_n2)
-    write2file(names_n1,channels_n1)
-except:
-    print('FEHLER canlitv.plus') 
 
 shutil.move('temp.txt', 'live.m3u8')
 #print("Turkish Channels from ecanlitvizle.net")                    

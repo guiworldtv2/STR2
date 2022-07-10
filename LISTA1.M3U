@@ -182,6 +182,7 @@ https://rpn1.bozztv.com/36bay2/gusa-tvsturbo/index.m3u8
 https://rpn1.bozztv.com/36bay2/gusa-tvswsn/index.m3u8
 
 
+
 #EXTINF:-1 radio="true",espaço aéreo argentino - audio
 https://radio.radarbox.com/EXTVHF000725
 
@@ -191,6 +192,46 @@ https://radio.radarbox.com/EXTVHF000003
 https://radio.radarbox.com/EXTVHF000548
 #EXTINF:-1 radio="true", espaço aéreo Mexico - Tlaxcalancingo
 https://radio.radarbox.com/EXTVHF000623
+
+#EXTINF:-1 radio="true",ESCUTA FREQUENCIA COORDENAÇÃO HELICOPTEROS - SP
+https://ssl1.transmissaodigital.com:20101/HELI127.35RCB
+
+#EXTINF:-1 radio="true",ESCUTA FREQUENCIA COORDENAÇÃO HELICOPTEROS - SP 118.35MHZ
+https://ssl1.transmissaodigital.com:20305/daviRJcgh127.15
+
+#EXTINF:-1 radio="true",ESCUTA ATIS DE CAMPO DE MARTE
+https://ssl1.transmissaodigital.com:20102/127.725ATISMARTERCB
+#EXTINF:-1 radio="true",ESCUTA AÉREA DO SOLO DO CAMPO DE MARTE - 121.6
+https://ssl1.transmissaodigital.com:20104/121.6SOLOMARTERCB
+#EXTINF:-1 radio="true",ESCUTA TORRE DO CAMPO DE MARTE
+https://ssl1.transmissaodigital.com:20106/TORREMARTE133.35RCBRCB
+#EXTINF:-1 radio="true",ESCUTA AÉREA ATIS AEROPORTO CONGONHAS
+https://ssl1.transmissaodigital.com:20103/127.65ATISCGHRCB
+#EXTINF:-1 radio="true",ESCUTA ATIS AEROPORTO GUARULHOS
+https://ssl1.transmissaodigital.com:20102/127.75ATISGRURCB
+#EXTINF:-1 radio="true",ESCUTA TORRE GUARULHOS
+https://ssl1.transmissaodigital.com:20105/TORREGRU135.2RCBFONIAEXCLUSIVARADIOCOMBRASIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #EXTINF:-1 radio="true",radio vinha 
 https://streaming.vinhafm.com.br/stream

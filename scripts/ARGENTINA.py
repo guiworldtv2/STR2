@@ -2,6 +2,12 @@
 
 banner = r'''
 
+banner = r'''
+###########################################################################
+#                                                                         #
+
+#                                  >> https://github.com/guiworldtv       #
+###########################################################################
 
 #EXTINF:-1 group-title="Argentina tvg-logo=",AMC ARGENTINA
 https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/AMC.m3u8

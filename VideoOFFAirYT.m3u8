@@ -1,15 +1,3 @@
 
-
-
-
-############################################
-
-
- DONE! Your live.m3u8 File is ready to use  
-
-
-############################################
-
-
-
-
+#EXTM3U
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1657509157/ei/xUDLYsv2GqaOhwbZ-4aIBw/ip/13.92.31.38/id/RCb3EVlQ-4I.1/source/yt_live_broadcast/requiressl/yes/tx/24222793/txs/24222793%2C24222794%2C24222795%2C24222796%2C24222797/hfr/1/maudio/1/spc/lT-Khqq8pqtPHtTg1zn9Dkkz8hC2-j4/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgMeBjKYNkluU8IwgTzk9jK0G9CqZtIbC0P_Un0hWQeq8CIQCcobqXlJLMMMXLhHYvrZUe8e4qmujjcvfD7b9a4hEZtQ%3D%3D/file/index.m3u8

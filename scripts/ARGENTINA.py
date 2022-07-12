@@ -89,7 +89,11 @@ http://jumangis.com:2082/Sv503iptv22/QR7E5sm3J2/95534
 #EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png", EL TRECE INTERNACIONAL
 http://jumangis.com:2082/Sv503iptv22/QR7E5sm3J2/95506
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/srtddlN.png" group-title="Argentina",TV Publica
+https://delivery.cdn.rcs.net.ar/mnp/tvp/output.mpd
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IS4LViL.png" group-title="Argentina",El Nueve
+https://delivery.cdn.rcs.net.ar/mnp/elnueve/output.mpd
 
 
 

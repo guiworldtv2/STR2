@@ -1,0 +1,49 @@
+name: Get StreamLink Live m3u8
+on:
+  schedule:
+    - cron: '0 0/2 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Install streamlink
+      run: |
+        pip install --user --upgrade streamlink
+    - name: Get UNIVERSALANGOLA.m3u8
+      run: |
+        touch ./UNIVERSALANGOLA.m3u8
+        sudo cat >./UNIVERSALANGOLA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://livestream.com/tvmiramar/fetv best)
+        EOL             
+    - name: Get TVIPORTUGAL.m3u8
+      run: |
+        touch ./TVIPORTUGAL.m3u8
+        sudo cat >./TVIPORTUGAL.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI best)
+        EOL         
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+    - name: commit & push
+      run: |
+        git commit -m "links atualizados"
+        git push

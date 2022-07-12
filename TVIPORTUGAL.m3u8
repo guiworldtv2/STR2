@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+https://video-auth4.iol.pt/live_tvi/live_tvi/edge_servers/tvi-720_passthrough/chunks.m3u8?nimblesessionid=295331129&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xMi8yMDIyIDk6MDo0OSBBTSZoYXNoX3ZhbHVlPVk0NmZNZEw4YW8zMW5xcnhrL2pid0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1hYWE0NjczMC1mZTQ1LTQxNDAtYTI5NC1mOGI1ZTVmMjFjMmY%3D
+EOL         

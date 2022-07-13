@@ -1,3 +1,3 @@
+
 #EXTM3U
-#EXT-X-VERSION:5
-http://181.30.129.66:80/live/live2/ArtearHD/SA_Live_fta/ArtearHD.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1657768531/ei/8zXPYoOILom9kwbZhb2ICw/ip/20.228.95.54/id/RCb3EVlQ-4I.1/source/yt_live_broadcast/requiressl/yes/tx/24215395/txs/24215395%2C24215396%2C24215397%2C24215398/hfr/1/maudio/1/spc/lT-KhuABPvO8B1HdzbmlPsRFcg0FEhg/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAKZoyG0FFj9XcnaG3oKEXnx5n3lL0VX1rvRocVnq2gx5AiAYb2eVI7gC_JABynRb9fDoL9QwCLmX7G5X8Le1ltv6cA%3D%3D/file/index.m3u8

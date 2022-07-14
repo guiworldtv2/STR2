@@ -285,7 +285,8 @@ https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TelefeHD.m3u8
 https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TelefeHD-edge9.m3u8
 #EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Telefe_Logo.svg/1280px-Telefe_Logo.svg.png",TELEFE 4
 http://jumangis.com:2082/Sv503iptv22/QR7E5sm3J2/95508
-
+#EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Telefe_Logo.svg/1280px-Telefe_Logo.svg.png",TELEFE 5
+https://delivery.cdn.rcs.net.ar/mnp/telefe/output.mpd
 
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",América TV
 https://edge2-ccast-sl.cvattv.com.ar/live/c3eds/AmericaTV/SA_SAGEMCOM/AmericaTV.m3u8

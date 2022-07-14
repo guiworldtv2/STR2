@@ -443,7 +443,7 @@ channel_no = 0
 
 
         
-        windows = False
+        
 if 'win' in sys.platform:
     windows = True
 

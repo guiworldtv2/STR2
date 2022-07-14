@@ -432,6 +432,7 @@ http://200.115.193.177/live/26hd-720/.m3u8
 import requests
 import os
 import sys
+channel_no = 0
 
 windows = False
 if 'win' in sys.platform:

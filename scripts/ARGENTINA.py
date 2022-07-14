@@ -7,68 +7,232 @@ banner = r'''
 #                                  >> https://github.com/guiworldtv       #
 ###########################################################################
 
-#EXTINF:-1 group-title="Argentina tvg-logo=",AMC ARGENTINA
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/AMC.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",BOOMERANG
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Boomerang.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",CARTOON NETWORK
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/CartoonNetwork.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISCOVERY HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DiscoveryHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",HOME AND HEALTH HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DiscoveryHomeHealthHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISCOVERY TURBO
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DiscoveryTurbo.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISCOVERY SCIENCE
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Discovery_Science.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISNEY CHANNEL HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DisneyChannelHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",DISNEY JR
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/DisneyJr.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN URUGUAY
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN_UY.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN URUGUAY 2
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN2_UY.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN URUGUAY 3
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN3_Uy-Py.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",ESPN PREMIUM
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ESPN_Premiun_HD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",ENTERTAINMENT TV
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/E_Entertainment_Television.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",EUROCHANNEL
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Eurochannel.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",FOX HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/FOXHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",HBO PLUS
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/HBO_Plus.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",HBO SIGNATURE
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/HBO_Signature.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",HISTORY HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/HistoryHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",HISTORY 2
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/History_2.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",HOME AND GARDEN
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Home_and_Garden.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",NATIONAL GEOGRAPHIC HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/NatGeoHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",NICK JR
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Nick_Jr.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",NICKELODEON
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Nickelodeon.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",PLAYBOY
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Playboy.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",SONY HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/SonyHD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",SPACE
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Space.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",STUDIO UNIVERSAL
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Studio_Universal.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",TNT SERIES
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TNTSeries.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",THEATHER HD
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/Theater_HD.m3u8
-#EXTINF:-1 group-title="Argentina tvg-logo=",TRU TV
-https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TruTV.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: TNT SPORTS HD Op1 " tvg-logo="https://w7.pngwing.com/pngs/621/229/png-transparent-superliga-argentina-de-futbol-logo-tnt-sports-logo-sport-text-trademark-logo.png" group-title="DEPORTES",SPORTS: TNT SPORTS HD Op1 
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/94714
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:ESPN 1 DIRECTO ARG" tvg-logo="https://www.futbolenvivo.com.co/wp-content/uploads/2020/01/ESPN-2-en-vivo-online.jpg" group-title="DEPORTES",SPORTS:ESPN 1 DIRECTO ARG
+https://delivery.cdn.rcs.net.ar/mnp/espn_hls/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:ESPN 2 DIRECTO ARG" tvg-logo="https://www.futbolenvivo.com.co/wp-content/uploads/2020/01/ESPN-2-en-vivo-online.jpg" group-title="DEPORTES",SPORTS:ESPN 2 DIRECTO ARG
+https://delivery.cdn.rcs.net.ar/mnp/espn2_hls/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :Directv Sports 1 SD" tvg-logo="https://seeklogo.com/images/D/directv-sports-logo-6F86DBD521-seeklogo.com.png" group-title="DEPORTES",SPORTS: :Directv Sports 1 SD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/53958
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: Directv Sports 1 ARG FHD" tvg-logo="https://seeklogo.com/images/D/directv-sports-logo-6F86DBD521-seeklogo.com.png" group-title="DEPORTES",SPORTS: Directv Sports 1 ARG FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/53959
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :Directv Sports 1" tvg-logo="https://seeklogo.com/images/D/directv-sports-logo-6F86DBD521-seeklogo.com.png" group-title="DEPORTES",SPORTS: :Directv Sports 1
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/679
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :DirectvSP 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/DirecTV_Sports_2_Latin_America_%282018%29.png/1200px-DirecTV_Sports_2_Latin_America_%282018%29.png" group-title="DEPORTES",SPORTS: :DirectvSP 2
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/680
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :DirectvSP+ Plus" tvg-logo="https://www.pngfind.com/pngs/m/297-2974594_directv-sports-plus-logo-hd-png-download.png" group-title="DEPORTES",SPORTS: :DirectvSP+ Plus
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/678
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: TYC SPORTS BUENOS AIRES" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/d/dc/TYC94.png" group-title="DEPORTES",SPORTS: TYC SPORTS BUENOS AIRES
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/66700
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: TyC Sports HD" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: TyC Sports HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58933
+#EXTINF:-1 tvg-id="TYC SPORTS HD" tvg-name="SPORTS: TYC SPORTS PLAY(PARTIDOS)" tvg-logo="https://img2.freepng.es/20180723/huc/kisspng-logo-tyc-sports-brand-trademark-mosaic-5b55e9fa8e43a0.5446456715323571145827.jpg" group-title="DEPORTES",SPORTS: TYC SPORTS PLAY(PARTIDOS)
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/53792
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: TYC Sports(directo solo arg)" tvg-logo="https://statics-files.tycsports.com/frontend/tycsports/img/site_image.jpg" group-title="DEPORTES",SPORTS: TYC Sports(directo solo arg)
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/52688
+#EXTINF:-1 tvg-id="TYC SPORTS HD" tvg-name="*SPORTS: HD:TYC SPORTS ARG FHD" tvg-logo="https://img2.freepng.es/20180723/huc/kisspng-logo-tyc-sports-brand-trademark-mosaic-5b55e9fa8e43a0.5446456715323571145827.jpg" group-title="DEPORTES",*SPORTS: HD:TYC SPORTS ARG FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/108
+#EXTINF:-1 tvg-id="TYC SPORTS HD" tvg-name="*SPORTS: SD: TYC SPORTS ARG SD" tvg-logo="https://img2.freepng.es/20180723/huc/kisspng-logo-tyc-sports-brand-trademark-mosaic-5b55e9fa8e43a0.5446456715323571145827.jpg" group-title="DEPORTES",*SPORTS: SD: TYC SPORTS ARG SD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/34478
+#EXTINF:-1 tvg-id="Canal TyC Sports" tvg-name="SPORTS: TYC Sport USA" tvg-logo="" group-title="DEPORTES",SPORTS: TYC Sport USA
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/20252
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: FOX SPORTS 1 ARG FHD" tvg-logo="https://play.foxsportsla.com/assets/images/Logo-FS.png" group-title="DEPORTES",SPORTS: FOX SPORTS 1 ARG FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/3668
+#EXTINF:-1 tvg-id="FOX Sports" tvg-name="SPORTS SUR: Fox Sports 1 ARG HD" tvg-logo="http://zpapi.zetatv.com.uy/media/images/fox-sports.png" group-title="DEPORTES",SPORTS SUR: Fox Sports 1 ARG HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/41745
+#EXTINF:-1 tvg-id="FOX Sports 2" tvg-name="SPORTS SUR: Fox Sports 2 ARG" tvg-logo="http://zpapi.zetatv.com.uy/media/images/fox-sports-2.png" group-title="DEPORTES",SPORTS SUR: Fox Sports 2 ARG
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/41746
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:  ESPN EX  FOX SPORTS PREMIUM Op1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Fox_Sports_Premium_Argentina_2020.png" group-title="DEPORTES",SPORTS:  ESPN EX  FOX SPORTS PREMIUM Op1
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/16521
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: ESPN  EX Fox Sports Premium Op2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Fox_Sports_Premium_Argentina_2020.png" group-title="DEPORTES",SPORTS: ESPN  EX Fox Sports Premium Op2
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/693
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: ESPN EX  FOX SPORTS PREMIUM Op3 " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Fox_Sports_Premium_Argentina_2020.png" group-title="ARGENTINA 1",SPORTS: ESPN EX  FOX SPORTS PREMIUM Op3 
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/16229
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: HD:TNT SPORTS Op2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/TNT_Sports_Logo_Vertical_%282017%29.png" group-title="DEPORTES",SPORTS: HD:TNT SPORTS Op2
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/99
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: HD:TNT SPORTS Op3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/TNT_Sports_Logo_Vertical_%282017%29.png" group-title="DEPORTES",SPORTS: HD:TNT SPORTS Op3
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/17095
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: HD:TNT SPORTS Op4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/TNT_Sports_Logo_Vertical_%282017%29.png" group-title="DEPORTES",SPORTS: HD:TNT SPORTS Op4
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/17096
+#EXTINF:-1 tvg-id="ESPN" tvg-name="SPORTS: ESPN 1 SUR AR" tvg-logo="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png" group-title="DEPORTES",SPORTS: ESPN 1 SUR AR
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/41620
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: ESPN 2 ARG" tvg-logo="http://elmasteriptv.com:8000/images/017f41a2ef4ff9d39f45f680b88cd23b.jpg" group-title="DEPORTES",SPORTS: ESPN 2 ARG
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/16663
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: ESPN 1 ARG" tvg-logo="https://cdn.mitvstatic.com/channels/pe_espn_m.png" group-title="DEPORTES",SPORTS: ESPN 1 ARG
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/16662
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: ESPN 2 ARG 2" tvg-logo="http://elmasteriptv.com:8000/images/017f41a2ef4ff9d39f45f680b88cd23b.jpg" group-title="DEPORTES",SPORTS: ESPN 2 ARG 2
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31740
+#EXTINF:-1 tvg-id="ESPN 2" tvg-name="SPORTS: ESPN 2 LINE ARG" tvg-logo="https://www.futbolenvivo.com.co/wp-content/uploads/2020/01/ESPN-2-en-vivo-online.jpg" group-title="DEPORTES",SPORTS: ESPN 2 LINE ARG
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/32157
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: ESPN 3 ARG" tvg-logo="http://elmasteriptv.com:8000/images/021ee6585dd4256f549242057e972f41.png" group-title="DEPORTES",SPORTS: ESPN 3 ARG
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/16664
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: ESPN 2 FHD" tvg-logo="http://www.cooprico.com.ar/images/historic/canales/espn2.png" group-title="DEPORTES",SPORTS: ESPN 2 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31237
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: Espn HD M" tvg-logo="http://elmasteriptv.com:8000/images/42fa21e42f99f88f0a881e12119ae313.jpg" group-title="DEPORTES",SPORTS: Espn HD M
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/17493
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: ESPN + PLUS HD" tvg-logo="https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2018/02/espn-plus_dbc67d58aaa156a0ed06d06dd4972971-xl.jpg" group-title="DEPORTES",SPORTS: ESPN + PLUS HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/12157
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: WIN SPORTS + PLUS COLOMBIA" tvg-logo="https://futbolete.com/wp-content/uploads/2019/12/capturadepantall-f0f54bcde7fc1471047f7b0e52fe8147-1200x600-1.jpg" group-title="DEPORTES",SPORTS: WIN SPORTS + PLUS COLOMBIA
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/16492
+#EXTINF:-1 tvg-id="" tvg-name="Sports:Win Sport + 2" tvg-logo="https://futbolete.com/wp-content/uploads/2019/12/capturadepantall-f0f54bcde7fc1471047f7b0e52fe8147-1200x600-1.jpg" group-title="DEPORTES",Sports:Win Sport + 2
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/43501
+#EXTINF:-1 tvg-id="Canal ESPN+ Latinoamérica" tvg-name="SPORTS: HD:ESPN +" tvg-logo="https://secure.espncdn.com/watchespn/images/espnplus/paywalls/ESPN_PLUS.logo@2x.png" group-title="DEPORTES",SPORTS: HD:ESPN +
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/4296
+#EXTINF:-1 tvg-id="Canal ESPN Deportes" tvg-name="SPORTS: ESPN DEPORTES HD" tvg-logo="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespndeportes_white.png" group-title="DEPORTES",SPORTS: ESPN DEPORTES HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/15490
+#EXTINF:-1 tvg-id="Canal Fox Deportes" tvg-name="SPORTS: FOX DEPORTES HD" tvg-logo="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c3/f9/36/c3f936b0-4109-35e5-c22e-0ac53d9213f6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/1200x630wa.png" group-title="DEPORTES",SPORTS: FOX DEPORTES HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/15488
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: Fox Sports 1 LA" tvg-logo="https://play.foxsportsla.com/assets/images/Logo-FS.png" group-title="DEPORTES",SPORTS: Fox Sports 1 LA
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/12311
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: FOX SPORTS 1 SUR" tvg-logo="https://play.foxsportsla.com/assets/images/Logo-FS.png" group-title="DEPORTES",SPORTS: FOX SPORTS 1 SUR
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/12312
+#EXTINF:-1 tvg-id="FOX Sports 3" tvg-name="*SPORTS: HD:FOX SPORTS 3" tvg-logo="https://static.wixstatic.com/media/0cd32b_36fc7a2ba14b4a81937ee99c0c5dd9f8.png" group-title="DEPORTES",*SPORTS: HD:FOX SPORTS 3
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/101
+#EXTINF:-1 tvg-id="" tvg-name="Sports:DIRECTV SPORTS 1 ECUADOR" tvg-logo="" group-title="DEPORTES",Sports:DIRECTV SPORTS 1 ECUADOR
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/326
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: TNT SPORT 1 CHILE" tvg-logo="http://1.bp.blogspot.com/-H0bRRXbMOwo/UhEC37cIzGI/AAAAAAAAOnU/plUJ7hWqclI/s1600/cdf+NUEVO.png" group-title="DEPORTES",SPORTS: TNT SPORT 1 CHILE
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31268
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS_CL TNT SPORT 3 CHILE" tvg-logo="https://i.imgur.com/lEc55se.png" group-title="DEPORTES",SPORTS_CL TNT SPORT 3 CHILE
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31270
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS_CL:  ESTADIO TNT SPORT CHILE" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/f/fa/Logocdfpremium2019.png/revision/latest?cb=20190216005645" group-title="DEPORTES",SPORTS_CL:  ESTADIO TNT SPORT CHILE
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31271
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS_CL TNT SPORT Premium CHILE" tvg-logo="https://i.imgur.com/lEc55se.png" group-title="DEPORTES",SPORTS_CL TNT SPORT Premium CHILE
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31272
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS_CL TNT SPORT 1 CHILE" tvg-logo="https://cdn.mitvstatic.com/programs/cl_cdf-premium_p_m.jpg" group-title="DEPORTES",SPORTS_CL TNT SPORT 1 CHILE
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31275
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="*SPORTS: HD:GOLF CHANNEL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDr5DY-PFDZnDKbK-nrOZ4eyYfLyfvfIUcWfFNNpqn0LwCLTw" group-title="DEPORTES",*SPORTS: HD:GOLF CHANNEL
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/107
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: Bolivia Deportes" tvg-logo="http://directostv.teleame.com/wp-content/uploads/2018/02/bolivia-deportes.png" group-title="DEPORTES",SPORTS: Bolivia Deportes
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/387
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: CDO BASICO CHILE" tvg-logo="http://directostv.teleame.com/wp-content/uploads/2018/06/cdo.png" group-title="DEPORTES",SPORTS: CDO BASICO CHILE
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/377
+#EXTINF:-1 tvg-id="Canal Movistar Fórmula 1" tvg-name="SPORTS: F1 FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/DAZN_F1_logo.png" group-title="DEPORTES",SPORTS: F1 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/211
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: FUTV HD" tvg-logo="" group-title="DEPORTES",SPORTS: FUTV HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/19136
+#EXTINF:-1 tvg-id="El Garage" tvg-name="SPORTS: GARAGE TV" tvg-logo="https://static.wixstatic.com/media/a6f875_c7ca84d7360f45ffb13d840b0649654e.png" group-title="DEPORTES",SPORTS: GARAGE TV
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/385
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: MLB Live" tvg-logo="https://static1.squarespace.com/static/5bdfef0a697a98c05dd88ac0/5be3acea8985830adc1dc1f8/5c4fa2cc7ba7fc601bbd68c1/1548723770231/mlb.jpg?format=300w" group-title="DEPORTES",SPORTS: MLB Live
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/380
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: MLB Network" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8OvbTbRC3ih2o9AabgcJUPH6mXoGT232CfiMu78FDWmpIana8" group-title="DEPORTES",SPORTS: MLB Network
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/379
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: Real Madrid TV" tvg-logo="https://media.cdnandroid.com/19/0b/92/cc/imagen-real-madrid-tv-0thumb.jpg" group-title="DEPORTES",SPORTS: Real Madrid TV
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/382
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: Red Bull TV" tvg-logo="https://image.redbull.com/rbcom/010/2016-10-01/1331821221085_2/0010/1/1050/656/1/red-bull-tv.png" group-title="DEPORTES",SPORTS: Red Bull TV
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/381
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: UFC NETWORK" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/ufc.png" group-title="DEPORTES",SPORTS: UFC NETWORK
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/378
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:TIGO PARAGUAY1" tvg-logo="" group-title="DEPORTES",SPORTS:TIGO PARAGUAY1
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/4230
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:TIGO PARAGUAY2" tvg-logo="" group-title="DEPORTES",SPORTS:TIGO PARAGUAY2
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/4229
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:TIGO SPORT CR 1" tvg-logo="" group-title="DEPORTES",SPORTS:TIGO SPORT CR 1
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/4235
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:TIGO SPORTS 1 HD (BOLIVIA)" tvg-logo="" group-title="DEPORTES",SPORTS:TIGO SPORTS 1 HD (BOLIVIA)
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/4234
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:TIGO SPORTS 2 HD (BOLIVIA)" tvg-logo="" group-title="DEPORTES",SPORTS:TIGO SPORTS 2 HD (BOLIVIA)
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/4232
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:BE-IN,  LALIGA 1HD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS:BE-IN,  LALIGA 1HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31347
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:BE IN,  SPORTS LA LIGA HD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS:BE IN,  SPORTS LA LIGA HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31348
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 11 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 11 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31349
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 10 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 10 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31350
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 9 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 9 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31351
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 8 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 8 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31352
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 7 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 7 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31353
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 5 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 5 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31354
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 2 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 2 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31355
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 1 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 1 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31356
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 3 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 3 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31357
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 4 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 4 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31358
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 6 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 6 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31359
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS arb: BE IN,  SPORTS 12 FHD" tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS arb: BE IN,  SPORTS 12 FHD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31360
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS us: BE IN,  SPORTS Ñ la liga " tvg-logo="http://1.bp.blogspot.com/-4Wx5_LP1YJM/UjzhGIrKNlI/AAAAAAAACbI/4HmsX_hGkyg/s1600/imagSPORTS.jpg" group-title="DEPORTES 2",SPORTS us: BE IN,  SPORTS Ñ la liga 
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31362
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:SK Y SPORTS 21" tvg-logo="https://www.thSPORTSun.co.uk/wp-content/uploads/2018/09/NINTCHDBPICT000353771160.jpg" group-title="DEPORTES 2",SPORTS:SK Y SPORTS 21
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31365
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS:SK Y SPORTS 16" tvg-logo="https://www.thSPORTSun.co.uk/wp-content/uploads/2018/09/NINTCHDBPICT000353771160.jpg" group-title="DEPORTES 2",SPORTS:SK Y SPORTS 16
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/31366
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: AYM Sports MEX" tvg-logo="http://elmasteriptv.com:8000/images/3f76d5d70b7fb3340973142ca42cc9f3.png" group-title="DEPORTES",SPORTS: AYM Sports MEX
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/17453
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: DAZN" tvg-logo="https://queadslcontratar.com/sites/default/files/images/logos/dazn-200x300.png" group-title="DEPORTES",SPORTS: DAZN
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/40725
+#EXTINF:-1 tvg-id="" tvg-name="ECU:El canal del Futbol" tvg-logo="https://www.xtrim.tv/images/xtr-vod-item-logo-ecdf.png" group-title="DEPORTES",ECU:El canal del Futbol
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/53975
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: WIN SPORTS HD + PLUS COLOMBIA" tvg-logo="https://futbolete.com/wp-content/uploads/2019/12/capturadepantall-f0f54bcde7fc1471047f7b0e52fe8147-1200x600-1.jpg" group-title="DEPORTES",SPORTS: WIN SPORTS HD + PLUS COLOMBIA
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58631
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: TNT Sports" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: TNT Sports
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58930
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: DIRECTV Sports Plus" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: DIRECTV Sports Plus
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58931
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: DIRECTV Sports 2" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: DIRECTV Sports 2
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58932
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: ESPN Argentina HD" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: ESPN Argentina HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58934
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: ESPN 3 Sur HD" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: ESPN 3 Sur HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58935
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: ESPN 2 Sur HD" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: ESPN 2 Sur HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58936
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: ESPN Extra" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: ESPN Extra
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58937
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: Fox Sports Premium" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: Fox Sports Premium
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58938
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: Fox Sports Sur" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: Fox Sports Sur
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58939
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: Fox Sports Sur 2" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: Fox Sports Sur 2
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58940
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: Fox Sports 3 Sur" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: Fox Sports 3 Sur
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58941
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: IVC Net HD" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: IVC Net HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58942
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: DeporTV HD" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: DeporTV HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58943
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: NBA TV International HD" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: NBA TV International HD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58944
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: Golf Channel" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: Golf Channel
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58945
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 1" tvg-logo="https://i.ibb.co/61yhwrb/2560px-Ty-C-Sports-play-1-logo-svg.png" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 1
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70616
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 2" tvg-logo="https://i.ibb.co/z2mbPB5/2560px-Ty-C-Sports-play-2-logo-svg.png" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 2
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70617
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 3" tvg-logo="https://i.ibb.co/7XmctpY/2560px-Ty-C-Sports-play-3-logo-svg.png" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 3
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70618
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 4" tvg-logo="https://i.ibb.co/WWnWQ0V/2560px-Ty-C-Sports4-logo-svg.png" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 4
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70619
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 5" tvg-logo="https://i.ibb.co/yP7hzk1/2560px-Ty-C-Sports5-logo-svg-1.png" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 5
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70620
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 6" tvg-logo="https://i.ibb.co/jrdckjY/2560px-Ty-C-Sports6-logo-svg-2.png" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 6
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70621
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 7" tvg-logo="https://i.ibb.co/f18yLZs/2560px-Ty-C-Sports7-logo-svg-3.png" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 7
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70622
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 8" tvg-logo="https://i.ibb.co/Tv0xLW4/2560px-Ty-C-Sports8-logo-svg-4.png" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 8
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70623
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 9" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlT9TyPbVEmRmTrv3cg-Ta5g_DDjs2N-F6Eg&usqp=CAU" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 9
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70624
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TyC SPORT PLAY 10" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlT9TyPbVEmRmTrv3cg-Ta5g_DDjs2N-F6Eg&usqp=CAU" group-title="EVENTOS",EVENTOS: TyC SPORT PLAY 10
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70625
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TNT Sports Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/dc/Logotipo_TNT_Sports.png" group-title="EVENTOS",EVENTOS: TNT Sports Brasil
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70626
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TNT Sports 2 Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/dc/Logotipo_TNT_Sports.png" group-title="EVENTOS",EVENTOS: TNT Sports 2 Brasil
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70627
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: TNT Sports 4 Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/dc/Logotipo_TNT_Sports.png" group-title="EVENTOS",EVENTOS: TNT Sports 4 Brasil
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70628
+#EXTINF:-1 tvg-id="" tvg-name="EVENTOS: F1FULLHFD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/DAZN_F1_logo.png" group-title="EVENTOS",EVENTOS: F1FULLHFD
+http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/70795
 
 
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="https://www.portalpopcyber.com/wp-content/uploads/2021/10/mtv-logo-952x630.png",MTV LATINOAMERICA
@@ -76,17 +240,19 @@ https://edge2-ccast-sl.cvattv.com.ar/live/c6eds/MTV_HD/SA_SAGEMCOM/MTV_HD.m3u8
 #EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece
 https://edge2-ccast-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD.m3u8
 #EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece 2
+http://181.30.129.66:80/live/live2/ArtearHD/SA_Live_fta/ArtearHD.m3u8
+
+#EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece 3
 https://live-01-02-eltrece.vodgc.net/eltrecetv/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece 3
+#EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece 4
 https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/ArtearHD.m3u8
 
-#EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece 3
+#EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece 5
 http://jumangis.com:2082/Sv503iptv22/QR7E5sm3J2/95534
 
-#EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png",El Trece 3
-http://181.30.129.66:80/live/live2/ArtearHD/SA_Live_fta/ArtearHD.m3u8
+
 
 #EXTINF:-1  tvg-id="El Trece" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png", EL TRECE INTERNACIONAL
 http://jumangis.com:2082/Sv503iptv22/QR7E5sm3J2/95506

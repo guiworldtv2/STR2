@@ -1,5 +1,13 @@
 #! /usr/bin/python3
 
+from __future__ import unicode_literals
+import youtube_dl
+import requests
+import shutil
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+channel_no = 0
+
 banner = r'''
 ###########################################################################
 #                                                                         #
@@ -432,13 +440,7 @@ http://200.115.193.177/live/26hd-720/.m3u8
 import requests
 import os
 import sys
-from __future__ import unicode_literals
-import youtube_dl
-import requests
-import shutil
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-channel_no = 0
+
 
 
 

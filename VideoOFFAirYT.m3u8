@@ -1,4 +1,7 @@
+
 #EXTM3U
+
 #EXT-X-VERSION:3
+
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658002047~acl=*~data=hdntl~hmac=1eec6eb03e70df26a8eb1320dcac5ded264891e33fa19c0115fb5d152d2a9908/VIDEO_0_6596000.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1657944872/ei/yObRYsSFIaqB_9EPiYCvqAw/ip/13.92.119.82/id/RCb3EVlQ-4I.1/source/yt_live_broadcast/requiressl/yes/tx/24206503/txs/24206051%2C24206052%2C24206503%2C24206504/hfr/1/maudio/1/spc/lT-KhnYxJJJ3nnf4M6qfczrGw_NjR6A/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhANjk9n_AyrYUCemGmKdcVFgFOv-6eLlyhjn0NN7CP0z_AiA_pbQm13WoRsD-EGl4qKX4ZSSU_Jp_fQxlGnaD76Cbcw%3D%3D/file/index.m3u8

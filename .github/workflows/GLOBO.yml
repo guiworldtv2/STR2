@@ -1,56 +1,47 @@
 # This is a basic workflow to help you get started with Actions
 
-name: M3U generator
+  name: youtube-bangla-tv-m3u8-generator
 
-# Controls when the action will run. 
 on:
-  schedule:
-    - cron: '0 0/1 * * *'
-    
+  push:
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
-  
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0/1 * * *' 
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      #- name: Run a one-line script
-      #  run: echo testing!
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content to github runner
 
-      # Runs a set of commands using the runners shell 
-      - name: config
-        run: |
-          git config --global user.email "vthanhchannel@gmail.com"
-          git config --global user.name "vthanhchannel2"
-      
-      
-      - name: Main
-        run: |
-          pwd
-          chmod +x GLOBO.sh
-          ./GLOBO.sh
-        
-      - name: git add
-        run: |
-          git add -A
-          ls -la 
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' # install the python version needed
           
-      - name: commit & push
+      - name: install python packages
         run: |
-          git commit -m "link is updated"
-          git push
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: execute py script # run sj-gobierno.py to get the latest data
+        run: python youtube.py
+          
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update data" -a
+          
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main  
           
           

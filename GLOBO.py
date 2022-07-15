@@ -425,7 +425,8 @@ def create_playlist():
     m3u = open("ARGENTINA.m3u", "w")
     m3u.write("#EXTM3U")
     m3u.write("\n")
-
+    m3u.write(banner)
+    
 def close_playlist():
     global m3u
     m3u.close()

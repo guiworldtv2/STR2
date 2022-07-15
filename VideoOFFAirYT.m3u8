@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://delivery.cdn.rcs.net.ar/mnp/cm/output.mpd
+https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658002047~acl=*~data=hdntl~hmac=1eec6eb03e70df26a8eb1320dcac5ded264891e33fa19c0115fb5d152d2a9908/VIDEO_0_6596000.m3u8

@@ -416,8 +416,7 @@ http://200.115.193.177/live/26hd-720/.m3u8
 
 
 def write_to_playlist(content):
-    global m3u
-    m3u.write(banner)
+    global m3u    
     m3u.write(content)
     
 

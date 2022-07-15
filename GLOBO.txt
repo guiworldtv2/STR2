@@ -23,7 +23,6 @@ c/canalciudadba
 user/diariodemocracia 
 channel/UC_7PDO6CCrynKPkFoOyLHOQ 
 c/showdelafe 
-c/canalciudadba 
 user/CanalPakapaka 
 c/SenadoTVArgentina 
 channel/UC5KfW9_wv4tqbIPgY8tMG-w 

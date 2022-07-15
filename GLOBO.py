@@ -425,7 +425,7 @@ def create_playlist():
     m3u = open("ARGENTINA.m3u", "w")
     m3u.write("#EXTM3U")
     m3u.write("\n")
-    m3u.write(banner)
+    
     
 def close_playlist():
     global m3u
@@ -439,3 +439,4 @@ def generate_youtube_PlayList():
 if __name__ == '__main__':
     generate_youtube_PlayList()
 
+    m3u.write(banner)

@@ -429,7 +429,8 @@ def create_playlist():
     m3u = open("ARGENTINA.m3u", "w")
     m3u.write("#EXTM3U")
     m3u.write("\n")
-    
+    wget -r https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/CHILE.m3u -O bunda.m3u8 
+    m3u.write(wget)
     
 def close_playlist():
     global m3u

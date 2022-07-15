@@ -2,10 +2,10 @@
 
 echo $(dirname $0)
 
-python3 -m pip install requests
+python -m pip install requests
 
-cd $(dirname $0)/
+cd $(dirname $0)/scripts/
 
-python3 GLOBO.py > ./GLOBO.m3u
+python ARGENTINA.py > ../ARGENTINA.m3u
 
 echo m3u grabbed

@@ -1,6 +1,4 @@
-# This is a basic workflow to help you get started with Actions
-
-  name: youtube-bangla-tv-m3u8-generator
+name: youtube-bangla-tv-m3u8-generator
 
 on:
   push:
@@ -8,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '0 0/1 * * *' 
+    - cron: '0/30 * * * *' # runs at 12:00 UTC everyday
 
 jobs:
   build:
@@ -43,5 +41,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main  
-          
-          

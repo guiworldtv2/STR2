@@ -30,7 +30,7 @@ with open('./VideoOFFAirYT.txt', encoding='utf-8') as f:
             grp_title = line[1].strip().title()
             print(f'\n#EXTM3U')
             print(f'\n#EXT-X-VERSION:3')
-            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
+            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000')
         else:
             grab(line)
             

@@ -1,3 +1,4 @@
-#EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="TVPublicaArgentina" tvg-name="1-TVPublicaArgentina" tvg-logo="https://i.ytimg.com/vi/vvtExdFBGc8/maxresdefault_live.jpg" group-title="ARGENTINA",1-TVPublicaArgentina
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1657869350/ei/xr_QYpW0Kf6I_9EP96GH8Aw/ip/20.114.255.93/id/vvtExdFBGc8.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr5---sn-p5qs7nzr.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhjrkS_1iftf9uwnW2IDZeMiwr1A/vprv/1/playlist_type/DVR/mh/0C/mm/44/mn/sn-p5qs7nzr/ms/lva/mv/u/mvi/5/pl/22/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1657846971/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRAIgPZNgf4HaFEJJ4CDFzz_LtwBq6WsGpVVQHLrTXrZdEh8CIAtVMx6MGHuGjBzK3jY-exPFm9bvQopZZ4YLueY6hfXy/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgIktdxnWG2XYD2JTP3m7kw8ZYkuOMxq-0EyuI-5k6lWMCIQCv_Ta2si1b9RS1K60lhhTimgklYFBiqdLv4E2Z_TAG3w%3D%3D/playlist/index.m3u8
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"

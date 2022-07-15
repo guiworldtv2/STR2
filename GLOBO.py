@@ -436,7 +436,8 @@ def generate_youtube_PlayList():
     close_playlist()
 
 
+    m3u.write(banner)
 if __name__ == '__main__':
     generate_youtube_PlayList()
 
-    m3u.write(banner)
+    

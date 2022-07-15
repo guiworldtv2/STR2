@@ -433,6 +433,11 @@ import requests
 import os
 import sys
 
+from bs4 import BeautifulSoup
+channel_no = 0
+m3u = None
+
+
 windows = False
 if 'win' in sys.platform:
     windows = True

@@ -1,62 +1,62 @@
 #! /usr/bin/python3
 
-from __future__ import unicode_literals
-import youtube_dl
-import requests
-import shutil
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
+de __future__ unicode_literals de importação
+youtube_dl de importação
+pedidos de importação
+importação shutil
+de urllib. solicitar urlopen de importação
+da bs4 importação BeautifulSoup
 channel_no = 0
-m3u = None
-def get_live_info(channel_id):
-    try:
-        webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
-        soup = BeautifulSoup(webpage, 'html.parser')
-        urlMeta = soup.find("meta", property="og:url")
-        if urlMeta is None:
-            return None
-        url = urlMeta.get("content")
-        if(url is None or url.find("/watch?v=") == -1):
-            return None
-        titleMeta = soup.find("meta", property="og:title")
-        imageMeta = soup.find("meta", property="og:image")
-        descriptionMeta = soup.find("meta", property="og:description")
-        return {
+m3u = Nenhum
+get_live_info def (channel_id):
+    tente:
+        página web = urlopen(f"https://www.youtube.com/{channel_id}/live"). ler()
+        sopa = BeautifulSoup (página web, 'html.parser')
+        urlMeta = sopa. encontrar ("meta",property="og:url")
+        se urlMeta é Nenhum:
+            retorno Nenhum
+        url = urlMeta. obter ("conteúdo")
+        se (url é None ou url. encontrar("/relógio?v=") == -1):
+            retorno Nenhum
+        titleMeta = sopa. encontrar ("meta",property="og:title")
+        imageMeta = sopa. encontrar ("meta",property="og:image")
+        descriptionMeta = sopa. encontrar ("meta",property="og:description")
+        retornar {
             "url": url,
-            "title": titleMeta.get("content"),
-            "image": imageMeta.get("content"),
-            "description": descriptionMeta.get("content")
+            "título": títuloMeta. obter ("conteúdo"),
+            "imagem": imagemMeta. obter ("conteúdo"),
+            "descrição": descriçãoMeta. obter ("conteúdo")
         }
     
-    except Exception as e:
-                return None
+    exceto exceção como e:
+                retorno Nenhum
 
 banner = r'''
 ###########################################################################
 #                                                                         #
-#                                  >> https://github.com/guiworldtv       #
+>> https://github.com/guiworldtv #
 ###########################################################################
-#EXTINF:-1 tvg-id="" tvg-name="SPORTS: TNT SPORTS HD Op1 " tvg-logo="https://w7.pngwing.com/pngs/621/229/png-transparent-superliga-argentina-de-futbol-logo-tnt-sports-logo-sport-text-trademark-logo.png" group-title="DEPORTES",SPORTS: TNT SPORTS HD Op1 
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: TNT SPORTS HD Op1 " tvg-logo="https://w7.pngwing.com/pngs/621/229/png-transparent-superliga-argentina-de-futbol-logo-tnt-sports-logo-sport-text-trademark-logo.png" group-title="DEPORTES", SPORTS: TNT SPORTS HD Op1 
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/94714
 #EXTINF:-1 tvg-id="" tvg-name="SPORTS:ESPN 1 DIRECTO ARG" tvg-logo="https://www.futbolenvivo.com.co/wp-content/uploads/2020/01/ESPN-2-en-vivo-online.jpg" group-title="DEPORTES",SPORTS:ESPN 1 DIRECTO ARG
 https://delivery.cdn.rcs.net.ar/mnp/espn_hls/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SPORTS:ESPN 2 DIRECTO ARG" tvg-logo="https://www.futbolenvivo.com.co/wp-content/uploads/2020/01/ESPN-2-en-vivo-online.jpg" group-title="DEPORTES",SPORTS:ESPN 2 DIRECTO ARG
 https://delivery.cdn.rcs.net.ar/mnp/espn2_hls/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :Directv Sports 1 SD" tvg-logo="https://seeklogo.com/images/D/directv-sports-logo-6F86DBD521-seeklogo.com.png" group-title="DEPORTES",SPORTS: :Directv Sports 1 SD
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :D irectv Sports 1 SD" tvg-logo="https://seeklogo.com/images/D/directv-sports-logo-6F86DBD521-seeklogo.com.png" group-title="DEPORTES", SPORTS: :D irectv Sports 1 SD
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/53958
 #EXTINF:-1 tvg-id="" tvg-name="SPORTS: Directv Sports 1 ARG FHD" tvg-logo="https://seeklogo.com/images/D/directv-sports-logo-6F86DBD521-seeklogo.com.png" group-title="DEPORTES",SPORTS: Directv Sports 1 ARG FHD
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/53959
-#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :Directv Sports 1" tvg-logo="https://seeklogo.com/images/D/directv-sports-logo-6F86DBD521-seeklogo.com.png" group-title="DEPORTES",SPORTS: :Directv Sports 1
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :D irectv Sports 1" tvg-logo="https://seeklogo.com/images/D/directv-sports-logo-6F86DBD521-seeklogo.com.png" group-title="DEPORTES", SPORTS: :D irectv Sports 1
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/679
-#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :DirectvSP 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/DirecTV_Sports_2_Latin_America_%282018%29.png/1200px-DirecTV_Sports_2_Latin_America_%282018%29.png" group-title="DEPORTES",SPORTS: :DirectvSP 2
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :D irectvSP 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/DirecTV_Sports_2_Latin_America_%282018%29.png/1200px-DirecTV_Sports_2_Latin_America_%282018%29.png" group-title="DEPORTES",SPORTS: :D irectvSP 2
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/680
-#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :DirectvSP+ Plus" tvg-logo="https://www.pngfind.com/pngs/m/297-2974594_directv-sports-plus-logo-hd-png-download.png" group-title="DEPORTES",SPORTS: :DirectvSP+ Plus
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: :D irectvSP+ Plus" tvg-logo="https://www.pngfind.com/pngs/m/297-2974594_directv-sports-plus-logo-hd-png-download.png" group-title="DEPORTES", SPORTS: :D irectvSP+ Plus
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/678
-#EXTINF:-1 tvg-id="" tvg-name="SPORTS: TYC SPORTS BUENOS AIRES" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/d/dc/TYC94.png" group-title="DEPORTES",SPORTS: TYC SPORTS BUENOS AIRES
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: TYC SPORTS BUENOS AIRES" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/d/dc/TYC94.png" group-title="DEPORTES", SPORTS: TYC SPORTS BUENOS AIRES
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/66700
-#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: TyC Sports HD" tvg-logo="" group-title="DEPORTES 2",SPORTS-ARG: TyC Sports HD
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS-ARG: TyC Sports HD" tvg-logo="" group-title="DEPORTES 2", SPORTS-ARG: TyC Sports HD
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/58933
-#EXTINF:-1 tvg-id="TYC SPORTS HD" tvg-name="SPORTS: TYC SPORTS PLAY(PARTIDOS)" tvg-logo="https://img2.freepng.es/20180723/huc/kisspng-logo-tyc-sports-brand-trademark-mosaic-5b55e9fa8e43a0.5446456715323571145827.jpg" group-title="DEPORTES",SPORTS: TYC SPORTS PLAY(PARTIDOS)
+#EXTINF:-1 tvg-id="TYC SPORTS HD" tvg-name="SPORTS: TYC SPORTS PLAY(PARTIDOS)" tvg-logo="https://img2.freepng.es/20180723/huc/kisspng-logo-tyc-sports-brand-trademark-mosaic-5b55e9fa8e43a0.5446456715323571145827.jpg" group-title="DEPORTES", SPORTS: TYC SPORTS PLAY (PARTIDOS)
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/53792
 #EXTINF:-1 tvg-id="" tvg-name="SPORTS: TYC Sports(directo solo arg)" tvg-logo="https://statics-files.tycsports.com/frontend/tycsports/img/site_image.jpg" group-title="DEPORTES",SPORTS: TYC Sports(directo solo arg)
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/52688
@@ -66,7 +66,7 @@ http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/108
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/34478
 #EXTINF:-1 tvg-id="Canal TyC Sports" tvg-name="SPORTS: TYC Sport USA" tvg-logo="" group-title="DEPORTES",SPORTS: TYC Sport USA
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/20252
-#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: FOX SPORTS 1 ARG FHD" tvg-logo="https://play.foxsportsla.com/assets/images/Logo-FS.png" group-title="DEPORTES",SPORTS: FOX SPORTS 1 ARG FHD
+#EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: FOX SPORTS 1 ARG FHD" tvg-logo="https://play.foxsportsla.com/assets/images/Logo-FS.png" group-title="DEPORTES", SPORTS: FOX SPORTS 1 ARG FHD
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/3668
 #EXTINF:-1 tvg-id="FOX Sports" tvg-name="SPORTS SUR: Fox Sports 1 ARG HD" tvg-logo="http://zpapi.zetatv.com.uy/media/images/fox-sports.png" group-title="DEPORTES",SPORTS SUR: Fox Sports 1 ARG HD
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/41745
@@ -76,7 +76,7 @@ http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/41746
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/16521
 #EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: ESPN  EX Fox Sports Premium Op2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Fox_Sports_Premium_Argentina_2020.png" group-title="DEPORTES",SPORTS: ESPN  EX Fox Sports Premium Op2
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/693
-#EXTINF:-1 tvg-id="" tvg-name="SPORTS: ESPN EX  FOX SPORTS PREMIUM Op3 " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Fox_Sports_Premium_Argentina_2020.png" group-title="ARGENTINA 1",SPORTS: ESPN EX  FOX SPORTS PREMIUM Op3 
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS: ESPN EX FOX SPORTS PREMIUM Op3 " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Fox_Sports_Premium_Argentina_2020.png" título de grupo="ARGENTINA 1",SPORTS: ESPN EX FOX SPORTS PREMIUM Op3 
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/16229
 #EXTINF:-1 tvg-id="TNT SPORTS" tvg-name="SPORTS: HD:TNT SPORTS Op2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/TNT_Sports_Logo_Vertical_%282017%29.png" group-title="DEPORTES",SPORTS: HD:TNT SPORTS Op2
 http://elmasteriptv.com:8000/Ivanmart/PEtBhjMDDkKJ/99
@@ -356,97 +356,96 @@ http://g2.vxral-slo.transport.edge-access.net/nx-beta/nx.hor.livetx.01/5eaa64277
 https://d3055hobuue3je.cloudfront.net/out/v1/b841c366cbe540e6a106c3ba83e5c8d6/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/NTNvh66/header-ciudadmagica.jpg" group-title="DEPORTE", CIUDAD MAGICA TV
 https://srv2.zcast.com.br/ciudadm/ciudadm/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-2gN4wEv_qPI/XjtKDwMuIQI/AAAAAAAAvrY/VTtJwZALBykDRnM8ia0Xbqi0FbREvdrZACK8BGAsYHg/s0/2020-02-05.png" group-title="Argentina", GARAGE TV
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-2gN4wEv_qPI/XjtKDwMuIQI/AAAAAAAAvrY/VTtJwZALBykDRnM8ia0Xbqi0FbREvdrZACK8BGAsYHg/s0/2020-02-05.png" título de grupo="Argentina", GARAGE TV
 http://186.0.233.76:1935/Garage/smil:garage.smil/chunklist_w2049053275_b1296000_sleng.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/150px-Deutsche_Welle_symbol_2012.svg.png" group-title="NOTICIAS", DW ESPAÑOL
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/150px-Deutsche_Welle_symbol_2012.svg.png" título de grupo="NOTICIAS", DW ESPAÑOL
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8
-#EXTINF:-1 tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/mirador.png" group-title="Argentina", MIRADOR  22.3
+#EXTINF:-1 tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/mirador.png" título de grupo="Argentina", MIRADOR 22.3
 https://5fb24b460df87.streamlock.net/live-cont.ar/mirador/playlist.m3u8 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/Telemax.png" group-title="Argentina", TELEMAX  26.3
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/Telemax.png" título de grupo="Argentina", TELEMAX 26.3
 https://live-edge01.telecentro.net.ar/live/smil:tlx.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://d2ucqd3jt48qxz.cloudfront.net/img/footer-logo.png" group-title="Argentina", ORBE 21  21.2
+#EXTINF:-1 tvg-logo="https://d2ucqd3jt48qxz.cloudfront.net/img/footer-logo.png" título de grupo="Argentina", ORBE 21 21.2
 https://cdn2.zencast.tv:30443/orbe/orbe21smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://dz92jh1unkapm.cloudfront.net/accounts/5cf95117cb97cae8e2c36676/logo.png" group-title="Argentina", UNIFE TV  25.1
+#EXTINF:-1 tvg-logo="https://dz92jh1unkapm.cloudfront.net/accounts/5cf95117cb97cae8e2c36676/logo.png" título de grupo="Argentina", UNIFE TV 25.1
 https://dacastmmd.mmdlive.lldns.net/dacastmmd/98adedd6dec04a2d8663899b927f9383/chunklist_b4628000.m3u8
-#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VISANTAM.png" group-title="Argentina", SANTA MARIA
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VISANTAM.png" título de grupo="Argentina", SANTA MARIA
 http://www.trimi.com.ar/santa_maria/streaming/mystreamSantaMariaHSMed.m3u8
-#EXTINF:-1 tvg-logo="http://www.tectv.gob.ar/resources/img/logo.png" group-title="Argentina", TEC TV  22.5
+#EXTINF:-1 tvg-logo="http://www.tectv.gob.ar/resources/img/logo.png" título de grupo="Argentina", TEC TV 22.5
 https://g3.mc-hor.transport.edge-access.net/a09/ngrp:gcba_video3-100042_all/gcba_video3-100042_720p.m3u8
 #EXTINF:-1, CANAL 26 
 http://200.115.193.177/live/26hd-720/.m3u8
 ''' 
 
 def generate_youtube_tv():
-    global channel_no
+    channel_no global
     ydl_opts = {
-        'format': 'best',
+        'formato': 'melhor',
     }
-    ydl = youtube_dl.YoutubeDL(ydl_opts)
+    ydl = youtube_dl. YoutubeDL (ydl_opts)
 
-    with open('GLOBO.txt') as f:
-        lines = f.readlines()
-        for line in lines:
-            line = line.strip()
-            if line == "":
-                continue
-            channel = get_live_info(line)
-            if channel is None:
-                continue
-            try:
-                with ydl:
-                    result = ydl.extract_info(
+    com aberto ('GLOBO.txt') como f:
+        linhas = f. linhas de leitura()
+        para linha em linhas:
+            linha = linha. tira()
+            se linha == "":
+                continuar
+            canal = get_live_info(linha)
+            se o canal não é nenhum:
+                continuar
+            tente:
+                com ydl:
+                    resultado = ydl. extract_info(
                         f"https://www.youtube.com/{line}/live",
-                        download=False  # We just want to extract the info
+                        download=Falso # Nós só queremos extrair as informações
                     )
 
-                    if 'entries' in result:
-                        # Can be a playlist or a list of videos
-                        video = result['entries'][-1]
-                    else:
-                        # Just a video
-                        video = result
-                video_url = video['url']
+                    se 'entradas' resultar: 
+                        # Pode ser uma lista de reprodução ou uma lista de vídeos
+                        vídeo = resultado['entradas'][-1]
+                    outra coisa:
+                        Apenas um vídeo
+                        vídeo = resultado
+                video_url = vídeo['url']
 
                 channel_no += 1
-                channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ARGENTINA\",{channel_name}\n"
+                channel_name = f"{channel_no}-{line. split('/')[-1]}"
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{canal. obter ('image'}}\\ título de grupo=\"ARGENTINA\",{channel_name}\n"
                 write_to_playlist(playlistInfo)
-                write_to_playlist(video_url)
+                write_to_playlist video_url)
                 write_to_playlist("\n")
-            except Exception as e:
-                print(e)
+            exceto exceção como e:
+                imprimir(e)
                         
 
 
 
-def write_to_playlist(content):
-    global m3u    
-    m3u.write(content)
+def write_to_playlist (conteúdo):
+    m3u global    
+    m3u. escrever (conteúdo)
     
 
 def create_playlist():
-    global m3u
-    m3u = open("ARGENTINA.m3u", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("\n")
+    m3u global
+    m3u = aberto ("ARGENTINA.m3u", "w")
+    m3u. escrever ("#EXTM3U")
+    m3u. escrever ("\n")
     
     
 def close_playlist():
-    global m3u
-    m3u.close()
+    m3u global
+    m3u. fechar()
 def generate_youtube_PlayList():
     create_playlist()
         
     
     generate_youtube_tv()
     
-    m3u.write(banner)
+    m3u. escrever (banner)
     
     
     close_playlist()
 
 
     
-if __name__ == '__main__':
+se __name__ == '__main__':
     generate_youtube_PlayList()   
- 

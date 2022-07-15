@@ -77,7 +77,7 @@ def write_to_playlist(content):
 def create_playlist():
     global m3u
     m3u = open("youtube.m3u8", "w")
-    m3u.write("#EXTM3U")
+    m3u.write("#EXTM3UD")
     m3u.write("\n")
 
 def close_playlist():

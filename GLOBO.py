@@ -69,6 +69,41 @@ def generate_youtube_tv():
             except Exception as e:
                 print(e)
                         
+
+
+
+def write_to_playlist(content):
+    global m3u    
+    m3u.write(content)
+    
+
+def create_playlist():
+    global m3u
+    m3u = open("ARGENTINA.m3u", "w")
+    m3u.write("#EXTM3U")
+    m3u.write("\n")
+    
+    
+def close_playlist():
+    global m3u
+    m3u.close()
+def generate_youtube_PlayList():
+    create_playlist()
+        
+    
+    generate_youtube_tv()
+    
+    m3u.write(banner)
+    
+    
+    close_playlist()
+
+
+    
+if __name__ == '__main__':
+    generate_youtube_PlayList()
+
+    
 banner = r'''
 ###########################################################################
 #                                                                         #
@@ -412,38 +447,4 @@ http://www.trimi.com.ar/santa_maria/streaming/mystreamSantaMariaHSMed.m3u8
 https://g3.mc-hor.transport.edge-access.net/a09/ngrp:gcba_video3-100042_all/gcba_video3-100042_720p.m3u8
 #EXTINF:-1, CANAL 26 
 http://200.115.193.177/live/26hd-720/.m3u8
-'''
-
-
-def write_to_playlist(content):
-    global m3u    
-    m3u.write(content)
-    
-
-def create_playlist():
-    global m3u
-    m3u = open("ARGENTINA.m3u", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("\n")
-    
-    
-def close_playlist():
-    global m3u
-    m3u.close()
-def generate_youtube_PlayList():
-    create_playlist()
-        
-    
-    generate_youtube_tv()
-    
-    m3u.write(banner)
-    
-    
-    close_playlist()
-
-
-    
-if __name__ == '__main__':
-    generate_youtube_PlayList()
-
-    
+'''    

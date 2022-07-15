@@ -1,3 +1,36 @@
+#! /usr/bin/python3
+
+from __future__ import unicode_literals
+import youtube_dl
+import requests
+import shutil
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+channel_no = 0
+m3u = None
+def get_live_info(channel_id):
+    try:
+        webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
+        soup = BeautifulSoup(webpage, 'html.parser')
+        urlMeta = soup.find("meta", property="og:url")
+        if urlMeta is None:
+            return None
+        url = urlMeta.get("content")
+        if(url is None or url.find("/watch?v=") == -1):
+            return None
+        titleMeta = soup.find("meta", property="og:title")
+        imageMeta = soup.find("meta", property="og:image")
+        descriptionMeta = soup.find("meta", property="og:description")
+        return {
+            "url": url,
+            "title": titleMeta.get("content"),
+            "image": imageMeta.get("content"),
+            "description": descriptionMeta.get("content")
+        }
+    
+    except Exception as e:
+                return None
+
 banner = r'''
 ###########################################################################
 #                                                                         #
@@ -342,37 +375,6 @@ https://g3.mc-hor.transport.edge-access.net/a09/ngrp:gcba_video3-100042_all/gcba
 #EXTINF:-1, CANAL 26 
 http://200.115.193.177/live/26hd-720/.m3u8
 ''' 
-
-from __future__ import unicode_literals
-import youtube_dl
-import requests
-import shutil
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-channel_no = 0
-m3u = None
-def get_live_info(channel_id):
-    try:
-        webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
-        soup = BeautifulSoup(webpage, 'html.parser')
-        urlMeta = soup.find("meta", property="og:url")
-        if urlMeta is None:
-            return None
-        url = urlMeta.get("content")
-        if(url is None or url.find("/watch?v=") == -1):
-            return None
-        titleMeta = soup.find("meta", property="og:title")
-        imageMeta = soup.find("meta", property="og:image")
-        descriptionMeta = soup.find("meta", property="og:description")
-        return {
-            "url": url,
-            "title": titleMeta.get("content"),
-            "image": imageMeta.get("content"),
-            "description": descriptionMeta.get("content")
-        }
-    
-    except Exception as e:
-                return None
 
 def generate_youtube_tv():
     global channel_no

@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://live-k2303-kbp.1plus1.video/live/1657989443/0b0z8mYsMw7pkSKbetfiBg/190731/smil:190731-sd.smil/chunklist_b2128000.m3u8
+https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658082507~acl=*~data=hdntl~hmac=440187907cb277f0b725e76b1842ffeb93e92772528103320fa2e483d393b357/VIDEO_0_6596000.m3u8

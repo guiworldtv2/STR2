@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://streaming.ufg.br:8443/radiouniversitaria
+https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658039328~acl=*~data=hdntl~hmac=bd21b01d455379a7c9413d92d7b5e1ba80770fe484b2c6aa5939ba8eb59d2727/VIDEO_0_6596000.m3u8

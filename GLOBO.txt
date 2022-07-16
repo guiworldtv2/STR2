@@ -3,6 +3,7 @@ c/Canal12TrenqueLauquen
 c/cronicatv 
 user/c5n 
 c/LaNacionMas
+c/americaenvivo
 channel/UC3OQ66wEJaOPHK25IBdWR_g 
 channel/UCPr0HEFKN8wtDIfcPsVB10Q 
 channel/UCy-r-BQ5BQRU6rzGS73-WBQ 

@@ -1,0 +1,16 @@
+
+#EXTM3U
+
+#EXT-X-VERSION:3
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1657960425/ei/iSPSYrHXJ6GY2_gP0tGf0Aw/ip/20.225.173.225/id/RCb3EVlQ-4I.1/source/yt_live_broadcast/requiressl/yes/hfr/1/maudio/1/spc/lT-Khk48ksFO33x4EYk9xT9hHu6aPfg/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgYKe-SlZS2P20BNQSeFKhrsl4tVhi9tabHba_T5z12KQCIB7gCJ-yE3pmPaEMpGqpVV79rP2584QJPgCC63SvUMtY/file/index.m3u8
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1280000,AVERAGE-BANDWIDTH=1252345
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1657960426/ei/iiPSYplT48qMBPbEsKAK/ip/20.225.173.225/id/RCb3EVlQ-4I.1/source/yt_live_broadcast/requiressl/yes/hfr/1/maudio/1/spc/lT-Khk4naGbbsP2l-VP8cv6vcV1iY_U/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgS8bESFo6rS1q3egkF1oiVbSB8_4SIQpui90i7ET7DxUCICaGUOfPKguP-muwmLqDpKclD0Kk3uBe1-W1q69XsQyo/file/index.m3u8
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,AVERAGE-BANDWIDTH=2466570
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1657960426/ei/iiPSYuTrGN2Z2_gP1sKNoAU/ip/20.225.173.225/id/RCb3EVlQ-4I.1/source/yt_live_broadcast/requiressl/yes/tx/24214266/txs/24214266%2C24214267/hfr/1/maudio/1/spc/lT-Kht9U-4MvNRM3XjbVLt83C1Bljq4/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/beids/23886200/dover/11/itag/0/playlist_type/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgRlNxGPBcNSA-9B8px0X73XUtUVBJ0AKilT8XIpfBVUACIQDlF8pHEUiKU61_ELVinajV5y0U-orrejlogaJR24rGdQ%3D%3D/file/index.m3u8
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7680000,AVERAGE-BANDWIDTH=7560423
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1657960426/ei/iiPSYvDpLemL_tcPyYeREA/ip/20.225.173.225/id/RCb3EVlQ-4I.1/source/yt_live_broadcast/requiressl/yes/hfr/1/maudio/1/spc/lT-KhnC0y1CgU6vL9-BlBZWTC7D7SbU/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgdhGfAH2oQegoVUzQBOHJsYkXQydsOzHuDgkyHhhNlFgCIQDGK101NirxtVN8yxuuKLW8dX2ulbvpE2SAbqvhW9PAxA%3D%3D/file/index.m3u8

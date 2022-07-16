@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://directes-tv-int.ccma.cat/live-content/canal324-hls/bitrate_3.m3u8
+https://directes-tv-int.ccma.cat/live-content/canal324-hls/master.m3u8

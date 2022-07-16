@@ -39,6 +39,7 @@ jobs:
       
       - name: Main
         run: |
+          curl ipinfo.io --output minhalocalização.txt
           pwd
           chmod +x ARGENTINA.sh
           ./ARGENTINA.sh

@@ -42,7 +42,7 @@ jobs:
           pwd
           chmod +x ARGENTINA.sh
           ./ARGENTINA.sh
-          mkdir \argentina
+          mkdir \argentinaa
         
       - name: git add
         run: |

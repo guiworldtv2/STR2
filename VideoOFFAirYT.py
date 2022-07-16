@@ -33,11 +33,11 @@ with open('./VideoOFFAirYT.txt', encoding='utf-8') as f:
             print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000')
         else:
             grab(line)
-            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1280000,AVERAGE-BANDWIDTH=1252345
+            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1280000,AVERAGE-BANDWIDTH=1252345')
             grab(line)
-            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,AVERAGE-BANDWIDTH=2466570
+            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,AVERAGE-BANDWIDTH=2466570')
             grab(line)
-            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7680000,AVERAGE-BANDWIDTH=7560423
+            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7680000,AVERAGE-BANDWIDTH=7560423')
             grab(line)
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')

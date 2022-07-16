@@ -506,12 +506,11 @@ http://tv.factoryiptv.com:80/Sidy171/5p9tps3d6sr/64649
 http://playplusgoya-lh.akamaihd.net/i/pp_gna@377833/index_720_av-p.m3u8
 
 
-#EXTINF:-1 tvg-chno="01" tvg-id="BandRede.br" tvg-name="Band" tvg-logo="https://imgur.com/Ll0dvQY.png" tvg-shift="0" group-title="TV", BAND Web
-http://evpp.mm.uol.com.br:1935/geob_band/app/chunklist_w210441685.m3u8
+
 
 
 #EXTINF:0 group-title="Education" tvg-id="" tvg-name="" tvg-logo="" url-tvg="" shift="-3" tvg-language="Portuguese" audio-track="por" shift="-3" aspect-ratio="16:9" subtitles="por" tvg-country="BR" size="Medium" background="#000000", TV Brasil Central
-http://wz3.dnip.com.br/tvbrasil/tvbrasil.sdp/playlist.m3u8
+https://5a1c76baf08c0.streamlock.net/tbc/tbc/chunklist.m3u8
 
 #EXTINF:-1  group-title="CANAIS ABERTOS" tvg-chno="14", TV UFG¹ (Goiás)
 http://wowza.softhost.com.br:1935/ufg/smil:tvufgweb/chunklist_w884631395_b1544100_sleng.m3u8

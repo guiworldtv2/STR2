@@ -32,6 +32,15 @@ def get_live_info(channel_id):
                 return None
 
 banner = r'''
+
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml)
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml)
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml)
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml)
+
+'''
+
+banner2 = r'''
 ###########################################################################
 #                                                                         #
 #                                  >> https://github.com/guiworldtv       #
@@ -446,13 +455,13 @@ def close_playlist():
 def generate_youtube_PlayList():
     create_playlist()
         
-
+    m3u.write(banner)
 
     generate_youtube_tv()
     
 
     
-    m3u.write(banner)
+    m3u.write(banner2)
     
 
 

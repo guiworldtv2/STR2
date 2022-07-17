@@ -1,11 +1,11 @@
 {
-  "ip": "40.124.10.88",
-  "city": "San Antonio",
-  "region": "Texas",
+  "ip": "52.147.205.2",
+  "city": "Hampden Sydney",
+  "region": "Virginia",
   "country": "US",
-  "loc": "29.4375,-98.4616",
+  "loc": "37.3058,-78.5462",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "78295",
-  "timezone": "America/Chicago",
+  "postal": "23960",
+  "timezone": "America/New_York",
   "readme": "https://ipinfo.io/missingauth"
 }

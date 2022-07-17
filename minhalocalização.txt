@@ -1,11 +1,11 @@
 {
-  "ip": "20.29.207.44",
-  "city": "Quincy",
-  "region": "Washington",
+  "ip": "20.125.146.36",
+  "city": "Phoenix",
+  "region": "Arizona",
   "country": "US",
-  "loc": "47.2343,-119.8525",
+  "loc": "33.4484,-112.0740",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "98848",
-  "timezone": "America/Los_Angeles",
+  "postal": "85070",
+  "timezone": "America/Phoenix",
   "readme": "https://ipinfo.io/missingauth"
 }

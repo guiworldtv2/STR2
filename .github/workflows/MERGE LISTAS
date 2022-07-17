@@ -1,55 +1,25 @@
- 54 lines (42 sloc) 1.37 KB
-# This is a basic workflow to help you get started with Actions
-
-name: AGRUPADOR DE LISTAS
-
-# Controls when the action will run. 
+name: Update streams
 on:
   schedule:
-    - cron: '0 0/1 * * *'
-    
-  pull_request:
-    branches:
-      - main
-  
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+    - cron: "0 * * * *"
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  Update-streams:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+    
+      - name: checkout
+        uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      #- name: Run a one-line script
-      #  run: echo testing!
+      - name: update streams
+        run: py agrupadorlists.py
 
-      # Runs a set of commands using the runners shell 
-      - name: config
+      - name: setup git config
         run: |
-          git config --global user.email "vijayelectro2002@gmail.com"
-          git config --global user.name "vijay6672"
-      
-      
-      - name: Main
+          git config user.name "M3UPT Bot"
+          git config user.email "<>"
+      - name: commit
         run: |
-          pwd
-          chmod +x agrupadorlistas.py
-          ./agrupadorlistas.py
-        
-      - name: git add
-        run: |
-          git add -A
-          ls -la 
-          
-      - name: commit & push
-        run: |
-          git commit -m "links atualizados"
-          git push
+          git pull
+          git commit -m "LISTAS AGRUPADAS"
+          git push origin main

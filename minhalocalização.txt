@@ -1,11 +1,11 @@
 {
-  "ip": "40.122.151.36",
-  "city": "Des Moines",
-  "region": "Iowa",
+  "ip": "20.66.48.147",
+  "city": "San Jose",
+  "region": "California",
   "country": "US",
-  "loc": "41.5878,-93.6274",
+  "loc": "37.3476,-121.8870",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "50392",
-  "timezone": "America/Chicago",
+  "postal": "95112",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }

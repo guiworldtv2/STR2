@@ -1,11 +1,11 @@
 {
-  "ip": "20.39.36.147",
-  "city": "Hampden Sydney",
-  "region": "Virginia",
+  "ip": "20.253.248.93",
+  "city": "San Jose",
+  "region": "California",
   "country": "US",
-  "loc": "37.3058,-78.5462",
+  "loc": "37.3476,-121.8870",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "23960",
-  "timezone": "America/New_York",
+  "postal": "95112",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }

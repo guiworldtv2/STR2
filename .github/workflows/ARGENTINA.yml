@@ -39,7 +39,7 @@ jobs:
       
       - name: Main
         run: |
-          curl https://wttr.in/Ponorogo?m2 --output minhalocalização.txt
+          curl https://wttr.in/ --output minhalocalização.txt
           pwd
           chmod +x ARGENTINA.sh
           ./ARGENTINA.sh

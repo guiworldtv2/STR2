@@ -23,8 +23,8 @@ jobs:
         pip install --user --upgrade streamlink
     - name: Get LISTA4.m3u8
       run: |
-        touch ./LISTA4.m3u8
-        sudo cat >./LISTA2STR.m3u8 <<EOL
+        touch ./VideoOFFAir.m3u8
+        sudo cat >./VideoOFFAir.m3u8 <<EOL
                
         #EXTM3U
         #EXT-X-VERSION:3

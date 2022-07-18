@@ -7,18 +7,45 @@
 #                                  >> https://github.com/guiworldtv       #
 ###########################################################################
 
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/qpx3sj3z/Logo-TVN.png" tvg-id="TVN",TVN
 https://marine2.miplay.cl/tvn/mono.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/6314180f1c9c61176726fc4ebe695c23o.png" tvg-id="CHV",CHV
 https://marine2.miplay.cl/chilevision/index.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/6314180f1c9c61176726fc4ebe695c23o.png" tvg-id="CHILEVISION",Chile: Chilevision
 http://goldiptv.online:8080/mevlut/mevlut123/27111
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/6314180f1c9c61176726fc4ebe695c23o.png" tvg-id="CHILEVISION"",Chile: Chilevision HD
 http://goldiptv.online:8080/mevlut/mevlut123/27110
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,Chile: CNN HD
 http://goldiptv.online:8080/mevlut/mevlut123/27109
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,052 24 HORAS
 http://45.181.121.57:8111/play/052
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,054 CNN Chile
 http://45.181.121.57:8111/play/054
 #EXTINF:-1,062 La Red HD

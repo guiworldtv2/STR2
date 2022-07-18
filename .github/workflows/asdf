@@ -1,0 +1,36 @@
+name: Get StreamLink Live
+on:
+  schedule:
+    - cron: '0 0/1 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Install streamlink
+      run: |
+        pip install --user --upgrade streamlink
+    - name: Get LISTA4.m3u8
+      run: |
+        touch ./LISTA4.m3u8
+        sudo cat >./LISTA2STR.m3u8 <<EOL
+        
+        
+        
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1023-270819141305.png?q=10&v=3&w=275",DESCARGA MTV
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://vimeo.com/170691930 best)

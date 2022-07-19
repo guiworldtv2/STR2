@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://streaming-live.rtp.pt/liveradio/antena2opera80a/chunklist_DVR.m3u8
+https://106vod-adaptive.akamaized.net/exp=1658197654~acl=%2F53e15ee5-4da8-467d-a439-811da25150b1%2F%2A~hmac=b4154a84fa50488296b3cb9a89a3f16b5d5b3eb2d4095694d7c465bb37a2706b/53e15ee5-4da8-467d-a439-811da25150b1/sep/video/2b4070db,04e0422b,79e9546c,3993b153,67b0229f,a67ca1ed/master.mpd?base64_init=1

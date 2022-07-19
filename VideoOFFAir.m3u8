@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Salão 1
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-error: This plugin does not support protected videos, try youtube-dl instead
-          
+https://playback2.akamaized.net/streams/21076186_10489119_lsixvdy1cchjwjq3qcm_1/exp=1658293965~acl=%2f*~data=hdntl~hmac=227f6f9ed1f5037669b9cdbeb1c473d6bcce0b3e891458b2f089d707b495577e/media/21076186_10489119_lsixvdy1cchjwjq3qcm_1@2756000p.m3u8?dw=80&ts=1658206800

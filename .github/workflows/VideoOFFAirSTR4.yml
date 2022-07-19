@@ -24,8 +24,7 @@ jobs:
     - name: Get VideoOFFAirSTR4.m3u8
       run: |
         touch ./VideoOFFAir.m3u8
-        sudo cat >./VideoOFFAir.m3u8 <<EOL
-               
+        sudo cat >./VideoOFFAir.m3u8 <<EOL               
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000

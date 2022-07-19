@@ -1,7 +1,7 @@
 name: Get StreamLink Live
 on:
   schedule:
-    - cron: '0 0/1 * * *'
+    - cron: '0/30 * * * *'
 
   pull_request:
     branches:

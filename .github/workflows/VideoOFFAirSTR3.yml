@@ -1,7 +1,7 @@
 name: Get VideoOFFAirSTR3
 on:
   schedule:
-    - cron: '0/15 * * * *'
+    - cron: '* 16 * * *'
 
   pull_request:
     branches:

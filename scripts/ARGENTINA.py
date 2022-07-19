@@ -446,12 +446,12 @@ def grab(url):
         #response = requests.get(url).text
         if '.m3u8' not in response:
             if windows:
-                None 
+            pop() = None               
                 return 
             os.system(f'wget {url} -O temp.txt')
             response = ''.join(open('temp.txt').readlines())
             if '.m3u8' not in response:
-                None 
+            pop() = None
                 return
     end = response.find('.m3u8') + 5
     tuner = 100

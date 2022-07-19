@@ -446,11 +446,18 @@ def grab(url):
         #response = requests.get(url).text
         if '.m3u8' not in response:
             if windows:                
-                return with None
+               return num
+               print("teste")
+
+               print(soma(10,20))
+               return with None
             os.system(f'wget {url} -O temp.txt')
             response = ''.join(open('temp.txt').readlines())
             if '.m3u8' not in response:                
-                return with None
+               return num
+               print("teste")
+
+               print(soma(10,20))
     end = response.find('.m3u8') + 5
     tuner = 100
     while True:

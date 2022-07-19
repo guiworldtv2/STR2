@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://23vod-adaptive.akamaized.net/exp=1658223860~acl=%2F3ec1373b-11bd-47b1-869f-6639844e2c4e%2F%2A~hmac=f6fa6647a095f7e20f67bfca96c37535beaafb251e7cab651fa854d9cee85917/3ec1373b-11bd-47b1-869f-6639844e2c4e/sep/video/77f8397c,8d322e52,b6f97688,7ce0f7d6,0c00cebd/audio/6556c91a,c06cddb2,621def6d/master.mpd?query_string_ranges=1&base64_init=1
+https://video-auth4.iol.pt/live_tvi/live_tvi/edge_servers/tvi-720_passthrough/chunks.m3u8?nimblesessionid=299912751&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOS8yMDIyIDY6MTA6NDggQU0maGFzaF92YWx1ZT1CWUlhZ1dVbU52c1ZVcCthWktaK2lBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDYzMWUwZmUtNzkyMC00YWFhLWEwMTctY2Y5YmU2OTRmMzc0
           

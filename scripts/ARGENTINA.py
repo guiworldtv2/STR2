@@ -445,19 +445,12 @@ def grab(url):
     if '.m3u8' not in response:
         #response = requests.get(url).text
         if '.m3u8' not in response:
-            if windows:                
-               return num
-               print("teste")
-
-               print(soma(10,20))
-               return with None
+            if windows:
+                return Null
             os.system(f'wget {url} -O temp.txt')
             response = ''.join(open('temp.txt').readlines())
-            if '.m3u8' not in response:                
-               return num
-               print("teste")
-
-               print(soma(10,20))
+            if '.m3u8' not in response:
+                return Null
     end = response.find('.m3u8') + 5
     tuner = 100
     while True:
@@ -496,3 +489,4 @@ if 'temp.txt' in os.listdir():
     os.system('rm watch*')
     
     
+

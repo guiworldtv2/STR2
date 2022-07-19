@@ -435,9 +435,6 @@ http://200.115.193.177/live/26hd-720/.m3u8
 import requests
 import os
 import sys
-import shutil
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
 
 windows = False
 if 'win' in sys.platform:
@@ -449,12 +446,12 @@ def grab(url):
         #response = requests.get(url).text
         if '.m3u8' not in response:
             if windows:
-             None               
-               return 
+                print('https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8')
+                return
             os.system(f'wget {url} -O temp.txt')
             response = ''.join(open('temp.txt').readlines())
             if '.m3u8' not in response:
-             None
+                print('https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8')
                 return
     end = response.find('.m3u8') + 5
     tuner = 100

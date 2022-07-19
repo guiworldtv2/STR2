@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://video-auth4.iol.pt/live_tvi/live_tvi/edge_servers/tvi-720_passthrough/chunks.m3u8?nimblesessionid=299912751&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOS8yMDIyIDY6MTA6NDggQU0maGFzaF92YWx1ZT1CWUlhZ1dVbU52c1ZVcCthWktaK2lBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDYzMWUwZmUtNzkyMC00YWFhLWEwMTctY2Y5YmU2OTRmMzc0
-          
+https://playback2.akamaized.net/streams/3332377_10551554_lsicicxz0pce37wwods_1/exp=1658297548~acl=%2f*~data=hdntl~hmac=3f190b68f3c0a3f424743de83e3baec34d93b6eeb24452c181b57c441d10f76e/media/3332377_10551554_lsicicxz0pce37wwods_1@696000p.m3u8?dw=80&ts=1658210400
+EOL          

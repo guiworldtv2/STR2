@@ -445,14 +445,12 @@ def grab(url):
     if '.m3u8' not in response:
         #response = requests.get(url).text
         if '.m3u8' not in response:
-            if windows:
-                print('https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8')
-                return
+            if windows:                
+                return None
             os.system(f'wget {url} -O temp.txt')
             response = ''.join(open('temp.txt').readlines())
-            if '.m3u8' not in response:
-                print('https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8')
-                return
+            if '.m3u8' not in response:                
+                return None
     end = response.find('.m3u8') + 5
     tuner = 100
     while True:

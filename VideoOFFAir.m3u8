@@ -1,4 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
+https://skyfire.vimeocdn.com/1658212083-0x1881d29cac1051e2fc92681d5beaf26155d3d3d3/53651181-bc40-473e-899f-c28810797709/sep/video/de8ce01f/playlist.m3u8?query_string_ranges=1
+https://skyfire.vimeocdn.com/1658212083-0x1881d29cac1051e2fc92681d5beaf26155d3d3d3/53651181-bc40-473e-899f-c28810797709/sep/video/eb1ebe17,531ef66a,14f37d01,de8ce01f,d157cad1/audio/b1dfc7e3,bf327d2d,ca06e570/master.mpd?query_string_ranges=1&base64_init=1
+EOL                           

@@ -1,5 +1,4 @@
 #EXTM3U
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Salão 1
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://rr4---sn-o097znze.googlevideo.com/videoplayback?expire=1658276181&ei=9PTWYuS4O8nUgwO2iaCQBA&ip=20.7.69.253&id=o-AJg-MOcwrTjbhckQF-RF_ismLrp7c5-DhtAwrr-JJAKU&itag=22&source=youtube&requiressl=yes&mh=FB&mm=31%2C26&mn=sn-o097znze%2Csn-naj7yn76&ms=au%2Conr&mv=u&mvi=4&pl=24&spc=lT-KhkyfN3b2Baa57UtUqlh1LjMqh24&vprv=1&mime=video%2Fmp4&ns=oXySK1hIrRn67lphpPHGHr8H&cnr=14&ratebypass=yes&dur=827.953&lmt=1471696890195670&mt=1658254128&fvip=5&fexp=24001373%2C24007246&c=WEB&n=fqtCk5IKugjb54Bo&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgN9g3GhQRnBEu5eAZd7SUbJBw35H12KvagasmqIOUPokCIGOZuXeBMhAmHy1E1giJDUcH9CMgePWspK7zU5umYPn3&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRAIgJAFGIpHKIsq-zVRVm4oO--pDdgNHa2RsYBnNOBjkcE8CICEL7t2zIMM2dx8AHr7cEi0BVjGW0vcrvHkuDHGauSKQ
+https://streaming-live.rtp.pt/liveradio/lusitania80a/chunklist_DVR.m3u8

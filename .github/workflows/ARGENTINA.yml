@@ -41,8 +41,8 @@ jobs:
         run: |
           curl https://wttr.in/ --output minhalocalização.txt
           pwd
-          chmod +x ARGENTINA.sh
-          ./ARGENTINA.sh
+          chmod +x streamlink_for_tvh_container.sh
+          ./streamlink_for_tvh_container.sh
           
         
       - name: git add

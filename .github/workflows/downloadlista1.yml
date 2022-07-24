@@ -22,7 +22,7 @@ jobs:
        wget -r https://raw.githubusercontent.com/guiworldtv/STR-YT/main/LISTASAGRUPADAS.m3u8 -O LISTA1.M3U
        wget -r https://raw.githubusercontent.com/mauro186/TV/main/tv2.m3u -O ARGENTINA.M3U
        wget -r https://raw.githubusercontent.com/luisms123/tdt/a9d239330b64f31b066f7e1b163ca1e63fbf942a/listamexico.m3u -O CHILE.m3u
-       wget -r https://pt.scribd.com/doc/56233972/Roteiro-Para-Comercial-Tv-Modelo -O download.pdf
+       
        
     - name: git add
       run: |

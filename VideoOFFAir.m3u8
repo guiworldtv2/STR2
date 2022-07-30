@@ -1,5 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://streaming2.climaaovivo.com.br/saopaulo6.sp/tracks-v1/mono.m3u8?token=2ab54500fcb79fc67cf55178143fc39808eacb73-f15128bb7386affcb51ef314efafbb81-1659177854-1659176054
-EOL              
+https://streaming-live.rtp.pt/liveradio/antena2opera80a/chunklist_DVR.m3u8

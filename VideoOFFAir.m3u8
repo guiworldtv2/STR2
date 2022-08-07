@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-http://live.ojc.com.br:8000/e9cd_3/myStream/playlist
+https://streaming2.climaaovivo.com.br/saopaulo3.sp/tracks-v1/mono.m3u8?token=3a15a1cd649e8f5fb0218a0d72d25a5f95927e66-720458e9441c42f2d1a40bae7c119011-1659904491-1659902691

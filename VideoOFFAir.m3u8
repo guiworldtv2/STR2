@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-error: Unable to open URL: https://www.youtube.com/watch?v=araK9j8mN9Y (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DaraK9j8mN9Y&q=EgQUAcSiGKz4wJcGIhBTy9Ab3VzCW91_WcbZEYn8MgFy)
+https://streaming-live.rtp.pt/liveradio/antena1fado80a/chunklist_DVR.m3u8

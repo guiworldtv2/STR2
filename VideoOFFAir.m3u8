@@ -1,5 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://streaming2.climaaovivo.com.br/riodejaneiro3.rj/tracks-v1/mono.m3u8?token=04036289f0dbabc8ef40a691e3cf71eb2e5021c1-6d5e18ef14d877c894a9e3e364890477-1659914417-1659912617
-   
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1659934727/ei/pkPwYpCpOYSL_9EPr4up0A4/ip/20.114.201.175/id/araK9j8mN9Y.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr3---sn-p5qlsndd.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhhqJpmpCrrzPM6guDSkP55ddNRY/vprv/1/playlist_type/DVR/mh/wu/mm/44/mn/sn-p5qlsndd/ms/lva/mv/u/mvi/3/pl/24/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1659912239/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIhAMhvVmGoFu5KwDDn3vn7YqCr92eMOP7L4ViO42GyjauBAiBtX1OYYZ9L4wEfR0D1io-SxUILYV9aIriVttoWuj-gEg%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAJxj8RxNSLE-OCX2l8lfbAvcppK_3jbWkZeM9V3C67cjAiBu8J-nOlmoZJLTR0N6y6LZInNDTkh2KO9BbXcr-mlyfg%3D%3D/playlist/index.m3u8

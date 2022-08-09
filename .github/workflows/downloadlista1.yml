@@ -19,8 +19,9 @@ jobs:
         git config --global user.name "GitHub Action"
     - name: Baixando Listas Agrupadas
       run: |         
-       wget -r https://api.tvglobo.com.br/oauth/grant-code 
-       wget -r https://api.tvglobo.com.br/oauth/access-token 
+       wget -r https://raw.githubusercontent.com/guiworldtv/STR-YT/main/LISTASAGRUPADAS.m3u8 -O LISTA1.M3U
+       wget -r https://raw.githubusercontent.com/mauro186/TV/main/tv2.m3u -O ARGENTINA.M3U
+       wget -r https://raw.githubusercontent.com/luisms123/tdt/a9d239330b64f31b066f7e1b163ca1e63fbf942a/listamexico.m3u -O CHILE.m3u 
 
        
        

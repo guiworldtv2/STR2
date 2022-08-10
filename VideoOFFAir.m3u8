@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://live.video.globo.com/d/preview/globo-go01.mp4
+https://191vod-adaptive.akamaized.net/exp=1660124704~acl=%2Fccec1ef0-ba24-4327-b7de-109cdd593b2e%2F%2A~hmac=6ccb9323e07e6a80722e0d65891d51aa62ad53803c30f28cbe1d56a02795e9ca/ccec1ef0-ba24-4327-b7de-109cdd593b2e/sep/video/f1b7c1c1,cd966bcf,26219f1e,4b560057/audio/f20b99cf,8333addd,9bb07e0e/master.mpd?query_string_ranges=1&base64_init=1

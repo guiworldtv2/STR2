@@ -17,9 +17,11 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-    - name: Install streamlink
+    - name: Install youtube-dl
       run: |
-        pip install --user --upgrade streamlink
+        sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+        sudo chmod a+rx /usr/local/bin/youtube-dl
+        youtube-dl -U
     - name: Get VideoOFFAirSTR2.m3u8
       run: |
         touch ./VideoOFFAir.m3u8
@@ -27,7 +29,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://streaming-live.rtp.pt/liveradio/antena1fado80a/chunklist_DVR.m3u8 best)
+        $(youtube-dl -g https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-moema)
         EOL
            
     - name: git add

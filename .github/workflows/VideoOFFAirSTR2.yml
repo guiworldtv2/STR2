@@ -32,9 +32,7 @@ jobs:
         $(youtube-dl -g https://www.climaaovivo.com.br/sp/sao-paulo/alpha-sat-paulista-wall-street-sudoeste)
         EOL
        
-    - name: Install nothing
-      run: |
-        wget https://links.services.disqus.com/api/domains -o banda.txt
+
     - name: git add
       run: |
         git add -A

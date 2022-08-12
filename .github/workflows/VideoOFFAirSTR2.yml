@@ -29,7 +29,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwj7ipzKyMD5AhX8upUCHSQWBMIQtwJ6BAgEEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fx8cklwb&usg=AOvVaw2WkwR1CncBldVGbdN908If)
+        $(youtube-dl -g https://www.dailymotion.com/video/x8cklwb)
         EOL
            
     - name: git add

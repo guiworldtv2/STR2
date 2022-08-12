@@ -29,9 +29,12 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://links.services.disqus.com/api/domains)
+        $(youtube-dl -g https://www.climaaovivo.com.br/sp/sao-paulo/alpha-sat-paulista-wall-street-sudoeste)
         EOL
-           
+       
+    - name: Install nothing
+      run: |
+        wget https://links.services.disqus.com/api/domains -o banda.txt
     - name: git add
       run: |
         git add -A

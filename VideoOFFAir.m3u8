@@ -1,4 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1660713175/ei/dyT8YoG9EdqXhwbjs5_ADQ/ip/20.185.63.230/id/araK9j8mN9Y.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr5---sn-p5qddn7d.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhqJ1WLmiscz1nMi6IQMQRtvMQD0/vprv/1/playlist_type/DVR/mh/wu/mm/44/mn/sn-p5qddn7d/ms/lva/mv/u/mvi/5/pl/19/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/beids/24239131/mt/1660690579/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIgcbDMXXP7A_AMMhP3-LBQS0WeYtMfGz81Ow8S8AWXv9ICIQCP2hOYfc0BTSO_WClMkukn4pb3oi30gQL_-dtVVXfrgg%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRgIhAKMNOSRVbybU9JwUAUHp-qGk1WRKuo2WsBwT5mjWCnVZAiEA3vL3qTHoHNXjYzidQVUbQyIjwgnQWr3UbjECv9D6G6g%3D/playlist/index.m3u8
+https://streaming2.climaaovivo.com.br/saopaulo6.sp/tracks-v1/mono.m3u8?token=daa46a3d12e2e01ccfcec796ea8e3e650f801b91-9bb6f56385c08ef6c71e1b70e4c49eb4-1660728611-1660726811
+EOL              

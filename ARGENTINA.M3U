@@ -16,6 +16,8 @@ https://59d39900ebfb8.streamlock.net/canelatv/canelatv/chunklist_w180331534.m3u8
 https://59d39900ebfb8.streamlock.net/canelatv/canelatv/chunklist_w1231033442.m3u8
 #EXTINF:-1 tvg-logo="https://www.teleamazonas.com/wp-content/uploads/2020/10/cropped-Logo-blanco-1.png" group-title="TV ECUADOR", TELEAMAZONAS
 http://vps-c97214f4.vps.ovh.net:80/hls/ecutv3.m3u8
+#EXTINF:-1 tvg-logo="https://www.teleamazonas.com/wp-content/uploads/2020/10/cropped-Logo-blanco-1.png" group-title="TV ECUADOR", PRUEBAS
+http://vps-c97214f4.vps.ovh.net/hls/ecutv3.m3u8
 #EXTINF:-1 tvg-logo="https://www.teleamazonas.com/wp-content/uploads/2020/10/cropped-Logo-blanco-1.png" group-title="TV ECUADOR", TELEAMAZONAS INTERNACIONAL
 http://api.new.livestream.com/accounts/1359588/events/9942377/live.m3u8
 #EXTINF:-1 tvg-logo="https://www.ecuavisa.com/sites/default/files/styles/large/public/ecuavisa-footer-logo.png" group-title="TV ECUADOR", ECUAVISA

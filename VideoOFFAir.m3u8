@@ -1,2 +1,5 @@
-https://opto.sic.pt/app/images/splash/OTT_OPTA_2k_SIC_Horizontal.mp4
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+https://streaming2.climaaovivo.com.br/saopaulo6.sp/tracks-v1/mono.m3u8?token=b5689ed8ee5c763ce6a3505bc5fb0207a2f5013b-8a18d1f3a347bd01114564553b08c427-1660815520-1660813720
+EOL              

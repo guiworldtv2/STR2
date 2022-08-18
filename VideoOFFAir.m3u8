@@ -1,4 +1,9 @@
 #EXTM3U
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-TARGETDURATION:15
+#EXT-X-PLAYLIST-TYPE:VOD
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1660885866/ei/Csf-YtbICK2P_tcPrte3yAI/ip/23.102.131.42/id/araK9j8mN9Y.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr2---sn-q4flrnee.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhrXaf6rVBIDZ1SsnypkRM-Lx52o/vprv/1/playlist_type/DVR/initcwndbps/176250/mh/wu/mm/44/mn/sn-q4flrnee/ms/lva/mv/m/mvi/2/pl/18/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1660863878/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRgIhAN3nOX-61bF5PvI41-jThjhotNPb9fP179Qbr51EdE3NAiEAvYSU78Cj6d_SDQnFXoMbklsp38bk1YGr1G2fTj8M5Z4%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgWwuqtH-DdJlIjhkbFVNxKUdBeBaXmH5H-VaAcIhMJB0CIQC9LBkvqY9UEXaSzwOOTWL9sN3tSN9iNZVKIojlS_Cgrg%3D%3D/playlist/index.m3u8
+#EXTINF:6.64,
+https://opto.sic.pt/app/images/splash/OTT_OPTA_2k_SIC_Horizontal.mp4
+#EXTINF:7.84,
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8

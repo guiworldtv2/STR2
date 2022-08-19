@@ -1,6 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://skyfire.vimeocdn.com/1660872354-0x72e76babe22f8c9ab217b50eebe26de91d856375/4bba110b-156c-4822-9ef9-6e864485953f/sep/video/37ce8ece/playlist.m3u8?query_string_ranges=1
-https://skyfire.vimeocdn.com/1660872354-0x72e76babe22f8c9ab217b50eebe26de91d856375/4bba110b-156c-4822-9ef9-6e864485953f/sep/video/c5ebc8a4,84960887,37ce8ece,6703e373,b3241021,611352a9,2860cd01/audio/465d5a57,e6d68e7e,57c84b70/master.mpd?query_string_ranges=1&base64_init=1
-EOL     
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5090800
+https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?uid=HeHlNVB93CcOMXwnHBlOswKXZ4ps3aeo&sid=FCigTEHoVD8SXn9SzbbJZcEclIKeuxyp&pid=Od6OzNNvmexEg87kFKgZPBQ2CqUTajCx&an=screen&at=web-app&av=v5.2.272&ref=https%3A%2F%2Ftoken.tvn.cl%2F&res=692x389&without_cookies=false&listenerid=&dnt=true&access_token=GxR58HCjbOaNjWw1PrKEbWjJOXd4Ghbyiw6SvwGOepxUbIveQVVwloLmUpXpAHjXuNZw2uKVfqI&adInsertionSessionId=8be1a9cf-d4dd-49eb-b025-5a9750291ea5    

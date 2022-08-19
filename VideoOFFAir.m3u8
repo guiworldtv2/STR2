@@ -1,7 +1,7 @@
 #EXTM3U
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-TARGETDURATION:15
-#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-PLAYLIST-TYPE:LIVE
 #EXT-X-VERSION:3
 https://opto.sic.pt/app/images/splash/OTT_OPTA_2k_SIC_Horizontal.mp4
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8

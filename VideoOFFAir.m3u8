@@ -1,4 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5090800
-https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?uid=HeHlNVB93CcOMXwnHBlOswKXZ4ps3aeo&sid=FCigTEHoVD8SXn9SzbbJZcEclIKeuxyp&pid=Od6OzNNvmexEg87kFKgZPBQ2CqUTajCx&an=screen&at=web-app&av=v5.2.272&ref=https%3A%2F%2Ftoken.tvn.cl%2F&res=692x389&without_cookies=false&listenerid=&dnt=true&access_token=GxR58HCjbOaNjWw1PrKEbWjJOXd4Ghbyiw6SvwGOepxUbIveQVVwloLmUpXpAHjXuNZw2uKVfqI&adInsertionSessionId=8be1a9cf-d4dd-49eb-b025-5a9750291ea5    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+https://streaming2.climaaovivo.com.br/saopaulo6.sp/tracks-v1/mono.m3u8?token=1ccd8d97358bb97db25e6afc16737d92dfa6f2ae-49506fa6a40f0217cc6bdc81ce22c065-1660901924-1660900124
+EOL              

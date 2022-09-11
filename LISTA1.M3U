@@ -26,5 +26,5 @@ https://video-auth2.iol.pt/live_edge/tvi_abr/edge_servers/tvi-480p/chunks.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth4.iol.pt/live_edge/tvi_abr/edge_servers/tvi-480p/chunks.m3u8
 
-#EXTINF:-1 group-title="Reality Show'S Live" id="TVIR.meo.pt"  tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/63123e690cf26256cd33da09/",BIG BROTHER PORTUGAL
-https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/BIG%20BROTHER%20PORTUGAL%20LIVE.M3U8
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id="TVIR.meo.pt"  tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/63123e690cf26256cd33da09/",BIG BROTHER PORTUGAL
+https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/BIG_BROTHER_PORTUGAL_LIVE.M3U8

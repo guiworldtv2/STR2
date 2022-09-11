@@ -9,11 +9,11 @@ https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireali
 #EXT-X-STREAM-INF:BANDWIDTH=1210678,AVERAGE-BANDWIDTH=1100618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
 https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=1910278,AVERAGE-BANDWIDTH=1736618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1024x576,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
-https://video-auth4.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/playlist.m3u8
+https://video-auth3.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/playlist.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=3076278,AVERAGE-BANDWIDTH=2796618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
 https://video-auth4.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/chunks.m3u8
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge3-hr.cvattv.com.ar/live/c3eds/Canal9/SA_SAGEMCOM/Canal9-iframe-avc1_379968=10008.m3u8",BANDWIDTH=55380,AVERAGE-BANDWIDTH=50345,CODECS="avc1.4d401e",RESOLUTION=416x240
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge3-hr.cvattv.com.ar/live/c3eds/Canal9/SA_SAGEMCOM/Canal9-iframe-avc1_579968=10010.m3u8",BANDWIDTH=84530,AVERAGE-BANDWIDTH=76845,CODECS="avc1.4d401e",RESOLUTION=640x360
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge3-hr.cvattv.com.ar/live/c3eds/Canal9/SA_SAGEMCOM/Canal9-iframe-avc1_899968=10009.m3u8",BANDWIDTH=131170,AVERAGE-BANDWIDTH=119245,CODECS="avc1.4d401f",RESOLUTION=854x480
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge3-hr.cvattv.com.ar/live/c3eds/Canal9/SA_SAGEMCOM/Canal9-iframe-avc1_1499968=10011.m3u8",BANDWIDTH=218620,AVERAGE-BANDWIDTH=198745,CODECS="avc1.4d401f",RESOLUTION=1024x576
-#EXT-X-I-FRAME-STREAM-INF:URI="http://edge3-hr.cvattv.com.ar/live/c3eds/Canal9/SA_SAGEMCOM/Canal9-iframe-avc1_2499968=10007.m3u8",BANDWIDTH=364370,AVERAGE-BANDWIDTH=331245,CODECS="avc1.4d401f",RESOLUTION=1280x720
+#EXT-X-I-FRAME-STREAM-INF:URI="https://video-auth1.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/chunks.m3u8",BANDWIDTH=55380,AVERAGE-BANDWIDTH=50345,CODECS="avc1.4d401e",RESOLUTION=416x240
+#EXT-X-I-FRAME-STREAM-INF:URI="https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8",BANDWIDTH=84530,AVERAGE-BANDWIDTH=76845,CODECS="avc1.4d401e",RESOLUTION=640x360
+#EXT-X-I-FRAME-STREAM-INF:URI="https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8",BANDWIDTH=131170,AVERAGE-BANDWIDTH=119245,CODECS="avc1.4d401f",RESOLUTION=854x480
+#EXT-X-I-FRAME-STREAM-INF:URI="https://video-auth3.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/playlist.m3u8",BANDWIDTH=218620,AVERAGE-BANDWIDTH=198745,CODECS="avc1.4d401f",RESOLUTION=1024x576
+#EXT-X-I-FRAME-STREAM-INF:URI="https://video-auth4.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/chunks.m3u8",BANDWIDTH=364370,AVERAGE-BANDWIDTH=331245,CODECS="avc1.4d401f",RESOLUTION=1280x720

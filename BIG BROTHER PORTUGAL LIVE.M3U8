@@ -1,7 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:5
-#EXT-X-MEDIA:TYPE=AUDIO,URI="http://edge3-hr.cvattv.com.ar/live/c3eds/Canal9/SA_SAGEMCOM/Canal9-mp4a_145200_eng=20003.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
-#EXT-X-MEDIA:TYPE=AUDIO,URI="http://edge3-hr.cvattv.com.ar/live/c3eds/Canal9/SA_SAGEMCOM/Canal9-mp4a_145200_spa=20002.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="es",NAME="Spanish",DEFAULT=YES,AUTOSELECT=YES,CHANNELS="2"
+#EXT-X-MEDIA:TYPE=AUDIO,URI="https://video-auth4.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/chunks.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="ptn",NAME="Portuguese",AUTOSELECT=YES,CHANNELS="2"
+#EXT-X-MEDIA:TYPE=AUDIO,URI="https://video-auth4.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/chunks.m3u8",GROUP-ID="audio-AACL-145",LANGUAGE="pt",NAME="Portuguese",DEFAULT=YES,AUTOSELECT=YES,CHANNELS="2"
 #EXT-X-STREAM-INF:BANDWIDTH=604358,AVERAGE-BANDWIDTH=549418,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=416x240,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
 https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=837558,AVERAGE-BANDWIDTH=761418,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=29.970,AUDIO="audio-AACL-145"

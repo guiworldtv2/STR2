@@ -19,10 +19,9 @@ jobs:
         git config --global user.name "GitHub Action"
     - name: Baixando Listas Agrupadas
       run: |         
-       wget -r https://raw.githubusercontent.com/guiworldtv/STR-YT/main/LISTA1.m3u -o LISTA1.M3U
-       wget -r https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -o ARGENTINA.M3U
-
-
+       wget -r https://raw.githubusercontent.com/guiworldtv/STR-YT/main/LISTA1.m3u -O LISTA1.M3U
+       wget -r https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -O ARGENTINA.M3U
+       wget -r https://raw.githubusercontent.com/guiworldtv/STR-YT/main/LISTA1.m3u -O CHILE.m3u 
        
        
     - name: git add

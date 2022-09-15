@@ -1,7 +1,8 @@
-name: Baixando Listas Agrupadas
+name: Teste
 on:
   schedule:
-    - cron: '9 * * * *'
+    - cron: '0 0/3 * * *'
+
   pull_request:
     branches:
       - main
@@ -19,10 +20,9 @@ jobs:
         git config --global user.name "GitHub Action"
     - name: Baixando Listas Agrupadas
       run: |         
-       wget -r https://raw.githubusercontent.com/guiworldtv/STR-YT/main/LISTASAGRUPADAS.m3u8 -O LISTA1.M3U
-       wget -r https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -O ARGENTINA.M3U
-       wget -r https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -O CHILE.m3u 
-       
+       wget -r https://raw.githubusercontent.com/guiworldtv/STR-YT/main/LISTASAGRUPADAS.m3u8 -O list1.M3U
+       wget -r https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -O argentina.M3U
+       wget -r https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -O chile.M3U
        
     - name: git add
       run: |

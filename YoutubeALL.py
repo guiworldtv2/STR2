@@ -71,7 +71,7 @@ def generate_youtube_tv():
                     else:
                         # Just a video
                         video = result
-                video_url = video['filename']
+                video_url = video['channel']
 
                 channel_no += 1
                 channel_name1 = f"{line.split('/')[-1]}"

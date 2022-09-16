@@ -81,6 +81,7 @@ def generate_youtube_tv():
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
+                write_to_playlist('|')
             except Exception as e:
                 print(e)
                         

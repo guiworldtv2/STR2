@@ -73,10 +73,17 @@ def generate_youtube_tv():
                         video = result
                 video_url = video['url']
                 canalnome = video['channel']
+                canalnome = video['ext']
+                canalnome = video['alt_title']
+                canalnome = video['display_id']
+                canalnome = video['uploader']
+                canalnome = video['creator']
+                canalnome = video['view_count']
+                
 
                 channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-referer=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{channel.get('title')}\n"
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{channel.get('title')}\n"
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")

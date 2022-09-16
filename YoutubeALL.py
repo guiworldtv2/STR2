@@ -76,7 +76,6 @@ def generate_youtube_tv():
                 canalnome2 = video['ext']
                 canalnome4 = video['display_id']
                 canalnome5 = video['uploader']
-                canalnome6 = video['creator']
                 canalnome7 = video['view_count']
                 
 
@@ -88,7 +87,6 @@ def generate_youtube_tv():
                 write_to_playlist(canalnome2)
                 write_to_playlist(canalnome4)
                 write_to_playlist(canalnome5)
-                write_to_playlist(canalnome6)
                 write_to_playlist(canalnome7)
                 write_to_playlist("\n")
             except Exception as e:

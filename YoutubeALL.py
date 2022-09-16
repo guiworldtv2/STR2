@@ -74,7 +74,6 @@ def generate_youtube_tv():
                 video_url = video['url']
                 canalnome = video['channel']
                 canalnome2 = video['ext']
-                canalnome3 = video['alt_title']
                 canalnome4 = video['display_id']
                 canalnome5 = video['uploader']
                 canalnome6 = video['creator']
@@ -87,7 +86,6 @@ def generate_youtube_tv():
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist(canalnome2)
-                write_to_playlist(canalnome3)
                 write_to_playlist(canalnome4)
                 write_to_playlist(canalnome5)
                 write_to_playlist(canalnome6)

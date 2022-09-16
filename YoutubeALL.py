@@ -73,12 +73,12 @@ def generate_youtube_tv():
                         video = result
                 video_url = video['url']
                 canalnome = video['channel']
-                canalnome = video['ext']
-                canalnome = video['alt_title']
-                canalnome = video['display_id']
-                canalnome = video['uploader']
-                canalnome = video['creator']
-                canalnome = video['view_count']
+                canalnome2 = video['ext']
+                canalnome3 = video['alt_title']
+                canalnome4 = video['display_id']
+                canalnome5 = video['uploader']
+                canalnome6 = video['creator']
+                canalnome7 = video['view_count']
                 
 
                 channel_no += 1
@@ -86,6 +86,12 @@ def generate_youtube_tv():
                 playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{channel.get('title')}\n"
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
+                write_to_playlist(canalnome2)
+                write_to_playlist(canalnome3)
+                write_to_playlist(canalnome4)
+                write_to_playlist(canalnome5)
+                write_to_playlist(canalnome6)
+                write_to_playlist(canalnome7)
                 write_to_playlist("\n")
             except Exception as e:
                 print(e)

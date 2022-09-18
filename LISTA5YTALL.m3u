@@ -6,6 +6,17 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"
 
+#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="https://canalnet.tv/_templates/desktop/includes/img/_logo-alt.png",NET TV 
+https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AR | El Nueve" tvg-name="AR | El Nueve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Canal_9_2015.png/120px-Canal_9_2015.png" group-title="Argentina", 471 | El Nueve || ARGENTINA
+https://2a1773fcc0c94a639b422d1cf7ba14b7.mediatailor.us-east-1.amazonaws.com/v1/manifest/4c8323052bc3dbd9aa2eba0b638d8495561e8377/JW-Octubre-Channel09/fcd95e56-4267-40cd-a141-5a001acb25f3/5.m3u8
+#EXTINF:-1 tvg-id="AR | Encuentro TV" tvg-name="AR | Encuentro TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Logo_del_canal_Encuentro.svg/150px-Logo_del_canal_Encuentro.svg.png" group-title="Argentina", ENCUENTRO 
+https://delivery.cdn.rcs.net.ar/mnp/encuentro_hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.ip.digital/sites/default/files/styles/1_1_max_364px/theme/ip_theme/media/ip_logo.png?itok=gzTn1Jjd" group-title="Argentina", IP 
+https://delivery.cdn.rcs.net.ar/mnp/ip_hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.ipuntotv.com/IMAGES/TN%20logo%20nuevo.png" group-title="Argentina" ,TN 
+https://delivery.cdn.rcs.net.ar/mnp/tn_hls/playlist.m3u8
+
 #EXTINF:-1 tvg-chno="1" tvg-id="Koisa Veia TV" tvg-base="https://www.youtube.com/watch?v=j5qve7fBx-M" tvg-name="1-watch?v=j5qve7fBx-M" tvg-logo="https://i.ytimg.com/vi/j5qve7fBx-M/hqdefault.jpg" group-title="YOUTUBE",Piores Clipes do Mundo - Mamma Bruschetta
 https://rr1---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1663532124&ei=_CcnY-K2LYuL8wTV5o6IDg&ip=20.231.105.178&id=o-AJiNZvx-gk9Q85UQUxUknoTx7wlX3QwNv3TCvx2V2gXQ&itag=18&source=youtube&requiressl=yes&mh=O7&mm=31%2C26&mn=sn-p5qddn7k%2Csn-vgqsrnsy&ms=au%2Conr&mv=m&mvi=1&pl=18&initcwndbps=152500&vprv=1&mime=video%2Fmp4&ns=ylbP7z6Y0Za5GVn4HVPUllgI&gir=yes&clen=36532458&ratebypass=yes&dur=523.586&lmt=1662468524400571&mt=1663510143&fvip=5&fexp=24001373%2C24007246&c=WEB&rbqsm=fr&txp=6219224&n=5wR779BlpXJIgNs7&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgOiZ_P6YIuJvvObaGhjLIxJ816VE2WHQEzwl9RJErG4UCIB606ebf7_5w8alpLgemBsgEWZSnsW-heHwdSo4X7YwT&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAINFb-_FdMZzB9C8_LnrIqNRvBCwZUVeAIqFLvb3U1SKAiBMkp6K9RiTygcWcVE2FN6RKjBiRTFQB9rAC7nhAkM1gg%3D%3D
 #EXTINF:-1 tvg-chno="2" tvg-id="Deck" tvg-base="https://www.youtube.com/watch?v=nHO38JeCjVc" tvg-name="2-watch?v=nHO38JeCjVc" tvg-logo="https://i.ytimg.com/vi/nHO38JeCjVc/hqdefault.jpg" group-title="YOUTUBE",Strike - Aquela Historia

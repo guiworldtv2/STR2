@@ -37,7 +37,7 @@ jobs:
          
         
       - name: execute py script
-        run: python Zadruga.py
+        run: python ZADRUGA.py
         
 
 

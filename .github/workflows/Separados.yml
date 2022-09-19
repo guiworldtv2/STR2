@@ -45,8 +45,7 @@ jobs:
       - name: execute py script 3
         run: python ucraniatv.py
         
-      - name: execute Todo Youtube
-        run: python YoutubeALL.py        
+   
         
         
       

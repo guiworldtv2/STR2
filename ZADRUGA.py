@@ -85,7 +85,7 @@ def write_to_playlist(content):
 
 def create_playlist():
     global m3u
-    m3u = open("zadruga.m3u8", "w")
+    m3u = open("ZADRUGA.m3u8", "w")
     m3u.write("#EXTM3U")
     m3u.write("\n")
 

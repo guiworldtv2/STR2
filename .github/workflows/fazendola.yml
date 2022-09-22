@@ -39,14 +39,14 @@ jobs:
          sudo apt install ffmpeg
     
        
-    - name: Get LISTA4.m3u8
+    - name: Get AFAZENDA.m3u8
       run: |
         touch ./AFAZENDA.m3u8
         sudo cat >./AFAZENDA.m3u8 <<EOL
         
         
-
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/fazenda14 best)
+        EOL

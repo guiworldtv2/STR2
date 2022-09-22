@@ -2,6 +2,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://proxy-23.sv4.dailymotion.com/sec(zBLo9_ZO9Yz5cZ8xnl9pTiH9Gm--61W0zBxwdRYXHFVLpnezQO624boiptMU6M3Pbq-TDBiZ7jt6bYzlYQJjwH1pVg5SU7-3mUEPCGlQ2sA)/video/643/081/361180346_mp4_h264_aac_hd_2.m3u8#cell=sv4             
-EOL  
-   
+error: No playable streams found on this URL: https://www.mitele.es/directo/telecinco/             
+EOL             

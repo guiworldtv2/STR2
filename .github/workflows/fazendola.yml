@@ -42,7 +42,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(streamlink --output "~/home/runner/work/{author}/{category}/{id}-{time:%Y%m%d%H%M%S}.ts" https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b8)/manifest.mpd best)             
+        $(streamlink --output "~/home/runner/work/{time:%Y%m%d%H%M%S}.ts" https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b8)/manifest.mpd best)             
         EOL             
     - name: git add
       run: |

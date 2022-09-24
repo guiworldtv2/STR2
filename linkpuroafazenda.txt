@@ -1,0 +1,1 @@
+https://amd04eng.akamaized.net/hls/live/2032282/fazenda14cam7/master.m3u8?hdnts=exp=1664025630~acl=/*~hmac=5fdb45ee4a15cddf8337fcac608483d9765c61230186976b3a3a612733829e44

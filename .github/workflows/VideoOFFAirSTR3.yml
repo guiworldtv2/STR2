@@ -17,10 +17,10 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-    - name: Instalando youtube-dl 
+    - name: Instalando yt-dlp 
       run: |
-        sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-        sudo chmod a+rx /usr/local/bin/youtube-dl 
+        sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp 
     - name: Get VideoOFFAirSTR2.m3u8
       run: |
         touch ./VideoOFFAir.m3u8

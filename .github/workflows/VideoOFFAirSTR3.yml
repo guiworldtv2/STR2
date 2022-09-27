@@ -17,11 +17,10 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-    - name: Install youtube-dl
+    - name: Instalando youtube-dl 
       run: |
         sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-        sudo chmod a+rx /usr/local/bin/youtube-dl
-        youtube-dl -U
+        sudo chmod a+rx /usr/local/bin/youtube-dl 
     - name: Get VideoOFFAirSTR2.m3u8
       run: |
         touch ./VideoOFFAir.m3u8
@@ -29,7 +28,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=WGsHkZ4IFJM)
+        $(yt-dlp --get-url https://www.youtube.com/watch?v=WGsHkZ4IFJM)
         EOL
            
     - name: git add

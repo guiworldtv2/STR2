@@ -1,3 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000https://stitcher.pluto.tv/stitch/hls/channel/6320ddef274b1b0007b2ee88/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=416b7a23-4f59-11ed-b0d2-0242ac110003
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+https://stitcher.pluto.tv/stitch/hls/channel/6320ddef274b1b0007b2ee88/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=416b7a23-4f59-11ed-b0d2-0242ac110003

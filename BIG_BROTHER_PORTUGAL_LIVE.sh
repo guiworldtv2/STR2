@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# TVI - update the stream URL of TVI
+# TVI - update the stream URL of BIG BROTHER
 
-sed -i "/live_tvi\/live_tvi/ c https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=$(wget https://services.iol.pt/matrix?userId= -o /dev/null -O -)/" m3upt.m3u
+sed -i "/live_tvi\/live_tvi/ c https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=$(wget https://services.iol.pt/matrix?userId= -o /dev/null -O -)/" BIG_BROTHER_PORTUGAL_LIVE.m3u8
 
 # CNN Portugal - update the stream URL of CNN Portugal
 

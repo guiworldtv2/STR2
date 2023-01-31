@@ -1,116 +1,17 @@
-#! /usr/bin/python3
+import subprocess
 
-from __future__ import unicode_literals
-import youtube_dl
-import requests
-import shutil
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-channel_no = 0
-m3u = None
-def get_live_info(channel_id):
-    try:
-        webpage = urlopen(f"{channel_id}").read()
-        soup = BeautifulSoup(webpage, 'html.parser')
-        urlMeta = soup.find("meta", property="og:url")
-        if urlMeta is None:
-            return None
-        url = urlMeta.get("content")
-        if(url is None or url.find("/watch?v=") == -1):
-            return None
-        titleMeta = soup.find("meta", property="og:title")
-        imageMeta = soup.find("meta", property="og:image")
-        descriptionMeta = soup.find("meta", property="og:description")
-        return {
-            "url": url,
-            "title": titleMeta.get("content"),
-            "image": imageMeta.get("content"),
-            "description": descriptionMeta.get("content")
-        }
-    
-    except Exception as e:
-                return None
+channel_url = "https://www.youtube.com/c/GuilhermeMartinsTV/videos"
+playlist_file = "playlist.m3u8"
 
-banner = r'''
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-'''
+with open(playlist_file, "w") as f:
+    f.write("#EXTM3U\n")
+    f.write("#EXT-X-VERSION:3\n")
+    f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
 
-def generate_youtube_tv():
-    global channel_no
-    ydl_opts = {
-        'format': 'best',
-    }
-    ydl = youtube_dl.YoutubeDL(ydl_opts)
+    videos = subprocess.run(["yt-dlp", "--get-url", channel_url], stdout=subprocess.PIPE).stdout.decode("utf-8").strip().split("\n")
+    titles = subprocess.run(["yt-dlp", "--get-title", channel_url], stdout=subprocess.PIPE).stdout.decode("utf-8").strip().split("\n")
+    thumbnails = subprocess.run(["yt-dlp", "--get-thumbnail", channel_url], stdout=subprocess.PIPE).stdout.decode("utf-8").strip().split("\n")
 
-    with open('AFAZENDA.txt') as f:
-        lines = f.readlines()
-        for line in lines:
-            line = line.strip()
-            if line == "":
-                continue
-            channel = get_live_info(line)
-            if channel is None:
-                continue
-            try:
-                with ydl:
-                    result = ydl.extract_info(
-                        f"{line}",
-                        download=False  # We just want to extract the info
-                    )
-
-                    if 'entries' in result:
-                        # Can be a playlist or a list of videos
-                        video = result['entries'][-1]
-                    else:
-                        # Just a video
-                        video = result
-                video_url = video['url']
-
-                channel_no += 1
-                channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ZADRUGA\",{channel.get('title')}\n"                
-                write_to_playlist(video_url)
-                write_to_playlist("\n")
-            except Exception as e:
-                print(e)
-                        
-
-
-
-def write_to_playlist(content):
-    global m3u    
-    m3u.write(content)
-    
-
-def create_playlist():
-    global m3u
-    m3u = open("AFAZENDA.m3u8", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("\n")
-
-    
-def close_playlist():
-    global m3u
-    m3u.close()
-def generate_youtube_PlayList():
-    create_playlist()
-        
-    m3u.write(banner)
-
-    generate_youtube_tv()
-    
-
-    
-
-    
-
-
-    close_playlist()
-
-
-    
-if __name__ == '__main__':
-    generate_youtube_PlayList()   
- 
-
+    for i in range(len(videos)):
+        f.write(f"#EXTINF:-1 tvg-id=\"{titles[i]}\" tvg-logo=\"{thumbnails[i]}\",{titles[i]}\n")
+        f.write(f"{videos[i]}\n")

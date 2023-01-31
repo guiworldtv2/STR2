@@ -28,7 +28,7 @@ for link in links:
         except:
             try:
                 # Obter informações dos vídeos usando o streamlink
-                info = subprocess.run(["streamlink", "--get-title", "--get-thumbnail", "--get-url", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip().split("\n")
+                info = subprocess.run(["streamlink", "--default-stream", "--stream-url", "--url", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip().split("\n")
                 title = info[0]
                 thumbnail = info[1]
                 video_url = info[2]
@@ -37,7 +37,7 @@ for link in links:
                 continue
 
     # Salva as informações obtidas em um arquivo
-    with open(f"MEULINK{counter}.txt", "w") as f:
+    with open(f"AFAZENDA.m3u8", "w") as f:
         f.write(f"#EXTM3U\n")
         f.write(f"#EXT-X-VERSION:3\n")
         f.write(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")

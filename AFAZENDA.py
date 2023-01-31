@@ -28,13 +28,13 @@ for link in links:
         except:
             try:
         # Obter informações dos vídeos usando o streamlink
-        stream_info = subprocess.run(["streamlink", link, "best", "--json"], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
+        stream_info = subprocess.run(["streamlink", "--stream-url", link, "best", "--json"], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
         stream_url = stream_info.split("\n")[-1]
         title = link
         thumbnail = ""
-    except:
+        except:
         print(f"Não foi possível obter informações do link {link}")
-        continue
+            continue
 
     # Salva as informações obtidas em um arquivo
     with open(f"AFAZENDA.m3u8", "w") as f:

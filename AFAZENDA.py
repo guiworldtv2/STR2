@@ -1,9 +1,13 @@
 import subprocess
 import os
 
-# Lê o arquivo AFAZENDA.txt
-with open("AFAZENDA.txt", "r") as f:
-    links = f.readlines()
+# Le o arquivo AFAZENDA.txt
+try:
+    with open("AFAZENDA.txt", "r") as f:
+        links = f.readlines()
+except FileNotFoundError:
+    print("O arquivo AFAZENDA.txt não foi encontrado.")
+    raise
 
 # Remove o caractere de nova linha (\n) ao final de cada linha
 links = [link.strip() for link in links]
@@ -18,29 +22,30 @@ for link in links:
         title = subprocess.run(["yt-dlp", "--get-title", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
         thumbnail = subprocess.run(["yt-dlp", "--get-thumbnail", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
         video_url = subprocess.run(["yt-dlp", "--get-url", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
-    except:
+    except subprocess.CalledProcessError:
         try:
             # Obter informações dos vídeos usando o youtube-dl
             info = subprocess.run(["youtube-dl", "--get-title", "--get-thumbnail", "--get-url", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip().split("\n")
             title = info[0]
             thumbnail = info[1]
             video_url = info[2]
-        except:
+        except subprocess.CalledProcessError:
             try:
                 # Obter informações dos vídeos usando o streamlink
                 stream_info = subprocess.run(["streamlink", "--stream-url", link, "best", "--json"], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
                 stream_url = stream_info.split("\n")[-1]
                 title = link
                 thumbnail = ""
-            except:
+            except subprocess.CalledProcessError:
                 print(f"Não foi possível obter informações do link {link}")
                 continue
 
     # Salva as informações obtidas em um arquivo
-    with open(f"AFAZENDA_{counter}.m3u8", "w") as f:
-        f.write(f"#EXTM3U\n")
-        f.write(f"#EXT-X-VERSION:3\n")
-        f.write(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
-        f.write(f'#EXTINF:-1 tvg-id="{title}" tvg-logo="{thumbnail}",{title}\n')
-        f.write(f"{video_url}\n")
+    try:
+        with open(f"AFAZENDA_{counter}.m3u8", "w") as f:
+            f.write(f"#EXTM3U\n")
+            f.write(f"#EXT-X-VERSION:3\n")
+            f.write(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
+            f.write(f'#EXTINF:-1 tvg-id="{title}" tvg-logo="{thumbnail}",{title}\n')
+            f.write(f"{video_url}\n")
 

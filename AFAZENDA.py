@@ -9,9 +9,6 @@ headers = {
 
 m3u8_file = open("AFAZENDA.m3u8", "w")
 
-now = datetime.datetime.now()
-Data = now.strftime("%d/%m/%Y")
-
 for i in range(1, 3):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
@@ -20,11 +17,13 @@ for i in range(1, 3):
 
     video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
     video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
+    Data = [item.text for item in soup.find_all("span", class_="item-date")]
 
-    for title, link in zip(video_titles, video_links):
-        timestamp = now.strftime("%m%d%H%M%S")
+    for title, link, data in zip(video_titles, video_links, Data):
+        timestamp = datetime.datetime.now().strftime("%m%d%H%M%S")
         video_url = streamlink.streams(link)["best"].url
-        m3u8_file.write(f"#EXTINF:-1,{Data}_{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
+        m3u8_file.write(f"#EXTINF:-1,{data}_{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
 
 m3u8_file.close()
+
 

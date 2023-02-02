@@ -9,7 +9,7 @@ headers = {
 
 m3u8_file = open("meuscanais.m3u8", "w")
 
-for i in range(3, 7):
+for i in range(1, 3):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
     response = requests.get(url, headers=headers)
@@ -23,6 +23,6 @@ for i in range(3, 7):
         now = datetime.datetime.now()
         timestamp = now.strftime("%m%d%H%M%S")
         video_url = streamlink.streams(link)["best"].url
-        m3u8_file.write(f"#EXTINF:-1,MÊSDIA_{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
+        m3u8_file.write(f"#EXTINF:-1,{MÊSDIA}_{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
 
 m3u8_file.close()

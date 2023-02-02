@@ -1,51 +1,28 @@
-import subprocess
-import os
+import requests
+from bs4 import BeautifulSoup
+import datetime
+import streamlink
 
-# Le o arquivo AFAZENDA.txt
-try:
-    with open("AFAZENDA.txt", "r") as f:
-        links = f.readlines()
-except FileNotFoundError:
-    print("O arquivo AFAZENDA.txt não foi encontrado.")
-    raise
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+}
 
-# Remove o caractere de nova linha (\n) ao final de cada linha
-links = [link.strip() for link in links]
+m3u8_file = open("meuscanais.m3u8", "w")
 
-# Contador para os nomes dos arquivos
-counter = 1
+for i in range(3, 7):
+    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
-# Loop para cada link do arquivo
-for link in links:
-    try:
-        # Obter informações dos vídeos usando o yt-dlp
-        title = subprocess.run(["yt-dlp", "--get-title", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
-        thumbnail = subprocess.run(["yt-dlp", "--get-thumbnail", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
-        video_url = subprocess.run(["yt-dlp", "--get-url", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
-    except subprocess.CalledProcessError:
-        try:
-            # Obter informações dos vídeos usando o youtube-dl
-            info = subprocess.run(["youtube-dl", "--get-title", "--get-thumbnail", "--get-url", link], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip().split("\n")
-            title = info[0]
-            thumbnail = info[1]
-            video_url = info[2]
-        except subprocess.CalledProcessError:
-            try:
-                # Obter informações dos vídeos usando o streamlink
-                stream_info = subprocess.run(["streamlink", "--stream-url", link, "best", "--json"], stdout=subprocess.PIPE, check=True).stdout.decode("utf-8").strip()
-                stream_url = stream_info.split("\n")[-1]
-                title = link
-                thumbnail = ""
-            except subprocess.CalledProcessError:
-                print(f"Não foi possível obter informações do link {link}")
-                continue
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.content, "html.parser")
 
-    # Salva as informações obtidas em um arquivo
-    try:
-        with open(f"AFAZENDA_{counter}.m3u8", "w") as f:
-            f.write(f"#EXTM3U\n")
-            f.write(f"#EXT-X-VERSION:3\n")
-            f.write(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
-            f.write(f'#EXTINF:-1 tvg-id="{title}" tvg-logo="{thumbnail}",{title}\n')
-            f.write(f"{video_url}\n")
+    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
+    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
+    Data = [item.text for item in soup.find_all("span", class_="item-date")]
 
+    for title, link in zip(video_titles, video_links):
+        now = datetime.datetime.now()
+        timestamp = now.strftime("%m%d%H%M%S")
+        video_url = streamlink.streams(link)["best"].url
+        m3u8_file.write(f"#EXTINF:-1,MÊSDIA_{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
+
+m3u8_file.close()

@@ -22,7 +22,7 @@ for i in range(1, 3):
     for title, link, data in zip(video_titles, video_links, Data):
         timestamp = datetime.datetime.now().strftime("%m%d%H%M%S")
         video_url = streamlink.streams(link)["best"].url
-        m3u8_file.write(f"#EXTINF:-1,{data}_{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
+        m3u8_file.write(f"#EXTINF:-1,{data}{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
 
 m3u8_file.close()
 

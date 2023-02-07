@@ -22,7 +22,7 @@ for term in search_terms:
     channel_links = [f"https://www.twitch.tv{item['href']}" for item in soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 eYjhIv tw-link")]
 
     for link in channel_links:
-        video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
+        video_url = streamlink.streams(link, options=["--twitch-disable-ads", "--twitch-disable-reruns"])["best"].url if streamlink.streams(link) else None
         if video_url:
             m3u8_file.write(f"{video_url}\n")
 

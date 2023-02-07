@@ -36,6 +36,10 @@ jobs:
           
          
         
+      - name: Instalando streamlink
+        run: |
+         pip install --user --upgrade streamlink  
+         
       - name: execute py script
         run: python BBVIPALBANIA.py
         

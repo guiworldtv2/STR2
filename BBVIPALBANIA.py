@@ -1,29 +1,21 @@
-import requests
-from bs4 import BeautifulSoup
-import datetime
 import streamlink
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
-}
-search_terms = ['bbvip', 'big%20brother']
+# Abrir o arquivo BBVIPALBANIA.txt para leitura
+with open("BBVIPALBANIA.txt", "r") as file:
+    links = file.readlines()
 
-m3u8_file = open("BBVIPALBANIA.m3u8", "w")
-m3u8_file.write("#EXTM3U\n")
-m3u8_file.write("#EXT-X-VERSION:3\n")
-m3u8_file.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
+# Remover o caractere de quebra de linha de cada link
+links = [link.strip() for link in links]
 
-for term in search_terms:
-    url = f"https://www.twitch.tv/search?term={term}"
-
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.content, "html.parser")
-
-    channel_links = [f"https://www.twitch.tv{item['href']}" for item in soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 eYjhIv tw-link")]
-
-    for link in channel_links:
-        video_url = streamlink.streams(link, options=["--twitch-disable-ads", "--twitch-disable-reruns"])["best"].url if streamlink.streams(link) else None
-        if video_url:
-            m3u8_file.write(f"{video_url}\n")
-
-m3u8_file.close()
+# Para cada link no arquivo
+for link in links:
+    # Gerar o link do vídeo com as opções --twitch-disable-ads e --twitch-disable-reruns
+    video_url = streamlink.streams(link, options={"twitch-disable-ads": None, "twitch-disable-reruns": None})["best"].url if streamlink.streams(link) else None
+    if video_url:
+        # Gerar um novo arquivo com o streamlink
+        filename = f"{link}.m3u8"
+        with open(filename, "w") as file:
+            file.write("#EXTM3U\n")
+            file.write("#EXT-X-VERSION:3\n")
+            file.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
+            file.write(video_url)

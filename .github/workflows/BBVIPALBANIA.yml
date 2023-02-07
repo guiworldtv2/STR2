@@ -36,9 +36,23 @@ jobs:
           
          
         
+         
+      - name: Instalando yt-dlp 
+        run: |
+         sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+         sudo chmod a+rx /usr/local/bin/yt-dlp
+      - name: Instalando youtube-dl 
+        run: |
+         sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+         sudo chmod a+rx /usr/local/bin/youtube-dl    
+         youtube-dl -U
+         
       - name: Instalando streamlink
         run: |
-         pip install --user --upgrade streamlink  
+         pip install --user --upgrade streamlink         
+        
+        
+
          
       - name: execute py script
         run: python BBVIPALBANIA.py

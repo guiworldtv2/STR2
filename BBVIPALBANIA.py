@@ -4,9 +4,8 @@ import datetime
 import streamlink
 
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
 }
-
 search_terms = ['bbvip', 'big%20brother']
 
 m3u8_file = open("BBVIPALBANIA.m3u8", "w")

@@ -10,7 +10,8 @@ links = [link.strip() for link in links]
 # Para cada link no arquivo
 for link in links:
     # Gerar o link do vídeo com as opções --twitch-disable-ads e --twitch-disable-reruns
-    video_url = streamlink.streams(link, options={"twitch-disable-ads": None, "twitch-disable-reruns": None})["best"].url if streamlink.streams(link) else None
+    video_url = streamlink.streams(link, options={"twitch-disable-ads": True, "twitch-disable-reruns": True})["best"].url if streamlink.streams(link) else None
+
     if video_url:
         # Gerar um novo arquivo com o streamlink
         filename = f"{link}.m3u8"

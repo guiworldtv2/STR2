@@ -9,8 +9,15 @@ links = [link.strip() for link in links]
 
 # Para cada link no arquivo
 for link in links:
-    # Gerar o link do vídeo com as opções --twitch-disable-ads e --twitch-disable-reruns
-    video_url = streamlink.streams(link, options={"twitch-disable-ads": True, "twitch-disable-reruns": True})["best"].url if streamlink.streams(link) else None
+    with streamlink.Streamlink() as session:
+    session.set_option("twitch-disable-ads", True)
+    session.set_option("twitch-disable-reruns", True)
+    
+    # Continue with your code here, using the `session` object instead of the `streamlink` module
+    video_url = session.streams(link)["best"].url if session.streams(link) else None
+
+
+
 
     if video_url:
         # Gerar um novo arquivo com o streamlink

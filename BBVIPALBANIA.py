@@ -9,19 +9,18 @@ headers = {
 
 m3u8_file = open("BBVIPALBANIA.m3u8", "w")
 
-for i in range(1, 3):
-    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
+for search_term in ["bbvip", "big%20brother"]:
+    url = f"https://www.twitch.tv/search?term={search_term}"
 
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.content, "html.parser")
 
-    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
-    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
-    Data = [item.text for item in soup.find_all("span", class_="item-date")]
+    stream_links = [f"https://www.twitch.tv{item['href']}" for item in soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 eYjhIv tw-link")]
 
-    for title, link, data in zip(video_titles, video_links, Data):
-        timestamp = datetime.datetime.now().strftime("%m%d%H%M%S")
-        video_url = streamlink.streams(link)["best"].url
-        m3u8_file.write(f"#EXTINF:-1,{data}{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
+    for link in stream_links:
+        video_url = link
+        m3u8_file.write(f"#EXTINF:-1 group-title=\"TWITCH\",{link}\n{video_url}\n")
+        m3u8_file.write("\n")
 
 m3u8_file.close()
+

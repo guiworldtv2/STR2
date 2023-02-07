@@ -5,21 +5,22 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
 }
 
-m3u8_file = open("lista_twitch.m3u", "w")
+search_terms = ["bbvip", "big brother"]
 
-# url da twitch
-urls = ["https://www.twitch.tv/search?term=bbvip", "https://www.twitch.tv/search?term=big%20brother"]
+m3u8_file = open("lista_twitches.m3u8", "w")
 
-for url in urls:
-    response = requests.get(url, headers=headers)
+for search_term in search_terms:
+    search_url = f"https://www.twitch.tv/search?term={search_term}"
+
+    response = requests.get(search_url, headers=headers)
     soup = BeautifulSoup(response.content, "html.parser")
 
-    # encontra todos os links da página
-    video_links = [item["href"] for item in soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 eYjhIv tw-link")]
-    
-    # escreve cada link encontrado no arquivo
-    for link in video_links:
-        video_url = f"https://www.twitch.tv{link}"
-        m3u8_file.write(video_url + "\n")
+    channels = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 eYjhIv tw-link")
+
+    for channel in channels:
+        channel_url = "https://www.twitch.tv" + channel["href"]
+        channel_name = channel.text
+        
+        m3u8_file.write(f"#EXTINF:-1,{channel_name}\n{channel_url}\n\n")
 
 m3u8_file.close()

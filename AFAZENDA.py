@@ -11,6 +11,24 @@ headers = {
 
 m3u8_file = open("AFAZENDA.m3u8", "w")
 
+# String com o nome dos dias da semana em português
+data = "Seg 6 fev 2023"
+
+# Função para formatar a data
+def format_date(data):
+    # Substituir os nomes dos dias da semana pelo equivalente em inglês
+    data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
+    data = data.replace("fev", "feb")
+    return data
+
+# Aplicar a função à string `data`
+data = format_date(data)
+
+# Exibir a string formatada
+print(data)
+
+
+
 for i in range(1, 5):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
@@ -34,22 +52,6 @@ for i in range(1, 5):
         m3u8_file.write(f"#EXTINF:-1,{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
         
 
-
-# String com o nome dos dias da semana em português
-data = "Seg 6 fev 2023"
-
-# Função para formatar a data
-def format_date(data):
-    # Substituir os nomes dos dias da semana pelo equivalente em inglês
-    data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
-    data = data.replace("fev", "feb")
-    return data
-
-# Aplicar a função à string `data`
-data = format_date(data)
-
-# Exibir a string formatada
-print(data)
 
 
 

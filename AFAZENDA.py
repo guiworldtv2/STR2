@@ -32,7 +32,7 @@ print(data)
 
 
 
-for i in range(1,3):
+for i in range(1,4):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
     response = requests.get(url, headers=headers)

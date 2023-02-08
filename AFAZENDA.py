@@ -36,12 +36,12 @@ for i in range(1, 5):
 
 
 def format_date(data):
-    data = re.sub("(segunda-feira|terça-feira|quarta-feira|quinta-feira|sexta-feira|sábado|domingo)", "", data, flags=re.IGNORECASE)
-    data = re.sub(" de ", " ", data)
+    data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
+    data = data.replace("fev", "feb")
     date_object = datetime.datetime.strptime(data, '%a %d %b %Y')
-    return date_object.strftime("%Y-%m-%d")
+    return date_object.strftime("%d %b %Y")
 
-data = 'Segunda-feira, 6 de fevereiro de 2023'
+data = "Seg 6 fev 2023"
 data = format_date(data)
 print(data)
 

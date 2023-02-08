@@ -37,11 +37,15 @@ for i in range(1, 3):
         
         
 def format_date(data):
-    data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
+    data = data.replace(",", "")
     data = data.strip()
-    if len(data) == 1:
-        data = "0" + data
-    return data
+    date_object = datetime.datetime.strptime(data, '%a %d %b %Y')
+    return date_object.strftime("%d %b %Y")
+
+data = "Seg, 6 fev 2023"
+data = format_date(data)
+print(data)
+
 
 
 data = "Seg, 6 fev 2023"

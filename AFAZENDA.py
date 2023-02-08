@@ -10,7 +10,7 @@ headers = {
 
 m3u8_file = open("AFAZENDA.m3u8", "w")
 
-for i in range(1, 3):
+for i in range(1, 5):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
     response = requests.get(url, headers=headers)

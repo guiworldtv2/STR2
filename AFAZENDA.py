@@ -22,11 +22,14 @@ for i in range(1, 3):
     for title, link, data in zip(video_titles, video_links, Data):
         if data == "Hoje":
             date_object = datetime.datetime.now()
+        elif data == "Ontem":
+            date_object = datetime.datetime.now() - datetime.timedelta(days=1)
         else:
             date_object = datetime.datetime.strptime(data, '%d %b %Y')
         timestamp = date_object.strftime("%m%d")
         video_url = streamlink.streams(link)["best"].url
         m3u8_file.write(f"#EXTINF:-1,{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
+
 
 
 

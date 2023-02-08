@@ -18,7 +18,7 @@ data = "Seg 6 fev 2023"
 def format_date(data):
     # Substituir os nomes dos dias da semana pelo equivalente em inglês
     data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
-    data = data.replace("fev", "feb")
+    data = data.replace(",", "")
     return data
 
 # Aplicar a função à string `data`

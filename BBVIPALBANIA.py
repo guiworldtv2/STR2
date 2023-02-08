@@ -17,7 +17,7 @@ with open("./BBVIPALBANIA.m3u8", "w") as f:
             twitch_url = line.strip()
 
             # Run streamlink and get the stream URL
-            result = subprocess.run(["streamlink", "--url", "--default-stream", "--stream-url", twitch_url, "best"], capture_output=True, text=True)
+            result = subprocess.run(["streamlink", "--twitch-disable-ads","--twitch-disable-reruns","--url", "--default-stream", "--stream-url", twitch_url, "best"], capture_output=True, text=True)
 
             if result.returncode == 0:
                 stream_url = result.stdout.strip()

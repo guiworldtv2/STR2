@@ -2,11 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 import streamlink
-
 import re
-
-
-
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
@@ -30,33 +26,19 @@ for i in range(1, 3):
         elif data == "Ontem":
             date_object = datetime.datetime.now() - datetime.timedelta(days=1)
         else:
-            date_object = datetime.datetime.strptime(data, '%d %b %Y')
+            data = format_date(data)
+            date_object = datetime.datetime.strptime(data, '%a %d %b %Y')
         timestamp = date_object.strftime("%m%d")
         video_url = streamlink.streams(link)["best"].url
         m3u8_file.write(f"#EXTINF:-1,{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
         
-        
 def format_date(data):
-    data = data.replace(",", "")
+    data = re.sub("(Seg|Ter|Qua|Qui|Sex|Sab|Dom)", "", data)
     data = data.strip()
-    date_object = datetime.datetime.strptime(data, '%a %d %b %Y')
-    return date_object.strftime("%d %b %Y")
+    return data
 
 data = "Seg, 6 fev 2023"
 data = format_date(data)
 print(data)
-
-
-
-data = "Seg, 6 fev 2023"
-data = format_date(data)
-print(data)
-
-
-
-
-
 
 m3u8_file.close()
-
-

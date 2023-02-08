@@ -35,15 +35,23 @@ for i in range(1, 5):
         
 
 
+# String com o nome dos dias da semana em português
+data = "Seg 6 fev 2023"
+
+# Função para formatar a data
 def format_date(data):
+    # Substituir os nomes dos dias da semana pelo equivalente em inglês
     data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
     data = data.replace("fev", "feb")
-    date_object = datetime.datetime.strptime(data, '%a %d %b %Y')
-    return date_object.strftime("%d %b %Y")
+    return data
 
-data = "Seg 6 fev 2023"
+# Aplicar a função à string `data`
 data = format_date(data)
+
+# Exibir a string formatada
 print(data)
+
+
 
 
 m3u8_file.close()

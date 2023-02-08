@@ -20,6 +20,7 @@ def format_date(data):
     data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
     # Substituir "fev" por "feb"
     data = data.replace("fev", "feb")
+    data = data.replace("abr", "Apr")
     return data
 
 # Aplicar a função à string `data`

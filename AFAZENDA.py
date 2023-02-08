@@ -51,7 +51,7 @@ for i in range(1,3):
             date_object = datetime.datetime.strptime(data, '%a, %d %b %Y')
         timestamp = date_object.strftime("%m%d")
         video_url = streamlink.streams(link)["best"].url
-        m3u8_file.write(f"#EXTINF:-1,{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
+        m3u8_file.write(f"{timestamp}_SBTVD_{title}_-%Y\n{video_url}\n")
         
 
 

@@ -17,8 +17,10 @@ with open("./BBVIPALBANIA.m3u8", "w") as f:
             twitch_url = line.strip()
 
             # Run streamlink and get the stream URL
-            stream_url = subprocess.run(["streamlink", "--url", "--default-stream", "--stream-url", twitch_url, "best"], capture_output=True, text=True).stdout.strip()
+            result = subprocess.run(["streamlink", "--url", "--default-stream", "--stream-url", twitch_url, "best"], capture_output=True, text=True)
 
-            f.write(stream_url + "\n")
-
-            
+            if result.returncode == 0:
+                stream_url = result.stdout.strip()
+                f.write(stream_url + "\n")
+            else:
+                f.write("https://raw.githubusercontent.com/guiworldtv/STR2/main/VideoOFFAir.m3u8\n")

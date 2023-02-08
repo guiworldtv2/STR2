@@ -48,7 +48,7 @@ for i in range(1, 5):
             date_object = datetime.datetime.now() - datetime.timedelta(days=1)
         else:
             data = format_date(data)
-            date_object = datetime.datetime.strptime(data, '%a %d %b %Y')
+            date_object = datetime.datetime.strptime(data, '%a, %d %b %Y')
         timestamp = date_object.strftime("%m%d")
         video_url = streamlink.streams(link)["best"].url
         m3u8_file.write(f"#EXTINF:-1,{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")

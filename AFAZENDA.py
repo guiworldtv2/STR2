@@ -14,14 +14,6 @@ headers = {
 
 m3u8_file = open("AFAZENDA.m3u8", "w")
 
-def format_date(data):
-    data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
-    data = data.strip()
-    if len(data) == 1:
-        data = "0" + data
-    data = re.sub(r"(\d+) de ([a-z]+) de (\d+)", r"\2\1\3", data)
-    return data
-
 for i in range(1, 3):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
@@ -42,6 +34,20 @@ for i in range(1, 3):
         timestamp = date_object.strftime("%m%d")
         video_url = streamlink.streams(link)["best"].url
         m3u8_file.write(f"#EXTINF:-1,{timestamp}_SBTVD_{title}_-ANO\n{video_url}\n")
+        
+        
+    def format_date(data):
+    data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
+    data = data.strip()
+    if len(data) == 1:
+        data = "0" + data
+    return data
+
+data = "Seg, 6 fev 2023"
+data = format_date(data)
+print(data)
+
+
 
 
 

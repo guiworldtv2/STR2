@@ -55,10 +55,12 @@ jobs:
 
          
       - name: execute py script
-        run: python BBVIPALBANIA.py
+        run: python BBVIPALBANIA2.py 
         
       - name: execute py script
-        run: python BBVIPALBANIA2.py        
+        run: python BBVIPALBANIA.py
+        
+       
         
 
 

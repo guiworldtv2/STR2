@@ -26,10 +26,14 @@ jobs:
       run: |
         touch ./VideoOFFAir.m3u8
         sudo cat >./VideoOFFAir.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@cnnturk/live best)             
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/@cnnturk/live)" group-title="NEWS WORLD" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/@cnnturk/live)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/@cnnturk/live)
+         $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@cnnturk/live best)             
     - name: git add
       run: |
         git add -A

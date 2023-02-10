@@ -2,33 +2,23 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-url = "https://www.twitch.tv/search?term=bbvip"
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+# URL da página
+url = 'https://www.twitch.tv/search?term=bbvip'
 
-response = requests.get(url, headers=headers)
+# Fazendo a requisição e obtendo o HTML da página
+r = requests.get(url)
+soup = BeautifulSoup(r.text, 'html.parser')
 
-soup = BeautifulSoup(response.text, "html.parser")
-
-links = []
-for link in soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 fQAQWb tw-link"):
-    links.append(link["href"])
-
-formatted_links = []
-for link in links:
-    formatted_links.append("https://www.twitch.tv" + link)
-
+# Esperando 10 segundos antes de fazer a coleta dos links
 time.sleep(10)
 
-# Get the wakerttv link
-wakerttv_link = None
-for link in soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 eYjhIv tw-link"):
-    if link["href"] == "/wakerttv":
-        wakerttv_link = "https://www.twitch.tv" + link["href"]
-        break
+# Encontrando todas as tags <a> com a classe "ScCoreLink-sc-16kq0mq-0 fQAQWb tw-link"
+links = soup.find_all('a', {'class': 'ScCoreLink-sc-16kq0mq-0 fQAQWb tw-link'})
 
-if wakerttv_link:
-    formatted_links.append(wakerttv_link)
+# Concatenando a URL base "https://www.twitch.tv" com o atributo href de cada tag <a>
+urls = ['https://www.twitch.tv' + link.get('href') for link in links]
 
+# Escrevendo os links no arquivo BBVIPALBANIA.txt
 with open("BBVIPALBANIA.txt", "w") as f:
-    for link in formatted_links:
-        f.write(link + "\n")
+    for url in urls:
+        f.write(url + '\n')

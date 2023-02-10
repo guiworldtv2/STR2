@@ -27,7 +27,7 @@ jobs:
         touch ./VideoOFFAir.ts
         sudo cat >./VideoOFFAir.ts <<EOL
 
-         $(streamlink --url --output "VideoOFFAir.ts" https://www.youtube.com/watch?v=MYU3GEeNE7U&ab_channel=MarceloB best)             
+         $(streamlink --output "VideoOFFAir.ts" https://www.youtube.com/watch?v=MYU3GEeNE7U best)             
     - name: git add
       run: |
         git add -A

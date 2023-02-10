@@ -1,8 +1,4 @@
- #EXTM3U
- #EXT-X-VERSION:3
- #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
- #EXTM3U
- #EXT-X-VERSION:3
- #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
- #EXTINF:-1 tvg-id="5. GÜN | CNN TÜRK DEPREM CANLI YAYINI | İl il son durum 2023-02-10 10:43" group-title="NEWS WORLD" group-title="CNN's" tvg-logo="https://i.ytimg.com/vi/oRyuucacH04/maxresdefault.jpg", YOUTUBEAOVIVO - 5. GÜN | CNN TÜRK DEPREM CANLI YAYINI | İl il son durum 2023-02-10 10:43
-              
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676048509/ei/HSTmY-LECMPC8wSRwqHQAw/ip/172.177.65.66/id/wBgSH-CGPzg.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr1---sn-nja7sne6.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/H9/mm/44/mn/sn-nja7sne6/ms/lva/mv/u/mvi/1/pl/24/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676025407/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRgIhAI-SBXrnJR0KAunW0fQak5wYkeNf1vLiGM7km8OfCDzzAiEA7lm9hoWe9Ft8sGM6O7sYYu1lyJjRvQbBRK5LdA1d_U0%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgXZxMQUW2QngobuB92rD4fTwKhkbWm1j8zKe23Fzl9BMCIQCA4IvdPDH1QZVphgqDRpHixtZx5L5BYyJ9hjhBCukl8g%3D%3D/playlist/index.m3u8

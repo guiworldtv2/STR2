@@ -1,4 +1,8 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-             
+ #EXTM3U
+ #EXT-X-VERSION:3
+ #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+ #EXTM3U
+ #EXT-X-VERSION:3
+ #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+ #EXTINF:-1 tvg-id="5. GÜN | CNN TÜRK DEPREM CANLI YAYINI | İl il son durum 2023-02-10 10:43" group-title="NEWS WORLD" group-title="CNN's" tvg-logo="https://i.ytimg.com/vi/oRyuucacH04/maxresdefault.jpg", YOUTUBEAOVIVO - 5. GÜN | CNN TÜRK DEPREM CANLI YAYINI | İl il son durum 2023-02-10 10:43
+              

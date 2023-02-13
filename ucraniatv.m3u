@@ -1,8 +1,9 @@
 
 
+#EXTM3U
 #EXTM3U x-tvg-url="https://iptvx.one/epg/epg.xml.gz"
 #EXTM3U x-tvg-url="http://epg.it999.ru/epg2.xml.gz"
-#EXTM3U
+
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
 #EXTINF:-1 tvg-chno="1" tvg-id="24 TV" tvg-base="https://www.youtube.com/@YirmidortTV" tvg-name="1-@YirmidortTV" tvg-logo="https://i.ytimg.com/vi/V5mBTSql74Q/maxresdefault_live.jpg" group-title="TURQUIA",🔴 24 TV Canlı Yayını

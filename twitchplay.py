@@ -78,6 +78,6 @@ try:
             title = titles[i]
             thumbnail = thumbnails[i]
             f.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail}\" group-title=\"YOUTUBE\",{title}\n")
-            f.write(f"{link}\n\n")
+            f.write(f"{url}\n\n")
 except Exception as e:
-    print(f"Erro ao criar o arquivo .m3u: {e}")
+    print(f"Erro: {e}")

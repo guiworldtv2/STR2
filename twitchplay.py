@@ -29,9 +29,19 @@ soup = BeautifulSoup(driver.page_source, 'html.parser')
 with open('twitch_clips.m3u', 'w') as f:
     clips = soup.find_all('div', {'class': 'clip-card'})
     for clip in reversed(clips):
-        title = clip.find('h3', {'class': 'CoreText-sc-1txzju1-0 eJuFGD'})['title']
-        channel = clip.find('p', {'data-a-target': 'preview-card-channel-link'}).text
-        thumbnail = clip.find('img', {'class': 'tw-image'})['src']
-        video_link = 'https://www.twitch.tv' + clip.find('a', {'data-a-target': 'preview-card-image-link'})['href']
+        videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
+        channels = soup.find_all("p", class_="ScCoreParagraph-sc-1ein8td-0 iJknhp tw-ellipsis", title=True)
+        thumbnails = soup.find_all("img", class_="tw-image")
+        links = ["https://www.twitch.tv" + video.get("href") for video in videos]
+        titles = [video.find("h3").get("title") for video in videos]
+        channel_names = [channel.get("title") for channel in channels]
+        thumbnail_links = [thumbnail.get("src") for thumbnail in thumbnails]
+
+        for i in range(len(links)):
+            print(f"Title: {titles[i]}")
+            print(f"Channel: {channel_names[i]}")
+            print(f"Thumbnail: {thumbnail_links[i]}")
+            print(f"Link: {links[i]}\n")
+
 
         f.write(f'#EXTINF:-1 tvg-logo="{thumbnail}" group-title="{channel}",{title}\n{video_link}\n')

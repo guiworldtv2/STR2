@@ -16,7 +16,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://www.twitch.tv/"
+url_twitch = "https://www.youtube.com/results?search_query=aula&sp=CAISBBABGAI%253D"
 
 # Abrir a página desejada
 driver.get(url_twitch)
@@ -43,10 +43,10 @@ html_content = driver.page_source
 # Find the links and titles of the videos found
 try:
     soup = BeautifulSoup(html_content, "html.parser")
-    videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
-    links = ["https://www.twitch.tv" + video.get("href") for video in videos]
-    channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
-    titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
+    videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
+    links = ["https://www.youtube.com" + video.get("href") for video in videos]
+    titles = [video.get("title") for video in videos]
+    thumbnails = [video.find("yt-image").find("img")["src"] for video in videos]
 except Exception as e:
     print(f"Erro: {e}")
 finally:
@@ -61,17 +61,13 @@ subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
 # Get the playlist and write to file
 try:
-    with open('./TWITCHPLAY.m3u', 'w') as f:
+    with open('./YOUTUBEPLAY.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
         for i, link in enumerate(links):
-            # Get the stream information using streamlink
-            streams = streamlink.streams(link)
-            url = streams['best'].url
-
             # Write the stream information to the file
-            title = channels[i]
-            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")           
-            f.write(f"{url}\n")
-            f.write("\n")
+            title = titles[i]
+            thumbnail = thumbnails[i]
+            f.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail}\" group-title=\"YOUTUBE\",{title}\n")
+            f.write(f"{link}\n\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")

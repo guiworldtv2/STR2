@@ -45,7 +45,8 @@ try:
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
     channels = [video.find("p", class_="CoreText-sc-1txzju1-0 jiepBC").text for video in videos]
-    titles = [video.find("h3").get("title") for video in videos]
+    titles2 = [video.find("h3").get("title") for video in videos]
+    
 
 except Exception as e:
     print(f"Erro: {e}")
@@ -69,7 +70,7 @@ try:
 
             # Write the stream information to the file
             title = channels[i]
-            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")           
+            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title2}\n")           
             f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:

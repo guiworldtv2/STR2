@@ -40,6 +40,8 @@ while True:
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source
 
+time.sleep(5)
+
 # Find the links and titles of the videos found
 try:
     soup = BeautifulSoup(html_content, "html.parser")
@@ -65,6 +67,8 @@ finally:
 
 # Instalando streamlink
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
+
+time.sleep(5)
 
 # Get the playlist and write to file
 try:

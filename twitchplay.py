@@ -46,8 +46,7 @@ try:
     videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
     links = ["https://www.youtube.com" + video.get("href") for video in videos]
     titles = [video.get("title") for video in videos]
-    thumbnails = [video.find('yt-img-shadow').find('img')['src'] for video in videos]
-
+    thumbnails = []
     for video in videos:
         thumbnail_tag = video.find("yt-image")
         if thumbnail_tag:

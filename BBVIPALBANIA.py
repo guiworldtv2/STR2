@@ -9,10 +9,6 @@ from selenium.webdriver.chrome.options import Options
 
 
 
-
-
-
-
 # URL da página desejada
 url_twitch = "https://www.twitch.tv/search?term=big%20brother"
 
@@ -48,7 +44,7 @@ process = subprocess.run(streamlink_cmd, stdout=subprocess.PIPE, text=True)
 stream_url = process.stdout.strip()
 
 # Escrever a saída do streamlink no arquivo LISTA4.m3u8
-with open("LISTA4.m3u8", "w") as f:
+with open('./LISTAMASTER.m3u', 'w') as f:
     f.write("#EXTM3U\n")
     f.write("#EXT-X-VERSION:3\n")
     f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")

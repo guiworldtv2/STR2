@@ -72,8 +72,8 @@ try:
             url = streams['best'].url
             # Write the stream information to the file
             title = titles[i]
-            thumbnail = thumbnails[i]
-            f.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail}\" group-title=\"YOUTUBE\",{title}\n")
+
+            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE\",{title}\n")
             f.write(f"{url}\n\n")
             f.write("\n")            
 except Exception as e:

@@ -23,28 +23,20 @@ driver.get(url_twitch)
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
-# Obter o conteúdo da página com BeautifulSoup
-soup = BeautifulSoup(driver.page_source, 'html.parser')
+# Find the links and titles of the first four videos found
+try:
+    soup = BeautifulSoup(html_content, "html.parser")
+    videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
+    links = ["https://www.twitch.tv" + video.get("href") for video in videos]
+    titles = [video.find("h3").get("title") for video in videos]
 
-with open('twitch_clips.m3u', 'w') as f:
-    clips = soup.find_all('div', {'class': 'clip-card'})
-    for clip in reversed(clips):
-        videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
-        channels = soup.find_all("p", class_="ScCoreParagraph-sc-1ein8td-0 iJknhp tw-ellipsis", title=True)
-        thumbnails = soup.find_all("img", class_="tw-image")
-        links = ["https://www.twitch.tv" + video.get("href") for video in videos]
-        titles = [video.find("h3").get("title") for video in videos]
-        channel_names = [channel.get("title") for channel in channels]
-        thumbnail_links = [thumbnail.get("src") for thumbnail in thumbnails]
-
+    # Print the titles and links of the first four videos in reverse order
     for i in range(len(links)):
-        title = titles[i]
-        channel = channel_names[i]
-        thumbnail = thumbnail_links[i]
-        video_link = links[i]
-        print(f"Title: {title}")
-        print(f"Channel: {channel}")
-        print(f"Thumbnail: {thumbnail}")
-        print(f"Link: {video_link}\n")
-        f.write(f'#EXTINF:-1 tvg-logo="{thumbnail}" group-title="{channel}",{title}\n{video_link}\n')
+        print("Titulo:", titles[i])
+        print("Link:", links[i], "\n")
+except Exception as e:
+    print(f"Erro: {e}")
+finally:
+    # Close the driver
+    driver.quit()
 

@@ -9,6 +9,9 @@ from selenium.webdriver.chrome.options import Options
 # URL da página desejada
 url_twitch = "https://www.twitch.tv/directory/game/Just%20Chatting"
 
+html_content = driver.page_source
+
+
 # Configuring Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--headless")

@@ -69,7 +69,7 @@ try:
 
             # Write the stream information to the file
             title = titles[i]
-            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"YOUTUBE\",,{title}\n")
+            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")
             f.write(f"{url}\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")

@@ -67,6 +67,9 @@ finally:
 # Instalando streamlink
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
+print(title)
+print(url)
+
 time.sleep(5)
 
 # Get the playlist and write to file

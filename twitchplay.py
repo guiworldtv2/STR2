@@ -20,11 +20,6 @@ url_twitch = "https://www.twitch.tv/directory/game/Just%20Chatting"
 
 
 
-
-
-
-
-
 # Abrir a página desejada
 driver.get(url_twitch)
 
@@ -32,6 +27,15 @@ driver.get(url_twitch)
 time.sleep(5)
 
 html_content = driver.page_source
+
+# Scroll to the bottom of the page
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+time.sleep(5)
+
+# Get the page source again after scrolling to the bottom
+html_content = driver.page_source
+
+
 
 # Find the links and titles of the first four videos found
 try:

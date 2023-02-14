@@ -59,13 +59,3 @@ with open('./BBVIPALBANIA.m3u8', 'w') as f:
 # Execute shell commands using subprocess.run()
     subprocess.run(["touch", "./listaxxxxstr.m3u"])
     subprocess.run(["sudo", "cat", ">./lista2str.m3u", "<<EOL", "$(streamlink --url --default-stream  --stream-url  link best)"])
-    if result.returncode == 0:
-        stream_url = result.stdout.strip()
-        f.write(stream_url + "\n")
-    else:
-        f.write("https://raw.githubusercontent.com/guiworldtv/STR2/main/VideoOFFAir.m3u8\n")
-
-time.sleep(30)
-
-
-

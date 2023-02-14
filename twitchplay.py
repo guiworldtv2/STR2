@@ -18,7 +18,7 @@ driver = webdriver.Chrome(options=chrome_options)
 # URL da página desejada
 url_twitch = "https://www.twitch.tv/directory/game/Just%20Chatting"
 
-html_content = driver.page_source
+
 
 
 
@@ -30,6 +30,8 @@ driver.get(url_twitch)
 
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
+
+html_content = driver.page_source
 
 # Find the links and titles of the first four videos found
 try:

@@ -44,7 +44,7 @@ try:
     soup = BeautifulSoup(html_content, "html.parser")
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
-    thumbnails = [video.find("div", class_="Layout-sc-1xcs6mc-0 hkwQCo").find("img").get("src") for video in videos]
+
     titles = [video.find("h3").get("title") for video in videos]
 
 except Exception as e:
@@ -66,13 +66,10 @@ try:
             streams = streamlink.streams(link)
             url = streams['best'].url
 
-            # Find the thumbnail image for the video
-            thumbnail = videos[i].find("div", class_="ScAspectRatio-sc-18km980-1").find("img").get("src")
-
             # Write the stream information to the file
             title = titles[i]
             f.write("#EXTM3U\n")
-            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo='{thumbnail}',{title}\n")
+            f.write(f"#EXTINF:-1 tvg-id='{title}' ,{title}\n")
             f.write(f"{url}\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")

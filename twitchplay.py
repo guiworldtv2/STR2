@@ -45,7 +45,9 @@ try:
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
     channels = [video.find("p", class_="CoreText-sc-1txzju1-0 jiepBC").text for video in videos]
-    titles = [video.find("h3").get("title") for video in videos]
+    # Find the names of the streams
+    names = [video.find("p", class_="tw-font-size-5").text for video in videos]
+
 
 except Exception as e:
     print(f"Erro: {e}")
@@ -68,10 +70,12 @@ try:
             url = streams['best'].url
 
             # Write the stream information to the file
-            title = channels[i]
-            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")           
+            title = titles[i]
+            name = names[i]
+            f.write(f"#EXTINF:-1 tvg-id='{name}' group-title=\"TWITCH\",{title}\n")
             f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
+
 

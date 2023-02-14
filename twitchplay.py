@@ -45,37 +45,30 @@ try:
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
     titles = [video.find("h3").get("title") for video in videos]
-
-
-
 except Exception as e:
     print(f"Erro: {e}")
 finally:
     # Close the driver
     driver.quit()
 
-    
-#Extrair thumbnail de cada vídeo
-
-thumbnails = []
-for video in videos:
-try:
-thumbnail = video.find("img").get("src")
-thumbnails.append(thumbnail)
-except:
-thumbnails.append("")
-
 # Instalando streamlink
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
-    
+# Get the playlist and write to file
 try:
-    # Get LISTA4.m3u8
     with open('./TWITCHPLAY.m3u8', 'w') as f:
-        streams = streamlink.streams(link)
-        url = streams['best'].url
-        f.write("#EXTM3U\n")
-        f.write(f"#EXTINF:-1 tvg-id='{titles[i]}' tvg-logo='{thumbnails[i]}',{titles[i]}\n")
-        f.write(f"{url}\n")
+        for i, link in enumerate(links):
+            # Get the stream information using streamlink
+            streams = streamlink.streams(link)
+            url = streams['best'].url
+
+            # Find the thumbnail image for the video
+            thumbnail = videos[i].find("img").get("src")
+
+            # Write the stream information to the file
+            title = titles[i]
+            f.write("#EXTM3U\n")
+            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo='{thumbnail}',{title}\n")
+            f.write(f"{url}\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")

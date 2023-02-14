@@ -61,6 +61,7 @@ subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 # Get the playlist and write to file
 try:
     with open('./TWITCHPLAY.m3u8', 'w') as f:
+        f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
         for i, link in enumerate(links):
             # Get the stream information using streamlink
             streams = streamlink.streams(link)
@@ -68,7 +69,6 @@ try:
 
             # Write the stream information to the file
             title = titles[i]
-            f.write("#EXTM3U\n")
             f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"YOUTUBE\",,{title}\n")
             f.write(f"{url}\n")
 except Exception as e:

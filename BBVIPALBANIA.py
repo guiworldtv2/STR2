@@ -45,13 +45,14 @@ print(link)
 # Instalar streamlink (somente se necessário)
 subprocess.run(["pip", "install", "--user", "--upgrade", "streamlink"], check=True)
 
-with open('./BBVIPALBANIA.m3u8', "w") as f:
+# Get LISTA4.m3u8
+with open('./LISTAMASTER.m3u', 'w') as f:
     f.write("#EXTM3U\n")
     f.write("#EXT-X-VERSION:3\n")
-    f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
+    f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
     
     # Executar streamlink e obter o URL do stream
-    result = subprocess.run(["streamlink", "--twitch-disable-ads", "--twitch-disable-reruns", "--default-stream", link, "best"], capture_output=True, text=True)
+    result = subprocess.run(["streamlink", "--twitch-disable-ads", "--twitch-disable-reruns", "--url", "--default-stream", link, "best"], capture_output=True, text=True)
     if result.returncode == 0:
         stream_url = result.stdout.strip()
         f.write(stream_url + "\n")
@@ -59,5 +60,6 @@ with open('./BBVIPALBANIA.m3u8', "w") as f:
         f.write("https://raw.githubusercontent.com/guiworldtv/STR2/main/VideoOFFAir.m3u8\n")
 
 time.sleep(30)
+
 
 

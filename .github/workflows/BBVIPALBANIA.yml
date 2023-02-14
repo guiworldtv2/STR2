@@ -47,30 +47,17 @@ jobs:
          sudo chmod a+rx /usr/local/bin/youtube-dl    
          youtube-dl -U
          
-      - name: Instalando streamlink
+      - name: Instalando streamlink e selenium
         run: |
-         pip install --user --upgrade streamlink    
-         pip install selenium --upgrade
-        
-        
+          pip install --user --upgrade streamlink
+          pip install --user --upgrade selenium
 
-         
-
-        
-      - name: execute py script
+      - name: Executando script Python
         run: python BBVIPALBANIA.py
-        
-       
-        
 
-
-        
-      - name: commit files
+      - name: Comitando arquivos atualizados
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "update data" -a
-          
-
-        
+          git add .
+          git commit -m "Atualização de dados"

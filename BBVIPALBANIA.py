@@ -47,6 +47,6 @@ with open('./BBVIPALBANIA.m3u8', 'w') as f:
     f.write("#EXTM3U\n")
     f.write("#EXT-X-VERSION:3\n")
     f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
-    url = subprocess.run(['streamlink', '--url', '--default-stream', '--stream-url', link, 'best'], stdout=subprocess.PIPE)
-    url = url.stdout.decode().strip()
+    streams = streamlink.streams(link)
+    url = streams['best'].url
     f.write(f"{url}\n")    

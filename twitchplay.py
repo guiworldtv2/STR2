@@ -26,9 +26,8 @@ time.sleep(5)
 # Obter o conteúdo da página
 html_content = driver.page_source
 
+# Criar objeto BeautifulSoup
 soup = BeautifulSoup(html_content, 'html.parser')
-
-
 
 with open('twitch_clips.m3u', 'w') as f:
     clips = soup.find_all('div', {'class': 'clip-card'})

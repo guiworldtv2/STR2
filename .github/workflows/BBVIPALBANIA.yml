@@ -56,8 +56,7 @@ jobs:
         run: python BBVIPALBANIA.py
         
         
-      - name: Executando script Python
-        run: python twitchplay.py 
+
         
         
       - name: commit files

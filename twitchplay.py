@@ -39,36 +39,22 @@ while True:
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source
 
-import re
-
+# Find the links and titles of the videos found
 try:
     soup = BeautifulSoup(html_content, "html.parser")
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
+    channels = [video.find("p", class_="CoreText-sc-1txzju1-0 jiepBC").text for video in videos]
+  
+    titles2 = [video.find("h3").get("title") for video in videos]
+
     
-    # Extrai o título da página
-    page_title = soup.title.string
-    
-    # Usa expressões regulares para identificar o nome do canal e o título da live
-    match = re.match(r"(.+) - Twitch$", page_title)
-    if match:
-        channel_title = match.group(1)
-        live_title = videos[0].find("h3").get("title")
-    
-    # Escreve as informações no arquivo
-    with open("informacoes.txt", "w") as arquivo:
-        arquivo.write(f"Nome do canal: {channel_title}\n")
-        arquivo.write(f"Título da live: {live_title}\n")
-    
+
 except Exception as e:
     print(f"Erro: {e}")
 finally:
     # Close the driver
     driver.quit()
-
-
-    
-
 
 
 
@@ -86,7 +72,7 @@ try:
 
             # Write the stream information to the file
             title = channels[i]
-            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")           
+            f.write(f"#EXTINF:-1 tvg-id='{title2}' group-title=\"TWITCH\",{title}\n")           
             f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:

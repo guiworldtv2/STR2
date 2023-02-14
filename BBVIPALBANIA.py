@@ -52,7 +52,7 @@ with open('./BBVIPALBANIA.m3u8', 'w') as f:
     f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
     
     # Executar streamlink e obter o URL do stream
-    result = subprocess.run(["streamlink", "--twitch-disable-ads", "--twitch-disable-reruns", "--url", "--default-stream", link, "best"], capture_output=True, text=True)
+    result = subprocess.run(["streamlink", "--twitch-disable-ads", "--twitch-disable-reruns", "--url", "--default-stream", "--stream-url", link, "best"], capture_output=True, text=True)
     if result.returncode == 0:
         stream_url = result.stdout.strip()
         f.write(stream_url + "\n")

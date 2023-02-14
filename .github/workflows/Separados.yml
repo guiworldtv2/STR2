@@ -45,8 +45,14 @@ jobs:
       - name: execute py script 3
         run: python ucraniatv.py
         
-      - name: execute py script 3
+      - name: execute py script 4
         run: python turquiatv.py        
+        
+      - name: execute py script 5
+        run: python twitchtv.py         
+        
+      - name: execute py script 6
+        run: python youtubetv.py           
         
    
         

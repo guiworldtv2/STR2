@@ -59,6 +59,9 @@ jobs:
       - name: execute py script 6
         run: python youtubeplay.py           
         
+      - name: execute py script 7
+        run: python youtubeplay2.py
+        
    
         
         

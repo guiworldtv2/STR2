@@ -46,7 +46,7 @@ print(link)
 subprocess.run(["pip", "install", "--user", "--upgrade", "streamlink"], check=True)
 
 # Get LISTA4.m3u8
-with open('./LISTAMASTER.m3u', 'w') as f:
+with open('./BBVIPALBANIA.m3u8', 'w') as f:
     f.write("#EXTM3U\n")
     f.write("#EXT-X-VERSION:3\n")
     f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")

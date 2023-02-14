@@ -43,7 +43,7 @@ subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
     
 # Get LISTA4.m3u8
-with open("LISTASAGRUPADAS.m3u8", "wb") as f:
+with open('./BBVIPALBANIA.m3u8', 'w') as f:
     streams = streamlink.streams(link)
     url = streams['best'].url
     f.write("#EXTM3U\n")

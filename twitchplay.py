@@ -52,7 +52,14 @@ try:
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
     titles = [video.find("h3").get("title") for video in videos]
 
-    # Print the titles and links of the first four videos in reverse order
+    # Write the titles and links to a file
+with open("TWITCHPLAY.txt", "w") as f:
+    for i in range(len(links)):
+        f.write(f"Titulo: {titles[i]}\n")
+        f.write(f"Link: {links[i]}\n\n")
+
+        
+        # Print the titles and links of the first four videos in reverse order
     for i in range(len(links)):
         print("Titulo:", titles[i])
         print("Link:", links[i], "\n")

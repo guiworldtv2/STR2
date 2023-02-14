@@ -46,19 +46,36 @@ try:
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
     titles = [video.find("h3").get("title") for video in videos]
 
-    # Write the titles and links to a file
-    with open("TWITCHPLAY.m3u8", "w") as f:
-        for i in range(len(links)):
-            f.write(f"Titulo: {titles[i]}\n")
-            f.write(f"Link: {links[i]}\n\n")
 
-    # Print the titles and links of the videos
-    for i in range(len(links)):
-        print("Titulo:", titles[i])
-        print("Link:", links[i], "\n")
 
 except Exception as e:
     print(f"Erro: {e}")
 finally:
     # Close the driver
     driver.quit()
+
+    
+#Extrair thumbnail de cada vídeo
+
+thumbnails = []
+for video in videos:
+try:
+thumbnail = video.find("img").get("src")
+thumbnails.append(thumbnail)
+except:
+thumbnails.append("")
+
+# Instalando streamlink
+subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
+
+    
+try:
+    # Get LISTA4.m3u8
+    with open('./TWITCHPLAY.m3u8', 'w') as f:
+        streams = streamlink.streams(link)
+        url = streams['best'].url
+        f.write("#EXTM3U\n")
+        f.write(f"#EXTINF:-1 tvg-id='{titles[i]}' tvg-logo='{thumbnails[i]}',{titles[i]}\n")
+        f.write(f"{url}\n")
+except Exception as e:
+    print(f"Erro ao criar o arquivo .m3u8: {e}")

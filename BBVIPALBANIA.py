@@ -50,8 +50,6 @@ with open('./BBVIPALBANIA.m3u8', 'w') as f:
     f.write("#EXTM3U\n")
     f.write("#EXT-X-VERSION:3\n")
     f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
-    
+    url = subprocess.run(['streamlink', '--url', '-default-stream', ' --stream-url' link, 'best' ], stdout=subprocess.PIPE)
+    f.write(f"{url}\n")
 
-# Execute shell commands using subprocess.run()
-
-    subprocess.run(["sudo", "cat", ">./lista2str.m3u", "<<EOL", "$(streamlink --url --default-stream  --stream-url  link best)"])

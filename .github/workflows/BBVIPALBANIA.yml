@@ -56,6 +56,10 @@ jobs:
         run: python BBVIPALBANIA.py
         
         
+      - name: Executando script Python
+        run: python twitchplay.py 
+        
+        
       - name: commit files
         run: |
           git config --local user.email "action@github.com"

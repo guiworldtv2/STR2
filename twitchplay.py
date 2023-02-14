@@ -6,12 +6,6 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 
-# URL da página desejada
-url_twitch = "https://www.twitch.tv/directory/game/Just%20Chatting"
-
-html_content = driver.page_source
-
-
 # Configuring Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -19,6 +13,17 @@ chrome_options.add_argument("--disable-gpu")
 
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
+
+
+# URL da página desejada
+url_twitch = "https://www.twitch.tv/directory/game/Just%20Chatting"
+
+html_content = driver.page_source
+
+
+
+
+
 
 # Abrir a página desejada
 driver.get(url_twitch)

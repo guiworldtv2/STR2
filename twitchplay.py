@@ -40,6 +40,7 @@ while True:
 html_content = driver.page_source
 
 # Find the links and titles of the videos found
+
 try:
     soup = BeautifulSoup(html_content, "html.parser")
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
@@ -51,8 +52,6 @@ except Exception as e:
 finally:
     # Close the driver
     driver.quit()
-
-
 
 
 # Instalando streamlink
@@ -68,8 +67,9 @@ try:
             url = streams['best'].url
 
             # Write the stream information to the file
-            title = channels[i]
-            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")           
+            channel_name = channels[i]
+            stream_title = titles[i]
+            f.write(f"#EXTINF:-1 tvg-id='{channel_name}' group-title=\"TWITCH\",{stream_title}\n")           
             f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:

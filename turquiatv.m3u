@@ -1,11 +1,265 @@
 
 
-#EXTM3U x-tvg-url="https://iptvx.one/epg/epg.xml.gz"
-#EXTM3U x-tvg-url="http://epg.it999.ru/epg2.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.xml"
+"https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.xml"
+
+
+ULUSAL KANALLAR 
+TRT 1
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-language="" tvg-logo="   https://i.ibb.co/d6c87Km/trt122.png  " group-title="TÜRK",TRT 1
+https://tv-trt1-dai.medya.trt.com.tr/master_4.m3u8
+https://ddc75c8a6akqr.cloudfront.net/v1/master/80dbfc318ab6b980679b32095ba497236de6d2f9/TRT-1/master.m3u8
+TRT 2
+#EXTINF:-1 tvg-id="TRT2.tr" tvg-language="" tvg-logo="   https://i.ibb.co/TB5N8cN/trt2.png  " group-title="TÜRK",TRT 2
+http://167.114.115.233:8080/trt2fhd/index.m3u8 
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+https://tv-trt2.medya.trt.com.tr/master_720.m3u8
+TRT BELGESEL
+#EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-language="" tvg-logo="   https://i.ibb.co/N1h8m96/trtbelgesel.png    " group-title="TÜRK",TRT Belgesel
+https://mn-nl.mncdn.com/blutv_trtbelgesel2/live.m3u8 
+https://tv-trtbelgesel.live.trt.com.tr/master_720.m3u8
+TRT HABER
+#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-language="" tvg-logo="   https://i.ibb.co/Bt6frts/trthaber.png   " group-title="TÜRK",TRT Haber
+https://trthaber.blutv.com/blutv_trthaber_live/live_720p2000000kbps/index.m3u8 
+TRT MÜZİK
+#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-language="" tvg-logo="     https://i.ibb.co/d6Zfm2P/trtmuzik21c.png    " group-title="TÜRK",TRT Muzik
+https://mn-nl.mncdn.com/blutv_trtmuzik2/live_720p2000000kbps/index.m3u8 
+TRT ÇOCUK
+#EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-language="" tvg-logo="   https://i.ibb.co/YjkMYbF/trtcocuk21a.png    " group-title="TÜRK",TRT Cocuk
+https://mn-nl.mncdn.com/blutv_trtcocuk_2/trtcocuk.smil/playlist.m3u8 
+TRT TÜRK
+#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-language="" tvg-logo="       https://i.ibb.co/swtn1kV/trtturk.png      " group-title="TÜRK",TRT Turk
+https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
+TRT AVAZ
+#EXTINF:-1 tvg-id="TRTAvaz.tr" tvg-language="" tvg-logo="      https://i.ibb.co/xzZk0Yq/trtavaz.png    " group-title="TÜRK",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8 
+
+TRT SPOR
+#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-language="" tvg-logo="    https://i.ibb.co/3WmLjwG/trtspor22c.png      " group-title="TÜRK",TRT Spor
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9013
+http://195.155.98.170:5858/play/a09m
+TRT SPOR YILDIZ
+#EXTINF:-1 tvg-id="TRTSporYildiz.tr" tvg-language="" tvg-logo=" https://i.ibb.co/ky3qVPc/trtspory2.png  " group-title="TÜRK",TRT Spor Yıldız
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/18651
+http://195.155.98.170:5858/play/a09u
+A SPOR
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="" tvg-language="" tvg-logo="  https://i.ibb.co/xSjB51j/aspor.png  " group-title="TÜRK",a spor
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9012
+DISCOVERY SCIENCE
+#EXTINF:-1 tvg-id="DiscoveryScienceTurkey.tr" tvg-name="" group-title="TÜRK"  tvg-logo=" https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/1280px-Discovery_Science_2017_Logo.svg.png   "   ,Discovery Science Turkey
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/237
+VIASAT HISTORY
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="TÜRK"  tvg-logo=" https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Viasat_History_Logo.jpg/167px-Viasat_History_Logo.jpg   "   ,Viasat History Turkey
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/239
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/16891
+
+
+
+FOX
+#EXTINF:-1 tvg-id="FoxTurkey.us" tvg-language="" tvg-logo="    https://i.ibb.co/4tyCssZ/fox.png     " group-title="TÜRK",Fox Turkey
+https://foxtv.blutv.com/blutv_foxtv_live/live_720p2000000kbps/index.m3u8 
+SHOW
+#EXTINF:-1 tvg-id="ShowTV.tr" tvg-language="" tvg-logo="   https://i.ibb.co/BrGNZJ4/showtv.png       " group-title="TÜRK",Show TV
+https://showtv.blutv.com/blutv_showtv_live/live.m3u8
+SHOW TÜRK
+#EXTINF:-1 tvg-id="ShowTurk.tr" tvg-language=""   tvg-logo="      https://i.ibb.co/WvhGGP0/showturk1.png    " group-title="TÜRK",Show Turk
+https://mn-nl.mncdn.com/blutv_showturk2/live_720p2000000kbps/index.m3u8 
+STAR
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-language="" tvg-logo="    https://i.ibb.co/PcDpxSH/startr1.png      " group-title="TÜRK",Star TV
+https://startv.blutv.com/blutv_startv_live/live_720p2000000kbps/index.m3u8 
+EURO STAR
+#EXTINF:-1 tvg-id="EuroStar.tr" tvg-language="" tvg-logo="    https://i.ibb.co/Lg90xsB/eurostar22.png      " group-title="TÜRK",Euro Star
+https://mn-nl.mncdn.com/blutv_eurostar2/live.m3u8 
+KANAL D
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-language="" tvg-logo="     https://i.ibb.co/s9mVqWH/kanald.png    " group-title="TÜRK",Kanal D 
+https://demiroren-live.daioncdn.net/kanald/kanald_1080p.m3u8
+https://kanald.blutv.com/blutv_kanald_live/live.m3u8
+EURO D
+#EXTINF:-1 tvg-id="EuroD.tr" tvg-language="" tvg-logo="     https://i.ibb.co/THj0Jrg/eurod22.png     " group-title="TÜRK",Euro D 
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+https://mn-nl.mncdn.com/blutv_eurod2/live.m3u8 
+KANAL 7
+#EXTINF:-1 tvg-id="Kanal7.tr" tvg-language="" tvg-logo="    https://i.ibb.co/1s3fHfm/k7tr1.png     " group-title="TÜRK",Kanal 7 
+https://kanal7.blutv.com/blutv_kanal7_live/live_720p2000000kbps/index.m3u8 
+KANAL 7 AVRUPA
+#EXTINF:-1 tvg-id="Kanal7Avrupa.tr" tvg-language="" tvg-logo="     https://i.ibb.co/cDxKJy1/k7avr1.png   " group-title="TÜRK",Kanal 7 Avrupa 
+https://live.kanal7.com/live/kanal7AvrupaLive/index.m3u8 
+
+ATV
+EXTINF:-1 tvg-id="  ATV.tr  " tvg-name="" group-title="TÜRK"tvg-logo=" https://seeklogo.com/images/A/atv-logo-C72353DBDA-seeklogo.com.png",ATV
+https://api1.canlitvplayer.com/streamer1.ruslanatv.ru/turkey/atv_turk_stream_sd_2023/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xMi8yMDE4IDEwOjExOjA2IFBNJmhhc2hfdmFsdWU9cGtzUElvZjBwOUFIcDZRenpxQmxLdz09JnZhbGlkbWludXRlcz01
+#EXTINF:-1 tvg-id="  ATV.tr  " tvg-name="" group-title="TÜRK"tvg-logo=" https://seeklogo.com/images/A/atv-logo-C72353DBDA-seeklogo.com.png",ATV
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/483
+
+TV8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-language=""  tvg-name="" tvg-logo="    https://i.ibb.co/tXKXNDz/tv8.png      " group-title="TÜRK",TV8 
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/487
+https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+TV 8.5
+#EXTINF:-1 tvg-id="TV85.tr" tvg-name="" tvg-language="" tvg-logo="    https://i.ibb.co/dgj3MTh/tv85.png      " group-title="TÜRK",TV 8.5 
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9014
+
+TLC
+#EXTINF:-1 tvg-id="TLCTurkey.tr" tvg-language="" tvg-logo="    https://i.ibb.co/Z1vHy41/tlc.png   " group-title="TÜRK",TLC 
+https://tlc.blutv.com/blutv_tlc_live/live.m3u8 
+DMAX
+#EXTINF:-1 tvg-id="DMAXTurkey.tr" tvg-language="" tvg-logo="   https://i.ibb.co/QQQR6VK/dmax.png      " group-title="TÜRK",DMAX 
+https://mn-nl.mncdn.com/blutv_dmax_dvr/live.m3u8 
+CNNTÜRK
+#EXTINF:-1 tvg-id="CNNTurk.us" tvg-language="" tvg-logo="    https://i.ibb.co/JqWCczW/cnnturk1.png  " group-title="TÜRK",CNN Turk 
+https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8
+https://cnnturk.blutv.com/blutv_cnnturk_live/live.m3u8
+HABERTÜRK
+#EXTINF:-1 tvg-id="Haberturk.tr" tvg-language="" tvg-logo="   https://i.ibb.co/wdwm0fn/haberturk.png     " group-title="TÜRK",Haberturk 
+https://haberturk.blutv.com/blutv_haberturk_live/live_720p2000000kbps/index.m3u8 
+
+BLOOMBERG 
+EXTINF:-1 tvg-id="BloombergHT.us" tvg-logo="    https://i.ibb.co/HXKrJRC/blght22.png   " group-title="TÜRK",Bloomberg HT 
+https://mn-nl.mncdn.com/blutv_bloomberght2/live_720p2000000kbps/index.m3u8 
+HABER GLOBAL
+EXTINF:-1 tvg-id="Haberglobal.tr" tvg-logo="     https://i.ibb.co/vw0q9KH/haberglobal22.png   " group-title="TÜRK",Haber Global 
+https://mn-nl.mncdn.com/blutv_haberglobal2/live.m3u8
+
+HALK TV
+#EXTINF:-1 tvg-id="HalkTV.tr" tvg-language="" tvg-logo="    https://i.ibb.co/BtYMK4q/halk21a.png     " group-title="TÜRK",Halk TV 
+https://mn-nl.mncdn.com/blutv_halktv2/live.m3u8
+https://halktv-live.ercdn.net/halktv/halktv.m3u8
+KRT
+#EXTINF:-1 tvg-id="KRT.tr" tvg-language="" tvg-logo="   https://i.ibb.co/ZT2fQq3/krt.png      " group-title="TÜRK",KRT 
+https://krt.blutv.com/blutv_krt_live/live_720p2000000kbps/index.m3u8 
+TELE 1
+#EXTINF:-1 tvg-id="Tele1.tr" tvg-language="" tvg-logo="  https://i.ibb.co/4Mhmggc/tele1.png    " group-title="TÜRK",Tele 1 
+https://tele1.blutv.com/blutv_tele1_live/live.m3u8 
+NTV
+#EXTINF:-1 tvg-id="NTV.tr" tvg-language="" tvg-logo="   https://i.ibb.co/9c7MvWX/ntv.png     " group-title="TÜRK",NTV 
+https://ntvdvr.blutv.com/blutv_ntv_dvr2/live_720p2000000kbps/index.m3u8 
+TV100
+#EXTINF:-1 tvg-id="TV100.tr" tvg-language="" tvg-logo="     https://i.ibb.co/bLpTdYZ/tv100.png    " group-title="TÜRK",TV 100 
+https://mn-nl.mncdn.com/blutv_tv1002/live_720p2000000kbps/index.m3u8 
+BEYAZ
+#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-language="" tvg-logo="   https://i.ibb.co/0tc3PYz/beyaz22b.png    " group-title="TÜRK",Beyaz TV 
+https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8 
+360
+#EXTINF:-1 tvg-id="360.tr" tvg-language="" tvg-logo="    https://i.ibb.co/FVnG3Zr/360tv.png   " group-title="TÜRK",360
+https://360tv.blutv.com/blutv_360tv_live/live_720p2000000kbps/index.m3u8 
+FLASH
+#EXTINF:-1 tvg-id="FlashTV.tr" tvg-language="" tvg-logo="    https://i.ibb.co/F5FcvbZ/flash4ok.png   " group-title="TÜRK",Flash TV 
+https://mn-nl.mncdn.com/blutv_flashtv/live.m3u8 
+
+AKILLI
+EXTINF:-1 tvg-id="AkilliTV.tr" tvg-language="" tvg-logo="  https://i.ibb.co/8dQdNrv/akilli22.png     " group-title="TÜRK",Akilli TV 
+http://iptvmasterlink.dyndns.org:8080/AkilliTv/playlist.m3u8 
+
+DİYANET
+#EXTINF:-1 tvg-id="DiyanetTV.tr" tvg-language="" tvg-logo="    https://i.ibb.co/k9phm3v/diyanettv.png      " group-title="TÜRK",Diyanet TV 
+https://mn-nl.mncdn.com/blutv_diyanet2/live.m3u8
+
+UÇANKUŞ
+EXTINF:-1 tvg-id="UcanKusTV.tr" tvg-logo="    https://i.ibb.co/8dyQHrQ/ucankus22.png    " group-title="TÜRK",Uçankuş TV 
+https://mn-nl.mncdn.com/blutv_ucankus2/live_720p2000000kbps/index.m3u8 
+
+MAVİ KARADENİZ TV
+EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="  http://www.mavikaradeniztv.com.tr/logo.png  " group-title="TÜRK",mavi karadeniz
+https://h125.artiyerelmedya.net/mavikaradeniz/bant1/chunks.m3u8?nimblesessionid=105806626
+https://waw3.artiyerelmedya.net/mavikaradeniz/bant1/playlist.m3u8
+
+TRT EBA
+EXTINF:-1 tvg-logo="https://i.ibb.co/zfwmCCp/ilkoku22.png" group-title="TÜRK",TRT EBA Ilkokul
+https://mn-nl.mncdn.com/blutv_ebai2/live.m3u8
+EXTINF:-1 tvg-logo="https://i.ibb.co/1JbF8xB/ortaoku22.png.png" group-title="TÜRK",TRT EBA Ortaokul
+https://mn-nl.mncdn.com/blutv_ebao2/live.m3u8
+EXTINF:-1 tvg-logo="https://i.ibb.co/v42mWjF/lise22.png" group-title="TÜRK",TRT EBA Lise
+https://mn-nl.mncdn.com/blutv_ebal2/live.m3u8
+
+TEVE2
+#EXTINF:-1 tvg-id="Teve2.tr" tvg-language="" tvg-logo="    https://i.ibb.co/1Z22dCY/teve2.png      " group-title="TÜRK",Teve2 
+https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
+https://teve2.blutv.com/blutv_teve2_live/live.m3u8
+DENIZPOSTASI
+#EXTINF:-1 tvg-logo="  https://yerelmedya.tv/logosTV/denizpostasitv.png   " group-title="TÜRK",DENiZ POSTASI TV
+https://h125.artiyerelmedya.net/denizpostasitv/bant1/chunks.m3u8
+TV6
+#EXTINF:-1 tvg-logo="https://i.ibb.co/sRNHKjS/tivi622.png" group-title="TÜRK",TIVI 6
+https://waw1.artiyerelmedya.net/tivi6/bant1/playlist.m3u8
+TİVİ TÜRK
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="   https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6U0FimhNMRWumIIiBOgbuQw9cDfaiLcS7c5c9ZBQ&s       " group-title="TÜRK",tivi TÜRK 
+https://stream.tiviturk.de/live/tiviturk.m3u8 
+NTN
+#EXTINF:-1 tvg-id="  " tvg-language="" tvg-logo="    https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAgWUBiuFNXnxf12orAZisRQMSI128YiioeSjiOBHq4CXivyWUBH7i47-Uiifq2g25bVTPV92zxqWNC6u6UvebRJKVjRydTdrufYOzE9ER-lS5-cQN1MEbPVJ3oIBMJXMn10Om7Hz4CUvC0MhPgCT42L1Odizl19YeP5C9O6_cEzD3tPKEFcbUW6N-Wg/s1600/ntns.jpg      " group-title="TÜRK",NTN 
+https://tv.ntnhd.com:3588/multi_web/play_1080.m3u8 
+
+YANSIMA CLASSIC
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="  https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnqd9MMDintAoyNlZ0auLUY2ZvztJF463rwGr-O5Dnhw8cTJxef7cTOwPzoFD61kCG6Hg8ykmZ6DE6svUb-40PGJaoywE9iEJ7uh_V6o1q0LFVJG5KZekcoMVgr1X9Lw6LT-h3tygQJG6Dqg9FYeZSU0FtuLiAlZ-bTrazs0cBmSALMcVRWEr_jWeexA/s1600/classic.jpg  " group-title="TÜRK",Yansıma Classic
+https://stream.mylive.in.th/live/yansimaclassic/yansimaclassic.m3u8
+YANSIMA SİNEMA
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="  https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1eYQOGF6-ELbkd5rIxFwqU5d2_zshA6n7L9DRruWGm_g-W5NoBwgO5lHoNPv6Kz0myhpb6VVdZDiXEk_hwH5JY2uAXqAMiGf8IVhR3NuB48KPLXviOEIJqgFvZbR_xWQXIX-w1NuCQ_zi_-RFxHmDdV8DLvfmQYiKzn-GMnNMNrri7tLTFgqN8Uv1qg/s1600/sinema.jpg  " group-title="TÜRK",Yansıma Sinema
+https://stream.mylive.in.th/live/yansimatv/yansimatv.m3u8
+
+YEŞİLÇAM
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="  https://upload.wikimedia.org/wikipedia/tr/d/d5/Ye%C5%9Fil%C3%A7am_TV_logosu.png  " group-title="TÜRK",Yeşilçam
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9121
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="  https://upload.wikimedia.org/wikipedia/tr/d/d5/Ye%C5%9Fil%C3%A7am_TV_logosu.png  " group-title="TÜRK",Yeşilçam
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/273
+
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="  https://upload.wikimedia.org/wikipedia/tr/d/d5/Ye%C5%9Fil%C3%A7am_TV_logosu.png  " group-title="TÜRK",Yeşilçam
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9099
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="  https://upload.wikimedia.org/wikipedia/tr/d/d5/Ye%C5%9Fil%C3%A7am_TV_logosu.png  " group-title="TÜRK",Yeşilçam
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9120
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="  https://upload.wikimedia.org/wikipedia/tr/d/d5/Ye%C5%9Fil%C3%A7am_TV_logosu.png  " group-title="TÜRK",Yeşilçam
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/16911
+
+BEIN MOVIES STARS
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="    " group-title="TÜRK",beIN Movies Stars Turkey
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/284
+BEIN SERIES SCI-FI
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo="    " group-title="TÜRK",beIN Series Sci-Fi Turkey
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/17897
+SINEMA TV 1001
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo=" " group-title="TÜRK",Sinema 1001
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9006
+SINEMA TV 1002
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo=" " group-title="TÜRK",Sinema 1002
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9005
+SINEMA TV
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo=" " group-title="TÜRK",Sinema TV
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9108
+SINEMA 2
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo=" " group-title="TÜRK",Sinema 2
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/17891
+SINEMA AİLE 
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo=" " group-title="TÜRK",Sinema Aile
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/9109
+SINEMA AKSIYON
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo=" " group-title="TÜRK",Sinema Aksiyon
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/268
+SINEMA TV
+#EXTINF:-1 tvg-id="" tvg-language="" tvg-logo=" " group-title="TÜRK",Sinema Yerli
+http://stream.detr.xyz:8080/Dwabash500/V6R8UtakqW/267
+
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-#EXTINF:-1 tvg-chno="1" tvg-id="24 TV" tvg-base="https://www.youtube.com/@YirmidortTV" tvg-name="1-@YirmidortTV" tvg-logo="https://i.ytimg.com/vi/V5mBTSql74Q/maxresdefault_live.jpg" group-title="TURQUIA",🔴 24 TV Canlı Yayını
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676352540/ei/vMfqY-joH9KakwbvnKnYCw/ip/13.88.59.98/id/V5mBTSql74Q.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr3---sn-n4v7snly.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/4s/mm/44/mn/sn-n4v7snly/ms/lva/mv/u/mvi/3/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676329823/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhALOPu2523vdiV2W_yiJkTDEFTLtC5zYtwQkRpi-Qq_AjAiA-kLSqRq3DQ58_HwoA5zB15eeAIwGZBK-dXJ0dDa__KA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgM_tQpQiH_f4WkSPBWBzK-KoHNe2H5gnbjYpt3S4XkkQCIAQg4F1n584sRxo2wrp2UxcoaKUjhsrU3S_hrAdzr9Hi/playlist/index.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="ÇİFTÇİ TV" tvg-base="https://www.youtube.com/user/ciftcitv" tvg-name="2-ciftcitv" tvg-logo="https://i.ytimg.com/vi/mQ54lyKmUK8/hqdefault_live.jpg" group-title="TURQUIA",Çiftçi TV Canlı Yayın
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676352583/ei/58fqY9D6FNPRkgb0xLrICQ/ip/13.88.59.98/id/mQ54lyKmUK8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr4---sn-o097znzr.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/Di/mm/44/mn/sn-o097znzr/ms/lva/mv/u/mvi/4/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676329823/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAJaZhGW6LEqk6bYBwCrBEMmgqMLs_LofjGabo_1tKx49AiAluzxq6zThEdO9tNUXAZe3f-U8b9wACWayoIrzeEaKQg%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRgIhALr6_QC1P8mG9EC2azmshOu-ClQywkpmBiTqm0MzciHGAiEAs4pJDl9JDLHQROP83uNToWb2yXWiHMVO9_6uCE6u_uw%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="1" tvg-id="TRT World" tvg-base="https://www.youtube.com/@trtworld" tvg-name="1-@trtworld" tvg-logo="https://i.ytimg.com/vi/AEZa1BtbPok/maxresdefault_live.jpg" group-title="TURQUIA",LIVE: Watch TRT World
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365210/ei/OvnqY_jjKci8kwaf3arYBA/ip/13.86.156.32/id/AEZa1BtbPok.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr2---sn-n4v7snly.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/ZC/mm/44/mn/sn-n4v7snly/ms/lva/mv/u/mvi/2/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343331/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRgIhANaP5yG7TGmA-suG5DFGxLYeWyB4DLvBG1qPXq8TNSHCAiEAuBq7gqNHwSpiTVPbyQ5fEqCa7Uwo-s3xD4GeIpJpyUE%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAP3Ph4TnJ8yu4YGaNYqQckERYx6D1w8PrIn1V_hN1qVLAiATiUGQYGyEz_ezy-NnMDnXXmg7ARgGFRvvSmsMDo1zyA%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="CNN TÜRK" tvg-base="https://www.youtube.com/@cnnturk" tvg-name="2-@cnnturk" tvg-logo="https://i.ytimg.com/vi/oRyuucacH04/hqdefault_live.jpg" group-title="TURQUIA",8. GÜN | CNN TÜRK DEPREM CANLI YAYINI | İl il son durum
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365219/ei/Q_nqY9joEY-Ekgblx6CABw/ip/13.86.156.32/id/oRyuucacH04.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr5---sn-n4v7snls.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/a2/mm/44/mn/sn-n4v7snls/ms/lva/mv/u/mvi/5/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343331/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRgIhAKPrG23YfM7ERcEUp5jnIy2JmQhaIuNyYGEwObc6Z1d4AiEA7Vgo5cP6BwoALofzf2i0zwD_0iufoiFEG2eYYnY4atQ%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgVlkEjFBVJj-yI3qh5Ez6HRRtBp-54X0BWnVnmEWvy_sCIQCZWsulk1jNdHfcm1hjsxMlDZAkPbs_7PWkwYdA8aoakw%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="atv" tvg-base="https://www.youtube.com/@atvturkiye" tvg-name="3-@atvturkiye" tvg-logo="https://i.ytimg.com/vi/1KXZDgP9W5E/maxresdefault_live.jpg" group-title="TURQUIA",atv Deprem Özel - Canlı Yayın
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365227/ei/S_nqY_7sHaGGsfIP99Gn2A0/ip/13.86.156.32/id/1KXZDgP9W5E.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr5---sn-n4v7snls.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/2181250/mh/bH/mm/44/mn/sn-n4v7snls/ms/lva/mv/m/mvi/5/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343390/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRAIgKq_6cKY36XGomQYiYGhrXlwdF-99PrXv1FPUsIdvffkCICirt4CjWgidKI1gE4lT5a1JL0vS9Mpa7JErBRvdw9Hm/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgI8Fii16Zrt_wshl6JFVrYji6xoZ-_pk9rAcOrvpbxgECIQCeAfvEwWJDyUnyOKUgXcgq-UblbapSTr_-p3JBNZkI0g%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Habertürk TV" tvg-base="https://www.youtube.com/@haberturktv" tvg-name="4-@haberturktv" tvg-logo="https://i.ytimg.com/vi/4MsbNoMSNz4/maxresdefault_live.jpg" group-title="TURQUIA",#CANLI | 10 ili sarsan deprem faciasında son durum ne?
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365230/ei/TvnqY6-XJpD0kgawtiM/ip/13.86.156.32/id/4MsbNoMSNz4.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr3---sn-n4v7snls.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/tX/mm/44/mn/sn-n4v7snls/ms/lva/mv/u/mvi/3/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343331/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRAIgRH6F5nm_NZ3Jt07j4a5nCazVr9UJF8mU_gcWt1JskL8CIEnFpi3z7a0z4ta3FrjQf2dqdd4bG61b31s8oLJ4_UCh/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAPUuFYgCzT1v3XlCF5KN3tULmQwlhmOZwSltoJXS1kGAAiBxHToXkVelGUTuCZMg0OuCUujEzH01MdzxdcBfC_anXw%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="BENGÜTÜRK TV" tvg-base="https://www.youtube.com/@tvbenguturk" tvg-name="5-@tvbenguturk" tvg-logo="https://i.ytimg.com/vi/Lx_fVB6FQ5Y/maxresdefault_live.jpg" group-title="TURQUIA",BENGÜ TÜRK - Canlı Yayın ᴴᴰ
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365233/ei/UfnqY4GHL-eDsfIP9NmQuA4/ip/13.86.156.32/id/Lx_fVB6FQ5Y.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr3---sn-n4v7snly.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/g8/mm/44/mn/sn-n4v7snly/ms/lva/mv/u/mvi/3/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343331/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIgP_qvzkax4JaZ3uRL7FriD3hfxDxaq2qifVQu81A5888CIQCC3CKUJ_3Yqlqw6tpeOErx63VlHwErkvC2BPWlxq1OJQ%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhALP-oSkrLa8pcfMFlE18c62uQwAiaVMSAVSBbMc0Hex1AiA9gOvXQincKPTkYqsPbp7fSc6clPPv1U_GtZ24JCD8RA%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="ÜLKE TV" tvg-base="https://www.youtube.com/@ulketv" tvg-name="6-@ulketv" tvg-logo="https://i.ytimg.com/vi/LsmtMAUJAQ0/maxresdefault_live.jpg" group-title="TURQUIA",ÜLKE TV Canlı Yayını
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365237/ei/VfnqY7mFJ9fmkgaX6LGACg/ip/13.86.156.32/id/LsmtMAUJAQ0.1/itag/93/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D134/hls_chunk_host/rr3---sn-o097znsl.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/_T/mm/44/mn/sn-o097znsl/ms/lva/mv/u/mvi/3/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343331/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAIKCzU4MDts_0kzWjqUj7xoq6tNVZcRZKteG5zWgZH3-AiB7kdn9aDUYaCAJpF9xIU2ko1MVCE9kD8T41Rh_hmGK1w%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgUjW5j3whwG7KekQwHTKNvO4r5STz0BX03pm0fF1y0v0CIFNb91qvJb2l26lAgMCsBtegGKRXAtipItXa38PA2yJ-/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Tele1" tvg-base="https://www.youtube.com/@Tele1comtr" tvg-name="7-@Tele1comtr" tvg-logo="https://i.ytimg.com/vi/sWxHuH3lVw4/maxresdefault_live.jpg" group-title="TURQUIA",#CANLI Enkazlar kaldırılıyor... Umut tükenmedi
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365240/ei/WPnqY-GYNtfakgbTlIOYBA/ip/13.86.156.32/id/sWxHuH3lVw4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr4---sn-o097znsk.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/mS/mm/44/mn/sn-o097znsk/ms/lva/mv/u/mvi/4/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343331/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAJNZhLUj8iKTHw-8z45FrRIEKhGYm4DeknbgKDjU6R3pAiA1_v8HpAUlIMfoWAXnl_k8XofpSIVrYPie1ibnJtZo0g%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgUKYKFHp05L3AnigFSuaLtSAuarQ0acecuZgmLy7e-W8CIDgoCqiKppfvFHCyHInTvLb_342txhvlKnSkDB_fGDJ2/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="NTV" tvg-base="https://www.youtube.com/@NTV" tvg-name="8-@NTV" tvg-logo="https://i.ytimg.com/vi/XEJM4Hcgd3M/maxresdefault_live.jpg" group-title="TURQUIA",NTV - Canlı Yayın ᴴᴰ Deprem felaketinde 8. gün
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365249/ei/YfnqY7WEB9CtkgbF2YDIDg/ip/13.86.156.32/id/XEJM4Hcgd3M.7/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr5---sn-n4v7snls.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/ay/mm/44/mn/sn-n4v7snls/ms/lva/mv/u/mvi/5/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343331/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAMsDpCv5V02RpcY_8i8tsMuomEA7Z0gcWBZJLA_ayufDAiBimXRdwTluAyTK_Y-Ei-4_anSVH7tTL8JktSlqQvG55A%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRgIhANGuCrt96LpCEqBIu18_wStlnQoHD5Gu6tgkjsnUzY7SAiEAubHLhEzZuanmleq9Q_stra4Dxm_UnU3QbxDVa9SqpxE%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="Halktv" tvg-base="https://www.youtube.com/@Halktvkanali" tvg-name="9-@Halktvkanali" tvg-logo="https://i.ytimg.com/vi/RQZhN7Fg6lM/maxresdefault_live.jpg" group-title="TURQUIA",#CANLI | SON DAKİKA #büyükfelaket | 13 Şubat 2023 | #HalkTV
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365252/ei/ZPnqY_KQJsi8kwaf3arYBA/ip/13.86.156.32/id/RQZhN7Fg6lM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr1---sn-n4v7snll.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/2406250/mh/dN/mm/44/mn/sn-n4v7snll/ms/lva/mv/m/mvi/1/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343390/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAOwFJXmg9iKMjwLst01DlVKI4CFJNDW9CqCWHGtwUbMbAiAJkNsl78AKztS8Ba3iV9IadvttA9vGOWOr0QQgHKnZDw%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhALb4vn1MH9RtaxW46qXvXfSRmNYP3HBk3bftk6OUtSgnAiAM1OpHAdOfOp9ZSJDLMmvVsQAbrIRGfRjTxyYTwj2OgQ%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="Show TV" tvg-base="https://www.youtube.com/@showtv" tvg-name="10-@showtv" tvg-logo="https://i.ytimg.com/vi/eVVlKAUlSNQ/maxresdefault_live.jpg" group-title="TURQUIA",Show TV Canlı Yayın ᴴᴰ
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365256/ei/aPnqY_etDdSPkwb87o2oCA/ip/13.86.156.32/id/eVVlKAUlSNQ.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr2---sn-o097znsr.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/2181250/mh/Oj/mm/44/mn/sn-o097znsr/ms/lva/mv/m/mvi/2/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343390/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIgLmpVBOW4Jxcu6C5ooFYEfHVid1rVBNfUkZc6lauo0yQCIQDTqeikEAV90z1EBkCbbxwzAIGhn8wZbVbf8Wf1TQ6V1Q%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAIOjNPle2aHMv89-_CbGYOtk00Z03fg_wfHNhhZMklXlAiA4rx5Tb7Y8ehcdcDCrJzj3OiSNCHERMr6qhHz5em_rtA%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="24 TV" tvg-base="https://www.youtube.com/@YirmidortTV" tvg-name="11-@YirmidortTV" tvg-logo="https://i.ytimg.com/vi/V5mBTSql74Q/maxresdefault_live.jpg" group-title="TURQUIA",🔴 24 TV Canlı Yayını
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365265/ei/cPnqY568PJeFkwbD25SYAw/ip/13.86.156.32/id/V5mBTSql74Q.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr3---sn-o097znzk.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/2181250/mh/4s/mm/44/mn/sn-o097znzk/ms/lva/mv/m/mvi/3/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343390/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIgRI18m1nuWskyfifjckYg--PDM2toKFj624rDjm9L3AgCIQCUqcRf2Xb71QmZ6qUoBjwY_fXALCwvqPT3DTd-YipuRA%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAPy9u0EOLqnJH-59XXNGv41Q3NfP-az_D9DNxd_u0oiwAiB55QbOVEZx7SNzHFJ30lAFHmsVSpoLqJcOynywqud_1g%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="ÇİFTÇİ TV" tvg-base="https://www.youtube.com/user/ciftcitv" tvg-name="12-ciftcitv" tvg-logo="https://i.ytimg.com/vi/mQ54lyKmUK8/hqdefault_live.jpg" group-title="TURQUIA",Çiftçi TV Canlı Yayın
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1676365308/ei/nPnqY5iCC5eFkwbD25SYAw/ip/13.86.156.32/id/mQ54lyKmUK8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr3---sn-n4v7snse.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/2181250/mh/Di/mm/44/mn/sn-n4v7snse/ms/lva/mv/m/mvi/3/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1676343390/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAO9TSmF1sdmezQ-GKJlci-FQAYY-vBVFRKqpZVT1zhVPAiB9KkHsZ_ZPY8bXRAvriHB0mNJ3ChlGH1IVcfh43gLYkw%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgZ7lOM4VjZ4mSOeBCy2f9fiaDs3tcYMQILWUqJArh-SsCIQDV1hJK1PgPX8L3IfIG2qKh-3rJZZJRwhunuOI7OndngQ%3D%3D/playlist/index.m3u8

@@ -26,28 +26,16 @@ time.sleep(5)
 # Obter o conteúdo da página
 html_content = driver.page_source
 
-# Encontrar os links e títulos dos primeiros quatro vídeos encontrados
-soup = BeautifulSoup(html_content, "html.parser")
-videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)[:4]
-links = ["https://www.twitch.tv" + video.get("href") for video in videos]
-titles = [video.find("h3").get("title") for video in videos]
-thumbnails = [video.find("img").get("src") for video in videos]
+soup = BeautifulSoup(html_content, 'html.parser')
 
-# Fechar o driver
-driver.quit()
 
-# Instalando streamlink
-subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
-try:
-    # Get LISTA4.m3u8
-    with open('./TWITCH.m3u8', 'w') as f:
-        f.write("#EXTM3U\n")
-        for i in range(len(links)):
-            streams = streamlink.streams(links[i])
-            url = streams['best'].url
-            f.write(f"#EXTINF:-1 tvg-id='{titles[i]}' tvg-logo='{thumbnails[i]}',{titles[i]}\n")
-            f.write(f"{url}\n")
-except Exception as e:
-    print(f"Erro ao criar o arquivo .m3u8: {e}")
+with open('twitch_clips.m3u', 'w') as f:
+    clips = soup.find_all('div', {'class': 'clip-card'})
+    for clip in reversed(clips):
+        title = clip.find('h3', {'class': 'CoreText-sc-1txzju1-0 eJuFGD'})['title']
+        channel = clip.find('p', {'data-a-target': 'preview-card-channel-link'}).text
+        thumbnail = clip.find('img', {'class': 'tw-image'})['src']
+        video_link = 'https://www.twitch.tv' + clip.find('a', {'data-a-target': 'preview-card-image-link'})['href']
 
+        f.write(f'#EXTINF:-1 tvg-logo="{thumbnail}" group-title="{channel}",{title}\n{video_link}\n')

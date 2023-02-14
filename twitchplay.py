@@ -16,7 +16,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://www.twitch.tv/"
+url_twitch = "https://www.youtube.com/results?search_query=Grava%C3%A7%C3%A3o+de+Reuni%C3%A3o&sp=CAISBBABGAI%253D"
 
 # Abrir a página desejada
 driver.get(url_twitch)
@@ -42,13 +42,9 @@ html_content = driver.page_source
 # Find the links and titles of the videos found
 try:
     soup = BeautifulSoup(html_content, "html.parser")
-    videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
-    links = ["https://www.twitch.tv" + video.get("href") for video in videos]
-    channels = [video.find("p", class_="CoreText-sc-1txzju1-0 jiepBC").text for video in videos]
-    
-    titles = [video.find("h3").get("title") for video in videos]
-    channel_title = titles[0]
-    live_title = titles[1]
+    videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
+    links = [video.get("href") for video in videos]
+
     
 
 except Exception as e:

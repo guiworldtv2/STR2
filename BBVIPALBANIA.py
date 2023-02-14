@@ -51,8 +51,14 @@ with open('./BBVIPALBANIA.m3u8', 'w') as f:
     f.write("#EXT-X-VERSION:3\n")
     f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
     
-    # Executar streamlink e obter o URL do stream
-    result = subprocess.run(["streamlink", "--twitch-disable-ads", "--twitch-disable-reruns", "--url", "--default-stream", "--stream-url", link, "best"], capture_output=True, text=True)
+
+
+
+
+
+# Execute shell commands using subprocess.run()
+    subprocess.run(["touch", "./listaxxxxstr.m3u"])
+    subprocess.run(["sudo", "cat", ">./lista2str.m3u", "<<EOL", "$(streamlink --url --default-stream  --stream-url  link best)"])
     if result.returncode == 0:
         stream_url = result.stdout.strip()
         f.write(stream_url + "\n")

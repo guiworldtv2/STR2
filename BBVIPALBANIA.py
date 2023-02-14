@@ -42,8 +42,16 @@ print(link)
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
     
+# Escrever o link no arquivo BBVIPALBANIA.txt
+with open('./BBVIPALBANIA.txt', 'w') as f:
+    f.write(link)
+    
+# Ler o arquivo BBVIPALBANIA.txt para extrair o link e criar o arquivo BBVIPALBANIA.m3u8
+with open('./BBVIPALBANIA.txt', 'r') as f:
+    link = f.read().strip()
+
 try:
-    # Get LISTA4.m3u8
+    # Get BBVIPALBANIA.m3u8
     with open('./BBVIPALBANIA.m3u8', 'w') as f:
         streams = streamlink.streams(link)
         url = streams['best'].url

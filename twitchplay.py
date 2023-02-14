@@ -66,7 +66,7 @@ try:
             url = streams['best'].url
 
             # Find the thumbnail image for the video
-            thumbnail = videos[i].find("img").get("src")
+            thumbnail = videos[i].find("div", class_="ScAspectRatio-sc-18km980-1").find("img").get("src")
 
             # Write the stream information to the file
             title = titles[i]
@@ -75,3 +75,4 @@ try:
             f.write(f"{url}\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
+

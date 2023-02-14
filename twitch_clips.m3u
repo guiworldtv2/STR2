@@ -44,7 +44,3 @@ for i in range(len(titles) - 1, -1, -1):
 # Close the driver
 driver.quit()
 break
-    except:
-# Close the driver in case of an error
-driver.quit()
-break

@@ -60,7 +60,7 @@ subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
 # Get the playlist and write to file
 try:
-    with open('./TWITCHPLAY.m3u8', 'w') as f:
+    with open('./TWITCHPLAY.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
         for i, link in enumerate(links):
             # Get the stream information using streamlink

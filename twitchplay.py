@@ -58,6 +58,7 @@ finally:
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
 # Get the playlist and write to file
+
 try:
     with open('./TWITCHPLAY.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
@@ -67,10 +68,9 @@ try:
             url = streams['best'].url
 
             # Write the stream information to the file
-            channel_name = channels[i]
-            stream_title = titles[i]
-            f.write(f"#EXTINF:-1 tvg-id='{channel_name}' group-title=\"TWITCH\",{stream_title}\n")           
-            f.write(f"{url}\n")
-            f.write("\n")
+            channel = channels[i]
+            title = titles[i]
+            f.write(f"#EXTINF:-1 tvg-id=\"{channel}\" group-title=\"TWITCH\",{channel} - {title}\n")
+            f.write(f"{url}\n\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")

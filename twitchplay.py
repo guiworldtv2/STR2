@@ -37,11 +37,14 @@ with open('twitch_clips.m3u', 'w') as f:
         channel_names = [channel.get("title") for channel in channels]
         thumbnail_links = [thumbnail.get("src") for thumbnail in thumbnails]
 
-        for i in range(len(links)):
-            print(f"Title: {titles[i]}")
-            print(f"Channel: {channel_names[i]}")
-            print(f"Thumbnail: {thumbnail_links[i]}")
-            print(f"Link: {links[i]}\n")
-
-
+    for i in range(len(links)):
+        title = titles[i]
+        channel = channel_names[i]
+        thumbnail = thumbnail_links[i]
+        video_link = links[i]
+        print(f"Title: {title}")
+        print(f"Channel: {channel}")
+        print(f"Thumbnail: {thumbnail}")
+        print(f"Link: {video_link}\n")
         f.write(f'#EXTINF:-1 tvg-logo="{thumbnail}" group-title="{channel}",{title}\n{video_link}\n')
+

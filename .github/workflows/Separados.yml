@@ -35,7 +35,12 @@ jobs:
           pip install -r requirements.txt
           
          
-        
+      - name: Instalando streamlink e selenium
+        run: |
+          pip install --user --upgrade streamlink
+          pip install --user --upgrade selenium
+          
+          
       - name: execute py script
         run: python Church.py
         

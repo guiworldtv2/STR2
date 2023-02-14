@@ -45,5 +45,5 @@ if result.returncode == 0:
     stream_url = result.stdout.strip()
     f.write(stream_url + "\n")
 else:
-f.write("https://raw.githubusercontent.com/guiworldtv/STR2/main/VideoOFFAir.m3u8\n")
+    f.write("https://raw.githubusercontent.com/guiworldtv/STR2/main/VideoOFFAir.m3u8\n")
 time.sleep(30)

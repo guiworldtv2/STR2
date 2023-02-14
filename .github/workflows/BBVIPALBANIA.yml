@@ -72,12 +72,5 @@ jobs:
           git add -A
           git commit -m "update data" -a
           
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date '+%Y-%m-%d')"
+
         
-      - name: push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main  

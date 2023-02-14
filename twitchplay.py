@@ -27,23 +27,23 @@ driver.get(url_twitch)
 time.sleep(5)
 
 
-from selenium.webdriver.common.action_chains import ActionChains
 
-# Find the body element
-body = driver.find_element_by_tag_name("body")
 
-# Scroll to the bottom of the page using ActionChains
-actions = ActionChains(driver)
-actions.move_to_element(body).click().send_keys(Keys.END).perform()
+
+# Scroll to the bottom of the page using JavaScript
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 time.sleep(5)
+
+
+
+
+
+
+
+
 
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source
-
-
-
-
-
 
 # Find the links and titles of the first four videos found
 try:

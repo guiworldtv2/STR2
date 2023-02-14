@@ -35,13 +35,13 @@ while True:
         
         
         # Install streamlink
-subprocess.run(["pip", "install", "--user", "--upgrade", "streamlink"])
+        subprocess.run(["pip", "install", "--user", "--upgrade", "streamlink"])
 
-# Get LISTA4.m3u8
-with open("./BBVIPALBANIA.m3u8", "w") as f:
-    f.write("#EXTM3U\n")
-    f.write("#EXT-X-VERSION:3\n")
-    f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
+        # Get LISTA4.m3u8
+        with open("./BBVIPALBANIA.m3u8", "w") as f:
+            f.write("#EXTM3U\n")
+            f.write("#EXT-X-VERSION:3\n")
+            f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
     
 
 

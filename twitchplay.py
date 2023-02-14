@@ -50,6 +50,9 @@ except Exception as e:
 finally:
     # Close the driver
     driver.quit()
+    print(links)
+    print(titles)
+
 
 # Instalando streamlink
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])

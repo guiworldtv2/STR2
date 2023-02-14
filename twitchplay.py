@@ -52,8 +52,7 @@ except Exception as e:
 finally:
     # Close the driver
     driver.quit()
-    print(links)
-    print(titles)
+
 
 
 # Instalando streamlink

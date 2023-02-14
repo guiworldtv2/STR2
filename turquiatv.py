@@ -32,8 +32,8 @@ def get_live_info(channel_id):
                 return None
 
 banner = r'''
-#EXTM3U x-tvg-url="https://iptvx.one/epg/epg.xml.gz"
-#EXTM3U x-tvg-url="http://epg.it999.ru/epg2.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.xml"
+"https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.xml"
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000

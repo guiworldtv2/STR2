@@ -77,5 +77,3 @@ try:
             f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
-
-

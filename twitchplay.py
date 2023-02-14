@@ -71,6 +71,9 @@ try:
     with open('./YOUTUBEPLAY.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
         for i, link in enumerate(links):
+            # Get the stream information using streamlink
+            streams = streamlink.streams(link)
+            url = streams['best'].url
             # Write the stream information to the file
             title = titles[i]
             thumbnail = thumbnails[i]

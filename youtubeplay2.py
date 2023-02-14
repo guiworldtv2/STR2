@@ -16,7 +16,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_youtube = "https://www.youtube.com/results?search_query=podcast&sp=CAISAhgC"
+url_youtube = "https://www.youtube.com/channel/UCYfdidRxbB8Qhf0Nx7ioOYw"
 
 # Abrir a página desejada
 driver.get(url_youtube)
@@ -45,14 +45,21 @@ time.sleep(5)
 # Find the links and titles of the videos found
 try:
     soup = BeautifulSoup(html_content, "html.parser")
-    videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
-    links = ["https://www.youtube.com" + video.get("href") for video in videos]
-    titles = [video.get("title") for video in videos]
+    videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-grid-video-renderer")
+    links = [f"https://www.youtube.com{video.get('href')}" for video in videos]
+    titles = []
+    for video in videos:
+        text = video.get_text()
+        title_start = text.index('title="') + len('title="')
+        title_end = text.index('"', title_start)
+        title = text[title_start:title_end]
+        titles.append(title)
 except Exception as e:
     print(f"Erro: {e}")
 finally:
     # Close the driver
     driver.quit()
+
 
 
 

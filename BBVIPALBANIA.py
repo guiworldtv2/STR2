@@ -42,14 +42,14 @@ driver.quit()
 
 print(link)
 
-# Instalar streamlink (somente se necessário)
-subprocess.run(["pip", "install", "--user", "--upgrade", "streamlink"], check=True)
+# Obter URL do melhor stream usando streamlink
+streamlink_cmd = ["streamlink", "--url", "--default-stream", "--stream-url", link, "best"]
+process = subprocess.run(streamlink_cmd, stdout=subprocess.PIPE, text=True)
+stream_url = process.stdout.strip()
 
-# Get LISTA4.m3u8
-with open('./BBVIPALBANIA.m3u8', 'w') as f:
+# Escrever a saída do streamlink no arquivo LISTA4.m3u8
+with open("LISTA4.m3u8", "w") as f:
     f.write("#EXTM3U\n")
     f.write("#EXT-X-VERSION:3\n")
     f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
-    url = subprocess.run(['streamlink', '--url', '--default-stream', '--stream-url', link, 'best' ], stdout=subprocess.PIPE)
-    f.write(f"{url}\n")
-
+    f.write(stream_url)

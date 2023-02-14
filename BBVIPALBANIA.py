@@ -45,7 +45,7 @@ print(link)
 # Instalar streamlink (somente se necessário)
 subprocess.run(["pip", "install", "--user", "--upgrade", "streamlink"], check=True)
 
-with open("./BBVIPALBANIA.m3u8", "w") as f:
+with open('./BBVIPALBANIA.m3u8', "w") as f:
     f.write("#EXTM3U\n")
     f.write("#EXT-X-VERSION:3\n")
     f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
@@ -59,4 +59,5 @@ with open("./BBVIPALBANIA.m3u8", "w") as f:
         f.write("https://raw.githubusercontent.com/guiworldtv/STR2/main/VideoOFFAir.m3u8\n")
 
 time.sleep(30)
+
 

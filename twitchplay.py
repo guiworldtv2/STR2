@@ -46,7 +46,14 @@ try:
     videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
     links = ["https://www.youtube.com" + video.get("href") for video in videos]
     titles = [video.get("title") for video in videos]
-    thumbnails = [video.find("yt-image").find("img")["src"] for video in videos]
+    thumbnails = []
+    for video in videos:
+        thumbnail_tag = video.find("yt-image")
+        if thumbnail_tag:
+            thumbnail = thumbnail_tag.find("img")["src"]
+        else:
+            thumbnail = ""
+        thumbnails.append(thumbnail)
 except Exception as e:
     print(f"Erro: {e}")
 finally:
@@ -70,4 +77,4 @@ try:
             f.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail}\" group-title=\"YOUTUBE\",{title}\n")
             f.write(f"{link}\n\n")
 except Exception as e:
-    print(f"Erro ao criar o arquivo .m3u8: {e}")
+    print(f"Erro ao criar o arquivo .m3u: {e}")

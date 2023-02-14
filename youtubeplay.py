@@ -16,10 +16,10 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://www.youtube.com/results?search_query=aula&sp=CAISBBABGAI%253D"
+url_youtube = "https://www.youtube.com/"
 
 # Abrir a página desejada
-driver.get(url_twitch)
+driver.get(url_youtube)
 
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)

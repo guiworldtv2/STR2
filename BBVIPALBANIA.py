@@ -5,8 +5,7 @@ import os
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-while True:
-    try:
+
         # URL da página desejada
         url_twitch = "https://www.twitch.tv/search?term=big%20brother"
 
@@ -47,7 +46,4 @@ while True:
                 f.write(stream_url + "\n")
             else:
                 f.write("https://raw.githubusercontent.com/guiworldtv/STR2/main/VideoOFFAir.m3u8\n")
-    except Exception as e:
-        print(f"Erro: {e}")
-        # Fazer uma pausa antes de tentar novamente
         time.sleep(30)

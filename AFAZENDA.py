@@ -63,7 +63,7 @@ for page in range(1, 2):
                     print(f"Downloading {title}...")
                     streams = streamlink.streams(link)
                     url = streams['best'].url
-                    subprocess.run(['streamlink', '--output', f'{title}.mp4', url])
+                    subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
                 
         except Exception as e:
             print(f"Erro: {e}")

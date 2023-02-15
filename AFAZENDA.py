@@ -52,50 +52,37 @@ for page in range(1, 2):
 
             # Dictionary with links and titles of the videos
             video_dict = dict(zip(video_links, video_titles_list))
-        except:
-            break
-        
-        # Get the page source again after scrolling to the bottom
-        html_content = driver.page_source
-        time.sleep(5)
 
-        # Find the links and titles of the videos found
-        try:
-            soup = BeautifulSoup(html_content, "html.parser")
-            videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
-            links = ["https://www.youtube.com" + video.get("href") for video in videos]
-            titles = driver.find_elements(By.CSS_SELECTOR, "span.iris_link.iris_link--gray-2")
-            
-            
-            
-
-        
-        
-        
+            # Loop to download videos 2 by 2
+            for i in range(0, len(video_links), 2):
+                video_title_elem1 = video_titles_list[i]
+                video_title_elem2 = video_titles_list[i+1]
+                
+                # Download the videos using streamlink
+                for title, link in zip([video_title_elem1, video_title_elem2], [video_links[i], video_links[i+1]]):
+                    print(f"Downloading {title}...")
+                    streams = streamlink.streams(link)
+                    url = streams['best'].url
+                    subprocess.run(['streamlink', '--output', f'{title}.mp4', url])
+                
         except Exception as e:
             print(f"Erro: {e}")
+            break
         finally:
             # Close the driver
             driver.quit()
 
 
-
-
-# Instalando streamlink
-subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
-
-time.sleep(5)
-
 # Get the playlist and write to file
 try:
-    with open('./VIMEOPLAY1.m3u', 'w') as f:
+    with open('./VIMEOPLAY1.m3u8', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
-        for i, link in enumerate(links):
+        for i, link in enumerate(video_links):
             # Get the stream information using streamlink
             streams = streamlink.streams(link)
             url = streams['best'].url
             # Write the stream information to the file
-            title = titles[i]
+            title = video_titles_list[i]
 
             f.write(f"#EXTINF:-1 group-title=\"VIMEO1\",{title}\n")
             f.write(f"{url}\n\n")

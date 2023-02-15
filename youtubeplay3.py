@@ -72,7 +72,7 @@ ydl_opts = {
 }
 
 try:
-    with open('./YOUTUBEPLAY2.m3u', 'w') as f:
+    with open('./YOUTUBEPLAY3.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
         for i, link in enumerate(links):
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:

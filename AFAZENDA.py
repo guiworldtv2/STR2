@@ -27,6 +27,11 @@ time.sleep(5)
 # Scroll to the bottom of the page using ActionChains
 while True:
     try:
+        soup = BeautifulSoup(html_content, "html.parser")
+        videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
+        links = ["https://www.twitch.tv" + video.get("href") for video in videos]
+        channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
+        titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
         # Find the last video on the page
         last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
         # Scroll to the last video

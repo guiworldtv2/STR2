@@ -55,6 +55,9 @@ try:
     titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
     # Find all the img tags with class 'search-result-card__img'
     thumbnails = soup.find_all('img', class_='search-result-card__img')
+    # Print the URLs of the thumbnails
+for thumbnail in thumbnails:
+    print(thumbnail['src'])
 except Exception as e:
     print(f"Erro: {e}")
 finally:

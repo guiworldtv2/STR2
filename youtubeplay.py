@@ -73,7 +73,7 @@ try:
             # Write the stream information to the file
             title = titles[i]
 
-            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE\",{title}\n")
+            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\",{title}\n")
             f.write(f"{url}\n\n")
             f.write("\n")            
 except Exception as e:

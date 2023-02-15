@@ -19,8 +19,8 @@ driver = webdriver.Chrome(options=chrome_options)
 # Counter to name the downloaded videos
 counter = 1
 
-# loop through pages 1 to 10
-for page in range(1, 11):
+# loop through pages 1 to 3
+for page in range(1, 3):
     # URL da página desejada
     url_vimeo = f"https://vimeo.com/search/page:{page}/sort:latest?duration=long&q=aula"
     

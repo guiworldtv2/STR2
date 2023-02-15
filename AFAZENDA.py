@@ -64,7 +64,14 @@ for page in range(1, 2):
             soup = BeautifulSoup(html_content, "html.parser")
             videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
             links = ["https://www.youtube.com" + video.get("href") for video in videos]
-            titles = [video.get("title") for video in videos]
+            titles = driver.find_elements(By.CSS_SELECTOR, "span.iris_link.iris_link--gray-2")
+            
+            
+            
+
+        
+        
+        
         except Exception as e:
             print(f"Erro: {e}")
         finally:

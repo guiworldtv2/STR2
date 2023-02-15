@@ -93,7 +93,7 @@ try:
 
                 # Escreve as informações do vídeo no arquivo .m3u8
                 title = titles[i]
-                f.write(f"#EXTINF:-1 group-title=\"YOUTUBE\",{title}\n")
+                f.write(f"#EXTINF:-1 group-title=\"YOUTUBE\" tvg-logo= "thumbnail_filename", {title}\n")
                 f.write(f"#EXTVLCOPT:program=128\n")  # Define o programa para 128
                 f.write(f"{url}\n\n")
                 f.write(f"#EXTVLCOPT:thumbnail-file={thumbnail_filename}\n")  # Adiciona o caminho para o arquivo da thumbnail

@@ -46,44 +46,47 @@ html_content = driver.page_source
     
     # Find the links and titles of the videos found
 try:
-    soup = BeautifulSoup(html_content, "html.parser")
+    # Encontrar todos os links dos vídeos
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
+
+    # Encontrar os nomes dos canais e os títulos dos vídeos
     channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
     titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
-    # Find all the img tags with class 'search-result-card__img'
+
+    # Encontrar as miniaturas dos vídeos
     thumbnails = soup.find_all('img', class_='search-result-card__img')
-    # Print the URLs of the thumbnails
-    for thumbnail in thumbnails:
-        print(thumbnail['src'])
-except Exception as e:
-    print(f"Erro: {e}")
-finally:
-    # Close the driver
-    driver.quit()
+
+    # Instalando streamlink
+    subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
 
-
-
-# Instalando streamlink
-subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
-
-# Get the playlist and write to file
-try:
+    # Abrir o arquivo .m3u e escrever os dados
     with open('./TWITCHPLAY.m3u', 'w') as f:
-        f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
+        f.write("#EXTM3U\n")
         for i, link in enumerate(links):
-            # Get the stream information using streamlink
+            # Obter as informações da stream usando o streamlink
             streams = streamlink.streams(link)
             url = streams['best'].url
 
-            # Write the stream information to the file
+            # Obter o nome do canal e a miniatura correspondente
             title = channels[i]
-            f.write(f"#EXTINF:-1 tvg-id='{title}'tvg-logo='{thumbnail} group-title=\"TWITCH\",{title}\n")         
+            thumbnail = thumbnails[i]['src']
+
+            # Escrever as informações da stream no arquivo .m3u
+            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo='{thumbnail}' group-title=\"TWITCH\",{title}\n")         
             f.write(f"{url}\n")
             f.write("\n")
+
 except Exception as e:
-    print(f"Erro ao criar o arquivo .m3u8: {e}")
-    
-    
-   
+    print(f"Erro: {e}")
+
+finally:
+    # Fechar o driver (caso tenha sido aberto)
+    driver.quit()
+except Exception as e:
+    print(f"Erro: {e}")
+
+finally:
+    # Fechar o driver (caso tenha sido aberto)
+    driver.quit()

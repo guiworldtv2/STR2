@@ -42,9 +42,7 @@ html_content = driver.page_source
 
 
 
-# Print the URLs of the thumbnails
-for thumbnail in thumbnails:
-    print(thumbnail['src'])
+
     
     # Find the links and titles of the videos found
 try:
@@ -56,8 +54,8 @@ try:
     # Find all the img tags with class 'search-result-card__img'
     thumbnails = soup.find_all('img', class_='search-result-card__img')
     # Print the URLs of the thumbnails
-for thumbnail in thumbnails:
-    print(thumbnail['src'])
+    for thumbnail in thumbnails:
+        print(thumbnail['src'])
 except Exception as e:
     print(f"Erro: {e}")
 finally:

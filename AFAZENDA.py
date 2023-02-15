@@ -54,8 +54,7 @@ finally:
     # Close the driver
     driver.quit()
 
-for thumbnail in thumbnails:
-    print(thumbnail['src'])
+
 
 
 # Instalando streamlink
@@ -69,10 +68,10 @@ try:
             # Get the stream information using streamlink
             streams = streamlink.streams(link)
             url = streams['best'].url
-
+        for thumbnail in thumbnails:
             # Write the stream information to the file
             title = channels[i]
-            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")           
+            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo='{thumbnail['src']}' group-title=\"TWITCH\",{title}\n")           
             f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:

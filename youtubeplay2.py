@@ -88,7 +88,7 @@ try:
 
                 # Escreve as informações do vídeo no arquivo .m3u8
                 title = titles[i]
-                f.write(f"#EXTINF:-1 group-title=\"YOUTUBE\" tvg-logo="thumbnail_url",{title}\n")
+                f.write(f"#EXTINF:-1 group-title=\"YOUTUBE\" tvg-logo=\"{thumbnail_url}\",{title}\n")
                 f.write(f"{url}\n\n")
                 f.write("\n")
 except Exception as e:

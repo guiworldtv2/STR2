@@ -75,22 +75,23 @@ for page in range(1, 2):
                 playlist_text = response.text
                 lines = playlist_text.split('\n')
 
-        # Get the playlist and write to file
-        try:
-            with open('./VIMEOPLAY1.m3u', 'w') as f:
-                f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
-                for i, link in enumerate(links):
-                    # Get the stream information using streamlink
-                    streams = streamlink.streams(link)
-                    url = streams['best'].url
-                    # Write the stream information to the file
-                    title = titles[i]
+                # Get the playlist and write to file
+                try:
+                    with open('./VIMEOPLAY1.m3u', 'w') as f:
+                        f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
+                        for i, link in enumerate(links):
+                            # Get the stream information using streamlink
+                            streams = streamlink.streams(link)
+                            url = streams['best'].url
+                            # Write the stream information to the file
+                            title = titles[i]
 
-                    f.write(f"#EXTINF:-1 group-title=\"VIMEO1\",{title}\n")
-                    f.write(f"{url}\n\n")
-                    f.write("\n")            
-        except Exception as e:
-            print(f"Erro ao criar o arquivo .m3u8: {e}")
+                            f.write(f"#EXTINF:-1 group-title=\"VIMEO1\",{title}\n")
+                            f.write(f"{url}\n\n")
+                            f.write("\n")
+                except Exception as e:
+                    print(f"Erro ao criar o arquivo .m3u8: {e}")
+
     
     
 

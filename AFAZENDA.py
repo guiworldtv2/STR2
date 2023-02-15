@@ -1,11 +1,9 @@
-import streamlink
+import requests
 import subprocess
 import time
-import os
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 
 # Configuring Chrome options
@@ -57,25 +55,25 @@ for page in range(1, 2):
             for i in range(0, len(video_links), 2):
                 video_title_elem1 = video_titles_list[i]
                 video_title_elem2 = video_titles_list[i+1]
-                
-                # Download the videos using streamlink
-                for title, link in zip([video_title_elem1, video_title_elem2], [video_links[i], video_links[i+1]]):
-                    streams = streamlink.streams(link)
-                    url = streams['best'].url
-                    subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
-                
-        except Exception as e:
-            print(f"Erro: {e}")
-            break
-        finally:
-            # Close the driver
-            driver.quit()
 
+                # Concatenating the video titles and numbers to get the filename
+                filename = f"{counter}_{video_title_elem1}_{video_title_elem2}"
+                counter += 1
 
-# Instalando streamlink
-subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
+                # Get the video URL
+                response = requests.get(video_links[i])
+                soup = BeautifulSoup(response.content, 'html.parser')
+                video_url = soup.find('meta', {'property': 'og:video:url'})['content']
 
-time.sleep(5)
+                # Get the playlist URL
+                response = requests.get(video_url)
+                soup = BeautifulSoup(response.content, 'html.parser')
+                playlist_url = soup.find_all('a', {'class': 'u-focusable'})[0]['href']
+
+                # Get the playlist and write to file
+                response = requests.get(playlist_url)
+                playlist_text = response.text
+                lines = playlist_text.split('\n')
 
 # Get the playlist and write to file
 try:

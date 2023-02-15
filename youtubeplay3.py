@@ -42,9 +42,9 @@ for page in range(1, 11): # loop through pages 1 to 10
 
     # Dictionary with links and titles of the videos
     video_dict = dict(zip(video_links, video_titles_list))
-        finally:
-            # Close the driver
-            driver.quit()
+        
+    # Close the driver
+    driver.quit()
 
 
 

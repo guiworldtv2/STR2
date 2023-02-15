@@ -16,7 +16,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://www.twitch.tv/"
+url_twitch = "https://www.twitch.tv/search?term=zadruga"
 
 # Abrir a página desejada
 driver.get(url_twitch)
@@ -47,13 +47,15 @@ try:
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
     channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
     titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
+    thumbnails = soup.find_all('img', class_='search-result-card__img')
 except Exception as e:
     print(f"Erro: {e}")
 finally:
     # Close the driver
     driver.quit()
 
-
+for thumbnail in thumbnails:
+    print(thumbnail['src'])
 
 
 # Instalando streamlink

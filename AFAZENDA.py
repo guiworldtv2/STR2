@@ -79,16 +79,14 @@ time.sleep(5)
 
 # Get the playlist and write to file
 try:
-    with open('./VIMEOPLAY1.m3u8', 'w') as f:
+    with open('./VIMEOPLAY1.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
-        for i, link in enumerate(video_links):
+        for i, link in enumerate(links):
             # Get the stream information using streamlink
             streams = streamlink.streams(link)
-            if 'url' not in streams['best'].substreams:
-                # If the stream is DASH, get the manifest file URL and pass it to streamlink again
-                manifest_url = streams['best'].to_manifest_url()
-                streams = streamlink.streams(manifest_url)
             url = streams['best'].url
+            # Write the stream information to the file
+            title = titles[i]
 
             f.write(f"#EXTINF:-1 group-title=\"VIMEO1\",{title}\n")
             f.write(f"{url}\n\n")

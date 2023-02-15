@@ -66,10 +66,10 @@ time.sleep(5)
 
 # Define as opções para o youtube-dl
 ydl_opts = {
-    'format': 'best',   # Obtém a melhor qualidade
+    'format': 'best',  # Obtém a melhor qualidade
     'merge_output_format': 'm3u8',  # Obtém a url com o formato .m3u8
-    'write_all_thumbnails': True,  # Grava todas as thumbnails em arquivos separados
-    'outtmpl': '%(id)s.%(ext)s',  # Nome do arquivo de saída
+    'write_all_thumbnails': False,  # Não faz download das thumbnails
+    'skip_download': True,  # Não faz download do vídeo
 }
 
 try:
@@ -83,20 +83,13 @@ try:
                 # Obtém a url do vídeo com o formato .m3u8
                 url = info_dict['url']
 
-                # Obtém a thumbnail do vídeo
-                thumbnail_url = info_dict['thumbnails'][0]['url']
-
-                # Grava a thumbnail em um arquivo
-                thumbnail_filename = f"{info_dict['id']}.jpg"
-                with open(thumbnail_filename, 'wb') as thumbnail_file:
-                    thumbnail_file.write(ydl.urlopen(thumbnail_url).read())
+                # Obtém a url da thumbnail do vídeo
+                thumbnail_url = info_dict['thumbnail']
 
                 # Escreve as informações do vídeo no arquivo .m3u8
                 title = titles[i]
-                f.write(f"#EXTINF:-1 group-title=\"YOUTUBE\" tvg-logo= "thumbnail_filename", {title}\n")
-                f.write(f"#EXTVLCOPT:program=128\n")  # Define o programa para 128
+                f.write(f"#EXTINF:-1 group-title=\"YOUTUBE\" tvg-logo="thumbnail_url",{title}\n")
                 f.write(f"{url}\n\n")
-                f.write(f"#EXTVLCOPT:thumbnail-file={thumbnail_filename}\n")  # Adiciona o caminho para o arquivo da thumbnail
                 f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")

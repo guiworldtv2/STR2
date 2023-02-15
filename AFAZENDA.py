@@ -51,3 +51,24 @@ for thumbnail in thumbnails:
 
 # Close the Chrome driver
 driver.quit()
+
+
+# Instalando streamlink
+subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
+
+# Get the playlist and write to file
+try:
+    with open('./TWITCHPLAY.m3u', 'w') as f:
+        f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
+        for i, link in enumerate(links):
+            # Get the stream information using streamlink
+            streams = streamlink.streams(link)
+            url = streams['best'].url
+
+            # Write the stream information to the file
+            title = channels[i]
+            f.write(f"#EXTINF:-1 tvg-id='{title}'tvg-logo='{thumbnail} group-title=\"TWITCH\",{title}\n")                
+            f.write(f"{url}\n")
+            f.write("\n")
+except Exception as e:
+    print(f"Erro ao criar o arquivo .m3u8: {e}")

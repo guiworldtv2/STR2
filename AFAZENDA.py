@@ -16,7 +16,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://www.twitch.tv/search?term=zadruga"
+url_twitch = "https://www.twitch.tv/"
 
 # Abrir a página desejada
 driver.get(url_twitch)
@@ -47,7 +47,6 @@ try:
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
     channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
     titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
-    thumbnails = soup.find_all('img', class_='search-result-card__img')
 except Exception as e:
     print(f"Erro: {e}")
 finally:
@@ -68,12 +67,10 @@ try:
             # Get the stream information using streamlink
             streams = streamlink.streams(link)
             url = streams['best'].url
-            # Obter o nome do canal e a miniatura correspondente
-            title = channels[i]
-            thumbnail = thumbnails[i]['src']
+
             # Write the stream information to the file
             title = channels[i]
-            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo='{thumbnail}' group-title=\"TWITCH\",{title}\n")           
+            f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")           
             f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:

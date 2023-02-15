@@ -17,10 +17,10 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_youtube = "https://www.youtube.com/results?search_query=podcast&sp=CAISAhgC"
+url_twitch = "https://www.twitch.tv/"
 
 # Abrir a página desejada
-driver.get(url_youtube)
+driver.get(url_twitch)
 
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
@@ -41,14 +41,13 @@ while True:
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source
 
-time.sleep(5)
-
 # Find the links and titles of the videos found
 try:
     soup = BeautifulSoup(html_content, "html.parser")
-    videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
-    links = ["https://www.youtube.com" + video.get("href") for video in videos]
-    titles = [video.get("title") for video in videos]
+    videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
+    links = ["https://www.twitch.tv" + video.get("href") for video in videos]
+    channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
+    titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
 except Exception as e:
     print(f"Erro: {e}")
 finally:

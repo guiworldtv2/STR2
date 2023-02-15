@@ -73,6 +73,11 @@ for page in range(1, 2):
             driver.quit()
 
 
+# Instalando streamlink
+subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
+
+time.sleep(5)
+
 # Get the playlist and write to file
 try:
     with open('./VIMEOPLAY1.m3u8', 'w') as f:

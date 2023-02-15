@@ -1,115 +1,100 @@
-#! /usr/bin/python3
-
-from __future__ import unicode_literals
-import youtube_dl
-import requests
-import shutil
-from urllib.request import urlopen
+import streamlink
+import subprocess
+import time
+import os
+from selenium import webdriver
 from bs4 import BeautifulSoup
-channel_no = 0
-m3u = None
-def get_live_info(channel_id):
-    try:
-        webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
-        soup = BeautifulSoup(webpage, 'html.parser')
-        urlMeta = soup.find("meta", property="og:url")
-        if urlMeta is None:
-            return None
-        url = urlMeta.get("content")
-        if(url is None or url.find("/watch?v=") == -1):
-            return None
-        titleMeta = soup.find("meta", property="og:title")
-        imageMeta = soup.find("meta", property="og:image")
-        descriptionMeta = soup.find("meta", property="og:description")
-        return {
-            "url": url,
-            "title": titleMeta.get("content"),
-            "image": imageMeta.get("content"),
-            "description": descriptionMeta.get("content")
-        }
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
+
+# Configuring Chrome options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
+
+# Instanciando o driver do Chrome
+driver = webdriver.Chrome(options=chrome_options)
+
+# Counter to name the downloaded videos
+counter = 1
+
+# loop through pages 1 to 2
+for page in range(1, 2):
+    # URL da página desejada
+    url_vimeo = f"https://vimeo.com/search/page:{page}/sort:latest?duration=long&q=aula"
     
-    except Exception as e:
-                return None
-
-banner = r'''
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-'''
-
-def generate_youtube_tv():
-    global channel_no
-    ydl_opts = {
-        'format': 'best',
-    }
-    ydl = youtube_dl.YoutubeDL(ydl_opts)
-
-    with open('Church.txt') as f:
-        lines = f.readlines()
-        for line in lines:
-            line = line.strip()
-            if line == "":
-                continue
-            channel = get_live_info(line)
-            if channel is None:
-                continue
-            try:
-                with ydl:
-                    result = ydl.extract_info(
-                        f"https://www.youtube.com/{line}/live",
-                        download=False  # We just want to extract the info
-                    )
-
-                    if 'entries' in result:
-                        # Can be a playlist or a list of videos
-                        video = result['entries'][-1]
-                    else:
-                        # Just a video
-                        video = result
-                video_url = video['url']
-
-                channel_no += 1
-                channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ARGENTINA\",{channel.get('title')}\n"                
-                write_to_playlist(video_url)
-                write_to_playlist("\n")
-            except Exception as e:
-                print(e)
-                        
-
-
-
-def write_to_playlist(content):
-    global m3u    
-    m3u.write(content)
+    # Abrir a página desejada
+    time.sleep(2)
+    driver.get(url_vimeo)
     
+    # Aguardar alguns segundos para carregar todo o conteúdo da página
+    time.sleep(5)
 
-def create_playlist():
-    global m3u
-    m3u = open("Church.m3u8", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("\n")
+    # Scroll to the bottom of the page using ActionChains
+    while True:
+        try:
+            # Find all <a> elements with class "iris_video-vital__overlay"
+            videos = driver.find_elements(By.CSS_SELECTOR, "a.iris_video-vital__overlay")
 
-    
-def close_playlist():
-    global m3u
-    m3u.close()
-def generate_youtube_PlayList():
-    create_playlist()
+            # Store the links of the found videos
+            video_links = []
+            for video in videos:
+                video_links.append(video.get_attribute("href"))
+
+            # Find all <span> elements with class "iris_link iris_link--gray-2"
+            video_titles = driver.find_elements(By.CSS_SELECTOR, "span.iris_link.iris_link--gray-2")
+
+            # Store the titles of the found videos
+            video_titles_list = []
+            for title in video_titles:
+                video_titles_list.append(title.get_attribute("title"))
+
+            # Dictionary with links and titles of the videos
+            video_dict = dict(zip(video_links, video_titles_list))
+        except:
+            break
         
-    m3u.write(banner)
+        # Get the page source again after scrolling to the bottom
+        html_content = driver.page_source
+        time.sleep(5)
 
-    generate_youtube_tv()
-    
+        # Find the links and titles of the videos found
+        try:
+            soup = BeautifulSoup(html_content, "html.parser")
+            videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
+            links = ["https://www.youtube.com" + video.get("href") for video in videos]
+            titles = [video.get("title") for video in videos]
+        except Exception as e:
+            print(f"Erro: {e}")
+        finally:
+            # Close the driver
+            driver.quit()
 
-    
-
-    
 
 
-    close_playlist()
 
+# Instalando streamlink
+subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
-    
-if __name__ == '__main__':
-    generate_youtube_PlayList()   
+time.sleep(5)
+
+# Get the playlist and write to file
+try:
+    with open('./VIMEOPLAY1.m3u', 'w') as f:
+        f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
+        for i, link in enumerate(links):
+            # Get the stream information using streamlink
+            streams = streamlink.streams(link)
+            url = streams['best'].url
+            # Write the stream information to the file
+            title = titles[i]
+
+            f.write(f"#EXTINF:-1 group-title=\"VIMEO1\",{title}\n")
+            f.write(f"{url}\n\n")
+            f.write("\n")            
+except Exception as e:
+    print(f"Erro ao criar o arquivo .m3u8: {e}")
+     
+
  

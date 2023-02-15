@@ -40,8 +40,7 @@ while True:
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source
 
-# Find all the img tags with class 'search-result-card__img'
-thumbnails = soup.find_all('img', class_='search-result-card__img')
+
 
 # Print the URLs of the thumbnails
 for thumbnail in thumbnails:
@@ -54,6 +53,8 @@ try:
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
     channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
     titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
+    # Find all the img tags with class 'search-result-card__img'
+    thumbnails = soup.find_all('img', class_='search-result-card__img')
 except Exception as e:
     print(f"Erro: {e}")
 finally:

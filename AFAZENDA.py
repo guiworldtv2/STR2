@@ -60,7 +60,6 @@ for page in range(1, 2):
                 
                 # Download the videos using streamlink
                 for title, link in zip([video_title_elem1, video_title_elem2], [video_links[i], video_links[i+1]]):
-                    print(f"Downloading {title}...")
                     streams = streamlink.streams(link)
                     url = streams['best'].url
                     subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
@@ -85,9 +84,11 @@ try:
         for i, link in enumerate(video_links):
             # Get the stream information using streamlink
             streams = streamlink.streams(link)
+            if 'url' not in streams['best'].substreams:
+                # If the stream is DASH, get the manifest file URL and pass it to streamlink again
+                manifest_url = streams['best'].to_manifest_url()
+                streams = streamlink.streams(manifest_url)
             url = streams['best'].url
-            # Write the stream information to the file
-            title = video_titles_list[i]
 
             f.write(f"#EXTINF:-1 group-title=\"VIMEO1\",{title}\n")
             f.write(f"{url}\n\n")

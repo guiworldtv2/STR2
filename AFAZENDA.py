@@ -1,62 +1,53 @@
-import requests
-from bs4 import BeautifulSoup
-import datetime
 import streamlink
-import re
+import subprocess
+import time
+import os
+from selenium import webdriver
+from bs4 import BeautifulSoup
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
 
+# Configuring Chrome options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-}
+# Instanciando o driver do Chrome
+driver = webdriver.Chrome(options=chrome_options)
 
-m3u8_file = open("AFAZENDA.m3u8", "w")
+# URL da página desejada
+url_twitch = "https://www.twitch.tv/"
 
-# String com o nome dos dias da semana em português
-data = "Seg 6 fev 2023"
+# Abrir a página desejada
+driver.get(url_twitch)
 
-# Função para formatar a data
-def format_date(data):
-    # Substituir os nomes dos dias da semana pelo equivalente em inglês
-    data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
-    # Substituir "fev" por "feb"
-    data = data.replace("fev", "feb")
-    data = data.replace("dom", "sun")
-    return data
+# Aguardar alguns segundos para carregar todo o conteúdo da página
+time.sleep(5)
 
-# Aplicar a função à string `data`
-data = format_date(data)
+# Scroll to the bottom of the page using ActionChains
+while True:
+    try:
+        # Find the last video on the page
+        last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
+        # Scroll to the last video
+        actions = ActionChains(driver)
+        actions.move_to_element(last_video).perform()
+        time.sleep(1)
+    except:
+        break
 
-# Exibir a string formatada
-print(data)
+# Get the HTML content of the page
+html_content = driver.page_source
 
+# Parse the HTML content with BeautifulSoup
+soup = BeautifulSoup(html_content, 'html.parser')
 
+# Find all the img tags with class 'search-result-card__img'
+thumbnails = soup.find_all('img', class_='search-result-card__img')
 
+# Print the URLs of the thumbnails
+for thumbnail in thumbnails:
+    print(thumbnail['src'])
 
-for i in range(1,4):
-    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
-
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.content, "html.parser")
-
-    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
-    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
-    Data = [item.text for item in soup.find_all("span", class_="item-date")]
-
-    for title, link, data in zip(video_titles, video_links, Data):
-        if data == "Hoje":
-            date_object = datetime.datetime.now()
-        elif data == "Ontem":
-            date_object = datetime.datetime.now() - datetime.timedelta(days=1)
-        else:
-            data = format_date(data)
-            date_object = datetime.datetime.strptime(data, '%a, %d %b %Y')
-        timestamp = date_object.strftime("%m%d")
-        video_url = streamlink.streams(link)["best"].url
-        m3u8_file.write(f"{timestamp}_SBTVD_{title}_-2023\n{video_url}\n")
-        
-
-
-
-
-
-m3u8_file.close()
+# Close the Chrome driver
+driver.quit()

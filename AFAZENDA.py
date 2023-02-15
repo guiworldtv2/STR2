@@ -84,9 +84,3 @@ except Exception as e:
 finally:
     # Fechar o driver (caso tenha sido aberto)
     driver.quit()
-except Exception as e:
-    print(f"Erro: {e}")
-
-finally:
-    # Fechar o driver (caso tenha sido aberto)
-    driver.quit()

@@ -16,68 +16,56 @@ chrome_options.add_argument("--disable-gpu")
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
 
-# Scroll to the bottom of the page using ActionChains
-while True:
-    try:
-        for page in range(1, 12):
-        # URL da página desejada
-        url_vimeo = f"https://vimeo.com/search/page:{page}/sort:latest?duration=long&q=aula"
+# Counter to name the downloaded videos
+counter = 1
 
-        # Abrir a página desejada
-        driver.get(url_vimeo)
+# loop through pages 1 to 10
+for page in range(1, 11):
+    # URL da página desejada
+    url_vimeo = f"https://vimeo.com/search/page:{page}/sort:latest?duration=long&q=aula"
+    
+    # Abrir a página desejada
+    driver.get(url_vimeo)
+    
+    # Aguardar alguns segundos para carregar todo o conteúdo da página
+    time.sleep(5)
 
-        # Aguardar alguns segundos para carregar todo o conteúdo da página
-        time.sleep(5)
+    # Scroll to the bottom of the page using ActionChains
+    while True:
+        try:
+            # Find all <a> elements with class "iris_video-vital__overlay"
+            videos = driver.find_elements(By.CSS_SELECTOR, "a.iris_video-vital__overlay")
 
-        # Find all <a> elements with class "js-preview-link"
-        videos_found = driver.find_elements(By.CSS_SELECTOR, "a.js-preview-link")
+            # Store the links of the found videos
+            video_links = []
+            for video in videos:
+                video_links.append(video.get_attribute("href"))
 
-        # Store the links of the found videos
-        video_links = []
-        for video in videos_found:
-            video_links.append(video.get_attribute("href"))
+            # Find all <span> elements with class "iris_link iris_link--gray-2"
+            video_titles = driver.find_elements(By.CSS_SELECTOR, "span.iris_link.iris_link--gray-2")
 
-        # Find all <h3> elements with class "preview__title"
-        video_titles = driver.find_elements(By.CSS_SELECTOR, "h3.preview__title")
+            # Store the titles of the found videos
+            video_titles_list = []
+            for title in video_titles:
+                video_titles_list.append(title.get_attribute("title"))
 
-        # Store the titles of the found videos
-        video_titles_list = []
-        for title in video_titles:
-            video_titles_list.append(title.text)
-
-        # Dictionary with links and titles of the videos
-        video_dict = dict(zip(video_links, video_titles_list))
-        
-        # If no more videos are found, break the loop
-        if len(videos_found) == 0:
+            # Dictionary with links and titles of the videos
+            video_dict = dict(zip(video_links, video_titles_list))
+        except:
             break
-
-        # Scroll down to load more videos
-        actions = ActionChains(driver)
-        actions.move_to_element(videos_found[-1])
-        actions.perform()
-
+        
+        # Get the page source again after scrolling to the bottom
+        html_content = driver.page_source
         time.sleep(5)
-    except:
-        break
-        
-        
-# Get the page source again after scrolling to the bottom
-html_content = driver.page_source
 
-time.sleep(5)
-
-try:
-    soup = BeautifulSoup(html_content, "html.parser")
-    videos = soup.find_all("a", class_="iris_video-vital__overlay")
-    links = [video.get("href") for video in videos]
-    titles = [video.get("title") for video in videos]
-    print("Links dos vídeos encontrados:")
-    print(links)
-    print("Títulos dos vídeos encontrados:")
-    print(titles)
-except Exception as e:
-    print(f"Erro: {e}")
+        # Find the links and titles of the videos found
+        try:
+            soup = BeautifulSoup(html_content, "html.parser")
+            videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
+            links = ["https://www.youtube.com" + video.get("href") for video in videos]
+            titles = [video.get("title") for video in videos]
+        except Exception as e:
+            print(f"Erro: {e}")
 finally:
     # Close the driver
     driver.quit()

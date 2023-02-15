@@ -66,9 +66,9 @@ for page in range(1, 11):
             titles = [video.get("title") for video in videos]
         except Exception as e:
             print(f"Erro: {e}")
-finally:
-    # Close the driver
-    driver.quit()
+        finally:
+            # Close the driver
+            driver.quit()
 
 
 

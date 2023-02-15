@@ -25,11 +25,11 @@ for page in range(1, 2):
     url_vimeo = f"https://vimeo.com/search/page:{page}/sort:latest?duration=long&q=aula"
     
     # Abrir a página desejada
-    time.sleep(10)
+    time.sleep(11)
     driver.get(url_vimeo)
     
     # Aguardar alguns segundos para carregar todo o conteúdo da página
-    time.sleep(10)
+    time.sleep(11)
 
     # Scroll to the bottom of the page using ActionChains
     while True:

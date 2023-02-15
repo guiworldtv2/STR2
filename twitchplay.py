@@ -70,6 +70,7 @@ try:
 
             # Write the stream information to the file
             title = channels[i]
+            thumbnail = thumbnails[i]
             f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")           
             f.write(f"{url}\n")
             f.write("\n")

@@ -69,7 +69,7 @@ time.sleep(5)
 try:
     with open('./YOUTUBEPLAY1.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
-        for i, link in enumerate(links):
+        for link in links:
             # Get the stream information using yt-dlp
             with yt_dlp.YoutubeDL() as ydl:
                 info = ydl.extract_info(link, download=False)
@@ -80,13 +80,12 @@ try:
             thumbnail_url = info['thumbnail']
             description = info.get('description', '')[:10]  # Use as primeiras 10 palavras da descrição ou menos
             # Write the stream information to the file
-            title = titles[i]
+            title = info['title']
             f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
             f.write(f"{url}\n\n")
-            f.write("\n")
-
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
+
 
      
 

@@ -24,19 +24,19 @@ driver.get(url_twitch)
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
-# Scroll to the bottom of the page using JavaScript
+# Scroll to the bottom of the page using ActionChains
 while True:
-    # Get current scroll height
-    last_height = driver.execute_script("return document.body.scrollHeight")
-    # Scroll down to the bottom
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    # Wait to load page
-    time.sleep(1)
-    # Calculate new scroll height and compare with last scroll height
-    new_height = driver.execute_script("return document.body.scrollHeight")
-    if new_height == last_height:
+    try:
+        # Find the last video on the page
+        last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
+        # Scroll to the last video
+        actions = ActionChains(driver)
+        actions.move_to_element(last_video).perform()
+        time.sleep(1)
+    except:
+        time.sleep(10) # adicionando um tempo maior de espera
         break
-    last_height = new_height
+
 
 
 # Get the page source again after scrolling to the bottom

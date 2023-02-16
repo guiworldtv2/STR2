@@ -63,33 +63,26 @@ subprocess.run(['pip', 'install', '--user', '--upgrade', 'youtube-dl'])
 
 
 time.sleep(5)
-
-# Define as opções para o youtube-dl
-ydl_opts = {
-    'format': 'best',  # Obtém a melhor qualidade
-    'merge_output_format': 'm3u8',  # Obtém a url com o formato .m3u8
-    'write_all_thumbnails': False,  # Não faz download das thumbnails
-    'skip_download': True,  # Não faz download do vídeo
-}
-
+# Get the playlist and write to file
 try:
-    with open('./YOUTUBEPLAY3.m3u', 'w') as f:
+    with open('./YOUTUBEPLAY1.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
-        for i, link in enumerate(links):
-            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-                # Obtém informações do vídeo com o youtube-dl
-                info_dict = ydl.extract_info(link, download=False)
-
-                # Obtém a url do vídeo com o formato .m3u8
-                url = info_dict['url']
-
-                # Obtém a url da thumbnail do vídeo
-                thumbnail_url = info_dict['thumbnail']
-
-                # Escreve as informações do vídeo no arquivo .m3u8
-                title = titles[i]
-                f.write(f"#EXTINF:-1 group-title=\"YOUTUBE3\" tvg-logo=\"{thumbnail_url}\",{title}\n")
-                f.write(f"{url}\n\n")
-                f.write("\n")
+    for i, link in enumerate(links):
+        with open('./YOUTUBEPLAY1.m3u', 'a') as f:
+            # Get the stream information using yt-dlp
+            with yt_dlp.YoutubeDL() as ydl:
+                info = ydl.extract_info(link, download=False)
+            if 'url' not in info:
+                print(f"Erro ao gravar informações do vídeo {link}: 'url'")
+                continue
+            url = info['url']
+            thumbnail_url = info['thumbnail']
+            description = info.get('description', '')[:10]  # Use as primeiras 10 palavras da descrição ou menos
+            # Write the stream information to the file
+            title = titles[i]
+            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE3\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
+            f.write(f"{url}\n\n")
+            f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
+

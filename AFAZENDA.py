@@ -16,7 +16,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://www.twitch.tv"
+url_twitch = "https://www.twitch.tv/"
 
 # Abrir a página desejada
 driver.get(url_twitch)
@@ -70,7 +70,6 @@ try:
 
             # Write the stream information to the file
             title = channels[i]
-
             f.write(f"#EXTINF:-1 tvg-id='{title}' group-title=\"TWITCH\",{title}\n")           
             f.write(f"{url}\n")
             f.write("\n")

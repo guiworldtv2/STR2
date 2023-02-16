@@ -71,8 +71,7 @@ try:
             title = channels[i]
             thumbnail = thumbnails[i]
 
-            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo=\"https://static-cdn.jtvnw.net/previews-ttv/live_{title}-1920x1080.jpg
-\" group-title=\"TWITCH\",{title}\n")       
+            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo=\"https://static-cdn.jtvnw.net/previews-ttv/live_{title}-1920x1080.jpg\" group-title=\"TWITCH\",{title}\n")       
             f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:

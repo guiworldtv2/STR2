@@ -6,7 +6,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
-import yt_dlp
+import youtube_dl
 
 # Configuring Chrome options
 chrome_options = Options()
@@ -64,7 +64,13 @@ subprocess.run(['pip', 'install', '--user', '--upgrade', 'youtube-dl'])
 
 time.sleep(5)
 
-
+# Define as opções para o youtube-dl
+ydl_opts = {
+    'format': 'best',  # Obtém a melhor qualidade
+    'merge_output_format': 'm3u8',  # Obtém a url com o formato .m3u8
+    'write_all_thumbnails': False,  # Não faz download das thumbnails
+    'skip_download': True,  # Não faz download do vídeo
+}
 # Get the playlist and write to file
 try:
     with open('./YOUTUBEPLAY1.m3u', 'w') as f:

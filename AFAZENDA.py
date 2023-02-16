@@ -75,7 +75,9 @@ try:
                 info = ydl.extract_info(link, download=False)
             url = info['url']
             thumbnail_url = info['thumbnail']
-            description = info.get('description', '')  # Use uma string vazia caso a descrição não exista
+            description = info.get('description', '')
+            description = " ".join(description.split()[:10])
+
             # Write the stream information to the file
             title = titles[i]
             

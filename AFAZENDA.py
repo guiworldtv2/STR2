@@ -24,11 +24,20 @@ driver.get(url_twitch)
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
-# Scroll to the bottom of the page by pressing "End" key for 1 minute
-end_time = time.time() + 60  # 1 minute from now
-while time.time() < end_time:
-    driver.find_element_by_tag_name('body').send_keys(u'\ue010')
+# Scroll to the bottom of the page using JavaScript
+while True:
+    # Get current scroll height
+    last_height = driver.execute_script("return document.body.scrollHeight")
+    # Scroll down to the bottom
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    # Wait to load page
     time.sleep(1)
+    # Calculate new scroll height and compare with last scroll height
+    new_height = driver.execute_script("return document.body.scrollHeight")
+    if new_height == last_height:
+        break
+    last_height = new_height
+
 
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source

@@ -24,19 +24,12 @@ driver.get(url_twitch)
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
-# Scroll to the bottom of the page using ActionChains
-while True:
-    try:
-        # Find the last video on the page
-        last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
-        # Scroll to the last video
-        actions = ActionChains(driver)
-        actions.move_to_element(last_video).perform()
-        time.sleep(1)
-    except:
-        break
-        
-        
+# Scroll to the bottom of the page by pressing "End" key for 1 minute
+end_time = time.time() + 60  # 1 minute from now
+while time.time() < end_time:
+    driver.find_element_by_tag_name('body').send_keys(u'\ue010')
+    time.sleep(1)
+
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source
 
@@ -44,19 +37,15 @@ html_content = driver.page_source
 try:
     soup = BeautifulSoup(html_content, "html.parser")
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
-    links = ["https://www.twitch.tv" + video.get("href") for video in videos]
-    channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
-    titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
-    
+    links = ["https://www.twitch.tv" + video.get("href") for video in videos][::-1]
+    channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos][::-1]
+    titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos][::-1]
     
 except Exception as e:
     print(f"Erro: {e}")
 finally:
     # Close the driver
     driver.quit()
-
-
-
 
 # Instalando streamlink
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
@@ -78,3 +67,4 @@ try:
             f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
+

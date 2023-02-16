@@ -34,7 +34,7 @@ while True:
         actions.move_to_element(last_video).perform()
         time.sleep(1)
     except:
-        time.sleep(20) # adicionando um tempo maior de espera
+        time.sleep(200) # adicionando um tempo maior de espera
         break
 
 

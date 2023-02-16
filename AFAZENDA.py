@@ -72,19 +72,23 @@ try:
         for i, link in enumerate(links):
             # Get the stream information using yt-dlp
             with yt_dlp.YoutubeDL() as ydl:
-                info = ydl.extract_info(link, download=False)
-            url = info['url']
-            thumbnail_url = info['thumbnail']
-            description = info.get('description', '')
-            description = " ".join(description.split()[:10])
-
-            # Write the stream information to the file
-            title = titles[i]
-            
-            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
-            f.write(f"{url}\n\n")
-            f.write("\n")            
+                try:
+                    info = ydl.extract_info(link, download=False)
+                    url = info['url']
+                    thumbnail_url = info['thumbnail']
+                    description = info.get('description', '')  # Use uma string vazia caso a descrição não exista
+                    # Write the stream information to the file
+                    title = titles[i]
+                    # Limit description to 10 words
+                    description = " ".join(description.split()[:10])
+                    f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
+                    f.write(f"{url}\n\n")
+                    f.write("\n")
+                except Exception as e:
+                    print(f"Erro ao extrair informações do vídeo: {e}")
+                    continue
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
+
      
 

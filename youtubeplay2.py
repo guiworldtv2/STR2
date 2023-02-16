@@ -6,7 +6,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
-import youtube_dl
+import yt_dlp
 
 # Configuring Chrome options
 chrome_options = Options()

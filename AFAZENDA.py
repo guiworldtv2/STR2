@@ -67,12 +67,21 @@ try:
             streams = streamlink.streams(link)
             url = streams['best'].url
 
-            # Write the stream information to the file
-            title = channels[i]
-            thumbnail = thumbnails[i]
+            # Get the channel name and title
+            channel = channels[i]
+            title = titles[i]
 
-            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo='{thumbnail}' group-title=\"TWITCH\",{title}\n")       
+            # Get the thumbnail
+            thumbnail = ""
+            try:
+                thumbnail = soup.find("a", href=link).find("img", class_="search-result-card__img tw-image").get("src")
+            except:
+                thumbnail = "https://via.placeholder.com/214x120.png?text=No+Thumbnail"
+
+            # Write the stream information to the file
+            f.write(f"#EXTINF:-1 tvg-id='{channel}' tvg-logo='{thumbnail}' group-title=\"TWITCH\",{title}\n")
             f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
+

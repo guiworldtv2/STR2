@@ -70,7 +70,7 @@ try:
     with open('./YOUTUBEPLAY1.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
     with yt_dlp.YoutubeDL({'default_search': 'ytsearch'}) as ydl:
-        info = ydl.extract_info(f"ytsearch:{search_query}", download=False)
+        info = ydl.extract_info(f"ytsearch:{amor}", download=False)
     entries = info.get('entries', [])
     for i, entry in enumerate(entries):
         if 'url' not in entry:

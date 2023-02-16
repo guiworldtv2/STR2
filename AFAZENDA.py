@@ -9,6 +9,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 # Configuring Chrome options
 chrome_options = Options()
+chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
 # Instanciando o driver do Chrome

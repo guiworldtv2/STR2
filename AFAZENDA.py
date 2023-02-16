@@ -1,79 +1,62 @@
-import streamlink
-import subprocess
-import time
-import os
-from selenium import webdriver
+import requests
 from bs4 import BeautifulSoup
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.action_chains import ActionChains
+import datetime
+import streamlink
+import re
 
-# Configuring Chrome options
-chrome_options = Options()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-gpu")
 
-# Instanciando o driver do Chrome
-driver = webdriver.Chrome(options=chrome_options)
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+}
 
-# URL da página desejada
-url_twitch = "https://www.twitch.tv/directory/game/Just%20Chatting"
+m3u8_file = open("AFAZENDA.m3u8", "w")
 
-# Abrir a página desejada
-driver.get(url_twitch)
+# String com o nome dos dias da semana em português
+data = "Seg 6 fev 2023"
 
-# Aguardar alguns segundos para carregar todo o conteúdo da página
-time.sleep(5)
+# Função para formatar a data
+def format_date(data):
+    # Substituir os nomes dos dias da semana pelo equivalente em inglês
+    data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
+    # Substituir "fev" por "feb"
+    data = data.replace("fev", "feb")
+    data = data.replace("dom", "sun")
+    return data
 
-# Scroll to the bottom of the page using ActionChains
-while True:
-    try:
-        # Find the last video on the page
-        last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
-        # Scroll to the last video
-        actions = ActionChains(driver)
-        actions.move_to_element(last_video).perform()
-        time.sleep(1)
-    except:
-        time.sleep(10) # adicionando um tempo maior de espera
-        break
+# Aplicar a função à string `data`
+data = format_date(data)
+
+# Exibir a string formatada
+print(data)
 
 
 
-# Get the page source again after scrolling to the bottom
-html_content = driver.page_source
 
-# Find the links and titles of the videos found
-try:
-    soup = BeautifulSoup(html_content, "html.parser")
-    videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
-    links = ["https://www.twitch.tv" + video.get("href") for video in videos][::-1]
-    channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos][::-1]
-    titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos][::-1]
-    
-except Exception as e:
-    print(f"Erro: {e}")
-finally:
-    # Close the driver
-    driver.quit()
+for i in range(1,4):
+    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
-# Instalando streamlink
-subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.content, "html.parser")
 
-# Get the playlist and write to file
-try:
-    with open('./TWITCHPLAY.m3u', 'w') as f:
-        f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
-        for i, link in enumerate(links):
-            # Get the stream information using streamlink
-            streams = streamlink.streams(link)
-            url = streams['best'].url
+    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
+    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
+    Data = [item.text for item in soup.find_all("span", class_="item-date")]
 
-            # Write the stream information to the file
-            title = channels[i]
+    for title, link, data in zip(video_titles, video_links, Data):
+        if data == "Hoje":
+            date_object = datetime.datetime.now()
+        elif data == "Ontem":
+            date_object = datetime.datetime.now() - datetime.timedelta(days=1)
+        else:
+            data = format_date(data)
+            date_object = datetime.datetime.strptime(data, '%a, %d %b %Y')
+        timestamp = date_object.strftime("%m%d")
+        video_url = streamlink.streams(link)["best"].url
+        m3u8_file.write(f"{timestamp}_SBTVD_{title}_-2023\n{video_url}\n")
+        
 
-            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo=\"https://static-cdn.jtvnw.net/previews-ttv/live_user_{title}-1920x1080.jpg\" group-title=\"TWITCH\",{title}\n")            
-            f.write(f"{url}\n")
-            f.write("\n")
-except Exception as e:
-    print(f"Erro ao criar o arquivo .m3u8: {e}")
 
+
+
+
+m3u8_file.close()

@@ -85,8 +85,6 @@ try:
             f.write(f"{url}\n\n")
             f.write("\n")
 
-                except Exception as e:
-                    print(f"Erro ao gravar informações do vídeo {link}: {e}")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
 

@@ -40,20 +40,21 @@ while True:
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source
 
-# Find the links, titles and thumbnails of the videos found
+# Find the links and titles of the videos found
 try:
     soup = BeautifulSoup(html_content, "html.parser")
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
     channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
-    titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") if video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD") else "" for video in videos]
-    thumbnails = [video.find("img", class_="search-result-card__img tw-image").get("src") for video in videos]
-
+    titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
 except Exception as e:
     print(f"Erro: {e}")
 finally:
     # Close the driver
     driver.quit()
+
+
+
 
 # Instalando streamlink
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
@@ -69,9 +70,8 @@ try:
 
             # Write the stream information to the file
             title = channels[i]
-            thumbnail = thumbnails[i]
 
-            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo=\"https://static-cdn.jtvnw.net/previews-ttv/live_{title}-1920x1080.jpg\" group-title=\"TWITCH\",{title}\n")       
+            f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo=\"https://static-cdn.jtvnw.net/previews-ttv/live_{title}-1920x1080.jpg\" group-title=\"TWITCH\",{title}\n")            
             f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:

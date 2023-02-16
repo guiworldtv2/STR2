@@ -45,8 +45,9 @@ try:
     soup = BeautifulSoup(html_content, "html.parser")
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)
     links = ["https://www.twitch.tv" + video.get("href") for video in videos]
-    titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
     channels = [video.find("p", {"data-a-target": "preview-card-channel-link", "class": "CoreText-sc-1txzju1-0 jiepBC"}).get("title") for video in videos]
+    titles = [video.find("h3", class_="CoreText-sc-1txzju1-0 eJuFGD").get("title") for video in videos]
+    
     
 except Exception as e:
     print(f"Erro: {e}")

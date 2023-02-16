@@ -16,7 +16,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_youtube = "https://www.youtube.com/results?search_query=podcast&sp=CAISAhgC"
+url_youtube = "https://www.youtube.com/results?search_query=portugal&sp=CAISAhgC"
 
 # Abrir a página desejada
 driver.get(url_youtube)
@@ -69,19 +69,22 @@ time.sleep(5)
 try:
     with open('./YOUTUBEPLAY1.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
-        for i, link in enumerate(links):
+    for i, link in enumerate(links):
+        with open('./YOUTUBEPLAY1.m3u', 'a') as f:
             # Get the stream information using yt-dlp
             with yt_dlp.YoutubeDL() as ydl:
                 info = ydl.extract_info(link, download=False)
+            if 'url' not in info:
+                print(f"Erro ao gravar informações do vídeo {link}: 'url'")
+                continue
             url = info['url']
             thumbnail_url = info['thumbnail']
-            description = info.get('description', '')  # Use uma string vazia caso a descrição não exista
+            description = info.get('description', '')[:10]  # Use as primeiras 10 palavras da descrição ou menos
             # Write the stream information to the file
             title = titles[i]
-            
             f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
             f.write(f"{url}\n\n")
-            f.write("\n")            
+            f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
 

@@ -9,7 +9,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 # Configuring Chrome options
 chrome_options = Options()
-chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
 # Instanciando o driver do Chrome
@@ -34,7 +33,7 @@ while True:
         actions.move_to_element(last_video).perform()
         time.sleep(1)
     except:
-        time.sleep(200) # adicionando um tempo maior de espera
+        time.sleep(10) # adicionando um tempo maior de espera
         break
 
 

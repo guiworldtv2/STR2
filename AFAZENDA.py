@@ -66,11 +66,12 @@ import yt_dlp
 time.sleep(5)
 
 # Get the playlist and write to file
+
 try:
     with open('./YOUTUBEPLAY1.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
     with yt_dlp.YoutubeDL() as ydl:
-        info = ydl.extract_info(search_query, download=False)
+        info = ydl.extract_info("python programming", download=False)
     entries = info.get('entries', [])
     for i, entry in enumerate(entries):
         if 'url' not in entry:
@@ -86,6 +87,4 @@ try:
         f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
-
-     
 

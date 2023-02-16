@@ -6,8 +6,6 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
-import re
-
 
 # Configuring Chrome options
 chrome_options = Options()
@@ -42,7 +40,7 @@ while True:
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source
 
-# Find the links, channels, titles, and thumbnails of the videos found
+# Find the links, titles and thumbnails of the videos found
 try:
     soup = BeautifulSoup(html_content, "html.parser")
     videos = soup.find_all("a", class_="ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link", href=True)

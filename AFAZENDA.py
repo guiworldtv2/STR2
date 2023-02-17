@@ -56,10 +56,9 @@ finally:
 
 
 
-# Instalando yt-dlp
-import subprocess
-import yt_dlp
-subprocess.run(['pip', 'install', '--user', '--upgrade', 'yt-dlp'])
+
+# Instalando streamlink
+subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
 time.sleep(5)
 
@@ -68,16 +67,13 @@ try:
     with open('./YOUTUBEPLAY1.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
         for i, link in enumerate(links):
-            # Get the stream information using yt-dlp
-            with yt_dlp.YoutubeDL() as ydl:
-                info = ydl.extract_info(link, download=False)
-            url = info['url']
-            thumbnail_url = info['thumbnail']
-            description = info.get('description', '')  # Use uma string vazia caso a descrição não exista
+            # Get the stream information using streamlink
+            streams = streamlink.streams(link)
+            url = streams['best'].url
             # Write the stream information to the file
             title = titles[i]
-            
-            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
+
+            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\",{title}\n")
             f.write(f"{url}\n\n")
             f.write("\n")            
 except Exception as e:

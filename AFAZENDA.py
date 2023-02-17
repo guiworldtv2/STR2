@@ -57,11 +57,10 @@ finally:
 
 
 # Instalando yt-dlp
-
+import subprocess
+import yt_dlp
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'yt-dlp'])
 subprocess.run(['pip', 'install', 'yt-dlp'])
-
-import yt_dlp
 
 time.sleep(5)
 

@@ -6,6 +6,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
+import yt_dlp
 
 # Configuring Chrome options
 chrome_options = Options()
@@ -58,23 +59,31 @@ finally:
 
 
 # Instalando streamlink
-subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
+subprocess.run(['pip', 'install', '--user', '--upgrade', 'youtube-dl'])
+
 
 time.sleep(5)
+
 
 # Get the playlist and write to file
 try:
     with open('./YOUTUBEPLAY1.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
-        for i, link in enumerate(links):
-            # Get the stream information using streamlink
-            streams = streamlink.streams(link)
-            url = streams['best'].url
+    for i, link in enumerate(links):
+        with open('./YOUTUBEPLAY1.m3u', 'a') as f:
+            # Get the stream information using yt-dlp
+            with yt_dlp.YoutubeDL() as ydl:
+                info = ydl.extract_info(link, download=False)
+            if 'url' not in info:
+                print(f"Erro ao gravar informações do vídeo {link}: 'url'")
+                continue
+            url = info['url']
+            thumbnail_url = info['thumbnail']
+            description = info.get('description', '')[:10]  # Use as primeiras 10 palavras da descrição ou menos
             # Write the stream information to the file
             title = titles[i]
-
-            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\",{title}\n")
+            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE2\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
             f.write(f"{url}\n\n")
-            f.write("\n")            
+            f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")

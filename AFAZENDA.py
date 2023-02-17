@@ -1,62 +1,86 @@
-import requests
-from bs4 import BeautifulSoup
-import datetime
 import streamlink
-import re
+import subprocess
+import time
+import os
+from selenium import webdriver
+from bs4 import BeautifulSoup
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
 
+# Configuring Chrome options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-}
+# Instanciando o driver do Chrome
+driver = webdriver.Chrome(options=chrome_options)
 
-m3u8_file = open("AFAZENDA.m3u8", "w")
+# URL da página desejada
+url_youtube = "https://www.youtube.com/results?search_query=podcast&sp=CAISAhgC"
 
-# String com o nome dos dias da semana em português
-data = "Seg 6 fev 2023"
+# Abrir a página desejada
+driver.get(url_youtube)
 
-# Função para formatar a data
-def format_date(data):
-    # Substituir os nomes dos dias da semana pelo equivalente em inglês
-    data = re.sub("(seg|ter|qua|qui|sex|sab|dom)", "", data)
-    # Substituir "fev" por "feb"
-    data = data.replace("fev", "feb")
-    data = data.replace("dom", "sun")
-    return data
+# Aguardar alguns segundos para carregar todo o conteúdo da página
+time.sleep(5)
 
-# Aplicar a função à string `data`
-data = format_date(data)
-
-# Exibir a string formatada
-print(data)
-
-
-
-
-for i in range(1,4):
-    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
-
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.content, "html.parser")
-
-    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
-    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
-    Data = [item.text for item in soup.find_all("span", class_="item-date")]
-
-    for title, link, data in zip(video_titles, video_links, Data):
-        if data == "Hoje":
-            date_object = datetime.datetime.now()
-        elif data == "Ontem":
-            date_object = datetime.datetime.now() - datetime.timedelta(days=1)
-        else:
-            data = format_date(data)
-            date_object = datetime.datetime.strptime(data, '%a, %d %b %Y')
-        timestamp = date_object.strftime("%m%d")
-        video_url = streamlink.streams(link)["best"].url
-        m3u8_file.write(f"{timestamp}_SBTVD_{title}_-2023\n{video_url}\n")
+# Scroll to the bottom of the page using ActionChains
+while True:
+    try:
+        # Find the last video on the page
+        last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
+        # Scroll to the last video
+        actions = ActionChains(driver)
+        actions.move_to_element(last_video).perform()
+        time.sleep(1)
+    except:
+        break
         
+        
+# Get the page source again after scrolling to the bottom
+html_content = driver.page_source
+
+time.sleep(5)
+
+# Find the links and titles of the videos found
+try:
+    soup = BeautifulSoup(html_content, "html.parser")
+    videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
+    links = ["https://www.youtube.com" + video.get("href") for video in videos]
+    titles = [video.get("title") for video in videos]
+except Exception as e:
+    print(f"Erro: {e}")
+finally:
+    # Close the driver
+    driver.quit()
 
 
 
+# Instalando yt-dlp
 
+subprocess.run(['pip', 'install', '--user', '--upgrade', 'yt-dlp'])
+subprocess.run(['pip', 'install', 'yt-dlp'])
 
-m3u8_file.close()
+import yt_dlp
+
+time.sleep(5)
+
+# Get the playlist and write to file
+try:
+    with open('./YOUTUBEPLAY1.m3u', 'w') as f:
+        f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
+        for i, link in enumerate(links):
+            # Get the stream information using yt-dlp
+            with yt_dlp.YoutubeDL() as ydl:
+                info = ydl.extract_info(link, download=False)
+            url = info['url']
+            thumbnail_url = info['thumbnail']
+            description = info.get('description', '')  # Use uma string vazia caso a descrição não exista
+            # Write the stream information to the file
+            title = titles[i]
+            
+            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
+            f.write(f"{url}\n\n")
+            f.write("\n")            
+except Exception as e:
+    print(f"Erro ao criar o arquivo .m3u8: {e}")

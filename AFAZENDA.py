@@ -60,7 +60,6 @@ finally:
 import subprocess
 import yt_dlp
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'yt-dlp'])
-subprocess.run(['pip', 'install', 'yt-dlp'])
 
 time.sleep(5)
 

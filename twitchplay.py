@@ -26,7 +26,7 @@ time.sleep(5)
 
 from selenium.webdriver.common.keys import Keys
 
-for i in range(30):
+for i in range(40):
     try:
         # Find the last video on the page
         last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")

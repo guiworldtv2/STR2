@@ -24,8 +24,9 @@ driver.get(url_twitch)
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
-# Scroll to the bottom of the page using ActionChains
-while True:
+from selenium.webdriver.common.keys import Keys
+
+for i in range(10):
     try:
         # Find the last video on the page
         last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
@@ -34,8 +35,10 @@ while True:
         actions.move_to_element(last_video).perform()
         time.sleep(1)
     except:
-        break
-        
+        # Press the End key or scroll down to force the page to the bottom
+        actions = ActionChains(driver)
+        actions.key_down(Keys.END).key_up(Keys.END).perform()
+        time.sleep(1)
         
 # Get the page source again after scrolling to the bottom
 html_content = driver.page_source

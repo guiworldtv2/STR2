@@ -16,7 +16,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://www.twitch.tv/"
+url_twitch = "https://www.twitch.tv/directory/game/Just%20Chatting"
 
 # Abrir a página desejada
 driver.get(url_twitch)
@@ -26,7 +26,7 @@ time.sleep(5)
 
 from selenium.webdriver.common.keys import Keys
 
-for i in range(10):
+for i in range(30):
     try:
         # Find the last video on the page
         last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")

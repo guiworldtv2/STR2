@@ -23,18 +23,42 @@ url_twitch = "https://affiliates.video.globo.com/affiliates/info"
 # Abrir a página desejada
 driver.get(url_twitch)
 
+import pyautogui
+import cv2
+import numpy as np
+import time
+
 # Define a duração da gravação em segundos
 duration = 15
 
-# Inicia o processo ffmpeg para gravar a tela
-subprocess.run(["ffmpeg", "-y", "-f", "avfoundation", "-r", "30", "-t", str(duration), "-i", ":0", "out.mp4"])
+# Define as configurações de gravação
+fps = 30.0
+frame_size = (1920, 1080)
+fourcc = cv2.VideoWriter_fourcc(*"mp4v")  # ou "mp4v" se o formato mp4 não estiver disponível
+
+# Inicia o objeto VideoWriter para gravar o vídeo
+writer = cv2.VideoWriter("out.ts", fourcc, fps, frame_size)
+
+# Grava a tela por 'duration' segundos
+start_time = time.time()
+while (time.time() - start_time) < duration:
+    # Captura um frame da tela
+    img = pyautogui.screenshot()
+    frame = np.array(img)
+
+    # Converte o frame de RGB para BGR (compatível com o VideoWriter)
+    frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+
+    # Escreve o frame no arquivo de vídeo
+    writer.write(frame)
+
+# Encerra o objeto VideoWriter
+writer.release()
 
 
-# Aguarda a gravação terminar
-time.sleep(duration)
 
-# Encerra o processo ffmpeg
-process.terminate()
+
+
 
 
 # Take 5 screenshots every 5 seconds

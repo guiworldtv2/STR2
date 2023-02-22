@@ -27,7 +27,7 @@ for i in range(5):
     time.sleep(9)
     
     # Aguardar alguns segundos para carregar todo o conteúdo da página
-time.sleep(5)
+time.sleep(15)
 
 try:
     # Obter o arquivo .m3u8

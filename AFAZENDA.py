@@ -29,8 +29,8 @@ time.sleep(5)
 html_content = driver.page_source
 
 # Encontrar o link .m3u8 na página
-start_index = html_content.find("https://streaming-playplus-") 
-end_index = html_content.find(".m3u8", start_index) + 5
+start_index = html_content.find("var urlLive = '") + 15
+end_index = html_content.find("';", start_index)
 link = html_content[start_index:end_index]
 print(link)
 

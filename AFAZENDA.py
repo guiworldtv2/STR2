@@ -17,7 +17,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://www.google.com.br/search?q=onde+estou"
+url_twitch = "https://globoplay.globo.com/"
 
 # Abrir a página desejada
 driver.get(url_twitch)
@@ -37,7 +37,7 @@ try:
 
     # Buscando a primeira requisição que tem um arquivo .m3u8
     for entry in log_entries:
-        if ".m3u8" in entry['name']:
+        if ".mp4" in entry['name']:
             print(entry['name'])
             link = entry['name']
             break

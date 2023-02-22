@@ -22,10 +22,21 @@ url_twitch = "https://affiliates.video.globo.com/affiliates/info"
 # Abrir a página desejada
 driver.get(url_twitch)
 
-# Take 5 screenshots every 5 seconds
-for i in range(5):
-    driver.save_screenshot(f"screenshot{i+1}.png")
-    time.sleep(9)
+# Define a duração da gravação em segundos
+duration = 15
+
+# Inicia o processo ffmpeg para gravar a tela
+cmd = f"ffmpeg -y -f avfoundation -r 30 -t {duration} -i :0 out.mp4"
+process = subprocess.Popen(cmd.split())
+
+# Aguarda a gravação terminar
+time.sleep(duration)
+
+# Encerra o processo ffmpeg
+process.terminate()
+
+
+
     
     # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(15)

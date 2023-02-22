@@ -1,4 +1,3 @@
-import streamlink
 import subprocess
 import time
 import os
@@ -7,16 +6,21 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 
+
+
+from pytube import YouTube
+
 # Configuring Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
+
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_youtube = "https://www.youtube.com/results?search_query=podcast&sp=CAISAhgC"
+url_youtube = "https://www.youtube.com/results?search_query=podcast&sp=CAISBhABGAJwAQ%253D%253D"
 
 # Abrir a página desejada
 driver.get(url_youtube)
@@ -24,17 +28,19 @@ driver.get(url_youtube)
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
-# Scroll to the bottom of the page using ActionChains
-while True:
+from selenium.webdriver.common.keys import Keys
+for i in range(50):
     try:
         # Find the last video on the page
         last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
         # Scroll to the last video
         actions = ActionChains(driver)
         actions.move_to_element(last_video).perform()
-        time.sleep(1)
+        time.sleep(2)
     except:
-        break
+        # Press the down arrow key for 50 seconds
+        driver.execute_script("window.scrollBy(0, 10000)")
+        time.sleep(2)
         
         
 # Get the page source again after scrolling to the bottom
@@ -71,7 +77,8 @@ from pytube import YouTube
 
 # Get the playlist and write to file
 try:
-    with open('./YOUTUBEPLAY1.m3u', 'w') as f:
+    with open('./YOUTUBEPLAY1.m3u', 'w', encoding='utf-8') as f:
+    
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
         for i, link in enumerate(links):
             # Get the stream URL using pytube
@@ -88,3 +95,5 @@ try:
             f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
+    
+ 

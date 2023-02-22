@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 
-
 # Configuring Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--window-size=1920,1080") # set screen size to 1920x1080
@@ -27,8 +26,8 @@ driver.get(url_twitch)
 duration = 15
 
 # Inicia o processo ffmpeg para gravar a tela
-subprocess.run(["ffmpeg", "-y", "-f", "avfoundation", "-r", "30", "-t", str(duration), "-i", ":0", "out.mp4"])
-
+cmd = f"ffmpeg -y -f avfoundation -r 30 -t {duration} -i :0 out.mp4"
+process = subprocess.Popen(cmd.split())
 
 # Aguarda a gravação terminar
 time.sleep(duration)

@@ -17,23 +17,10 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://affiliates.video.globo.com/affiliates/info"
+url_site = "https://www.google.com.br/maps/preview"
 
 # Abrir a página desejada
-driver.get(url_twitch)
-
-# Define a duração da gravação em segundos
-duration = 15
-
-# Inicia o processo ffmpeg para gravar a tela
-cmd = f"ffmpeg -y -f avfoundation -r 30 -t {duration} -i :0 out.mp4"
-process = subprocess.Popen(cmd.split())
-
-# Aguarda a gravação terminar
-time.sleep(duration)
-
-# Encerra o processo ffmpeg
-process.terminate()
+driver.get(url_site)
 
 
 # Take 5 screenshots every 5 seconds

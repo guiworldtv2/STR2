@@ -29,16 +29,23 @@ for i in range(5):
     # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
-# Obter o arquivo .m3u8
-# Pegando o log de requisições da aba Rede
-log_entries = driver.execute_script("return window.performance.getEntries();")
+try:
+    # Obter o arquivo .m3u8
+    # Pegando o log de requisições da aba Rede
+    log_entries = driver.execute_script("return window.performance.getEntries();")
 
-# Buscando a primeira requisição que tem um arquivo .m3u8
-for entry in log_entries:
-    if ".m3u8" in entry['name']:
-        print(entry['name'])
-        link = entry['name']
-        break
+    # Buscando a primeira requisição que tem um arquivo .m3u8
+    for entry in log_entries:
+        if ".m3u8" in entry['name']:
+            print(entry['name'])
+            link = entry['name']
+            break
+    else:
+        print("No .m3u8 files found in network log entries")
+
+except Exception as e:
+    print("Error occurred while trying to obtain .m3u8 file:")
+    print(e)
 
 # Fechando o driver
 driver.quit()

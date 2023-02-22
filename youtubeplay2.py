@@ -75,7 +75,7 @@ ydl_opts = {
 }
 # Get the playlist and write to file
 try:
-    with open('./YOUTUBEPLAY1.m3u', 'w', encoding='utf-8') as f:
+    with open('./YOUTUBEPLAY2.m3u', 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
         for i, link in enumerate(links):
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:

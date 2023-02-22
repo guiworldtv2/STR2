@@ -57,24 +57,34 @@ finally:
 
 
 
-# Instalando streamlink
-subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
+
 
 time.sleep(5)
+
+# Instalando pytube
+subprocess.run(['pip', 'install', 'pytube'])
+
+
+import subprocess
+import time
+from pytube import YouTube
 
 # Get the playlist and write to file
 try:
     with open('./YOUTUBEPLAY1.m3u', 'w') as f:
         f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
         for i, link in enumerate(links):
-            # Get the stream information using streamlink
-            streams = streamlink.streams(link)
-            url = streams['best'].url
+            # Get the stream URL using pytube
+            yt = YouTube(link)
+            stream = yt.streams.get_highest_resolution()
+            if stream is None:
+                continue
+            url = stream.url
             # Write the stream information to the file
             title = titles[i]
 
             f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\",{title}\n")
             f.write(f"{url}\n\n")
-            f.write("\n")            
+            f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")

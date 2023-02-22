@@ -6,17 +6,23 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
+
+# instantiate the Chrome driver
+driver = webdriver.Chrome()
+
+# navigate to the target URL
+url_globoplay = "https://globoplay.globo.com/agora-na-tv/"
+driver.get(url_globoplay)
+
+
+
 # Configuring Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
 
-
-url_globoplay = "https://globoplay.globo.com/agora-na-tv/"
-
-# Abre a página
-driver.get(url_globoplay)
 
 # Take 5 screenshots every 5 seconds
 for i in range(5):

@@ -11,7 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("user-data-dir=https://drive.google.com/drive/folders/1VkhVPGRZ0j5h937AwjpIKBAupKbESb83?usp=sharing") # replace with the path to the Chrome profile
+
 
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
@@ -28,11 +28,6 @@ time.sleep(5)
 # Get the page source to find the .m3u8 link
 html_content = driver.page_source
 
-# Encontrar o link .m3u8 na página
-start_index = html_content.find("var urlLive = '") + 15
-end_index = html_content.find("';", start_index)
-link = html_content[start_index:end_index]
-print(link)
 
 # Close the driver
 driver.quit()

@@ -11,7 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
-
+chrome_options.add_argument("--window-size=1920,1080") # set screen size to 1920x1080
 
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
@@ -22,7 +22,12 @@ url_playplus = "https://www.playplus.com/live/liveEvent/249"
 # Abrir a página desejada
 driver.get(url_playplus)
 
-# Aguardar alguns segundos para carregar todo o conteúdo da página
+# Take 5 screenshots every 5 seconds
+for i in range(5):
+    driver.save_screenshot(f"screenshot{i+1}.png")
+    time.sleep(5)
+    
+    # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
 # Get the page source to find the .m3u8 link

@@ -4,11 +4,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Define o serviço para o driver
-service = ChromeService(executable_path='caminho/para/o/driver/chromedriver.exe')
+# Configuring Chrome options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
 
-# Inicializa o driver
-driver = webdriver.Chrome(service=service)
+# Instanciando o driver do Chrome
+driver = webdriver.Chrome(options=chrome_options)
 
 # Abre a página
 driver.get("https://globoplay.globo.com/agora-na-tv/")

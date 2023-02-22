@@ -37,7 +37,7 @@ try:
 
     # Buscando a primeira requisição que tem um arquivo .m3u8
     for entry in log_entries:
-        if ".mp4" in entry['name']:
+        if ".m3u8" in entry['name']:
             print(entry['name'])
             link = entry['name']
             break

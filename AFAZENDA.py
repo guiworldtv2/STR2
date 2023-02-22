@@ -10,13 +10,14 @@ import time
 import os
 from selenium.webdriver.common.action_chains import ActionChains
 
-
-
-# Configuring Chrome options
+# Configurando as opções do Chrome
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument(f"user-data-dir=https://drive.google.com/drive/folders/1VkhVPGRZ0j5h937AwjpIKBAupKbESb83?usp=sharing")   # caminho do perfil do usuário
+chrome_options.add_argument("user-data-dir=https://drive.google.com/drive/folders/1VkhVPGRZ0j5h937AwjpIKBAupKbESb83?usp=sharing"")
+chrome_options.add_argument("disk-cache-dir=/tmp/cache-dir")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
 
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
@@ -41,3 +42,4 @@ print(link)
 
 # Fechar o driver
 driver.quit()
+

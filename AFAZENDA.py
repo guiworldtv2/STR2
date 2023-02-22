@@ -17,7 +17,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_twitch = "https://globoplay.globo.com/"
+url_twitch = "https://affiliates.video.globo.com/affiliates/info"
 
 # Abrir a página desejada
 driver.get(url_twitch)

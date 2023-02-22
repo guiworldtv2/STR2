@@ -14,7 +14,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("user-data-dir=https://drive.google.com/drive/folders/1VkhVPGRZ0j5h937AwjpIKBAupKbESb83?usp=sharing"")
+chrome_options.add_argument("user-data-dir=https://drive.google.com/drive/folders/1VkhVPGRZ0j5h937AwjpIKBAupKbESb83?usp=sharing")
+
 chrome_options.add_argument("disk-cache-dir=/tmp/cache-dir")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")

@@ -11,7 +11,7 @@ url_playplus = "https://www.playplus.com/live/liveEvent/249"
 
 # Criando as opções para o Google Chrome
 options = Options()
-ptions.add_argument(f"user-data-dir=/home/codespace/.config/google-chrome/MEU PROFILE")  # caminho do perfil do usuário
+options.add_argument(f"user-data-dir=/home/codespace/.config/google-chrome/MEU PROFILE")  # caminho do perfil do usuário
 options.add_argument("--start-maximized")  # maximizar a janela do navegador
 options.add_argument("--disable-infobars")  # desabilitar a barra de informações do Chrome
 

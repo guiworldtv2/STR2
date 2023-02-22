@@ -11,13 +11,13 @@ from selenium.webdriver.common.action_chains import ActionChains
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--window-size=1920,1080") # set screen size to 1920x1080
+chrome_options.add_argument("--window-size=1280,720") # set screen size to 1920x1080
 
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_playplus = "https://www.playplus.com/live/liveEvent/249"
+url_playplus = "https://redecanaistv.cx/assistir-big-brother-brasil-23-camera-5-bbb23-online-24-horas-ao-vivo_8209cc5fc.html"
 
 # Abrir a página desejada
 driver.get(url_playplus)

@@ -17,7 +17,7 @@ chrome_options.add_argument("--window-size=1280,720") # set screen size to 1920x
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_playplus = "https://redecanaistv.cx/assistir-big-brother-brasil-23-camera-5-bbb23-online-24-horas-ao-vivo_8209cc5fc.html"
+url_playplus = "https://whatismyipaddress.com/"
 
 # Abrir a página desejada
 driver.get(url_playplus)

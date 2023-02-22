@@ -36,7 +36,10 @@ time.sleep(duration)
 process.terminate()
 
 
-
+# Take 5 screenshots every 5 seconds
+for i in range(5):
+    driver.save_screenshot(f"screenshot{i+1}.png")
+    time.sleep(9)
     
     # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(15)

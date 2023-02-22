@@ -1,24 +1,17 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import time
-import os
-import subprocess
-from bs4 import BeautifulSoup
 import streamlink
 import subprocess
 import time
 import os
+from selenium import webdriver
+from bs4 import BeautifulSoup
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 
-# Configurando as opções do Chrome
+# Configuring Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("user-data-dir=https://drive.google.com/drive/folders/1VkhVPGRZ0j5h937AwjpIKBAupKbESb83?usp=sharing")
-
-chrome_options.add_argument("disk-cache-dir=/tmp/cache-dir")
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("user-data-dir=https://drive.google.com/drive/folders/1VkhVPGRZ0j5h937AwjpIKBAupKbESb83?usp=sharing") # replace with the path to the Chrome profile
 
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
@@ -32,15 +25,14 @@ driver.get(url_playplus)
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
-# Obter o conteúdo da página
+# Get the page source to find the .m3u8 link
 html_content = driver.page_source
 
 # Encontrar o link .m3u8 na página
-start_index = html_content.find("var urlLive = '") + 15
-end_index = html_content.find("';", start_index)
+start_index = html_content.find("https://streaming-playplus-") 
+end_index = html_content.find(".m3u8", start_index) + 5
 link = html_content[start_index:end_index]
 print(link)
 
-# Fechar o driver
+# Close the driver
 driver.quit()
-

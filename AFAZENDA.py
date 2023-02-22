@@ -14,6 +14,8 @@ options = Options()
 options.add_argument(f"user-data-dir=/home/codespace/.config/google-chrome/MEU PROFILE")  # caminho do perfil do usuário
 options.add_argument("--start-maximized")  # maximizar a janela do navegador
 options.add_argument("--disable-infobars")  # desabilitar a barra de informações do Chrome
+options.add_argument("--no-sandbox")
+
 
 # Instanciando o driver do Google Chrome
 driver = webdriver.Chrome(options=options)

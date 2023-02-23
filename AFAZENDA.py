@@ -9,9 +9,11 @@ import time
 url_playplus_login = "https://www.rtve.es/play/videos/directo/deportes/baloncesto-espana-islandia-clasificacion/"
 
 # Criando as opções para o chrome
-options = Options()
-options.add_argument("--start-maximized")  # maximizar a janela do navegador
-options.add_argument("--disable-infobars")  # desabilitar a barra de informações do Chrome
+
+chrome_options = Options()
+chrome_options.add_argument("--window-size=1920,1080") # set screen size to 1920x1080
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
 
 # Instanciando o driver do chrome
 driver = webdriver.Chrome(options=options)

@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # URL da página de login
-url_playplus_login = "https://www.rtve.es/play/videos/directo/deportes/baloncesto-espana-islandia-clasificacion/"
+url_playplus_login = "https://www.rtve.es/play/videos/somos-cine/petra/6706781/"
 
 # Criando as opções para o chrome
 
@@ -27,7 +27,7 @@ driver.get(url_playplus_login)
 time.sleep(10)
 
 # URL da página desejada para extração da .m3u8
-url_playplus = "https://www.rtve.es/play/videos/directo/deportes/baloncesto-espana-islandia-clasificacion/"
+url_playplus = "https://www.rtve.es/play/videos/somos-cine/petra/6706781/"
 
 # Abrir a página desejada após o login
 driver.get(url_playplus)

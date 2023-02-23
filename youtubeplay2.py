@@ -13,8 +13,6 @@ from pytube import YouTube
 # Configuring Chrome options
 chrome_options = Options()
 
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-gpu")
 
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
@@ -92,8 +90,8 @@ try:
             thumbnail_url = info['thumbnail']
             description = info.get('description', '')[:10]
             title = info.get('title', '')
-            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE2\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
-            f.write(f"{url}\n\n")
+            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE2\" tvg-logo=\"{thumbnail_url}\",{title} - {description}...\n")
+            f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")

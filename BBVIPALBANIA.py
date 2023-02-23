@@ -1,7 +1,6 @@
 import streamlink
 import subprocess
 import time
-import os
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options

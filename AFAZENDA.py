@@ -1,53 +1,50 @@
-import streamlink
-import subprocess
-import time
-import os
 from selenium import webdriver
-from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
 
-# Configuring Chrome options
-chrome_options = Options()
-chrome_options.add_argument("--window-size=1920,1080") # set screen size to 1920x1080
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-gpu")
+# URL da página de login
+url_playplus_login = "https://www.rtve.es/play/videos/directo/deportes/baloncesto-espana-islandia-clasificacion/"
 
-# Instanciando o driver do Chrome
-driver = webdriver.Chrome(options=chrome_options)
+# Criando as opções para o chrome
+options = Options()
+options.add_argument("--start-maximized")  # maximizar a janela do navegador
+options.add_argument("--disable-infobars")  # desabilitar a barra de informações do Chrome
 
-# URL da página desejada
-url_site = "https://www.globo.com/"
+# Instanciando o driver do chrome
+driver = webdriver.Chrome(options=options)
 
-# Abrir a página desejada
-driver.get(url_site)
+# Abrir a página de login do PlayPlus
+driver.get(url_playplus_login)
 
 
-# Take 5 screenshots every 5 seconds
-for i in range(5):
-    driver.save_screenshot(f"screenshot{i+1}.png")
-    time.sleep(9)
-    
-    # Aguardar alguns segundos para carregar todo o conteúdo da página
-time.sleep(15)
 
-try:
-    # Obter o arquivo .m3u8
-    # Pegando o log de requisições da aba Rede
-    log_entries = driver.execute_script("return window.performance.getEntries();")
+# Esperando a página ser carregada após clicar no perfil do usuário
+time.sleep(10)
 
-    # Buscando a primeira requisição que tem um arquivo .m3u8
-    for entry in log_entries:
-        if ".m3u8" in entry['name']:
-            print(entry['name'])
-            link = entry['name']
-            break
-    else:
-        print("No .m3u8 files found in network log entries")
+# URL da página desejada para extração da .m3u8
+url_playplus = "https://www.rtve.es/play/videos/directo/deportes/baloncesto-espana-islandia-clasificacion/"
 
-except Exception as e:
-    print("Error occurred while trying to obtain .m3u8 file:")
-    print(e)
+# Abrir a página desejada após o login
+driver.get(url_playplus)
 
-# Fechando o driver
+# Esperando o vídeo ser carregado e reproduzido
+time.sleep(5)
+
+# Obter o conteúdo da página
+html_content = driver.page_source
+
+# Pegando o log de requisições da aba Rede
+log_entries = driver.execute_script("return window.performance.getEntries();")
+
+# Buscando a primeira requisição que tem um arquivo .m3u8
+for entry in log_entries:
+    if ".m3u8" in entry['name']:
+        print(entry['name'])
+        link = entry['name']
+        break
+
+# Fechar o driver
 driver.quit()

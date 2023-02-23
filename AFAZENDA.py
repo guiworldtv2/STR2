@@ -17,7 +17,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_site = "https://www.google.com.br/maps/preview"
+url_site = "https://www.globo.com/"
 
 # Abrir a página desejada
 driver.get(url_site)

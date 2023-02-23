@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import os
 
 # URL da página de login
 url_playplus_login = "https://www.playplus.com/Account/Login"
@@ -24,19 +25,19 @@ driver.get(url_playplus_login)
 for i in range(5):
     driver.save_screenshot(f"screenshot{i+1}.png")
     time.sleep(9)
-    
-    # Aguardar alguns segundos para carregar todo o conteúdo da página
+
+# Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(15)
 
 # Esperar até que os campos de e-mail e senha estejam presentes na página
 email_field = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "UserName")))
 
 # Preencher o campo de e-mail com a informação desejada
-email_field.send_keys("{EMAILPLAYPLUS}")
+email_field.send_keys(os.getenv("EMAILPLAYPLUS"))
 
 # Preencher o campo de senha com a informação desejada
 password_field = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "Password")))
-password_field.send_keys("{SENHAPLAYPLUS}")
+password_field.send_keys(os.getenv("SENHAPLAYPLUS"))
 
 # Localizar e clicar no botão "Avançar"
 login_button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//button[@class='redirect btn btn-primary btn-block btn-login btn-next']")))

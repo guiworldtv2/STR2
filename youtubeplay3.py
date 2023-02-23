@@ -6,7 +6,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
-import youtube_dl
+import yt_dlp
 
 
 # Configuring Chrome options
@@ -88,9 +88,8 @@ try:
             thumbnail_url = info['thumbnail']
             description = info.get('description', '')[:10]
             title = info.get('title', '')
-            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE3\" tvg-logo=\"{thumbnail_url}\",{title} - {description}\n")
-            f.write(f"{url}\n\n")
+            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE3\" tvg-logo=\"{thumbnail_url}\",{title} - {description}...\n")
+            f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
-

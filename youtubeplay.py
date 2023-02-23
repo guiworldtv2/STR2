@@ -5,22 +5,20 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
-
+import yt_dlp
 
 
 from pytube import YouTube
 
 # Configuring Chrome options
 chrome_options = Options()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-gpu")
 
 
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_youtube = "https://www.youtube.com/results?search_query=podcast&sp=CAISBhABGAJwAQ%253D%253D"
+url_youtube = "https://www.youtube.com/results?search_query=Grava%C3%A7%C3%A3o+de+Reuni%C3%A3o&sp=CAISBBABGAI%253D"
 
 # Abrir a página desejada
 driver.get(url_youtube)
@@ -63,37 +61,37 @@ finally:
 
 
 
+# Instalando streamlink
 
+subprocess.run(['pip', 'install', 'pytube'])
+subprocess.run(['pip', 'install', '--upgrade', 'yt dlp'])
 
 time.sleep(5)
-
-# Instalando pytube
-subprocess.run(['pip', 'install', 'pytube'])
-
-
-import subprocess
-import time
 from pytube import YouTube
 
+# Define as opções para o youtube-dl
+ydl_opts = {
+    'format': 'best',  # Obtém a melhor qualidade
+
+    'write_all_thumbnails': False,  # Não faz download das thumbnails
+    'skip_download': True,  # Não faz download do vídeo
+}
 # Get the playlist and write to file
 try:
     with open('./YOUTUBEPLAY1.m3u', 'w', encoding='utf-8') as f:
-    
-        f.write("#EXTM3U\n")  # Imprime #EXTM3U uma vez no início do arquivo
+        f.write("#EXTM3U\n")
         for i, link in enumerate(links):
-            # Get the stream URL using pytube
-            yt = YouTube(link)
-            stream = yt.streams.get_highest_resolution()
-            if stream is None:
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                info = ydl.extract_info(link, download=False)
+            if 'url' not in info:
+                print(f"Erro ao gravar informações do vídeo {link}: 'url'")
                 continue
-            url = stream.url
-            # Write the stream information to the file
-            title = titles[i]
-
-            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\",{title}\n")
-            f.write(f"{url}\n\n")
+            url = info['url']
+            thumbnail_url = info['thumbnail']
+            description = info.get('description', '')[:10]
+            title = info.get('title', '')
+            f.write(f"#EXTINF:-1 group-title=\"YOUTUBE1\" tvg-logo=\"{thumbnail_url}\",{title} - {description}...\n")
+            f.write(f"{url}\n")
             f.write("\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
-    
- 

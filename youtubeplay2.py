@@ -12,11 +12,11 @@ from pytube import YouTube
 
 # Configuring Chrome options
 chrome_options = Options()
-
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
 
 # Instanciando o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
-
 # URL da página desejada
 url_youtube = "https://www.youtube.com/results?search_query=podcast&sp=CAISAhgC"
 

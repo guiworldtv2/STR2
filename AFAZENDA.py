@@ -70,3 +70,7 @@ print(link)
 
 # Fechar o driver
 driver.quit()
+
+import os
+
+print(os.getenv("EMAILPLAYPLUS"))

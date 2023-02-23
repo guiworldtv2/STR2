@@ -15,8 +15,8 @@ chrome_options.add_argument("--window-size=1920,1080") # set screen size to 1920
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
-# Instanciando o driver do chrome
-driver = webdriver.Chrome(options=options)
+# Instanciando o driver do Chrome
+driver = webdriver.Chrome(options=chrome_options)
 
 # Abrir a página de login do PlayPlus
 driver.get(url_playplus_login)

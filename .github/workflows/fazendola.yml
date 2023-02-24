@@ -53,7 +53,7 @@ jobs:
         env:
           EMAILPLAYPLUS: ${{ secrets.EMAILPLAYPLUS }}
           SENHAPLAYPLUS: ${{ secrets.SENHAPLAYPLUS }}
-        run: python meu_script.py
+        run: python AFAZENDA.py 
 
         
 

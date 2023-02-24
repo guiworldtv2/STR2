@@ -51,25 +51,24 @@ profile_button.click()
 # Esperando a página ser carregada após clicar no perfil do usuário
 time.sleep(10)
 
-Esperando a página ser carregada após o login
 
 time.sleep(10)
-URL da página desejada para extração da .m3u8
+#URL da página desejada para extração da .m3u8
 
 url_playplus = "https://www.playplus.com/live"
 Abrir a página desejada após o login
 
 driver.get(url_playplus)
-Esperando a página ser carregada
+#Esperando a página ser carregada
 
 time.sleep(10)
-Encontrar todos os links para os eventos ao vivo
+#Encontrar todos os links para os eventos ao vivo
 
 live_links = driver.find_elements_by_xpath("//a[@class='no-decoration']")
-Criar um dicionário para armazenar os links e subtemas dos canais
+#Criar um dicionário para armazenar os links e subtemas dos canais
 
 channel_links = {}
-Para cada link, obter as informações necessárias
+#Para cada link, obter as informações necessárias
 
 for link in live_links:
 # Obter o ID do evento ao vivo

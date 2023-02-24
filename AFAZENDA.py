@@ -12,12 +12,6 @@ import re
 # URL da página de login
 url_playplus_login = "https://www.playplus.com/Account/Login"
 
-# Criando as opções para o chrome
-options = Options()
-options.add_argument("--window-size=1920,1080") # set screen size to 1920x1080
-options.add_argument("--headless")
-options.add_argument("--disable-gpu")
-
 # Instanciando o driver do chrome
 driver = webdriver.Chrome(options=options)
 
@@ -66,20 +60,13 @@ while True:
 
     # Itera sobre os links encontrados e acessa cada um para extrair o link .m3u8
     for link in links:
-        href = "https://www.playplus.com" + driver.execute_script("return arguments[0].getAttribute('href')", link)
-
-        if not re.match(r'http(s)?://\S+', href):
-            print(f"href não é uma URL válida: {href}")
-            continue
-        if href.endswith('.m3u8'):
-            print(href)
-            name = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-sname')
-            thumbnail = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('src')
-            subtitle = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-name')
-
+        href = link.get_attribute('href')
+        name = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-sname')
+        thumbnail = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('src')
+        subtitle = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-name')
 
         # Entra no link para extrair o link .m3u8
-        driver.get("https://www.playplus.com" + href)
+        driver.get(href)
         time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
         html_content = driver.page_source
         start_index = html_content.find("var urlLive = '") + 15
@@ -87,7 +74,7 @@ while True:
         m3u8_link = html_content[start_index:end_index]
 
         # Imprime o link .m3u8
-        print(f'#EXTINF:-1 group-title="{subtitle}" tvg-logo="{thumbnail}",{name} - {subtitle}\n{m3u8_link}\n')
+        print(f'#EXTINF:-1 group-title="PLAYPLUS" tvg-logo="{thumbnail}",{name} - {subtitle}\n{m3u8_link}\n')
 
         # Volta para a página inicial
         driver.back()

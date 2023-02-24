@@ -34,7 +34,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytube
-          
+          pip install --user --upgrade selenium
          
         
       - name: execute py script

@@ -27,11 +27,6 @@ for i in range(5):
     driver.save_screenshot(f"screenshot{i+1}.png")
     time.sleep(9)
 
-# Take 5 screenshots every 5 seconds
-for i in range(5):
-    driver.save_screenshot(f"screenshot{i+1}.png")
-    time.sleep(9)
-
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(15)
 
@@ -62,19 +57,40 @@ url_playplus = "https://www.playplus.com/live"
 # Abrir a página desejada após o login
 driver.get(url_playplus)
 
-# Encontra todos os elementos <a> com a classe 'no-decoration'
-links = driver.find_elements(By.CSS_SELECTOR, 'div.row.slick-slide.slick-current.slick-active a.no-decoration')
+# Enquanto o botão "Próximo" estiver habilitado, continuar extraindo os links .m3u8
+while True:
+    # Encontra todos os elementos <a> com a classe 'no-decoration'
+    links = driver.find_elements(By.CSS_SELECTOR, 'div.row.slick-slide.slick-current.slick-active a.no-decoration')
 
+    # Itera sobre os links encontrados e acessa cada um para extrair o link .m3u8
+    for link in links:
+        href = link.get_attribute('href')
+        name = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-sname')
+        thumbnail = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('src')
+        subtitle = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-name')
 
-# Imprime os links com a URL completa
-for link in links:
-    href = link.get_attribute('href')
-    name = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-sname')
-    thumbnail = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('src')
-    subtitle = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-name')
+        # Entra no link para extrair o link .m3u8
+        driver.get(href)
+        time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
+        html_content = driver.page_source
+        start_index = html_content.find("var urlLive = '") + 15
+        end_index = html_content.find("';", start_index)
+        m3u8_link = html_content[start_index:end_index]
+
+        # Imprime o link .m3u8
+        print(f'#EXTINF:-1 group-title="{subtitle}" tvg-logo="{thumbnail}",{name} - {subtitle}\n{m3u8_link}\n')
+
+        # Volta para a página inicial
+        driver.back()
+        time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
     
-    print(f'#EXTINF:-1 group-title="{subtitle}" tvg-logo="{thumbnail}",{name} - {subtitle}\n{href}\n')
-
+    # Clica no botão "Próximo" para acessar a próxima página
+    next_button = driver.find_element(By.CSS_SELECTOR, 'a.next')
+    if next_button.get_attribute('class') == 'next disabled':
+        break  # Sai do loop se o botão "Próximo" estiver desabilitado
+    else:
+        next_button.click()
+        time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
 
 # Encerra o driver do Chrome
 driver.quit()

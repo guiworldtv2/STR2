@@ -8,6 +8,12 @@ import os
 import secrets 
 import re
 
+# Criando as opções para o chrome
+options = Options()
+options.add_argument("--window-size=1920,1080") # set screen size to 1920x1080
+options.add_argument("--headless")
+options.add_argument("--disable-gpu")
+
 
 # URL da página de login
 url_playplus_login = "https://www.playplus.com/Account/Login"

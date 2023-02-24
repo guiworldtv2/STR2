@@ -77,5 +77,6 @@ print(link)
 driver.quit()
 
 import os
-os.environ["EMAILPLAYPLUS"] = "seu-email-aqui"
-print(os.getenv("EMAILPLAYPLUS"))
+
+senha = os.environ['SENHA']
+print(senha)

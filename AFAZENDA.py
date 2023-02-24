@@ -64,10 +64,13 @@ while True:
 
     # Itera sobre os links encontrados e acessa cada um para extrair o link .m3u8
     for link in links:
-        href = link.get_attribute('href')
-        name = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-sname')
-        thumbnail = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('src')
-        subtitle = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-name')
+        href = driver.execute_script("return arguments[0].getAttribute('href')", link)
+        if href.endswith('.m3u8'):
+            print(href)
+            name = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-sname')
+            thumbnail = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('src')
+            subtitle = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-name')
+
 
         # Entra no link para extrair o link .m3u8
         driver.get(href)

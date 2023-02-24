@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import os
+import secrets 
 
 # URL da página de login
 url_playplus_login = "https://www.playplus.com/Account/Login"

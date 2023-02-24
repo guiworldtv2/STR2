@@ -56,7 +56,7 @@ time.sleep(10)
 #URL da página desejada para extração da .m3u8
 
 url_playplus = "https://www.playplus.com/live"
-Abrir a página desejada após o login
+#Abrir a página desejada após o login
 
 driver.get(url_playplus)
 #Esperando a página ser carregada

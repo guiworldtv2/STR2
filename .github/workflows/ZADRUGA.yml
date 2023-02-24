@@ -35,6 +35,7 @@ jobs:
           pip install -r requirements.txt
           pip install pytube
           pip install --user --upgrade selenium
+          pip install yt-dlp
          
         
       - name: execute py script

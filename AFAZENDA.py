@@ -84,12 +84,14 @@ while True:
         driver.back()
         time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
     
-    # Clica no botão "Próximo" para acessar a próxima página
-    next_button = driver.find_element(By.CSS_SELECTOR, 'a.next')
-    if next_button.get_attribute('class') == 'next disabled':
-        break  # Sai do loop se o botão "Próximo" estiver desabilitado
+    # Verifica se o botão "Próximo" está presente na página
+    next_button = driver.find_elements(By.CSS_SELECTOR, 'a.next')
+    if next_button:
+        # Clica no botão "Próximo" para acessar a próxima página
+        next_button[0].click()
     else:
-        next_button.click()
+        break  # Sai do loop se o botão "Próximo" não estiver presente
+
         time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
 
 # Encerra o driver do Chrome

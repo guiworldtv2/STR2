@@ -30,15 +30,19 @@ for i in range(5):
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(15)
 
-# Esperar até que os campos de e-mail e senha estejam presentes na página
-email_field = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "UserName")))
+import os
+
+# Obter o e-mail e senha das variáveis de ambiente
+email = os.environ.get('EMAIL')
+password = os.environ.get('PASSWORD')
 
 # Preencher o campo de e-mail com a informação desejada
-email_field.send_keys("oquefoiagora@hotmail.com")
+email_field = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "UserName")))
+email_field.send_keys(email)
 
 # Preencher o campo de senha com a informação desejada
 password_field = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "Password")))
-password_field.send_keys("ratosdeporao062")
+password_field.send_keys(password)
 
 # Localizar e clicar no botão "Avançar"
 login_button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//button[@class='redirect btn btn-primary btn-block btn-login btn-next']")))

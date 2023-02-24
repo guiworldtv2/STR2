@@ -72,4 +72,6 @@ print(link)
 # Fechar o driver
 driver.quit()
 
-
+import os
+os.environ["EMAILPLAYPLUS"] = "seu-email-aqui"
+print(os.getenv("EMAILPLAYPLUS"))

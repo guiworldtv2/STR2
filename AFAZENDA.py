@@ -33,8 +33,8 @@ time.sleep(15)
 import os
 
 # Obter o e-mail e senha das variáveis de ambiente
-email = os.environ.get('EMAIL')
-password = os.environ.get('PASSWORD')
+email = os.environ.get('EMAILPLAYPLUS')
+password = os.environ.get('SENHAPLAYPLUS')
 
 # Preencher o campo de e-mail com a informação desejada
 email_field = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "UserName")))

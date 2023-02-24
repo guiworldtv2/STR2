@@ -8,11 +8,13 @@ import time
 # URL da página de login
 url_playplus_login = "https://www.playplus.com/Account/Login"
 
-# Criando as opções para o chrome
-options = Options()
-options.add_argument("--window-size=1920,1080") # set screen size to 1920x1080
-options.add_argument("--headless")
-options.add_argument("--disable-gpu")
+# Configuração do driver
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+
 
 # Instanciando o driver do chrome
 driver = webdriver.Chrome(options=options)
@@ -53,23 +55,6 @@ time.sleep(10)
 # URL da página de transmissões ao vivo
 url_live = "https://www.playplus.com/live"
 
-# Informações de login
-email = "seu-email-aqui"
-password = "sua-senha-aqui"
-
-# Configuração do driver
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-options.add_argument('--disable-gpu')
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome(options=options)
-
-# Fazer login
-driver.get(url_playplus_login)
-driver.find_element_by_id("UserName").send_keys(email)
-driver.find_element_by_id("Password").send_keys(password)
-driver.find_element_by_xpath("//button[contains(text(),'Entrar')]").click()
 
 # Esperar o login ser efetuado
 time.sleep(5)

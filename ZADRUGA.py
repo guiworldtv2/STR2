@@ -1,59 +1,100 @@
-from __future__ import unicode_literals
-import requests
-import shutil
-from urllib.request import urlopen
+import subprocess
+import time
+import os
+from selenium import webdriver
 from bs4 import BeautifulSoup
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
+import yt_dlp
+
+
 from pytube import YouTube
 
-channel_no = 0
-m3u = None
+# Configuring Chrome options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
 
-def get_video_info(video_url):
+# Instanciando o driver do Chrome
+driver = webdriver.Chrome(options=chrome_options)
+
+# URL da página desejada
+url_youtube = "https://www.youtube.com/results?search_query=zadruga&sp=CAMSBBABQAE%253D"
+
+# Abrir a página desejada
+driver.get(url_youtube)
+
+# Aguardar alguns segundos para carregar todo o conteúdo da página
+time.sleep(5)
+
+from selenium.webdriver.common.keys import Keys
+for i in range(50):
     try:
-        yt = YouTube(video_url)
-        return {
-            "url": video_url,
-            "title": yt.title,
-            "image": yt.thumbnail_url,
-            "description": yt.description
-        }
-    except Exception as e:
-        return None
+        # Find the last video on the page
+        last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
+        # Scroll to the last video
+        actions = ActionChains(driver)
+        actions.move_to_element(last_video).perform()
+        time.sleep(2)
+    except:
+        # Press the down arrow key for 50 seconds
+        driver.execute_script("window.scrollBy(0, 10000)")
+        time.sleep(2)
+        
+        
+# Get the page source again after scrolling to the bottom
+html_content = driver.page_source
+
+time.sleep(5)
+
+# Find the links and titles of the videos found
+try:
+    soup = BeautifulSoup(html_content, "html.parser")
+    videos = soup.find_all("a", id="video-title", class_="yt-simple-endpoint style-scope ytd-video-renderer")
+    links = ["https://www.youtube.com" + video.get("href") for video in videos]
+    titles = [video.get("title") for video in videos]
+except Exception as e:
+    print(f"Erro: {e}")
+finally:
+    # Close the driver
+    driver.quit()
+
 
 banner = '''#EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
 '''
 
-def generate_youtube_playlist():
-    global channel_no, m3u
-    m3u = open("ZADRUGA_playlist.m3u8", "w")
-    m3u.write(banner)
+# Instalando streamlink
 
-    with open('ZADRUGA.txt') as f:
-        lines = f.readlines()
-        for line in lines:
-            line = line.strip()
-            if line == "":
+subprocess.run(['pip', 'install', 'pytube'])
+subprocess.run(['pip', 'install', '--upgrade', 'yt dlp'])
+
+time.sleep(5)
+from pytube import YouTube
+
+# Define as opções para o youtube-dl
+ydl_opts = {
+    'format': 'best',  # Obtém a melhor qualidade
+
+    'write_all_thumbnails': False,  # Não faz download das thumbnails
+    'skip_download': True,  # Não faz download do vídeo
+}
+# Get the playlist and write to file
+try:
+    with open('./ZADRUGA.m3u8', 'w', encoding='utf-8') as f:
+        f.write("#EXTM3U\n")
+        f.write(banner)
+        for i, link in enumerate(links):
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                info = ydl.extract_info(link, download=False)
+            if 'url' not in info:
+                print(f"Erro ao gravar informações do vídeo {link}: 'url'")
                 continue
-            channel = get_video_info(line)
-            if channel is None:
-                continue
-            try:
-                video = get_video_info(line)
-                if video is None:
-                    continue
-                video_link = video['url']
-                channel_no += 1
-                channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ZADRUGA\",{channel.get('title')}\n"                
-                m3u.write(playlistInfo)
-                m3u.write(video_link)
-                m3u.write("\n")
-            except Exception as e:
-                print(e)
-
-    m3u.close()
-
-if __name__ == '__main__':
-    generate_youtube_playlist()
+            url = info['url']
+            f.write(f"{url}\n")
+            f.write("\n")
+except Exception as e:
+    print(f"Erro ao criar o arquivo .m3u8: {e}")
+    
+   

@@ -27,6 +27,11 @@ for i in range(5):
     driver.save_screenshot(f"screenshot{i+1}.png")
     time.sleep(9)
 
+# Take 5 screenshots every 5 seconds
+for i in range(5):
+    driver.save_screenshot(f"screenshot{i+1}.png")
+    time.sleep(9)
+
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(15)
 
@@ -52,26 +57,24 @@ profile_button.click()
 time.sleep(10)
 
 # URL da página desejada para extração da .m3u8
-url_playplus = "https://www.playplus.com/live/liveEvent/249"
+url_playplus = "https://www.playplus.com/live"
 
 # Abrir a página desejada após o login
 driver.get(url_playplus)
 
-# Esperando o vídeo ser carregado e reproduzido
-time.sleep(5)
+# Encontra todos os elementos <a> com a classe 'no-decoration'
+links = driver.find_elements(By.CSS_SELECTOR, 'div.row.slick-slide.slick-current.slick-active a.no-decoration')
 
-# Obter o conteúdo da página
-html_content = driver.page_source
 
-# Encontrar o link .m3u8 na página
-start_index = html_content.find("var urlLive = '") + 15
-end_index = html_content.find("';", start_index)
-link = html_content[start_index:end_index]
-print(link)
+# Imprime os links com a URL completa
+for link in links:
+    href = link.get_attribute('href')
+    name = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-sname')
+    thumbnail = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('src')
+    subtitle = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-name')
+    
+    print(f'#EXTINF:-1 group-title="{subtitle}" tvg-logo="{thumbnail}",{name} - {subtitle}\n{href}\n')
 
-# Fechar o driver
+
+# Encerra o driver do Chrome
 driver.quit()
-
-import os
-os.environ["EMAILPLAYPLUS"] = "seu-email-aqui"
-print(os.getenv("EMAILPLAYPLUS"))

@@ -82,8 +82,8 @@ while True:
         # Imprime o link .m3u8
         print(f'#EXTINF:-1 group-title="PLAYPLUS" tvg-logo="{thumbnail}",{name} - {subtitle}\n{m3u8_link}\n')
 
-        # Volta para a página inicial
-        driver.back()
+        # Volta para a página anterior
+        driver.execute_script("window.history.go(-1)")
         time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
     
     # Verifica se o botão "Próximo" está presente na página
@@ -91,10 +91,10 @@ while True:
     if next_button:
         # Clica no botão "Próximo" para acessar a próxima página
         next_button[0].click()
+        time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
     else:
         break  # Sai do loop se o botão "Próximo" não estiver presente
 
-        time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
-
 # Encerra o driver do Chrome
 driver.quit()
+

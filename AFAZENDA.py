@@ -65,6 +65,9 @@ while True:
     # Itera sobre os links encontrados e acessa cada um para extrair o link .m3u8
     for link in links:
         href = driver.execute_script("return arguments[0].getAttribute('href')", link)
+        if not re.match(r'http(s)?://\S+', href):
+            print(f"href não é uma URL válida: {href}")
+            continue
         if href.endswith('.m3u8'):
             print(href)
             name = link.find_element(By.CSS_SELECTOR, 'img.now').get_attribute('data-sname')

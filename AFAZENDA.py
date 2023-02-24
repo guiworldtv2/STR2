@@ -4,8 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-import os
-import secrets 
 
 # URL da página de login
 url_playplus_login = "https://www.playplus.com/Account/Login"
@@ -68,9 +66,9 @@ options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(options=options)
 
 # Fazer login
-driver.get(url_login)
-driver.find_element_by_id("login").send_keys(email)
-driver.find_element_by_id("password").send_keys(password)
+driver.get(url_playplus_login)
+driver.find_element_by_id("UserName").send_keys(email)
+driver.find_element_by_id("Password").send_keys(password)
 driver.find_element_by_xpath("//button[contains(text(),'Entrar')]").click()
 
 # Esperar o login ser efetuado

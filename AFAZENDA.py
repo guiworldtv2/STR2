@@ -66,7 +66,7 @@ while True:
 
     # Itera sobre os links encontrados e acessa cada um para extrair o link .m3u8
     for link in links:
-        href = "https://www.playplus.com" + driver.execute_script("return arguments[0].getAttribute('href')", link)
+        href = driver.execute_script("return arguments[0].getAttribute('href')", link)
         if not re.match(r'http(s)?://\S+', href):
             print(f"href não é uma URL válida: {href}")
             continue
@@ -78,7 +78,7 @@ while True:
 
 
         # Entra no link para extrair o link .m3u8
-        driver.get(href)
+        driver.get("https://www.playplus.com" + href)
         time.sleep(5)  # espera 5 segundos para garantir que a página carregue completamente
         html_content = driver.page_source
         start_index = html_content.find("var urlLive = '") + 15

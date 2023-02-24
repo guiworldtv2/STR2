@@ -8,7 +8,7 @@ import os
 import secrets 
 
 # URL da página de login
-url_playplus_login = "https://vimeo.com/528510184"
+url_playplus_login = "https://www.playplus.com/Account/Login"
 
 # Criando as opções para o chrome
 options = Options()
@@ -27,29 +27,51 @@ for i in range(5):
     driver.save_screenshot(f"screenshot{i+1}.png")
     time.sleep(9)
 
+# Aguardar alguns segundos para carregar todo o conteúdo da página
+time.sleep(15)
+
+# Esperar até que os campos de e-mail e senha estejam presentes na página
+email_field = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "UserName")))
+
+# Preencher o campo de e-mail com a informação desejada
+email_field.send_keys("oquefoiagora@hotmail.com")
+
+# Preencher o campo de senha com a informação desejada
+password_field = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "Password")))
+password_field.send_keys("ratosdeporao062")
+
+# Localizar e clicar no botão "Avançar"
+login_button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//button[@class='redirect btn btn-primary btn-block btn-login btn-next']")))
+login_button.click()
+
+# Localizar e clicar no botão do perfil do usuário
+profile_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='profile redirect']")))
+profile_button.click()
 
 # Esperando a página ser carregada após clicar no perfil do usuário
 time.sleep(10)
 
+# URL da página desejada para extração da .m3u8
+url_playplus = "https://www.playplus.com/live/liveEvent/249"
 
-time.sleep(10)
-#URL da página desejada para extração da .m3u8
-
-url_playplus = "https://vimeo.com/598201688"
-#Abrir a página desejada após o login
-
+# Abrir a página desejada após o login
 driver.get(url_playplus)
-#Esperando a página ser carregada
+
+# Esperando o vídeo ser carregado e reproduzido
+time.sleep(5)
 
 # Obter o conteúdo da página
 html_content = driver.page_source
 
-# Pegando o log de requisições da aba Rede
-log_entries = driver.execute_script("return window.performance.getEntries();")
+# Encontrar o link .m3u8 na página
+start_index = html_content.find("var urlLive = '") + 15
+end_index = html_content.find("';", start_index)
+link = html_content[start_index:end_index]
+print(link)
 
-# Buscando a primeira requisição que tem um arquivo .m3u8
-for entry in log_entries:
-    if ".m3u8" in entry['name']:
-        print(entry['name'])
-        link = entry['name']
-        break
+# Fechar o driver
+driver.quit()
+
+import os
+os.environ["EMAILPLAYPLUS"] = "seu-email-aqui"
+print(os.getenv("EMAILPLAYPLUS"))
